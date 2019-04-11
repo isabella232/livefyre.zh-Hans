@@ -25,7 +25,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [用户身份验证令牌](c-getting-started/c-implementation-process/c-user-auth-token.md)
       + [使用CollectionMeta令牌创建集合](t-create-a-collectionmeta-token.md)
       + [创建校验和](c-creating-a-checksum.md)
-+ 身份集成
++ 身份集成x
    + [身份集成](t-about-identity-integration/t-about-identity-integration.md)
    + [身份验证包](t-about-identity-integration/c-authorization-package.md)
    + [AuthDelegate Object](t-about-identity-integration/c-building-an-auth-delegate.md)
@@ -125,7 +125,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
    + [更改 @mention 图标](c-app-customizations/c-change-mention-icon.md)
    + [突出显示内容](c-app-customizations/c-highlight-content.md)
    + [自定义日期和时间戳](c-app-customizations/c-date-time-stamp.md)
-   + 功能内容
+   + 功能内容x
       + [功能内容](c-app-customizations/t-feature-content.md)
       + [启用在Studio中包含内容](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [从应用程序中选择内容到功能](c-app-customizations/t-select-content-to-feature.md)
@@ -134,10 +134,10 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [功能API](c-app-customizations/c-feature-apis.md)
    + [使用Authegate将Janrain连接到Livefyre](c-app-customizations/c-connecting-janrain-to-livefyre-using-authdelegate.md)
    + [使用特色API的汇总特色内容](c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md)
-   + 样式内容
+   + 样式内容x
       + [样式用户组内容](c-app-customizations/c-style-user-group-content.md)
       + [将用户添加到用户组](c-app-customizations/c-adding-users-to-groups.md)
-   + 应用自定义样式
+   + 应用自定义样式x
       + [应用自定义样式](c-app-customizations/c-applying-custom-styles-.md)
       + [添加自定义按钮](c-app-customizations/t-add-custom-buttons.md)
    + Javascript事件
