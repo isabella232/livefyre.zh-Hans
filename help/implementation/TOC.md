@@ -3,7 +3,7 @@ product: livefyre
 audience: 最终用户
 user-guide-title: Experience Manager Livefyre实施指南
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 
@@ -11,8 +11,9 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 # Experience Manager Livefyre实施指南 {#implementation}
 
 + [Livefyre实施指南](home.md)
-+ [Livefyre集成入门](c-getting-started/c-getting-started.md)
-   + 实施 {#implementation-process}
++ 入门指南 {#getting-started}
+   + [Livefyre集成入门](c-getting-started/c-getting-started.md)
+   + 实施过程 {#implementation-process}
       + [实施过程](c-getting-started/c-implementation-process/c-implementation-process.md)
       + [应用程序集成类型](c-getting-started/c-implementation-process/c-app-integration-types.md)
       + [应用程序实施](c-getting-started/designer-app-implementation.md)
@@ -25,7 +26,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [用户身份验证令牌](c-getting-started/c-implementation-process/c-user-auth-token.md)
       + [使用CollectionMeta令牌创建集合](t-create-a-collectionmeta-token.md)
       + [创建校验和](c-creating-a-checksum.md)
-+ 身份集成x
++ 身份集成 {#identity-integration}
    + [身份集成](t-about-identity-integration/t-about-identity-integration.md)
    + [身份验证包](t-about-identity-integration/c-authorization-package.md)
    + [AuthDelegate Object](t-about-identity-integration/c-building-an-auth-delegate.md)
@@ -43,7 +44,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
 + Livefyre Identity {#livefyre-identity}
    + [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
    + [启用Livefyre Identity](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
-   + 使用Livefyre Identity的社交应用程序
+   + 使用Livefyre Identity的社交应用程序 {#use-social-apps-with-livefyre-identity}
       + [创建社交应用程序](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [创建用于Livefyre Identity的Facebook应用程序](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
       + [创建Google项目以用于Livefyre Identity](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
@@ -113,7 +114,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
    + [地图](c-app-integrations/c-map-integration.md)
    + [媒体墙](c-app-integrations/c-media-wall-integration.md)
    + [趋势趋势](c-app-integrations/c-trending-integration.md)
-+ 应用程序自定义 {#app-customtizations}
++ 应用程序自定义 {#app-customizations}
    + [应用程序自定义](c-app-customizations/c-app-customizations.md)
    + [更改显示选项](c-app-customizations/c-change-display-options.md)
    + [CSS类](c-app-customizations/c-css-classes.md)
@@ -125,7 +126,7 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
    + [更改 @mention 图标](c-app-customizations/c-change-mention-icon.md)
    + [突出显示内容](c-app-customizations/c-highlight-content.md)
    + [自定义日期和时间戳](c-app-customizations/c-date-time-stamp.md)
-   + 功能内容x
+   + 功能内容 {#feature-content}
       + [功能内容](c-app-customizations/t-feature-content.md)
       + [启用在Studio中包含内容](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [从应用程序中选择内容到功能](c-app-customizations/t-select-content-to-feature.md)
@@ -134,13 +135,13 @@ source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
       + [功能API](c-app-customizations/c-feature-apis.md)
    + [使用Authegate将Janrain连接到Livefyre](c-app-customizations/c-connecting-janrain-to-livefyre-using-authdelegate.md)
    + [使用特色API的汇总特色内容](c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md)
-   + 样式内容x
+   + 样式内容 {#style-content}
       + [样式用户组内容](c-app-customizations/c-style-user-group-content.md)
       + [将用户添加到用户组](c-app-customizations/c-adding-users-to-groups.md)
-   + 应用自定义样式x
+   + 应用自定义样式 {#apply-custom-styles}
       + [应用自定义样式](c-app-customizations/c-applying-custom-styles-.md)
       + [添加自定义按钮](c-app-customizations/t-add-custom-buttons.md)
-   + Javascript事件
+   + Javascript事件 {#javascript-events}
       + [JavaScript事件定义和示例](c-app-customizations/c-javascript-events.md)
       + [可视化应用程序的Javascript事件](c-app-customizations/c-javascript-events-for-visualization-apps.md)
       + [媒体墙的Javascript事件](c-app-customizations/c-javascript-events-media-wall.md)
