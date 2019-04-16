@@ -2,11 +2,11 @@
 description: 使用Livefyre库创建校验和。
 seo-description: 使用Livefyre库创建校验和。
 seo-title: 创建校验和
-solution: Experience Manager
+solution: Livefyre
 title: 创建校验和
 uuid: dddepaa-7a6d-434a-8db8-dc179935 f810
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: f603682d95f288b510cde3a8b706a269feae4a6c
 
 ---
 
