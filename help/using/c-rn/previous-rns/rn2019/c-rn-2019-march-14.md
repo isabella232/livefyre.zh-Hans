@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Livefyre发行说明，2019年月14日
 uuid: 34e64943-dea6-46ac-9cfc-8febeab6 aa42
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 9246343b64915af07feb8952060c1e3af5aada56
 
 ---
 

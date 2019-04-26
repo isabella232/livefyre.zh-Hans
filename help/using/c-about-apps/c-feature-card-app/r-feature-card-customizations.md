@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 功能卡自定义
 uuid: dd43c076-027f-42c8-be2 e-7d863 d4 e3976
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: a014b5cd618672934843f1adf20d6b2cc504e2d8
 
 ---
 

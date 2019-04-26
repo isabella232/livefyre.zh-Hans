@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 高音和高音的频率
 uuid: b9edfb1e-e6 cf-4a48-8756-05f5 f18 d8799
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Stress Test Policy(压力测试政策)
 uuid: f2d49b55-f4 fc-485f-9aea-a17 ce6413 ee
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

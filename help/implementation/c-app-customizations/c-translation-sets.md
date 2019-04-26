@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 翻译集
 uuid: ba66a61-5520-452a-bc0 b-e4 f6 b57 f1744
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 366b7248c2f3b6994fa10419599e66fa1c8e5e48
 
 ---
 

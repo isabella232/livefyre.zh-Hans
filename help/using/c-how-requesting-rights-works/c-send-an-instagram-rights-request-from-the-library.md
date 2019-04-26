@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 发送部分自动Instagram权限请求
 uuid: 18cf88ab-af0 d-4a40-93d2-adfbdbddd21 d5
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: e60a58bf949e6e4f6f4f8d2fad1bd8985a593677
 
 ---
 

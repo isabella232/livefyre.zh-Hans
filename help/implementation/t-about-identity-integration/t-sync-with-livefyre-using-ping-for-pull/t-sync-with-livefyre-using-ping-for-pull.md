@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 与Livefyre同步使用Ting for Draw
 uuid: 7b059064-1ca-46d7-8055-dfe59 f493 ac1
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ---
 

@@ -5,7 +5,7 @@ seo-title: Modq键盘快捷键
 title: Modq键盘快捷键
 uuid: fc4e7796-b6 b5-4782-a0 fc-b2326 ca56 d66
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

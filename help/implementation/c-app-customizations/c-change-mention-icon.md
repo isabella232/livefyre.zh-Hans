@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 更改 @mention 图标
 uuid: a395f4ff774-454a-8d94-4a3371d8cc2c
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0d2ff61b1db6100de1d59e6e20c1175f015a78c5
 
 ---
 

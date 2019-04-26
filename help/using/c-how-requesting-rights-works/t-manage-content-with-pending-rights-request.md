@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 通过资产库中的待定权限请求管理内容
 uuid: fab285af-de09-4061-a946-5bead91603 de
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 

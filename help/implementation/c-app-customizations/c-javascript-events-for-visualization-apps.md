@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 可视化应用程序的Javascript事件
 uuid: 0797c384-7e8e-44fc-9738-a10 a48 d490 cc
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Sitenes集成
 uuid: 4aa14a-402a-482d-b43 e-96f37 afa6 c53
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
 ---
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Twitter规则
 uuid: a7fd2398-fd6 b-4c24-92b2-7471176d7648
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 

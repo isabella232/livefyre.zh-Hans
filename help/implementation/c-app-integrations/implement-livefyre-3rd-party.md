@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 将Livefyre集成到CMS
 uuid: 5e18e8-8568-45bb-9070-d0 fa43 dd819 b
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 40cd8c2c89c17134bfcda510527dd6fff41400b5
 
 ---
 

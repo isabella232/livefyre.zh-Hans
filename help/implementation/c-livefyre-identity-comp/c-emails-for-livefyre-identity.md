@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Livefyre Identity电子邮件
 uuid: e807803-687e-4df0-94d1-b18 a48 d024 e8
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ---
 

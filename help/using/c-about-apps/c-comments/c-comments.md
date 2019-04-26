@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 注释
 uuid: f409d04a-2cex-42fd-9d45-c723 aafad116
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

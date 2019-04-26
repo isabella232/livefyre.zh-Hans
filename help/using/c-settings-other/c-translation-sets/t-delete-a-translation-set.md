@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 删除翻译集
 uuid: 8a098100-e51 e-4554-83b8-a91 fdb204 a49
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

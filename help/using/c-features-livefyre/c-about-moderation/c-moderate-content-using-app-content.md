@@ -5,7 +5,7 @@ seo-title: 使用应用程序内容审核内容
 title: 使用应用程序内容审核内容
 uuid: 1c648128-e7 ef-4836-afe5-f52 de30 e7 e
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 限制Twitter用户的内容
 uuid: 692dd9c0-487d-4ea8-b87 e-58ba2222 db
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

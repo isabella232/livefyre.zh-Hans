@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 向外部系统发布用户权限(可选)
 uuid: 9c18b20d-3b93-4666-b7 de-1ec60318 cf88
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

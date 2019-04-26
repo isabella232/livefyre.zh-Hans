@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 隐私请求(GDPR-Ready)
 uuid: 8c8b2001-f94 d-4afc-8acd-ff4 c096 dc2 f9
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

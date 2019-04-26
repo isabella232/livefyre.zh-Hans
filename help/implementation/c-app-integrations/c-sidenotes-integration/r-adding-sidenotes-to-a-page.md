@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 向页面添加引用
 uuid: 6499c45a-3773-4adb-a6 c7-22a628309 afd
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
 
 ---
 

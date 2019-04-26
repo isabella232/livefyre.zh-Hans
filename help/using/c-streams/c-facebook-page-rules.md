@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Facebook页面规则
 uuid: 2be6346-1a92-409d-a22 f-e1 ec66 b6 dcc8
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

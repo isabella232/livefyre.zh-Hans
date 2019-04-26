@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 启用社交共享
 uuid: f584a0ae-46c7-48c1-aea4-36da9 f1 e259 b
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
 
 ---
 

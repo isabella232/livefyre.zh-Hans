@@ -5,7 +5,7 @@ seo-title: 向帐户添加用户标记
 title: 向帐户添加用户标记
 uuid: 737907ff-4958-489d-acf-fab531 ebd526
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

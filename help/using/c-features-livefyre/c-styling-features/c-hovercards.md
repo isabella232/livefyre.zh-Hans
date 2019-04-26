@@ -5,7 +5,7 @@ seo-title: 超卡
 title: 超卡
 uuid: a7336a4d-b92 f-4b3 b-a3 de-713aa388 a58 a58 a
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

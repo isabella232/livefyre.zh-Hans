@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 评论功能
 uuid: ec00cfc9-1b5e-4d0b-b1 da-95f9 f26 b4 cc1
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

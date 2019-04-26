@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 趋势趋势
 uuid: 3031523d-b487-4ea-bba6-5d8 f9971874 f
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

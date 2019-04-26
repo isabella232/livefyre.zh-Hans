@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 从Studio中选择内容功能
 uuid: d2983d44-e388-4324-a9 a4 be0 b30 f7 cea
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

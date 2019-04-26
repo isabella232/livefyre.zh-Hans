@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 从应用程序中选择内容到功能
 uuid: 48d2f7b2-c3 bf-4a9 a-b368-a195 fafadb50
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

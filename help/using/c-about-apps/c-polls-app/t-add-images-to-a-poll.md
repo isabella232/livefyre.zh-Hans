@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 将图像添加到投票
 uuid: 966cfba-3a0e-433d-97b3-d683 d92 b8 f69
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

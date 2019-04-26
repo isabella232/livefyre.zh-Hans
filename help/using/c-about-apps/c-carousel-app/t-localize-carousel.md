@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 本地化传送
 uuid: 168b061d-dc60-4a4 a-b6 f7-154a3 f81 dc00
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

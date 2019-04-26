@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 设置Rights Management
 uuid: 3ffcbc95-484f-4eba-b817-658c1 d658 bf8
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 ---
 

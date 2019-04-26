@@ -5,7 +5,7 @@ seo-title: 将Livefyre与AEM集成
 title: 将Livefyre与AEM集成
 uuid: 59e34327-add-43cd-99a4 be151 c7 a8 e25
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 ---
 

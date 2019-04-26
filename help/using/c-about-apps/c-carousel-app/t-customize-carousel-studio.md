@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 使用Studio自定义传送
 uuid: 24f080fc-37ff-40d4-8c1a-a502 ee8 ac978
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

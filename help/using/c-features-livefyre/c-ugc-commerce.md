@@ -6,7 +6,7 @@ solution: Experience Manager
 title: UGC Commerce
 uuid: 71e64901-a2 b6-4957-ba88-058e4 eaca537
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

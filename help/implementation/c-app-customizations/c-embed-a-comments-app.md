@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 嵌入评论应用程序
 uuid: e4982ad3-cab1-4805-a55 c-594ca3 b7203
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
 ---
 

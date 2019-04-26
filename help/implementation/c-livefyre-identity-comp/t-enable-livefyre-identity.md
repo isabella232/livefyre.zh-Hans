@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 启用Livefyre Identity
 uuid: 9bb5e168-4596-42a7-9105-e09 c65 c5 e3 ae
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

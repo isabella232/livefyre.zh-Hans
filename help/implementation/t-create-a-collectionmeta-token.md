@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 使用CollectionMeta令牌创建集合
 uuid: 5e18e8-8568-45bb-9070-d0 fa43 dd819 b
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 
 ---
 

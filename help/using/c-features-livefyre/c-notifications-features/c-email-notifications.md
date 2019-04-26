@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 电子邮件通知
 uuid: 27ad133-bd8 d-4949-8146-1254c160 d3 af
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 

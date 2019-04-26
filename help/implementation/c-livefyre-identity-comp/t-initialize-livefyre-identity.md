@@ -5,7 +5,7 @@ seo-title: 初始化Livefyre Identity
 title: 初始化Livefyre Identity
 uuid: 9365d827-2734-4a84-bfe7-9be573 b2 b03 e
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

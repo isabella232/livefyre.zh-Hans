@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Live Blog功能
 uuid: 5a fee3-e150-4655-b5 e1-3ddaee9 a6 ba1
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

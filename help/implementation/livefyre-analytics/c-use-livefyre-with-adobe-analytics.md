@@ -5,7 +5,7 @@ seo-title: 使用Adobe Analytics和Dynamic Tag Manager(DTM)将Livefyre与Adobe A
   Tag Manager(DTM) lk xavvn vefyre结合使用
 uuid: a1c25c0-c474-46ff-82ac-e89357007 c7 f
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 55bfc0a545bb4a1093c29bd11e764c9799135324
 
 ---
 

@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 使用Livefyre. js向应用程序添加自动连接
 uuid: b7c61e07-e341-45d7-9112-c50155 e38 f1 d
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: a6aebcc14325632cab0415e4aa4a24fda8a19bfc
 
 ---
 

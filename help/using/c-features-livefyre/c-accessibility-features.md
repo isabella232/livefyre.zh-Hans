@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 辅助功能功能
 uuid: e04970d5-f45 d-40e-807e-ae88 a9386 ef7
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

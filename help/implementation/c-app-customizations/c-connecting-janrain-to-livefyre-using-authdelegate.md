@@ -5,7 +5,7 @@ seo-title: 使用Authegate将Janrain连接到Livefyre
 title: 使用Authegate将Janrain连接到Livefyre
 uuid: 9d56e3f4-960a-4108-aab5-2795b0 e71 c88
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 

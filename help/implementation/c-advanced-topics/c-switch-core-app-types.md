@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 切换核心应用程序类型
 uuid: 442a517c-3809-46c5-bb5 f-8668a29 dc3 e8
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
 
 ---
 
