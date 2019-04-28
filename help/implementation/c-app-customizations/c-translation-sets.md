@@ -78,7 +78,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | 关注 | 我很感兴趣 |
 |  | ShareText | 我刚刚编写了评论。来看一看吧！ |
 | 评级工具提示 |  |  |
-|  | RatingValues | 数组。默认=['差'、'差'、'公平'、'公平'、'平均'、'平均'、'好'、'好'、'出色'、'出色']； |
+|  | RatingValues | 数组。默认=[&#39;差&#39;、&#39;差&#39;、&#39;公平&#39;、&#39;公平&#39;、&#39;平均&#39;、&#39;平均&#39;、&#39;好&#39;、&#39;好&#39;、&#39;出色&#39;、&#39;出色&#39;]； |
 |  |  | 注意：必须重复数组中的值，以将每个星形的左侧和右半部分分配给同一个名称。 |
 | 评级子部分 |  |  |
 |  | RatingSubpartplaceHolders | 数组。默认值=[] |
@@ -139,7 +139,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | wasreviewHilpFulmobile | 有帮助？ |
 |  | ownwasreviewHelpful | [发现有用。](https://d.pr/i/Q0mA) |
 |  | ReviewWasHelp | [是](https://d.pr/i/Q0mA) |
-|  | HelpFuldider | [& amp；vert；](https://d.pr/i/Q0mA) |
+|  | HelpFuldider | [&amp; amp；vert；](https://d.pr/i/Q0mA) |
 |  | ReviewWasnotHelpul | [否](https://d.pr/i/Q0mA) |
 | *投票模式* |  |  |
 |  | VOTitle | 此审阅是否有用？ |

@@ -19,7 +19,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 将用户标记转换为CSS类时：
 
-* Livefyre创建两类：fyre-author-tag-***< your_ group>***和fyre-tag-author-***< your_ group>***。两者都可用于设置内容样式。
+* Livefyre创建两类：fyre-author-tag-***&lt; your_ group&gt;***和fyre-tag-author-***&lt; your_ group&gt;***。两者都可用于设置内容样式。
 
 * 标记中包含的任何空格都将转换为下划线。例如：“最喜欢的用户”将成为喜爱的_用户。
 * 用户组名称中包含的Unicode字符将不会转换，并且将在类名称中显示为Unicode。例如：用户组“modérateur”将变为fyre-comment-author-tag-modér。
@@ -68,7 +68,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 }
 ```
 
-使用CSS类fyre-author-tag-***< your_ group>***或fyre-tag-author-***< your_ group>***为从与选定标记关联的帐户发布的每个项目设置字体和背景。
+使用CSS类fyre-author-tag-***&lt; your_ group&gt;***或fyre-tag-author-***&lt; your_ group&gt;***为从与选定标记关联的帐户发布的每个项目设置字体和背景。
 
 ```
 .fyre-comment-author-tag-<your_group> .fyre-comment-author-tag { 

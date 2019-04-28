@@ -28,7 +28,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 * **[!UICONTROL Keywords]**
    * 输入或 **[!UICONTROL Keywords]** 排除在Twitter流中。指定 **[!UICONTROL Contains any of these words]** 和 **[!UICONTROL Does not contain any of these words]** 字段的值将返回包含第一个值且不包含第二个值的帖子。可以输入单个字段的多个值，并将返回包含任何值的结果。要使用Boolean操作符，并在其中用两个或更多单词搜索帖子，请使用两个或多个*要*分隔两个词的字母。
    * 例如，输入 **[!UICONTROL Contains any of these words]** 关键字Gions、Posey和 **[!UICONTROL Does not contain any of these words]** Dodger将返回包含单词 *Giant* 或 *Posey* 的所有帖子，且不包含Dodger单词 **。
-要搜索包含 *Ginants* 和 *Posey*字样的帖子，请输入“Giants&& Posey”。此功能仅对Twitter规则中 **[!UICONTROL Contains any of these words]** 的和 **[!UICONTROL Does not contain any of these words]** 字段受支持。
+要搜索包含 *Ginants* 和 *Posey*字样的帖子，请输入“Giants&amp;&amp; Posey”。此功能仅对Twitter规则中 **[!UICONTROL Contains any of these words]** 的和 **[!UICONTROL Does not contain any of these words]** 字段受支持。
 
 * **[!UICONTROL Hashtags]**.
    * 输入或 **[!UICONTROL Hashtags]** 排除在Twitter流中。指定 **[!UICONTROL Contains any of these words]** 和 **[!UICONTROL Does not contain any of these words]** 字段的值将返回在第一个字段中包含hashtags的帖子，并且不包含第二个字段中的哈希标记。可为单个字段输入多个值。流返回包含任何值的结果。

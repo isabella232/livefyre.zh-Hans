@@ -93,7 +93,7 @@ AEM Commerce用户可以无缝地将现有产品目录集成到Livefyre中，从
 | isFolder | Boolean | 如果为true，则将产品视为文件夹(例如，m、女士等)。 |
 | parentiID | 字符串 | 定义产品所在的文件夹。 |
 | description | 字符串 | 产品说明。 |
-| price | 字符串 | 产品的价值(以美元为单位)。例如，'23.36'。 |
+| price | 字符串 | 产品的价值(以美元为单位)。例如，&#39;23.36&#39;。 |
 | sku | 字符串 | 产品的Stock保留单元(SKU)。 |
 | url | 字符串 | 链接到产品页面。 |
 | enabled | Boolean | 值为True表示产品处于活动状态。 |

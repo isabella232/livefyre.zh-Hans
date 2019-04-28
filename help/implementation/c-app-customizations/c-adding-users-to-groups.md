@@ -44,7 +44,7 @@ curl -XPOST -d 'tag_name=tag&lftoken=eyJhbGciOiAiA_TOKENcGlyZXMiOiAxMzU3OTY3NTAx
 ```
 
 
-有关详细信息，请参阅API参考> [添加用户标记](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:author:tags:method=post)。
+有关详细信息，请参阅API参考&gt; [添加用户标记](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:author:tags:method=post)。
 
 ## 使用“为拉取”将用户添加到用户组 {#section_kyj_11w_xz}
 

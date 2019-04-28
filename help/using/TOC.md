@@ -3,7 +3,7 @@ product: livefyre
 audience: 最终用户
 user-guide-title: Experience Manager Livefyre用户指南
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 

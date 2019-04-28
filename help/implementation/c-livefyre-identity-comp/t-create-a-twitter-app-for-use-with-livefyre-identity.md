@@ -31,4 +31,4 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 1. 从 **[!UICONTROL Permissions]** 选项卡中选择 **[!UICONTROL Access: Read only]**。
 
-完成后，Twitter的“应用程序管理”>“密钥和访问令牌”页面将列出应用程序的用户密钥(API密钥)和消费者机密(API机密)，以便在Studio的“集成设置”页中使用。
+完成后，Twitter的“应用程序管理”&gt;“密钥和访问令牌”页面将列出应用程序的用户密钥(API密钥)和消费者机密(API机密)，以便在Studio的“集成设置”页中使用。

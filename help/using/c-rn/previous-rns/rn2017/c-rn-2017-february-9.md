@@ -47,6 +47,6 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 | Bug | 流媒体 | 通过HTTPS提供的电子邮件流规则中的增强内容(图像和视频)。 |
 | Bug | 流媒体 | 在Twitter流规则中为地图中的英里半径值添加了标签。 |
 | Bug | 流媒体 | 修复了Facebook和Facebook页面Steam规则错误，以适当地拖入多个媒体附件的帖子。 |
-| Bug | Studio | 修复了在Studio中使用过滤器时导致多个&'s从附加到URL的错误。 |
+| Bug | Studio | 修复了在Studio中使用过滤器时导致多个&amp;&#39;s从附加到URL的错误。 |
 | Bug | Studio | 修复了阻止Studio过滤器中某些复选框允许取消选中的错误。 |
 

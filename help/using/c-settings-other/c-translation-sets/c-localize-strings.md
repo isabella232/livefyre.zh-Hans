@@ -273,7 +273,7 @@ var customStrings = {
 | Key | 默认文本 |  |
 |---|---|---|
 | 编辑Modal | 可供Studio管理员、用户经理或主持人员使用 |  |
-| @(@ description.) | </>(打开自定义HTML窗口。) |  |
+| @(@ description.) | &lt;/&gt;(打开自定义HTML窗口。) |  |
 |  | customHTMLDioTitle(显示为模态的标题。) | 添加自定义HTML |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)

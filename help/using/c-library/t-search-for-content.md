@@ -24,7 +24,7 @@ source-git-commit: e60a58bf949e6e4f6f4f8d2fad1bd8985a593677
 当您向库中添加新资产时，库中已经包含的资产标有复选标记。
 
 1. 配置Instagram业务帐户。
-1. 导航到 **[!UICONTROL Library]** > **[!UICONTROL Social Search]**。
+1. 导航到 **[!UICONTROL Library]** &gt; **[!UICONTROL Social Search]**。
 1. 选择 **[!UICONTROL Instagram]** 以搜索Instagram内容。
 1. 输入搜索条件，单击 **[!UICONTROL Show Filter]** 以优化搜索。
 

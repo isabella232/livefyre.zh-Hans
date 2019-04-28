@@ -21,7 +21,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 >
 >热门线程可用于评论，但不可用于Live Blog或聊天。
 
-有关启用“热线程”视图的更多信息，请参阅“Studio”>“Network Settings”。
+有关启用“热线程”视图的更多信息，请参阅“Studio”&gt;“Network Settings”。
 
 ## 预览 {#section_xhh_2dl_wy}
 
@@ -29,7 +29,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 If there are no threads in the stream with a popularity score, no comments will be displayed, and users will see the message **[!UICONTROL There are not enough threads yet]** and a link to **[!UICONTROL See what’s new]**.
 
-“热线程”列表不是实时的，并且仅当页面刷新或选择了其他视图(**[!UICONTROL Newest]** 或 **[!UICONTROL Oldest]**)时才会更新。(如果审核了评论，并将其跳转至Bozo'd或废纸篓，它将立即从列表中删除。)
+“热线程”列表不是实时的，并且仅当页面刷新或选择了其他视图(**[!UICONTROL Newest]** 或 **[!UICONTROL Oldest]**)时才会更新。(如果审核了评论，并将其跳转至Bozo&#39;d或废纸篓，它将立即从列表中删除。)
 
 ## 分组讨论视图 {#section_zmf_ddl_wy}
 

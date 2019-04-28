@@ -33,4 +33,4 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
    * 输入 **[!UICONTROL Authorized redirect URIs]**： `https://identity.livefyre.com/{networkName}.fyre.co/api/v1.0/public/profile/social/complete/google_fyre` (在这里 **[!UICONTROL {networkName}]** ，您的Livefyre提供了网络名称。例如：** [!UICONTROL labs]** in **[!UICONTROL `labs.fyre.co`]**)
    * 单击 **[!UICONTROL Create]** 以保存凭据。
 
-完成后，Google的API管理器>凭据页面将列出项目的客户端ID和客户端机密，以便在Studio的集成设置页面中使用。
+完成后，Google的API管理器&gt;凭据页面将列出项目的客户端ID和客户端机密，以便在Studio的集成设置页面中使用。

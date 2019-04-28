@@ -16,7 +16,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 按照以下步骤在站点上嵌入自定义HTML。
 
 嵌入自定义HTML：
-1. 单击注释编辑器框上的HTML嵌入按钮(</>)以启动HTML编辑器框。
+1. 单击注释编辑器框上的HTML嵌入按钮(&lt;/&gt;)以启动HTML编辑器框。
 
    >[!NOTE]
    >

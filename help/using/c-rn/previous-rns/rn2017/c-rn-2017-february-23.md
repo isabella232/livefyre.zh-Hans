@@ -33,7 +33,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 | Bug | 流媒体 | 修复了Facebook和Facebook页面Steam规则错误，以适当地拖入多个媒体附件的帖子。 |
 | 增强功能 | 流媒体 | 新增了一个功能，允许用户选择应用或禁用每个流规则的安全规则。 |
 | 增强功能 | Studio | 修复了导致内容在已存在时无法正确发布或保存的错误。 |
-| Bug | Studio | 修复了在Studio中使用过滤器时导致多个&'s'从附加到url的错误。 |
+| Bug | Studio | 修复了在Studio中使用过滤器时导致多个&amp;&#39;s&#39;从附加到url的错误。 |
 | Bug | Studio | 修复了阻止Studio过滤器中某些复选框允许取消选中的错误。 |
 
 ## UAT版本

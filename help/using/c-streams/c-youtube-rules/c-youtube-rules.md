@@ -32,7 +32,7 @@ source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
    * For example, if the URL of the Playlist feed you wish to input is `https://www.youtube.com/playlist?list=PLFE5670C92BDAC201`, simply enter `PLFE5670C92BDAC201`
 
 * **[!UICONTROL Include recent items.]** 如果设置为：
-   * **[!UICONTROL Enabled]**Livefyre将您的源中的前15个内容项目添加到流中，无论发布日期如何。
-   * **[!UICONTROL Disabled]**Livefyre将您的源中的前15个内容项目添加到流中，发布日期与流规则创建日期或更高版本相同。
+   * **[!UICONTROL Enabled]** Livefyre将您的源中的前15个内容项目添加到流中，无论发布日期如何。
+   * **[!UICONTROL Disabled]** Livefyre将您的源中的前15个内容项目添加到流中，发布日期与流规则创建日期或更高版本相同。
 
 有关所有流规则的其他流规则选项，请参阅 [所有流规则的流规则选项](../../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。

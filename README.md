@@ -1,5 +1,5 @@
 ---
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 translation-type: tm+mt
 
 ---
@@ -52,5 +52,5 @@ If you submit a pull request with significant changes to documentation and code 
 
 在公共存储库中，会为拉取请求分配自动标签，以便帮助我们管理拉取请求工作流，以及帮助您了解拉取请求的处理进展：
 
-* **已发送给作者的更改**：已通知作者拉取请求处于待处理状态。
+* **已发送给作者的更改**：已通知作者，存在有待处理的拉取请求。
 * **随时合并**：随时准备由我们的拉动请求审阅小组审查。

@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: 本地化传送
 solution: Experience Manager
 title: 本地化传送

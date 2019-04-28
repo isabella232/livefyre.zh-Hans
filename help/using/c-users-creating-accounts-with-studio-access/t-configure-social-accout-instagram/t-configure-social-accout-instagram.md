@@ -31,7 +31,7 @@ Instagram有不同的社交帐户规则，具体取决于您如何使用Adobe Li
 
    >[!NOTE]
    >
-   >配置Instagram业务帐户时，将转到Facebook登录屏幕。继续照常登录。 ![](assets/i_insta_biz_facebook_dialog.png) >
+   >配置Instagram业务帐户时，将转到Facebook登录屏幕。继续照常登录。 ![](assets/i_insta_biz_facebook_dialog.png) &gt;
 
 1. 单击 **[!UICONTROL Authorize App]** 以继续。
 1. 为帐户添加一个， **[!UICONTROL Display Name]** 然后单击 **[!UICONTROL Save Settings.]**。单击 **[!UICONTROL Social Account]** 帐户信息框标题以折叠帐户。

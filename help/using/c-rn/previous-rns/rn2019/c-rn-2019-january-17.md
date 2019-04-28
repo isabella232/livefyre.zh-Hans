@@ -20,6 +20,6 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 * 修复了Designer中的幻灯片UGC商务选项不遵循的问题。
 * 修复了导入Instagram将内容排列到多个文件夹无法按预期显示的问题。
 * 修复了Instagram视频有时没有图像对象的问题。
-* 修复了一些已上传内容发布到Filmstrip& Mosaic的问题，该问题导致应用程序embed中的某些内容发生损坏。
+* 修复了一些已上传内容发布到Filmstrip&amp; Mosaic的问题，该问题导致应用程序embed中的某些内容发生损坏。
 * 修复了创建多个Facebook社交帐户时出错的问题。
 * 修复了通过URL搜索拖入某些照片的问题，该问题导致IG本机嵌入并显示播放按钮图标。

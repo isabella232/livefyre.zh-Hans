@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: 从资产库手动授予或撤销资产的权限
 solution: Experience Manager
 title: 从资产库手动授予或撤销资产的权限

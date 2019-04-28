@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: 创建和修改翻译集
 solution: Experience Manager
 title: 创建和修改翻译集

@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: Livefyre Identity电子邮件
 solution: Experience Manager
 title: Livefyre Identity电子邮件
@@ -34,17 +34,17 @@ Livefyre Identity发送下列电子邮件：
 
 **正文：**
 
-嘿，< *username>*，
+嘿，&lt; *username&gt;*，
 
-有一个请求在<网络名称>上 *更改配置文件的口令*。
+有一个请求在&lt;网络名称&gt;上 *更改配置文件的口令*。
 
-如果您请求了此操作，请单击下面的链接以选择新密码： *<密码重置URL>*。
+如果您请求了此操作，请单击下面的链接以选择新密码： *&lt;密码重置URL&gt;*。
 
-*< Username>*、 *< network name>*和 *<密码重置URL>* 均根据站点访问者和网络动态生成。
+*&lt; Username&gt;*、 *&lt; network name&gt;*和 *&lt;密码重置URL&gt;* 均根据站点访问者和网络动态生成。
 
 ## 验证电子邮件 {#section_ak5_xhs_p1b}
 
-您可以发送电子邮件，确认用户的电子邮件地址。要发送验证电子邮件，您必须在 **集成设置> Livefyre Identity中打开该选项**。
+您可以发送电子邮件，确认用户的电子邮件地址。要发送验证电子邮件，您必须在 **集成设置&gt; Livefyre Identity中打开该选项**。
 
 验证电子邮件如下所示：
 
@@ -52,24 +52,24 @@ Livefyre Identity发送下列电子邮件：
 
 **正文：**
 
-< *username>*，
+&lt; *username&gt;*，
 
-请单击以下链接(或在浏览器中粘贴)以验证您的帐户： *<验证URL>*。
+请单击以下链接(或在浏览器中粘贴)以验证您的帐户： *&lt;验证URL&gt;*。
 
 此链接将在24小时后过期。
 
 谢谢，
 
-*<客户姓名>* 团队
+*&lt;客户姓名&gt;* 团队
 
-*< Username>*、 *< network name>*和 *<验证URL>* 均根据站点访问者和网络动态生成。
+*&lt; Username&gt;*、 *&lt; network name&gt;*和 *&lt;验证URL&gt;* 均根据站点访问者和网络动态生成。
 
 ## 向用户发送电子邮件验证 {#section_vyv_yhs_p1b}
 
 您可以向用户发送电子邮件，以验证他们用来注册帐户的电子邮件地址。发送验证电子邮件：
 
 1. 在Studio中，单击齿轮图标以修改网络设置。
-1. 单击 **“集成设置”>“Livefyre Identity”。**
+1. 单击 **“集成设置”&gt;“Livefyre Identity”。**
 
 1. 导航到 **登录类型**。
 1. 单击 **“要求电子邮件验证”** 以向用户发送电子邮件，验证他们用于注册帐户的电子邮件地址。
@@ -77,19 +77,19 @@ Livefyre Identity发送下列电子邮件：
 
 ## 欢迎电子邮件 {#section_z2v_zhs_p1b}
 
-您可以向用户发送欢迎电子邮件。要发送欢迎电子邮件，您必须在 **“集成设置** ”> **“Livefyre Identity**”中打开该选项。
+您可以向用户发送欢迎电子邮件。要发送欢迎电子邮件，您必须在 **“集成设置** ”&gt; **“Livefyre Identity**”中打开该选项。
 
 欢迎电子邮件如下所示：
 
-**主题：** 欢迎使用 *<客户姓名>*
+**主题：** 欢迎使用 *&lt;客户姓名&gt;*
 
 **正文：**
 
-< *username>*，
+&lt; *username&gt;*，
 
-为您创建了一个帐户 *，<客户名称>*。
+为您创建了一个帐户 *，&lt;客户名称&gt;*。
 
-此帐户是在 *<引用URL>* 从IP地址 *< IP地址>创建*的。
+此帐户是在 *&lt;引用URL&gt;* 从IP地址 *&lt; IP地址&gt;创建*的。
 
 如果您这样做，您可以安全地忽略此电子邮件。
 

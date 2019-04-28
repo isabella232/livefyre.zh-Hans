@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: 自定义行动动员按钮
 title: 自定义行动动员按钮
 uuid: 8c653799-1602-4e38-a2 bc-6de0 f99 c40 ff
@@ -43,7 +43,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 在Livefyre Studio中将CTA按钮添加到任何内容。
 
-1. 在Livefyre Studio中，导航到 **[!UICONTROL Library]** > **[!UICONTROL All Assets]**。
+1. 在Livefyre Studio中，导航到 **[!UICONTROL Library]** &gt; **[!UICONTROL All Assets]**。
 1. 在一个或多个资产上选择添加CTA按钮。
 1. 单击 **[!UICONTROL CTAs]**。
 

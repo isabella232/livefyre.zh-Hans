@@ -27,7 +27,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Include recent items.]** 如果设置为：
 
-   * **[!UICONTROL Enabled]**Livefyre将您的源中的前20个内容项目添加到流中，无论发布日期如何。
-   * **[!UICONTROL Disabled]**Livefyre将您的源中的前20个内容项目添加到流中，发布日期与流规则创建日期或更高版本相同。
+   * **[!UICONTROL Enabled]** Livefyre将您的源中的前20个内容项目添加到流中，无论发布日期如何。
+   * **[!UICONTROL Disabled]** Livefyre将您的源中的前20个内容项目添加到流中，发布日期与流规则创建日期或更高版本相同。
 
 有关所有流规则的其他流规则选项，请参阅 [所有流规则的流规则选项](../c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。

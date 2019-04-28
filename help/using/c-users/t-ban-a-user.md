@@ -13,7 +13,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 禁止用户{#ban-a-user}
 
-您可以禁止从Livefyre应用程序中嵌入的用户，并且可能禁止通过Livefyre登录的用户在Studio的“库”>“应用内容”页面中登录。
+您可以禁止从Livefyre应用程序中嵌入的用户，并且可能禁止通过Livefyre登录的用户在Studio的“库”&gt;“应用内容”页面中登录。
 
 ![](assets/UsersBan2-1024x409.png)
 

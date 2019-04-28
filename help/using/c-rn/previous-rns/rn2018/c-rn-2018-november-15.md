@@ -43,7 +43,7 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 | 期刊类型 | 组件 | 发行说明 |
 |--- |--- |--- |
-| 期刊 | AppService：Livefyre Identity | 修复了单击该问题的问题 [！UICCONTROL重置为默认] 值未在“Studio”>“Integration Settings”>“Livefyre Identity”中的“登录模式”下重置徽标至默认图像。 |
+| 期刊 | AppService：Livefyre Identity | 修复了单击该问题的问题 [！UICCONTROL重置为默认] 值未在“Studio”&gt;“Integration Settings”&gt;“Livefyre Identity”中的“登录模式”下重置徽标至默认图像。 |
 | 期刊 | 库 | 修复了一个问题，该问题导致上传到库的视频，然后在资产详细信息中查看无法正确显示。 |
 | 期刊 | 流媒体 | 修复了阻止产品在流规则中显示的问题。 |
 | 期刊 | 流媒体 | 修复了产品标记不可用于流规则的问题。 |

@@ -21,7 +21,7 @@ source-git-commit: a6aebcc14325632cab0415e4aa4a24fda8a19bfc
 
 用于 `Livefyre.js` 启用页面身份验证，以便允许用户使用现有身份验证系统登录并与应用程序交互。
 
-1. 要在页面上启用身份验证，请添加 `Livefyre.js` 到网页或网站模板的 *< head>* 元素。
+1. 要在页面上启用身份验证，请添加 `Livefyre.js` 到网页或网站模板的 *&lt; head&gt;* 元素。
 
    ```
    <script src="//cdn.livefyre.com/Livefyre.js"></script>

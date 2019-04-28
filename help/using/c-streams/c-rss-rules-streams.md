@@ -22,8 +22,8 @@ RSS流每分钟更新一次，在Livefyre中的前50个项目中查找的内容�
 * **[!UICONTROL URL]** RSS Feed。
 * **[!UICONTROL Include recent items.]** 如果设置为：
 
-   * **[!UICONTROL Enabled]**Livefyre将您的源中的前50个内容项目添加到流中，无论发布日期如何。
-   * **[!UICONTROL Disabled]**Livefyre将您的源中的前50个内容项目添加到流中，发布日期与流规则创建日期或更高版本相同。
+   * **[!UICONTROL Enabled]** Livefyre将您的源中的前50个内容项目添加到流中，无论发布日期如何。
+   * **[!UICONTROL Disabled]** Livefyre将您的源中的前50个内容项目添加到流中，发布日期与流规则创建日期或更高版本相同。
 
 * **[!UICONTROL Extract post information from item link (when disabled, post information is extracted from XML).]** 从项目链接或XML中提取信息。
 

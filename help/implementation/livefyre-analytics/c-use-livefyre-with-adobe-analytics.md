@@ -1,8 +1,7 @@
 ---
-description: null
-seo-description: null
-seo-title: 使用Adobe Analytics和Dynamic Tag Manager(DTM)将Livefyre与Adobe Analytics和Dynamic
-  Tag Manager(DTM) lk xavvn vefyre结合使用
+description: 'null'
+seo-description: 'null'
+seo-title: 使用Adobe Analytics和Dynamic Tag Manager(DTM)将Livefyre与Adobe Analytics和Dynamic Tag Manager(DTM) lk xavvn vefyre结合使用
 uuid: a1c25c0-c474-46ff-82ac-e89357007 c7 f
 translation-type: tm+mt
 source-git-commit: 55bfc0a545bb4a1093c29bd11e764c9799135324
@@ -206,29 +205,29 @@ The following sample code maps the specific eVars to available Livefyre eVars. T
 ```
 
 var s=_ satellite. getToolsByType`('sc')[0]`. Gets()；
-var eVarp={appID：'eVar81'，appType：'eVar82'}；
+var eVarp={appID：&#39;eVar81&#39;，appType：&#39;eVar82&#39;}；
 
 ```
 The following sample code maps the specific events you set up in the Report Suite Manager with available Livefyre events. In this example, `event82` is set up as any user interaction event without differentiating which kind of user interaction event (for example, liking or sharing content). This is an efficient way to record all user interaction information in a block. You can also map the events in the DTM Analytics UI with Data Element referencing.
 ```
 
-var eventMap={FlagCancel：'event82'，\
-FlagClick：'event82'，\
-旗标同意：'event82'，\
-Flagpackagy：'event82'，\
-标记主题：'event82'，\
-标记垃圾邮件：'event82'，\
-如：'event82'，加载：“event81”，\
-请求更多：'event82'，\
-ShareButtonClick：'event82'，\
-ShareFacebook：'event82'，\
-ShareOnPostClick：'event82'，\
-ShareTwitter：'event82'，\
-ShareURL：'event82'，\
-SortStream：'event82'，\
-TwitterLikeClick：“event82”，TwitterReplicCyclick：'event82'，\
-TwitterretweetClick：'event82'，\
-TwitterUser追随：'event82'}；
+var eventMap={FlagCancel：&#39;event82&#39;，\
+FlagClick：&#39;event82&#39;，\
+旗标同意：&#39;event82&#39;，\
+Flagpackagy：&#39;event82&#39;，\
+标记主题：&#39;event82&#39;，\
+标记垃圾邮件：&#39;event82&#39;，\
+如：&#39;event82&#39;，加载：“event81”，\
+请求更多：&#39;event82&#39;，\
+ShareButtonClick：&#39;event82&#39;，\
+ShareFacebook：&#39;event82&#39;，\
+ShareOnPostClick：&#39;event82&#39;，\
+ShareTwitter：&#39;event82&#39;，\
+ShareURL：&#39;event82&#39;，\
+SortStream：&#39;event82&#39;，\
+TwitterLikeClick：“event82”，TwitterReplicCyclick：&#39;event82&#39;，\
+TwitterretweetClick：&#39;event82&#39;，\
+TwitterUser追随：&#39;event82&#39;}；
 
 ```
 The following sample states that if there isn't an event in this list, don't do anything. You do not need to modify this section of code.
@@ -236,36 +235,36 @@ The following sample states that if there isn't an event in this list, don't do 
 
 function trackLivefyReEvent(数据){\
 var event= eventMapData[. type]；
-console. log('Track：'，data. type，event)；
+console. log(&#39;Track：&#39;，data. type，event)；
 
 if(！event){console.
-warning(data. type，'未映射到AA'中的事件)；\
+warning(data. type，&#39;未映射到AA&#39;中的事件)；\
 return；}
 
 ```
 The following code differentiates the event types that `event82` records. The conversion variable, `eVar83` records the type of user interaction, and the script sets up `eVar83` to separate the user interaction data by type. So `eVar83` allows you to break out the recorded data into specific types of user interactions.
 ```
 
-var vars= ['events']；\
-switch(event){case'event82'：s. eVar83= data. type；\
-vars. push('eVar83')；\
+var vars= [&#39;events&#39;]；\
+switch(event){case&#39;event82&#39;：s. eVar83= data. type；\
+vars. push(&#39;eVar83&#39;)；\
 break；
 默认：}
 
-[“generator”，'evars'].for每每种(函数(类型){\
+[“generator”，&#39;evars&#39;].for每每种(函数(类型){\
 var obj= datatype[]；
 for(var d in obj){if(obj.
-hasownProperty(d)& eeArmapD[]){if\
+hasownProperty(d)&amp; eeArmapD[]){if\
 s[eVARMAPD[]]= objd[]；\
 vars. push(eVARMAPD[])；}}})；
 
-s. linkTrackVars= vars. join('，')；\
+s. linkTrackVars= vars. join(&#39;，&#39;)；\
 s. linkTrackEvents= event；\
 s. events= event；
 
-console. log('linkTrackVars：'，s. linkTrackVars)；\
-console. log('linkTrackEvents：'，s. linkTrackEvents)；\
-console. log('event：'，s. events)；
+console. log(&#39;linkTrackVars：&#39;，s. linkTrackVars)；\
+console. log(&#39;linkTrackEvents：&#39;，s. linkTrackEvents)；\
+console. log(&#39;event：&#39;，s. events)；
 
 s. tl()；}
 
@@ -278,7 +277,7 @@ The following code sample adds a handler to listen to all the events that happen
 
 */function addAnalyticsHandler(){Livefyre.
 analytics. addHandler(function){(events){(events)|||| []).for每每个(函数(数据){console.
-log('事件已处理'：'，data. type)；
+log(&#39;事件已处理&#39;：&#39;，data. type)；
 trackLiveFyReEvent(data)；})；})；})
 
 ```

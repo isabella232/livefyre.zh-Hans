@@ -5,7 +5,7 @@ seo-title: 手动发送Instagram权限请求
 title: 手动发送Instagram权限请求
 uuid: c07b3f6f-c14 c-4e62-b18 b-25934ebas45 bf
 translation-type: tm+mt
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 ---
 

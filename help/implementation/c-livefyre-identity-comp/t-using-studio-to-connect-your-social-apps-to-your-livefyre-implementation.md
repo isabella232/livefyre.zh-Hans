@@ -107,6 +107,6 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 使用户能够对网站上的应用程序使用Livefyre标识实施。
 
 1. 创建应用程序。
-1. 导航到 **[!UICONTROL Studio]** > **[!UICONTROL Settings]** > **[!UICONTROL Integration Settings]**> **[!UICONTROL Livefyre Identity]**。
+1. 导航到 **[!UICONTROL Studio]** &gt; **[!UICONTROL Settings]** &gt; **[!UICONTROL Integration Settings]**&gt; **[!UICONTROL Livefyre Identity]**。
 
 1. 为所创建的应用程序输入所需的应用程序凭据。

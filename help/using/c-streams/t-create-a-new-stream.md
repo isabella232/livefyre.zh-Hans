@@ -16,7 +16,7 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 在Livefyre中创建新的流，将内容添加到应用程序或文件夹。
 
 1. 要创建新的流，请单击 **[!UICONTROL Streams > Create Stream.]**
-1. 输入 **[!UICONTROL Stream Name]**a.
+1. 输入 **[!UICONTROL Stream Name]** a.
 1. 选择 **[!UICONTROL Stream Destination]**一个： **[!UICONTROL App]** 或 **[!UICONTROL Folder]** 选择流的目标。
 
    * 选择应用程序，在单击发布时将流中包含的所有内容推送到选定的应用程序。

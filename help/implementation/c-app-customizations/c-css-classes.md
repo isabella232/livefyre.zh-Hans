@@ -77,7 +77,7 @@ HTML结构：
 </div>
 ```
 
-隐藏'||“分隔排序选项”。
+隐藏&#39;||“分隔排序选项”。
 
 ```
 .fyre-stream-sort .fyre-stream-sort-bar { 

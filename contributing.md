@@ -1,5 +1,5 @@
 ---
-source-git-commit: 566ea2587f101202045488e9f4edf73ece100293
+source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 translation-type: tm+mt
 
 ---
@@ -12,8 +12,7 @@ translation-type: tm+mt
 
 ## 行为准则
 
-此项目遵守 Adobe [行为准则](code-of-conduct.md)。参与此项目时，您应遵守本准则。请联系
- [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) 举报不可接受的行为。
+此项目遵守 Adobe [行为准则](code-of-conduct.md)。参与此项目时，您应遵守本准则。请联系 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) 举报不可接受的行为。
 
 ## 有疑问吗？
 

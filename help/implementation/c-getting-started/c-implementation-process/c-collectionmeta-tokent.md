@@ -21,10 +21,10 @@ Livefyre为您创建的每个集合分配唯一标识符。Livefyre分配标题�
 
 | 参数 | Type | 描述 |
 |--- |--- |--- |
-| noknName | 字符串(可选) | Livefyre网络的名称(可从{！UICCONTRL Studio>设置>集成设置>凭据])。使用库创建CollectionMeta令牌时，这是可选的。 |
-| NetworkKey | 字符串(可选) | 特定网络的秘密密钥(可从“Studio”>“设置”>“集成设置”>“凭据”获取)。使用库创建CollectionMeta令牌时，这是可选的。 |
+| noknName | 字符串(可选) | Livefyre网络的名称(可从{！UICCONTRL Studio&gt;设置&gt;集成设置&gt;凭据])。使用库创建CollectionMeta令牌时，这是可选的。 |
+| NetworkKey | 字符串(可选) | 特定网络的秘密密钥(可从“Studio”&gt;“设置”&gt;“集成设置”&gt;“凭据”获取)。使用库创建CollectionMeta令牌时，这是可选的。 |
 | SiteID | 字符串(可选) | 站点的ID(可从 [!UICONTROL Studio > Settings > Integration Settings > Credentials] 中获取)。在使用库创建CollectionMeta令牌时可选。 |
-| SiteKey | 字符串(可选) | 网站的秘密密钥(可从{！UICCONTRL Studio>设置>集成设置>凭据])。 |
+| SiteKey | 字符串(可选) | 网站的秘密密钥(可从{！UICCONTRL Studio&gt;设置&gt;集成设置&gt;凭据])。 |
 | articleID | 字符串(可选) | 集合的唯一ID。 |
 | title | 字符串(可选) | 要应用于集合的标题。通常，这与显示应用程序的页面的标题相对应。<br>例如：“集成如此有趣！”<br>注意：标题的最大字符长度为255个字符。标题字段不支持HTML实体。请使用UTF-8对特殊字符进行编码。 |
 | url | 字符串(可选) | 要附加到此集合的规范绝对URL。此URL用于从Facebook和Twitter、电子邮件通知和Livefyre Studio上共享的内容生成回应用程序的链接。<br>注意：如果本地测试，则使用有效的基本URL域(例如：有效： `https://customer.com`；无效： `https://localhost:5995`)。 |

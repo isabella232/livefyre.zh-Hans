@@ -21,7 +21,7 @@ source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ## 集成 {#concept_0A99792A7E89403F95D082D52D600F17}
 
-嵌入聊天应用程序遵循嵌入“入门”> [“嵌入应用程序](../c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md#using-livefyre-js-create-customize-apps)”中描述的核心应用程序的过程。
+嵌入聊天应用程序遵循嵌入“入门”&gt; [“嵌入应用程序](../c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md#using-livefyre-js-create-customize-apps)”中描述的核心应用程序的过程。
 
 示例：
 

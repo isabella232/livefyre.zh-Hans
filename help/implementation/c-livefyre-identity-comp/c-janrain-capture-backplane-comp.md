@@ -1,8 +1,6 @@
 ---
-description: 使用Janrain Capture和Backflight的客户可使用Livefyre Auth for Single Sign On(SSO)，以便用户在登录您的站点时立即与您的Livefyre
-  Apps互动。
-seo-description: 使用Janrain Capture和Backflight的客户可使用Livefyre Auth for Single Sign On(SSO)，以便用户在登录您的站点时立即与您的Livefyre
-  Apps互动。
+description: 使用Janrain Capture和Backflight的客户可使用Livefyre Auth for Single Sign On(SSO)，以便用户在登录您的站点时立即与您的Livefyre Apps互动。
+seo-description: 使用Janrain Capture和Backflight的客户可使用Livefyre Auth for Single Sign On(SSO)，以便用户在登录您的站点时立即与您的Livefyre Apps互动。
 seo-title: Janrain Capture/Backflight
 solution: Experience Manager
 title: Janrain Capture/Backflight

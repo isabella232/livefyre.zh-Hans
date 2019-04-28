@@ -19,13 +19,13 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ## 将内容共享到社交网络 {#section_t1q_mz2_wy}
 
-在将内容发布到Livefyre应用程序时，您可以配置网络以允许用户共享到Twitter、Facebook或LinkedIn。默认的Livefyre **[!UICONTROL Share Modal]** 包含指向所有三个站点的链接。您可以使用Post To API自定义此模式，以覆盖Livefyre默认值并实现自己的默认值。有关详细信息，请参阅高级主题>启用社交共享。
+在将内容发布到Livefyre应用程序时，您可以配置网络以允许用户共享到Twitter、Facebook或LinkedIn。默认的Livefyre **[!UICONTROL Share Modal]** 包含指向所有三个站点的链接。您可以使用Post To API自定义此模式，以覆盖Livefyre默认值并实现自己的默认值。有关详细信息，请参阅高级主题&gt;启用社交共享。
 
 当用户单击 **[!UICONTROL Share]** 将注释张贴到社交网络(Facebook、Twitter或LinkedIn)时，系统会提示他们通过社交应用程序登录。(可自定义可用共享选项列表。默认情况下，Facebook和Twitter共享复选框显示在所有应用程序中。)对于自定义网络，应将社交应用程序配置为社交应用程序。在集成过程中，请通过Studio中的“集成设置”页面添加您的应用程序凭据。
 
 >[!NOTE]
 >
->LinkedIn默认包含在Livefyre社区评论上。在嵌入应用程序时，自定义网络必须以'i'值传递，以启用注释工具栏上的LinkedIn按钮。(有关详细信息，请参阅在开发人员文档中启用社交共享。)
+>LinkedIn默认包含在Livefyre社区评论上。在嵌入应用程序时，自定义网络必须以&#39;i&#39;值传递，以启用注释工具栏上的LinkedIn按钮。(有关详细信息，请参阅在开发人员文档中启用社交共享。)
 
 ## 将其他用户的内容共享到社交网络 {#section_blw_vy2_wy}
 

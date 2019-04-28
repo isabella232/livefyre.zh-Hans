@@ -23,7 +23,7 @@ Livefyre还提供 [了基于此SDK的评论](https://github.com/Livefyre/StreamH
 
 >[!NOTE]
 >
->安装Livefyre Android SDK之前，您必须在环境中安装 [Android SDK](https://developer.android.com/sdk/index.html) 。如Android Developer docs>中所述，您还必须包含一些其他Android SDK包。
+>安装Livefyre Android SDK之前，您必须在环境中安装 [Android SDK](https://developer.android.com/sdk/index.html) 。如Android Developer docs&gt;中所述，您还必须包含一些其他Android SDK包。
 >[添加SDK包](https://developer.android.com/sdk/installing/adding-packages.html)
 
 使用Android SDK管理器(可从Android Studio或Eclipse工具栏中获取)安装所有推荐的包。一定要包含Android支持存储库。
@@ -54,13 +54,13 @@ Livefyre还提供 [了基于此SDK的评论](https://github.com/Livefyre/StreamH
 
 Android Studio可能要求您将SDK转换为灰显版本；如果发生这种情况 **[!UICONTROL next]****[!UICONTROL finish]**，则选择。
 
-在依赖关系下转至 **项目文件夹> app文件夹> build. grale** 文件以添加以下依赖关系：
+在依赖关系下转至 **项目文件夹&gt; app文件夹&gt; build. grale** 文件以添加以下依赖关系：
 
 ```
 dependencies {   compile project(':streamHubAndroidSDK') } 
 ```
 
-确保以 **项目文件夹> settings. grele** 文件的形式出现以下代码行：
+确保以 **项目文件夹&gt; settings. grele** 文件的形式出现以下代码行：
 
 ```
 include ':streamHubAndroidSDK' 

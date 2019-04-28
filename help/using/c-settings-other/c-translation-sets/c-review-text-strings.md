@@ -98,7 +98,7 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 |  | wasreviewHilpFulmobile | 有帮助？ |
 |  | ownwasreviewHelpful | [发现有用。](https://d.pr/i/Q0mA) |
 |  | ReviewWasHelp | [是](https://d.pr/i/Q0mA) |
-|  | HelpFuldider | [& amp；vert；](https://d.pr/i/Q0mA) |
+|  | HelpFuldider | [&amp; amp；vert；](https://d.pr/i/Q0mA) |
 |  | ReviewWasnotHelpul | [否](https://d.pr/i/Q0mA) |
 | 投票模式 | VOTitle | 此审阅是否有用？ |
 |  | 技术投票 | 否 |

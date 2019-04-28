@@ -120,7 +120,7 @@ CollectionMeta是一个编码的JSON对象。在以上示例中，JSON对象在J
 | DisableAVats | *可选* 布尔值 | 防止在应用程序流中渲染avatar，从而减少加载到浏览器中的项目数。默认为false。 |
 | disableIE8Shim | *可选* 布尔值 | 禁用Livefyre用来填充Internet Explorer的默认shiv，以便支持HTML元素。Livefyre使用以下项目： [https://github.com/aFarkas/html5shiv](https://github.com/aFarkas/html5shiv) 。默认为false。注意：如果此值为false，则必须在调用Internet Explorer支持之前使用某些排序的多边形填充。 |
 | **SocietthirdPartyAnalytics** | *可选* 布尔值 | 禁用Livefyre可用于内部测量的第三方分析系统(Quantservice和Google Analytics)。默认为false。 |
-| **编辑CSS** | *可选* 对象 | 用于自定义注释编辑器样式。您可以设置编辑器字段背景颜色的样式，以及编辑器内显示的文本的字体颜色、大小和系列。例如：{背景：'# ccc'，颜色：'red'，字体：“30px”Helvetica Neue”、Helvetica、Arial、Song、sans-serif'} |
+| **编辑CSS** | *可选* 对象 | 用于自定义注释编辑器样式。您可以设置编辑器字段背景颜色的样式，以及编辑器内显示的文本的字体颜色、大小和系列。例如：{背景：&#39;# ccc&#39;，颜色：&#39;red&#39;，字体：“30px”Helvetica Neue”、Helvetica、Arial、Song、sans-serif&#39;} |
 | **initialNumVisible** | *可选* 整数 | 允许您设置加载时在应用程序中可见的默认注释数。这可以是从到50的整数。 |
 | **initialNumogbleLegacic** | *可选* 整数 | 允许您设置加载后应用程序中可见的旧版内容项目的默认数量。这可以是从到50的整数。如果未指定此参数，则默认为initialNumVisible。例如：如果您的Collection包含100个活动和100个旧注释，则设置initalNumVisible：和initialNumbubleLegacy：5，显示10个活动注释(带有“显示更多”按钮)+5归档注释(带有“显示更多”按钮)。 |
 | **Maxible** | *可选* 整数 | 设置聊天应用程序中可见顶级内容的最大数量。如果有新的内容流，则流底部的内容将从页面中删除。如果单击“显示更多…”按钮，则忽略该参数，并且用户可随意显示所需的多个内容。(使用此参数可控制在高速流中页面上显示的项目数。) |

@@ -19,7 +19,7 @@ source-git-commit: 0d2ff61b1db6100de1d59e6e20c1175f015a78c5
 
 ## 示例
 
-要更改此图标，请将以下CSS添加到样式表。将<*your resource*> url替换为选定图像的URL，以替换默认的Livefyre徽章。
+要更改此图标，请将以下CSS添加到样式表。将&lt;*your resource*&gt; url替换为选定图像的URL，以替换默认的Livefyre徽章。
 
 ```
 .fyre-editor-container .fyre-editor-toolbar > .fyre-mention-menu .fyre-mention-item .fyre-mention-item-livefyre { 

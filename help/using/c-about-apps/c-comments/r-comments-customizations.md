@@ -57,7 +57,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Users may share posts]**
 
-   如果启用，则用户可以共享帖子。如果启用此功能，用户可以将发布的内容共享到Twitter、Facebook或LinkedIn。有关启用共享的详细信息，请参阅设置>集成设置>社交共享。
+   如果启用，则用户可以共享帖子。如果启用此功能，用户可以将发布的内容共享到Twitter、Facebook或LinkedIn。有关启用共享的详细信息，请参阅设置&gt;集成设置&gt;社交共享。
 
 * **[!UICONTROL Featured content at top of stream]**
 

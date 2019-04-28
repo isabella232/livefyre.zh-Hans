@@ -25,7 +25,7 @@ Siten表示配置对象是一个JSON对象，用于指定Livefyre应用程序在
 | CustomStyles | *可选* 对象 | 添加自定义样式以更改SiteNote的外观。有关更多信息，请参阅自定义样式。 |
 | BundleStream | *可选* Boolean | 如果为true，则禁用此SiteNote实例中的实时流(不在其他注释流中)。默认为false。 |
 | environment | *可选* 字符串 | 指定Livefyre UAT环境。唯一的可能值 `t402.livefyre.com`是。对于生产，必须删除此参数。 |
-| 图标可见性 | *可选* 对象或字符串 | 定义在悬停或静态时SiteNote图标是否可见。如果这是一个字符串，它将用于块图标的两个版本(空和具有SideNote)。如果某个对象，则必须指定每种类型：{空：“hover”，num：'static'}。默认为静态。 |
+| 图标可见性 | *可选* 对象或字符串 | 定义在悬停或静态时SiteNote图标是否可见。如果这是一个字符串，它将用于块图标的两个版本(空和具有SideNote)。如果某个对象，则必须指定每种类型：{空：“hover”，num：&#39;static&#39;}。默认为静态。 |
 | inlineReads | *可选* 布尔值 | 如果为true，则将SitenOte线程直接插入与其关联的块之后。默认为false。 |
 | NumSiteNotesel | *可选* 对象、字符串或数组 | 指定Siten表示计数构件将装饰的元素。(此构件显示页面上的席位数和有关SidenNote的信息。)如果字符串选择器匹配多个元素，则会选择第一个元素。(使用CSS DOM选择器规范。) |
 | position | *可选* 字符串 | 单击启用了Sidenes启用的元素时，确定弹出窗口的位置。可能的值为“smart”、“left”、“right”、“bottom”。默认值为“smart”，它将弹出窗口与页面右侧对齐，除非没有足够的空间(在这种情况下，它将移至内容下方)。 |

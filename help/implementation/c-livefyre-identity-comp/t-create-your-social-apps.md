@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: 'null'
+seo-description: 'null'
 seo-title: 创建社交应用程序
 solution: Experience Manager
 title: 创建社交应用程序

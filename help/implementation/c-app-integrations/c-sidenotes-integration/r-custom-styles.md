@@ -31,27 +31,27 @@ new Livefyre.Sidenotes({
 
 | **Key** | **属性** | 描述 |
 |---|---|---|
-| `anonymousAvatar` | 'height'、'width' | 匿名头像图像，在文本区域编辑器的左侧。 |
-| `blockBtn` | 'fontColor'、'fontSize'、'left'、'position'、'right'、'top' | 位于指定为sitenable的元素旁边的“启动器图标”。 |
-| `blockBtnActive` | 'fontColor'、'fontSize'、'left'、'position'、'right'、'top' | 处于活动状态时启动器图标。 |
-| `commentAvatar` | 'height'、'width' | 头像图像位于顶级备注的左侧。 |
+| `anonymousAvatar` | &#39;height&#39;、&#39;width&#39; | 匿名头像图像，在文本区域编辑器的左侧。 |
+| `blockBtn` | &#39;fontColor&#39;、&#39;fontSize&#39;、&#39;left&#39;、&#39;position&#39;、&#39;right&#39;、&#39;top&#39; | 位于指定为sitenable的元素旁边的“启动器图标”。 |
+| `blockBtnActive` | &#39;fontColor&#39;、&#39;fontSize&#39;、&#39;left&#39;、&#39;position&#39;、&#39;right&#39;、&#39;top&#39; | 处于活动状态时启动器图标。 |
+| `commentAvatar` | &#39;height&#39;、&#39;width&#39; | 头像图像位于顶级备注的左侧。 |
 | `commentBody` | “fontColor”、“fontFamily”、“fontSize”、“fontWeight”、“LineHeight” | 串接注释的文本正文。 |
 | `commentDisplayName` | “fontColor”、“fontFamily”、“fontSize”、“fontWeight”、“LineHeight” | 显示留下备注的用户的姓名。 |
 | `commentDownvote` | “fontColor”、“fontSize” | 备注上的“投票”按钮。 |
 | `commentReplyExpand` | “backgroundColor”、“borderColor”、“borderWidth”、“fontColor”、“fontFamily”、“fontSize”、“fontWeight”、“LineHeight” | 用于扩展包含大量回复的线程的按钮。 |
 | `commentTags` | “fontColor”、“fontFamily”、“fontSize”、“fontWeight”、“LineHeight” | 备注上关于用户的标记。 |
 | `commentUpvote` | “fontColor”、“fontSize” | 注释上的“投票”按钮。 |
-| `editorTextarea` | 'height'、'width'、'fontColor'、'fontFamily'、'fontSize'、'fontWeight'、'LineHeight' | 文本输入框用于离开备注。 |
-| `mediaBlockBtn` | 'fontColor'、'fontSize'、'left'、'position'、'right'、'top' | 媒体启动器图标(位于媒体项目的顶部，视频)。 |
-| `mediaBlockBtnActive` | 'fontColor'、'fontSize'、'left'、'position'、'right'、'top' | 处于活动状态的Media启动器图标。 |
-| `numSidenotes` | 'fontColor'、'fontFamily'、'fontSize'、'fontWeight'、'lineHeight'、'backgroundColor'、'borderColor'、'borderWidth'、'height'、'width' | 可单击按钮，用于显示集合中的席位数。 |
-| `numSidenotesPopover` | 'fontColor'、'fontFamily'、'fontSize'、'fontWeight'、'lineHeight'、'backgroundColor'、'borderColor'、'borderWidth'、'height'、'width' | 弹出窗口，并简要说明用户的SiteNote。 |
-| `popover` | 'backgroundColor' | 调用启动器图标时出现的弹出窗口。 |
-| `popoverArrowLeft` | 'backgroundImage'、'height'、'left'、'right'、'top'、'width' | 弹出窗口上的向左箭头元素，指向包含启动器图标的DOM元素。 |
-| `popoverArrorRight` | 'backgroundImage'、'height'、'left'、'right'、'top'、'width' | 弹出窗口上的向右箭头元素，指向包含启动器图标的DOM元素。 |
-| `popoverArrowTop` | 'backgroundImage'、'height'、'left'、'right'、'top'、'width' | 弹出窗口上的顶部箭头元素，指向包含启动器图标的DOM元素。 |
-| `replyAvatar` | 'height'、'width' | 头像图像位于回复级别备注的左侧。 |
-| `streamPoweredBy` | 'backgroundColor'、'borderColor'、'LineHeight' | 弹出窗口上的“Powered by”页脚。 |
+| `editorTextarea` | &#39;height&#39;、&#39;width&#39;、&#39;fontColor&#39;、&#39;fontFamily&#39;、&#39;fontSize&#39;、&#39;fontWeight&#39;、&#39;LineHeight&#39; | 文本输入框用于离开备注。 |
+| `mediaBlockBtn` | &#39;fontColor&#39;、&#39;fontSize&#39;、&#39;left&#39;、&#39;position&#39;、&#39;right&#39;、&#39;top&#39; | 媒体启动器图标(位于媒体项目的顶部，视频)。 |
+| `mediaBlockBtnActive` | &#39;fontColor&#39;、&#39;fontSize&#39;、&#39;left&#39;、&#39;position&#39;、&#39;right&#39;、&#39;top&#39; | 处于活动状态的Media启动器图标。 |
+| `numSidenotes` | &#39;fontColor&#39;、&#39;fontFamily&#39;、&#39;fontSize&#39;、&#39;fontWeight&#39;、&#39;lineHeight&#39;、&#39;backgroundColor&#39;、&#39;borderColor&#39;、&#39;borderWidth&#39;、&#39;height&#39;、&#39;width&#39; | 可单击按钮，用于显示集合中的席位数。 |
+| `numSidenotesPopover` | &#39;fontColor&#39;、&#39;fontFamily&#39;、&#39;fontSize&#39;、&#39;fontWeight&#39;、&#39;lineHeight&#39;、&#39;backgroundColor&#39;、&#39;borderColor&#39;、&#39;borderWidth&#39;、&#39;height&#39;、&#39;width&#39; | 弹出窗口，并简要说明用户的SiteNote。 |
+| `popover` | &#39;backgroundColor&#39; | 调用启动器图标时出现的弹出窗口。 |
+| `popoverArrowLeft` | &#39;backgroundImage&#39;、&#39;height&#39;、&#39;left&#39;、&#39;right&#39;、&#39;top&#39;、&#39;width&#39; | 弹出窗口上的向左箭头元素，指向包含启动器图标的DOM元素。 |
+| `popoverArrorRight` | &#39;backgroundImage&#39;、&#39;height&#39;、&#39;left&#39;、&#39;right&#39;、&#39;top&#39;、&#39;width&#39; | 弹出窗口上的向右箭头元素，指向包含启动器图标的DOM元素。 |
+| `popoverArrowTop` | &#39;backgroundImage&#39;、&#39;height&#39;、&#39;left&#39;、&#39;right&#39;、&#39;top&#39;、&#39;width&#39; | 弹出窗口上的顶部箭头元素，指向包含启动器图标的DOM元素。 |
+| `replyAvatar` | &#39;height&#39;、&#39;width&#39; | 头像图像位于回复级别备注的左侧。 |
+| `streamPoweredBy` | &#39;backgroundColor&#39;、&#39;borderColor&#39;、&#39;LineHeight&#39; | 弹出窗口上的“Powered by”页脚。 |
 | `streamQueueButton` | “backgroundColor”、“borderColor”、“borderWidth”、“fontColor”、“fontFamily”、“fontSize”、“fontWeight”、“LineHeight” | 用于在新的备注流进入打开的弹出窗口时指示的按钮。 |
-| `userAvatar` | 'height'、'width' | 经过身份验证的用户的头像图像，位于文本区域编辑器的左侧。 |
+| `userAvatar` | &#39;height&#39;、&#39;width&#39; | 经过身份验证的用户的头像图像，位于文本区域编辑器的左侧。 |
 
