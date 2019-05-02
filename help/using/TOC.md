@@ -3,7 +3,7 @@ product: livefyre
 audience: 最终用户
 user-guide-title: Experience Manager Livefyre用户指南
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
 
 ---
 
@@ -208,6 +208,7 @@ source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
    + [设置Rights Management](c-how-requesting-rights-works/t-set-up-rights-management.md)
    + [发送Twitter权限请求](c-how-requesting-rights-works/t-send-a-rights-request-to-own-a-digital-asset.md)
    + [发送部分自动Instagram权限请求](c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)
+   + [手动发送Instagram权限请求](c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)
    + [查看权限活动历史记录](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [通过资产库中的待定权限请求管理内容](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [从资产库手动授予或撤销资产的权限](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
@@ -251,6 +252,7 @@ source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
       + [隐私请求常见问题解答](c-settings-other/c-gdpr-compliance/c-privacy-request-faqs.md)
       + [创建隐私请求](c-settings-other/c-gdpr-compliance/c-privacy-requests.md)
       + [查看隐私报告](c-settings-other/c-gdpr-compliance/c-view-a-privacy-report.md)
+      + [userPrivacyOptout](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + 发行说明 {#release-notes}
    + [最新发行说明](c-rn/c-rn.md)
    + 2017发行说明 {#rn2019}
