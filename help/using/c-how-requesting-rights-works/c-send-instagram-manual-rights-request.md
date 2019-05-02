@@ -5,7 +5,7 @@ seo-title: 手动发送Instagram权限请求
 title: 手动发送Instagram权限请求
 uuid: c07b3f6f-c14 c-4e62-b18 b-25934ebas45 bf
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
 
 * 添加Instagram社交帐户。有关如何配置社交帐户的详细信息，请参阅 [添加社交帐户](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md#t_configure_social_accout_instagram)。要发送手动或部分自动权限请求，您必须设置Instagram业务帐户。有关Instagram帐户的详细信息，请 [参阅关于Instagram帐户](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)
 
-* 设置Rights Management。有关如何设置权限管理的详细信息，请参阅 [请求权限](../c-how-requesting-rights-works/c-how-requesting-rights-works.md#c_how_requesting_rights_works)。
+* 设置Rights Management。有关如何设置权限管理的详细信息，请参阅 [请求权限](../c-how-requesting-rights-works/c-how-requesting-rights-works.md)。
 
 要发送Instagram内容的手动权限请求，请执行以下操作：
 
