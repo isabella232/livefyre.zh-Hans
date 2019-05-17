@@ -4,7 +4,7 @@ seo-description: Adobe Livefyre的最新发行说明。
 seo-title: Adobe Livefyre的最新发行说明
 title: Livefyre的最新发行说明
 translation-type: tm+mt
-source-git-commit: 5fce2796795e855504cfbaf18328704484d89fa6
+source-git-commit: 9500a4ac5d3cdaeb5909c06d406b006108d39fee
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 5fce2796795e855504cfbaf18328704484d89fa6
 
 >[!NOTE]
 >
->Livefyre将于2019年月11日遵照Adobe安全标准终止TLS1.1(及更早版本)支持。如果您遇到集成问题，请联系prioritysupport@livefyre.com。请查阅未来http弃用日期的未来发行说明。
+>Livefyre将在月23日星期四在我们的生产环境中禁用HTTP(端口80)。这将根据Adobe安全标准完成安全更新。如果您遇到集成问题，请联系 [prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com) 。
 
 ## 增强功能
 
