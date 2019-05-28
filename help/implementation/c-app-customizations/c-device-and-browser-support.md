@@ -5,7 +5,7 @@ seo-title: 设备和浏览器支持
 title: 设备和浏览器支持
 uuid: 338f78b2-051d-4831-a0 b9-e987 f92660 ce
 translation-type: tm+mt
-source-git-commit: fc4a7e50b936211a6e7c338715b410e221f0b5f7
+source-git-commit: 28a7b0c1d5d71635941ecbd7693ad0427dac9893
 
 ---
 
@@ -21,7 +21,7 @@ Livefyre支持以下设备、操作系统和浏览器。
 | **桌面浏览器** |  |  |  |  |
 | Chrome | ✓ | ✓ | ✓ | ✓ |
 | Edge | ✓ | ✓ | ✓ | ✓ |
-| IE11 | ✓ | ✓ | X | ✓ |
+| IE11 | Limited | Limited | Limited | Limited |
 | Firefox14+ | ✓ | ✓ | ✓ | ✓ |
 | Safari7.x | ✓ | ✓ | ✓ | ✓ |
 |  |  |  |  |  |
