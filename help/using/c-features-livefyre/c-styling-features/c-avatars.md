@@ -5,7 +5,7 @@ seo-title: Avatars
 title: Avatars
 uuid: bf20f3bc-3dcc-4e16-a629-380d1 a7 f3 f2
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 
 ---
 
@@ -29,15 +29,6 @@ Avatars在Livefyre中异步加载。当用户首次登录应用程序或更改�
 ## 墓座 {#section_mqh_p1f_wy}
 
 Livefyre支持使用墓地。如果用户没有自定义头像作为其用户配置文件的一部分，Livefyre将会检查该用户的“墓地”。如果不存在任何术语，将使用默认的头像。
-
-如果使用Livefyre WordPress插件来嵌入评论，则满足以下条件时将使用用户的术语表：
-
-* 在WordPress管理员面板中已激活了术语，并且
-* 用户有一个“蚱蜢”帐户，并且
-* 不提供自定义头像。
-
-有关详细信息，请参阅WordPress词汇文档。
-
 
 
 使用此功能的应用程序：
