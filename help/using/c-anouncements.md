@@ -6,14 +6,27 @@ solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570 a14 dfe
 translation-type: tm+mt
-source-git-commit: 2e2c1a018e5ec58a3649bc27679d53390ffcc8ca
+source-git-commit: df47087c69f2bdc8d97226d2013db80703f2e091
 
 ---
 
 
 # 公告{#announcements}
 
-Livefyre和Livefyre Studio的发布。当前截至2018年11月15日。
+Livefyre和Livefyre Studio的发布。截至2019年月日。
+
+## 2019年月日
+
+Facebook通常会在可能的情况下提供更改通知，但他们昨天做出了快速决定，禁止在Livefyre中访问Facebook和Instagram内容。由于此更改，您将无法流式传输、搜索或共享Facebook或Instagram内容。我们衷心感谢未能为您提供此更改的特写。
+
+请记住，目前还有访问Facebook和Instagram内容的方法：
+
+* 已在您的网站上发布的内容不受影响
+* 您的流文件夹中已经存在的内容仍可供使用
+
+我们正与Facebook密切合作，以恢复此功能，并希望尽快解决。谢谢，如果可以回答任何问题，请告诉我。我们希望让我们不断感谢您的耐心和合作关系。
+
+
 
 ## 2018年11月15日 {#section_yx3_hnp_5fb}
 
@@ -31,7 +44,7 @@ Livefyre和Livefyre Studio的发布。当前截至2018年11月15日。
 
 我们很高兴宣布在Instagram中搜索视频内容的能力已恢复。
 
-## 2018 年 6 月 14 日 {#section_kk5_qpz_d2b}
+## 2018年月14日 {#section_kk5_qpz_d2b}
 
 请阅读有关Instagram API弃用功能的最新更新：
 
@@ -43,7 +56,7 @@ Livefyre和Livefyre Studio的发布。当前截至2018年11月15日。
 
    月24日，我们在Instagram内容的使用权限请求工作流程中提供了手动解决方案。我们继续致力于恢复自动监视权限请求响应并更新活动历史记录的功能。我们预计此功能将在今夏晚些时候推出，并将在第一时间通知您。
 
-## 2018 年 5 月 24 日 {#section_xbk_wvd_ydb}
+## 2018年月24日 {#section_xbk_wvd_ydb}
 
 针对Instagram内容的使用权限请求工作流程的第一部分现已可用。从应用程序内容和库中，您现在可以从Livefyre Studio复制请求权限消息并将其粘贴到您正在寻求批准的Instagram帖子中。在ModQ中执行此操作的能力将在将来的版本中提供。在2018年月14日之前，我们将恢复自动监视权限请求响应并更新活动历史记录的功能。
 
@@ -57,7 +70,7 @@ Livefyre和Livefyre Studio的发布。当前截至2018年11月15日。
 * 查看每条内容的详细信息
 * 在Modq中对新Instagram内容执行审核操作
 
-## 2018年月日 {#section_dms_ypz_wdb}
+## 2018 年 5 月 7 日 {#section_dms_ypz_wdb}
 
 所有Livefyre客户，
 
