@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570 a14 dfe
 translation-type: tm+mt
-source-git-commit: df47087c69f2bdc8d97226d2013db80703f2e091
+source-git-commit: 0a9327777b309fd2153487061b6258938357c62d
 
 ---
 
