@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570 a14 dfe
 translation-type: tm+mt
-source-git-commit: 0a9327777b309fd2153487061b6258938357c62d
+source-git-commit: ee7c27508aac1dbd5466e600d1e1eb09f465c9ed
 
 ---
 
@@ -17,7 +17,7 @@ Livefyre和Livefyre Studio的发布。截至2019年月日。
 
 ## 2019年月日
 
-Facebook通常会在可能的情况下提供更改通知，但他们昨天做出了快速决定，禁止在Livefyre中访问Facebook和Instagram内容。由于此更改，您将无法流式传输、搜索或共享Facebook或Instagram内容。我们衷心感谢未能为您提供此更改的特写。
+Facebook通常会在可能的情况下提供更改通知，但他们昨天做出了快速决定，禁止在Livefyre中访问Facebook和Instagram内容。由于此更改，您将无法流式传输、搜索或共享Facebook或Instagram内容。我们由衷地感谢您未能为您提供此更改的特写。
 
 请记住，目前还有访问Facebook和Instagram内容的方法：
 
