@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570 a14 dfe
 translation-type: tm+mt
-source-git-commit: 8624bacfaf584f305e6bbfc444653d179fdd34dc
+source-git-commit: 1319d79718960b112f7c711b5afabfa04dc2a5c0
 
 ---
 
@@ -14,6 +14,18 @@ source-git-commit: 8624bacfaf584f305e6bbfc444653d179fdd34dc
 # 公告{#announcements}
 
 Livefyre和Livefyre Studio的发布。截至2019年月日。
+
+## 2019年月日
+
+我们高兴地报告，Livefyre已恢复Instagram流和搜索。您可以使用Social搜索Instagram内容恢复，并将Instagram内容恢复到文件夹和应用程序中。为了再次开始流式内容，您需要执行以下步骤：
+* 登录Livefyre
+* 访问设置以重新授权并刷新绑定到Instagram业务帐户的访问令牌
+* 等待一到两小时，让内容再次开始流化
+* 联系支持如果您遇到任何问题
+
+Facebook流尚未恢复，但我们仍在与Facebook积极合作以恢复此功能，并将尽快更新您。
+
+感谢您对此意外服务中断的持续耐心。
 
 ## 2019年月日
 
