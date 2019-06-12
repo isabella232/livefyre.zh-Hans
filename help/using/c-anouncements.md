@@ -6,14 +6,18 @@ solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570 a14 dfe
 translation-type: tm+mt
-source-git-commit: 1319d79718960b112f7c711b5afabfa04dc2a5c0
+source-git-commit: 087a40bf77c3b630acb661b58ffa8cfdedc0aec0
 
 ---
 
 
 # 公告{#announcements}
 
-Livefyre和Livefyre Studio的发布。截至2019年月日。
+## 2019年月11日
+
+我们很高兴通知您Facebook梵页内容已恢复到Livefyre中的文件夹和应用程序中。您的部件无需执行任何操作即可启用此内容。
+
+我们非常感谢您在意外中断期间的耐心。
 
 ## 2019年月日
 
