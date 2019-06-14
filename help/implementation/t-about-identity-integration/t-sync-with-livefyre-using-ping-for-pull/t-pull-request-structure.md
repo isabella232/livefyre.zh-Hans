@@ -6,7 +6,7 @@ solution: Experience Manager
 title: 提取请求结构
 uuid: bf6b9e45-d08 a-48e6-acc6-e4 fa56428 d25
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: cf447db2cb3498fcb01b511848faeee4d1e48481
 
 ---
 
@@ -40,4 +40,3 @@ https://example.yoursite.com/some_path/?id={id}&lftoken={UserAuthToken}
    * 如果 `lftoken` 不存在或无法验证，则不允许您的端点使用配置文件信息做出响应。请改用403(禁止)状态代码，无需响应正文。
 
 1. `userAuthToken` 由Livefyre `buildUserAuthToken` 方法为用户生成，用户id“system”。此用户是为每个新网络创建的第一个用户。
-1. 要测试页面，请使用 [我们的Taking for Retting](https://livefyre-p4p-wizard.herokuapp.com/home) 测试人员确认一切均按预期工作。
