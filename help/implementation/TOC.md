@@ -3,7 +3,7 @@ product: livefyre
 audience: 最终用户
 user-guide-title: Experience Manager Livefyre实施指南
 translation-type: tm+mt
-source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
+source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 
 ---
 
@@ -47,7 +47,6 @@ source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
    + 使用Livefyre Identity的社交应用程序 {#use-social-apps-with-livefyre-identity}
       + [创建社交应用程序](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [创建用于Livefyre Identity的Facebook应用程序](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
-      + [创建Google项目以用于Livefyre Identity](c-livefyre-identity-comp/t-create-a-google-project-for-use-with-livefyre-identity.md)
       + [创建用于Livefyre Identity的Twitter应用程序](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
       + [创建Yahoo！用于Livefyre Identity的应用程序](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
       + [创建用于Livefyre Identity的Microsoft Live Identity应用程序](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
@@ -90,8 +89,8 @@ source-git-commit: 4952830655e904cfba7d2dd98338c7fda02c4250
       + [BuildCollection站点方法](c-installing-libraries/r-buildcollection-site-method.md)
       + [切换站点方法](c-installing-libraries/r-geturn-site-method.md)
       + [示例](c-installing-libraries/c-libraries-examples.md)
-   + 移动SDK {#mobile-sdks}
-      + [移动SDK](c-mobile-sdks/c-mobile-sdks.md)
+   + Mobile SDK {#mobile-sdks}
+      + [Mobile SDK](c-mobile-sdks/c-mobile-sdks.md)
       + [Livefyre iOS SDK](c-mobile-sdks/c-livefyre-ios-sdk.md)
       + [Android SDK](c-mobile-sdks/c-android-sdk.md)
 + [Livefyre. js](c-livefyre.js.md)
