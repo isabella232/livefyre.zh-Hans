@@ -3,7 +3,7 @@ product: livefyre
 audience: 最终用户
 user-guide-title: Experience Manager Livefyre实施指南
 translation-type: tm+mt
-source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
+source-git-commit: d2a3bad7f0009d04be0e17802d17409f16c1b779
 
 ---
 
@@ -11,10 +11,10 @@ source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 # Experience Manager Livefyre实施指南 {#implementation}
 
 + [Livefyre实施指南](home.md)
-+ 入门指南 {#getting-started}
++ 快速入门 {#getting-started}
    + [Livefyre集成入门](c-getting-started/c-getting-started.md)
-   + 实施过程 {#implementation-process}
-      + [实施过程](c-getting-started/c-implementation-process/c-implementation-process.md)
+   + 实施流程 {#implementation-process}
+      + [实施流程](c-getting-started/c-implementation-process/c-implementation-process.md)
       + [应用程序集成类型](c-getting-started/c-implementation-process/c-app-integration-types.md)
       + [应用程序实施](c-getting-started/designer-app-implementation.md)
       + [通过第三方集成实施Livefyre](c-app-integrations/implement-livefyre-3rd-party.md)
@@ -98,8 +98,7 @@ source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
 + 应用集成 {#app-integrations}
    + [聊天](c-app-integrations/c-app-integratios-chat.md)
    + 注释 {#comments}
-      + [注释](c-app-integrations/c-comments-integration/c-comments-integration.md)
-      + [评论中的广告](c-app-integrations/c-comments-integration/c-ads-in-comments-integration.md)
+      + [评论](c-app-integrations/c-comments-integration/c-comments-integration.md)
    + [Live Blog](c-app-integrations/c-live-blog-integration.md)
    + [评论](c-app-integrations/c-reviews-integration.md)
    + Siten表示 {#sidenotes}
@@ -113,7 +112,7 @@ source-git-commit: f3e4942cab98960259ddf6d2f4fd878e74599d9f
       + [UpdateAnchors方法](c-app-integrations/c-sidenotes-integration/update-anchors-method.md)
    + [地图](c-app-integrations/c-map-integration.md)
    + [媒体墙](c-app-integrations/c-media-wall-integration.md)
-   + [趋势趋势](c-app-integrations/c-trending-integration.md)
+   + [趋势](c-app-integrations/c-trending-integration.md)
 + 应用程序自定义 {#app-customizations}
    + [应用程序自定义](c-app-customizations/c-app-customizations.md)
    + [更改显示选项](c-app-customizations/c-change-display-options.md)
