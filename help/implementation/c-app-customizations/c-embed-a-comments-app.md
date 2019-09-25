@@ -1,21 +1,21 @@
 ---
-description: 嵌入评论应用程序会遵循嵌入核心应用程序的过程。
-seo-description: 嵌入评论应用程序会遵循嵌入核心应用程序的过程。
-seo-title: 嵌入评论应用程序
+description: 嵌入注释应用程序遵循嵌入核心应用程序的过程。
+seo-description: 嵌入注释应用程序遵循嵌入核心应用程序的过程。
+seo-title: 嵌入注释应用程序
 solution: Experience Manager
-title: 嵌入评论应用程序
-uuid: e4982ad3-cab1-4805-a55 c-594ca3 b7203
+title: 嵌入注释应用程序
+uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
 translation-type: tm+mt
 source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
 ---
 
 
-# 嵌入评论应用程序{#embed-a-comments-app}
+# 嵌入注释应用程序{#embed-a-comments-app}
 
-嵌入评论应用程序会遵循嵌入核心应用程序的过程。
+嵌入注释应用程序遵循嵌入核心应用程序的过程。
 
-嵌入评论应用程序遵循嵌入应用程序中描述的核心应用程序 [的过程。](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+嵌入注释应用程序遵循嵌入应用程序中所述的嵌入核心应用 [程序的过程](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
 
 ## 示例
 
@@ -54,7 +54,7 @@ source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 </html>
 ```
 
-如Building CollectionMeta部分中所述，CollectionMeta是一个编码的JSON对象。在以上示例中，JSON对象在JWT编码之前采用以下格式：
+正如构建CollectionMeta部分中所述，CollectionMeta是编码的JSON对象。 在上例中，JSON对象在进行JWT编码之前采用以下格式：
 
 ```
 { 
