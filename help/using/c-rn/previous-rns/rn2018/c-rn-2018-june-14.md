@@ -1,6 +1,6 @@
 ---
-description: 2018年月14日发行说明发行说明。
-seo-description: 2018年月14日发行说明发行说明。
+description: 2018年6月14日版本的发行说明。
+seo-description: 2018年6月14日版本的发行说明。
 seo-title: 2018 年 6 月 14 日
 solution: Experience Manager
 title: 2018 年 6 月 14 日
@@ -11,42 +11,42 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 ---
 
 
-# 2018 年 6 月 14 日{#june}
+# June 14, 2018{#june}
 
-2018年月14日发行说明发行说明。
+2018年6月14日版本的发行说明。
 
 ## 新增功能 {#section_syx_mdt_wcb}
 
-**evar. appType javascript变量名称更改**
+**evars.appType javascript变量名称中的更改**
 
-将evar. appType javascript和generator. name的值更改为下表中的轮廓作为轮廓：
+将evars.appType javascript和generator.name的值更改为新值，如下表中的大纲所示：
 
-## evars. appType变量名称更改
+## evars.appType变量名称更改
 
-| 上一个名称 | 新名称 |
+| 以前名称 | 新名称 |
 |---|---|
-| blog-component | Live Blog |
+| blog-component | 实时博客 |
 | 卡组件 | 功能卡 |
-| carousel组件 | Carousel |
+| 传送组件 | 轮播 |
 | 聊天组件 | 聊天 |
 | comment-component | 注释 |
 | 幻灯片 | 幻灯片 |
-| 地图组件 | 地图 |
-| media-upload | 上传按钮 |
-| mosaic-component | Mosaic |
-| streadb-wall | 媒体墙 |
-| 趋势组件 | 趋势趋势 |
+| maps-component | 地图 |
+| 媒体上传 | 上传按钮 |
+| 马赛克分量 | 马赛克 |
+| streamhub-wall | 媒体墙 |
+| trends-component | 趋势 |
 
-## 期刊 {#section_ehw_ndt_wcb}
+## 问题 {#section_ehw_ndt_wcb}
 
-此版本中解决了以下表中的问题。
+此版本中解决了下表中的问题。
 
-## Production Release
+## 生产版本
 
-| **期刊类型** | **组件** | **发行说明** |
+| **问题类型** | **组件** | **发行说明** |
 |---|---|---|
-| Bug | 库/搜索 | 修复了Instagram视频在社交搜索或应用程序内容中无法正确显示的问题。 |
-| Bug | 智能标签 | 修复了智能标签无法显示从Instagram收集的内容的问题。 |
+| 错误 | 库／搜索 | 修复了Instagram视频在社交搜索或应用程序内容中无法正常显示的问题。 |
+| 错误 | 智能标记 | 修复了智能标签无法显示从Instagram收集的内容的问题。 |
 
 ## UAT版本
 
