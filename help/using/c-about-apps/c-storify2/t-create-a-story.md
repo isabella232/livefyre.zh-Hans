@@ -1,6 +1,6 @@
 ---
-description: 创建新的Storify故事。
-seo-description: 创建新的Storify故事。
+description: 创建新的Storify 2故事。
+seo-description: 创建新的Storify 2故事。
 seo-title: 创建文章
 solution: Experience Manager
 title: 创建文章
@@ -13,10 +13,10 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 创建文章{#create-a-story}
 
-创建新的Storify故事。
+创建新的Storify 2故事。
 
-1. 单击 **[!UICONTROL New App]**。
-1. 单击 **[!UICONTROL Storify 2]**。
-1. 输入 **[!UICONTROL App Title]**一个。
-1. 选择 **[!UICONTROL Site]**一个。
-1. 单击 **[!UICONTROL Create]**。
+1. 单击 **[!UICONTROL New App]**.
+1. 单击 **[!UICONTROL Storify 2]**.
+1. 输入 **[!UICONTROL App Title]**。
+1. 选择 **[!UICONTROL Site]**.
+1. 单击 **[!UICONTROL Create]**.
