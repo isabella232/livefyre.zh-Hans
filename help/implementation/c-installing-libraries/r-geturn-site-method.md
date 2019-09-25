@@ -1,23 +1,23 @@
 ---
 description: 此方法返回此站点的URN。
 seo-description: 此方法返回此站点的URN。
-seo-title: 切换站点方法
+seo-title: getUrn Site Method
 solution: Experience Manager
-title: 切换站点方法
-uuid: 231c915c-6288-43e6-86e0-b8 d09 a08 c4 d3
+title: getUrn Site Method
+uuid: 231c915c-6288-43e6-86e0-b8d09a08c4d3
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 切换站点方法{#geturn-site-method}
+# getUrn Site Method{#geturn-site-method}
 
 此方法返回此站点的URN。
 
 ## Java示例 {#section_nyl_ycs_rz}
 
-使用情况：
+使用情况:
 
 ```
 site.getUrn();
@@ -65,7 +65,7 @@ site.urn
 "urn:livefyre:network=`example.fyre.co`:site=1" 
 ```
 
-## 拼音示例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 site.urn 
