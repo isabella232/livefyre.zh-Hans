@@ -1,8 +1,8 @@
 ---
-description: 按产品ID筛选UGC允许您在多个页面上嵌入相同的应用程序，同时为每个页面显示不同的产品特定UGC。
-seo-description: 按产品ID筛选UGC允许您在多个页面上嵌入相同的应用程序，同时为每个页面显示不同的产品特定UGC。
-seo-title: 按产品ID过滤UGC
-title: 按产品ID过滤UGC
+description: 通过按产品ID筛选UGC，您可以在多个页面上嵌入完全相同的应用程序，同时为每个页面显示不同的产品特定UGC。
+seo-description: 通过按产品ID筛选UGC，您可以在多个页面上嵌入完全相同的应用程序，同时为每个页面显示不同的产品特定UGC。
+seo-title: 按产品ID筛选UGC
+title: 按产品ID筛选UGC
 uuid: 98108ddb-5710-4331-891b-7e1bbb106059
 translation-type: tm+mt
 source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
@@ -10,35 +10,35 @@ source-git-commit: 76efa427b59a709009a3c2d3744ea65e0c959816
 ---
 
 
-# 按产品ID过滤UGC {#filter-ugc-product-id}
+# 按产品ID筛选UGC {#filter-ugc-product-id}
 
-按产品ID筛选UGC允许您在多个页面上嵌入相同的应用程序，同时为每个页面显示不同的产品特定UGC。
+通过按产品ID筛选UGC，您可以在多个页面上嵌入完全相同的应用程序，同时为每个页面显示不同的产品特定UGC。
 
-要按产品ID筛选UGC，请按照以下步骤操作：
+要按产品ID筛选UGC，请执行以下步骤：
 
-1. 在Livefyre Studio中，导航 **[!UICONTROL Apps]** 到选项卡。
+1. 在Livefyre studio中，导航到该选 **[!UICONTROL Apps]** 项卡。
 
 1. 选择要修改的应用程序。
 
-1. 选择左边栏中的设计人员选项卡。
+1. 选择左边栏中的“设计器”选项卡。
 
-1. 启用 **[!UICONTROL Filter UGC by Product ID]**。
+1. Enable **[!UICONTROL Filter UGC by Product ID]**.
 
 ![](assets/filter-ugc-product-id.png)
 
-1. 选择包含您要筛选UGC的产品或产品的顶级产品文件夹。
-使用CTRL/Command+单击可选择多个文件夹。
+1. 选择顶级产品文件夹，其中包含要按其筛选UGC的产品。
+使用CTRL/Command +单击可选择多个文件夹。
 
-1. 禁用 **[!UICONTROL Show related content]**。
-启用此功能后，使用 `data-lf-attr-product` 属性筛选的内容将先显示，后跟应用程序中的所有其他内容。
+1. Disable **[!UICONTROL Show related content]**.
+启用后，使用属性筛选的内容将首 `data-lf-attr-product` 先显示，然后显示应用程序中的所有其他内容。
 
-1. 单击 **[!UICONTROL Publish]**。
+1. 单击 **[!UICONTROL Publish]**.
 
-1. 插入要筛选的产品ID，然后进入生成的代码。
+1. 将要过滤的产品ID插入生成代码。
 
 >[!NOTE]
 >
->要定位产品ID，请导航 **[!UICONTROL Settings > Products]**到。找到所需的产品并选择该产品，此时将显示ID。
+>要查找产品ID，请导航到 **[!UICONTROL Settings > Products]**。 找到所需的产品并将其选中，此时将显示ID。
 
 例如，为媒体墙应用程序生成以下代码：
 
@@ -53,7 +53,7 @@ env="prod" data-lf-read-only="" data-lf-attr-product="<product
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-要标记某个产品，请用 `<product 1>` 所需的产品ID替换 `data-lf-attr-product` 该属性。您可以通过添加其他以逗号分隔的产品ID标记一个或多个产品。产品必须包含在在步骤中选择的顶级产品一个或多个文件夹中。
+要标记产品，请用所 `<product 1>` 需的产 `data-lf-attr-product` 品ID替换属性中的内容。 您可以通过添加其他以逗号分隔的产品ID来标记一个或多个产品。 产品必须包含在步骤5中选择的顶级产品文件夹或文件夹中。
 
 修改后的代码段将显示为：
 
@@ -68,4 +68,4 @@ Livefyre.js"></script><div class="lf-app-embed" data-lfapp="
  {embed.el.onload(embed.getConfig());}});});</script>
 ```
 
-应用程序现在只显示标记的产品ID。
+应用程序现在将仅显示标记的产品ID。
