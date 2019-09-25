@@ -1,6 +1,6 @@
 ---
-description: 了解与其他社交帐户不同的Instagram规则和要求。
-seo-description: 了解与其他社交帐户不同的Instagram规则和要求。
+description: 了解Instagram的规则和要求，这些规则和要求与其他社交帐户不同。
+seo-description: 了解Instagram的规则和要求，这些规则和要求与其他社交帐户不同。
 seo-title: 关于Instagram帐户
 solution: Experience Manager
 title: 关于Instagram帐户
@@ -13,12 +13,12 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 关于Instagram帐户{#about-instagram-accounts}
 
-了解与其他社交帐户不同的Instagram规则和要求。
+了解Instagram的规则和要求，这些规则和要求与其他社交帐户不同。
 
-您必须将 *Instagram业务帐户* 配置为：
+您必须将 *Instagram商业帐户配置为* :
 
-* 按用户执行Instagram社交搜索(用户必须是Instagram业务帐户)。
-* 从特定Instagram用户帐户创建Instagram流(帐户必须为业务帐户)。
-* 使用部分自动化工作流程从Instagram请求资产权限
+* 按用户执行Instagram社交搜索（用户必须是Instagram商业帐户）。
+* 从特定Instagram用户帐户（该帐户必须是商业帐户）创建Instagram流。
+* 使用部分自动化的工作流程从Instagram请求资产权限
 
-有关如何创建Instagram业务帐户或将Instagram个人帐户转换为商业帐户的信息，请参阅 [如何在Instagram上设置业务档案？](https://www.facebook.com/help/502981923235522)
+有关如何创建Instagram商业帐户或将Instagram个人帐户转换为商业帐户的信息，请参阅 [How do I set up a business profile on Instagram?](https://www.facebook.com/help/502981923235522)
