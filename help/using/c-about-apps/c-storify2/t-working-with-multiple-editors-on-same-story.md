@@ -1,27 +1,27 @@
 ---
-description: Storify管理多个同时编辑器、防止意外覆盖或丢失编辑。
-seo-description: Storify管理多个同时编辑器、防止意外覆盖或丢失编辑。
-seo-title: 在同一文章上处理多个编辑器
+description: Storify可同时管理多个编辑器，防止意外覆盖或丢失编辑。
+seo-description: Storify可同时管理多个编辑器，防止意外覆盖或丢失编辑。
+seo-title: 处理同一故事的多个编辑器
 solution: Experience Manager
-title: 在同一文章上处理多个编辑器
-uuid: c9b8bf70-84c3-4e58-bbd0-f3 d0 ea74 fc68
+title: 处理同一故事的多个编辑器
+uuid: c9b8bf70-84c3-4e58-bbd0-f3d0ea74fc68
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 在同一文章上处理多个编辑器{#working-with-multiple-editors-on-the-same-story}
+# 处理同一故事的多个编辑器{#working-with-multiple-editors-on-the-same-story}
 
-Storify管理多个同时编辑器、防止意外覆盖或丢失编辑。
+Storify可同时管理多个编辑器，防止意外覆盖或丢失编辑。
 
-通过Storify，多个编辑可以协作、编辑和策划单个文章的内容。编辑实时可见，并使用编辑器的用户名和头像标记。
+Storify允许多个编辑人员协作、编辑和管理单个Story的内容。 编辑内容会实时显示，并使用编辑者的用户名和头像进行标记。
 
-处理单一故事的多名编辑将看到其他人在该页面上工作。新元素、文本编辑和格式更改会在添加时显示，其编辑者在页面上的位置通过颜色编码的文本选择、名称横幅和头像(如果可用)指示。
+多个编辑处理单个文章时，会看到其他编辑实时处理该页面。 新元素、文本编辑和格式更改在添加时显示，其编辑器在页面上的位置用彩色编码文本选择、名称横幅和头像（如果可用）指示。
 
-所有编辑人员都具有编辑您的故事的所有权利和权限，包括以下权利：
+所有编辑人员均拥有编辑您的Story的所有权利和权限，包括：
 
-* 撤消和重做其他人的工作。
+* 撤消和重做他人的工作。
 * 发布新内容或更改
 * 删除内容
 * 编辑文本块。
