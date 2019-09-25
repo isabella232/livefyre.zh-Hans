@@ -4,7 +4,7 @@ seo-description: 了解如何监视和存储流经Livefyre系统的用户生成�
 seo-title: 活动流
 solution: Experience Manager
 title: 活动流
-uuid: f40deec1-58ab-41c9-aac4-d2 d8 c9192 bb9
+uuid: f40deec1-58ab-41c9-aac4-d2d8c9192bb9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -15,15 +15,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 了解如何监视和存储流经Livefyre系统的用户生成的内容。
 
-使用Activity Stream API可使用用户生成的数据，这些数据流经网络或站点上的Livefyre系统。例如：使用此API中的数据根据评级更新搜索索引，或根据客户活动管理用户在第三方系统中的标记。
+使用Activity Stream API消耗流经网络或站点上的Livefyre系统的用户生成的数据。 例如：使用此API中的数据根据评级更新搜索索引，或根据用户的活动管理第三方系统中的用户标记。
 
-Activity Stream API：
+活动流API:
 
-有关可用端点的完整列表，请参阅“Livefyre API参考”部分。
+有关可用端点的完整列表，请参阅Livefyre API参考部分。
 
 ## 资源 {#section_aql_n4l_b1b}
 
-有两个端点，一个用于模拟环境，另一个用于生产。
+有两个端点，一个用于分阶段环境，另一个用于生产。
 
 ### 暂存
 
@@ -31,7 +31,7 @@ Activity Stream API：
 GET https://bootstrap.t402.livefyre.com/api/v3.1/activity/ 
 ```
 
-### Production
+### 生产
 
 ```
 GET https://bootstrap.livefyre.com/api/v3.1/activity/ 
@@ -39,38 +39,38 @@ GET https://bootstrap.livefyre.com/api/v3.1/activity/
 
 ### 参数
 
-* **资源：***字符串* 您要为其请求活动数据的对象的URN。
+* **** 资源：字 *符串* A请求活动数据的对象的URN。
 
-* **自：***整数* 一个64位整数，表示您收到的最后一个事件的ID。如果没有之前的数据，请指定“0”。
+* **** 自：整 *数* 64位整数，表示您收到的上一个事件的ID。 如果您没有先前的数据，请指定“0”。
 
 ## URN字符串 {#section_skl_q4l_b1b}
 
 示例：
 
-* **urn：livefyre：**`example.fyre.co` 活动流 `example.fyre.co`。
-* **urn：livefyre：**`example.fyre.co:site=54321``example.fyre.co` 网络下站点54321的活动流。
+* **** urn:livefyre: `example.fyre.co` 的活动流 `example.fyre.co`。
+* **** urn:livefyre:网 `example.fyre.co:site=54321` 络下站点54321的活动 `example.fyre.co` 流。
 
 ## 令牌策略 {#section_nwh_c5j_11b}
 
-Activity Stream API使用OAuth Bearer令牌进行身份验证。Beer Tokens是OAuth2.0规范的一部分，在此处正式介绍 [](https://tools.ietf.org/html/rfc6750#section-1.2)。
+活动流API使用OAuth承载令牌进行身份验证。 承载令牌是OAuth 2.0规范的一部分，并在此处正式 [描述](https://tools.ietf.org/html/rfc6750#section-1.2)。
 
-令牌包含几件事：
+代号包含几件事：
 
-* 创建令牌的人。
-* 为谁提供了令牌。
-* 不再有效的时间。
-* 我们正在处理的事情。
-* 已授予的权限列表。
+* 代号的创建者。
+* 给谁一个代号。
+* 它不再有效的时间。
+* 我们正在做的事。
+* 已授予权限的列表。
 
 ### 步骤
 
-创建OAuth Bearer令牌的步骤包括：
+创建OAuth承载令牌的步骤包括：
 
-* 创建包含颁发者、受众、主题、到期和范围的地图/词典。
-* 根据您的机密使用JWT库对JWT令牌进行编码。
-* 添加“身份验证：Bearer”。
+* 创建包含发行人、受众、主题、到期日和范围的地图／词典。
+* 使用JWT库和您的机密对JWT令牌进行编码。
+* 添加“身份验证：承载”。
 
-下面的代码示例演示了Python中的上述步骤：
+以下代码示例演示了Python中的上述步骤：
 
 ```
 import time 
@@ -93,13 +93,13 @@ data = dict(iss=network_urn, aud=network_urn, sub=network_urn, scope=api_urn, ex
 token = jwt.encode(data, key=network_secret)
 ```
 
-在此处，看门人令牌键定义为如下所示：
+其中，如下定义了承载令牌密钥：
 
-* **s(***isuer)* 具有生成令牌的授权的实体。这可能是Livefyre、站点或网络。(要知道上学迟到，它是您的上级。)
-* **ad***(受众)* 生成此令牌的人员。如果您自己创建令牌，则是站点或网络。
-* **子***(主题)* 要授予权限的主题。例如，如果要在集合上操作，则主题必须是集合的标识符。(在学校示例的说明中，您是您。)
-* **exp***(过期)* 标记不再有效的点。
-* **范围***(范围)* 这是在主题上授予的权限列表。“上学迟到”是一个示例。API的名称是另一个示例。
+* **is** ( *发行人)* ，具有生成令牌权限的实体。 这可能是Livefyre、站点或网络。 （要获得上学迟到的通知，请注明您的父母。）
+* **aud** （受众） ** ，为其生成此令牌的人。 如果您自己创建的代号是站点或网络。
+* **sub** (Subject) ** The subject wher Permissions to be Accessments. 例如，如果您正在对集合进行操作，则主题必须是集合的标识符。 （在学校示例的备注中，它是您。）
+* **exp** (Expiration) ** 令牌不再有效的时间点。
+* **范围** (范 *围)* ：这是对主题授予的权限列表。 “上学迟到”就是一个例子。 API的名称是另一个示例。
 
 ## 示例 {#section_dhl_ytj_11b}
 
@@ -246,7 +246,7 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
 } 
 ```
 
-上次请求后使用新数据的响应：
+自上次请求以来具有新数据的响应：
 
 ```
 { 
@@ -270,11 +270,11 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
 }
 ```
 
-## Notes {#section_hj3_crj_11b}
+## 注释 {#section_hj3_crj_11b}
 
-* 成功调用API将生成HTTP200状态代码。所有其他状态代码都应被视为错误。
-* 如果为非null，请将该 `data.meta.cursor.next` 值用作下一请求的 `since` 参数。
-* 如果该值为 `data.meta.cursor.next` null，则表示没有要使用的新数据。应稍后重新请求相同 `since` 的值，以查看新数据是否已送达。
-* 在实践中，如果值 `data.meta.cursor.next` 为非null，您应立即请求更多数据。
-* 在生产中可通过此API获得约两小时的最近数据。
-* 您应设置进程以频繁在cron工作时轮询此端点，以避免缺少数据。对于大多数实施，分钟的间隔应该是非常合适的。
+* 成功调用API将生成HTTP 200状态代码。 所有其他状态代码应视为错误。
+* 如果为非null，则将中的值用作 `data.meta.cursor.next` 您的下 `since` 一个请求的参数。
+* 如果值为 `data.meta.cursor.next` null，则表示没有要消费的新数据。 您以后应使用相同的值重新请 `since` 求，以查看新数据是否已到达。
+* 实际上，如果值为非null，您应立即请求 `data.meta.cursor.next` 更多数据。
+* 通过此API在生产中可获得大约两个小时的近期数据。
+* 您应设置流程以在cronjob上频繁轮询此端点，以避免丢失数据。 对于大多数实施，间隔为5分钟应完全足够。
