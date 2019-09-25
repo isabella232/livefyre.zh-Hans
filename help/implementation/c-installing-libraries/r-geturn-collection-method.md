@@ -1,19 +1,19 @@
 ---
-description: 此方法返回此Collection的URN。运行此方法之前，必须运行createOrUpdate()。
-seo-description: 此方法返回此Collection的URN。运行此方法之前，必须运行createOrUpdate()。
-seo-title: Geing Collection方法
+description: This method returns the URN for this Collection. You must run createOrUpdate() before you run this method.
+seo-description: This method returns the URN for this Collection. You must run createOrUpdate() before you run this method.
+seo-title: getUrn收集方法
 solution: Experience Manager
-title: Geing Collection方法
-uuid: 2f4d7796-2ae5-4b74-a958-40825c6 bff16
+title: getUrn收集方法
+uuid: 2f4d7796-2ae5-4b74-a958-40825c6bff16
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# Geing Collection方法{#geturn-collection-method}
+# getUrn收集方法{#geturn-collection-method}
 
-此方法返回此Collection的URN。运行此方法之前，必须运行createOrUpdate()。
+This method returns the URN for this Collection. You must run createOrUpdate() before you run this method.
 
 ## Java示例 {#section_nyl_ycs_rz}
 
@@ -21,7 +21,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 collection.getUrn(); 
 ```
 
-示例输出：
+Sample output:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
@@ -57,13 +57,13 @@ $collection->getUrn();
 collection.urn() 
 ```
 
-示例输出：
+Sample output:
 
 ```
 "urn:livefyre:network=`example.fyre.co`:site=1:collection=1" 
 ```
 
-## 拼音示例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 collection.urn
