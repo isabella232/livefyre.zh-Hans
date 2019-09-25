@@ -4,7 +4,7 @@ seo-description: 'null'
 seo-title: Livefyre Analytics事件
 solution: Experience Manager
 title: Livefyre Analytics事件
-uuid: eb5a196-ca33-40f8-a96 d-ed46469223 de
+uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -13,9 +13,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # Livefyre Analytics事件 {#livefyre-analytics-events}
 
-## 活动对象定义 {#section_dh1_yhn_pdb}
+## 事件对象定义 {#section_dh1_yhn_pdb}
 
-以下代码定义在页面上由分析处理函数接收的事件对象中的字段。
+以下代码定义事件对象中由页面上的分析处理程序接收的字段。
 
 ```
 {
@@ -42,62 +42,62 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 }
 ```
 
-## Livefyre Analytics Events和eVar {#section_u3k_tft_mcb}
+## Livefyre Analytics事件和eVar {#section_u3k_tft_mcb}
 
-以下Livefyre事件，用于映射到使用Report Suite管理器在报表中使用的自定义事件。有关Adobe Analytics中报表包的更多信息，请参阅 [报告套件管理器](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)。有关如何使用Report Suite Manager使用Livefyre事件的更多 [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)信息，请参阅。
+以下Livefyre事件将映射到使用Report Suite manager在报告中使用的自定义事件。 有关Adobe Analytics中报表包的详细信息，请参阅 [报表包管理器](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)。 有关如何将Livefyre事件与Report Suite manager结合使用的更多信息，请参见 [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
 
 ## Livefyre Analytics事件
 
-| Event | 描述 |
+| 事件 | 描述 |
 |---|---|
-| Init | 当包含至少一个Livefyre应用程序的页面加载时 |
-| Load | 无论用户视图如何，均可在页面上加载应用程序 |
-| View | 应用程序首次进入viewport时。 |
-| Post | 任何时候用户发布评论或内容包括ex：顶级帖子、回复、审阅、媒体墙上传 |
+| 初始化 | 加载至少包含一个Livefyre应用程序的页面时 |
+| 载入 | 无论用户视图如何，应用程序在页面上加载的任何时间 |
+| 查看 | 当应用程序首次进入视区时。 |
+| 帖子 | 每当用户发布评论或内容时，包括：顶级帖子、回复、评论、媒体墙上传 |
 | 已发布 | 当帖子成功时。 |
-| Twitter_回复 | 任何时候用户在Twitter上回复 |
-| Twitter_赞 | 将内容共享到：转推 |
-| Livefyre_ Like | 任何时间livefyre类似于应用程序中的 |
-| Livefyre_不同 | 任何时候用户不喜欢livefyre |
-| ShareOnPost | 每当用户发布帖子内容并在帖子功能上使用共享时 |
-| ShareButtonClick | 每当用户单击注释上的共享按钮时 |
-| ShareTwitter | 当单击共享到Twitter时 |
-| ShareFacebook | 当单击共享到Facebook时 |
-| ShareUrl | 当选择/复制“共享到URL”文本区域时。 |
-| ExpandReadies | 当用户单击+或展开链接以查看顶级帖子上的所有回复时 |
-| CollapsePLies | 用户单击-或折叠链接时，查看顶级帖子上的所有回复 |
-| FlagClick | 任何时候用户均可打开标记Modal |
-| Flagspam | 当用户将内容标记为垃圾信息时 |
-| 标记同意 | 用户将内容标记为不同意时 |
-| Flagpockager | 当用户将内容标记为冒犯性时 |
-| 标记主题 | 当用户将内容标记为关闭主题时 |
-| FlagCancel | 用户在提交旗标时随时单击X或“取消” |
-| followCollection | 任何时候都会进行对话(“我对此感兴趣”) |
-| UnfollowCollection | 当对话未遵循 |
-| 请求更多 | 每当用户在应用程序中加载更多内容时(需要高速传输) |
-| ModalView | 每当用户单击以查看模态中的内容时 |
-| TwitterRetweetClick | 将内容共享到：转推 |
-| PostButtonClick | 当用户单击帖子时(“您想找什么？“)button |
-| 登录名 | 任何用户登录的时间 |
-| 注销 | 任何用户注销的时间 |
+| Twitter_Reply | 用户在Twitter上回复的任何时间 |
+| Twitter_Like | 将内容共享到的位置：转推 |
+| Livefyre_Like | 任何时候在应用程序中使用Livefyre类似功能 |
+| Livefyre_Navice | 每当用户不喜欢直播时， |
+| ShareOnPost | 用户随时发布内容并使用“发布时共享”功能 |
+| ShareButtonClick | 每当用户单击评论上的共享按钮时 |
+| ShareTwitter | 单击“共享到Twitter”时 |
+| ShareFacebook | 单击“共享到Facebook”时 |
+| ShareURL | 选择／复制“共享到URL”文本区域时。 |
+| 扩展回复 | 当用户单击+或展开链接以查看顶级帖子上的所有回复时 |
+| 折叠回复 | 当用户单击——或折叠链接以查看顶级帖子上的所有回复时 |
+| FlagClick | 每当用户打开标志模态时 |
+| FlagSpam | 当用户将内容标记为垃圾信息时 |
+| FlagSarove | 当用户将内容标记为不同意 |
+| FlagOffensive | 当用户将内容标记为冒犯性时 |
+| FlagOffTopic | 当用户将内容标记为关闭主题时 |
+| 标记取消 | 用户在提交标记时单击X或“取消” |
+| FollowCollection | 随时进行对话（“我对评论感兴趣”） |
+| UnfollowCollection | 当取消对话时 |
+| 请求更多 | 每当用户在应用程序中加载更多内容时（也需要实现高速） |
+| ModalView | 用户单击鼠标以在模态中查看内容 |
+| TwitterRetweetClick | 将内容共享到的位置：转推 |
+| PostButtonClick | 当用户单击帖子时（“您在想什么？”）按钮 |
+| 登录 | 用户登录的任何时间 |
+| 注销 | 用户在任何时间注销 |
 
-以下是Livefyre提供的转化变量(eVar)列表。
+以下是Livefyre提供的转换变量(eVar)列表。
 
 ## 转换变量- eVar
 
-| Event | 描述 |
+| 事件 | 描述 |
 |--- |--- |
 | 网络ID | Livefyre中的网络ID/名称 |
-| App ID | 应用程序的URN |
+| 应用程序 ID | 应用程序的URN |
 | 上下文ID | Livefyre中的内容ID |
-| 应用程序类型 | Livefyre App Type。选项： <br><ul><li>Live Blog  </li><li> 功能卡</li><li>Carousel</li><li>聊天 </li><li>注释</li><li>幻灯片</li><li>地图</li><li>Mosaic</li><li>媒体墙</li><li>趋势趋势</li><li>上传按钮</li></ul> |
-| 内容类型 | Instagram、Twitter、Facebook、Livefyre、YouTube等 |
+| 应用程序类型 | Livefyre应用程序类型。 选项: <br><ul><li>实时博客  </li><li> 功能卡</li><li>轮播</li><li>聊天 </li><li>注释</li><li>幻灯片</li><li>地图</li><li>马赛克</li><li>媒体墙</li><li>趋势</li><li>上传按钮</li></ul> |
+| 内容类型 | Instagram、Twitter、Facebook、LiveFyre、YouTube等 |
 
 ## 更多信息 {#section_b3d_4yl_pdb}
 
-有关此页面上讨论的主题的详细信息，请参阅：
+有关本页讨论主题的详细信息，请参阅：
 
-* [Report Suite ManagerDTM](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)[](https://marketing.adobe.com/resources/help/en_US/livefyre/c_filmstrip_app.html)
+* [Report Suite](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)[ManagerDTM](https://marketing.adobe.com/resources/help/en_US/livefyre/c_filmstrip_app.html)
 
 * [规则](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
-* [Livefyre. js](/help/implementation/c-livefyre.js.md)
+* [Livefyre.js](/help/implementation/c-livefyre.js.md)
