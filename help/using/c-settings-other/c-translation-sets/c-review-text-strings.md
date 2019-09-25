@@ -4,7 +4,7 @@ seo-description: 自定义Livefyre审阅的文本字符串。
 seo-title: 审阅文本字符串
 solution: Experience Manager
 title: 审阅文本字符串
-uuid: 86251e49-bc73-4eec-9f9 b-b4 b0 a5 b42099
+uuid: 86251e49-bc73-4eec-9f9b-b4b0a5b42099
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
@@ -15,13 +15,13 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 
 自定义Livefyre审阅的文本字符串。
 
-此页面列出并描述了可在审核应用程序中自定义的字符串。此处列出的字符串还为Livefyre核心应用程序的默认字符串以及字符串自定义中列出的默认字符串。列出重复项时，这些表中列出的字符串是评论应用程序的默认值。
+本页列出并描述了在“审阅”应用程序中可进行自定义的字符串。 此处列出的字符串是Livefyre核心应用程序的默认字符串的附加字符串，并覆盖这些字符串，这些字符串在“字符串自定义”中列出。 在列出重复项的位置，这些表中列出的字符串是“审阅”应用程序的默认值。
 
-实施审阅/分级界面流信息作者/内容信息用户操作帖子功能错误
+实施审查／评级界面流信息作者／内容信息用户操作发布功能错误
 
 ## 实施 {#section-vsy-1k4-xz}
 
-要执行此功能，请传递要覆盖到Javascript配置对象的字符串的一个-1对象映射。如果不提供字段，将使用默认文本。
+要实现此功能，请传递要覆盖的字符串的1-1对象映射到Javascript配置对象。 如果您不提供字段，则将使用默认文本。
 
 示例：
 
@@ -36,122 +36,122 @@ networkConfig["strings"] = customStrings; fyre.conv.load(
 );
 ```
 
-## 审阅/评级界面 {#section_iyv_zj4_xz}
+## 审阅／评级界面 {#section_iyv_zj4_xz}
 
-可用于审核和评级用户界面的字符串。
+可用于“审阅”和“评级”用户界面的字符串。
 
-| Element | Key | 默认文本 |
+| 元素 | 键 | 默认文本 |
 |--- |--- |--- |
-| 按钮 | editReviewBtn | 编辑评论 |
-|  | reviewBtn | [编写评论](https://d.pr/i/QscA) |
-|  | reviewsClosed | [已关闭审阅](https://d.pr/i/zr7M) |
-|  | showReviewBtn | [显示评论](https://d.pr/i/onxU) |
-|  | 关注 | 我很感兴趣 |
-|  | ShareText | 我刚刚编写了评论。来看一看吧！ |
-| 评级工具提示 | RatingValues | 数组。默认= `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`； <br>注意：必须重复数组中的值，以将每个星形的左侧和右半部分分配给同一个名称。 |
-| 评级子部分 | RatingSubpartplaceHolders | 数组。默认值= `[]` |
-|  | RatingSubpartTitles | 数组。默认值= `[]` |
-|  | reviewStreamTitle | 默认为空。评论摘要部分的标题。 |
-| Misc | 平均值创建 | [平均用户等级](https://d.pr/i/QscA) |
-|  | BreakDownHeader | [评级细分](https://d.pr/i/QscA) |
-|  | 有帮助 | %s的%s发现有帮助 |
-|  | HelpFulcomple | %s的%s发现有帮助 |
-|  | Of Of | / |
-|  | RatingType | 星形 |
+| 按钮 | editReviewBtn | 编辑审阅 |
+|  | reviewBtn | [编写审阅](https://d.pr/i/QscA) |
+|  | reviewsClosed | [已结束审阅](https://d.pr/i/zr7M) |
+|  | showReviewBtn | [显示审阅](https://d.pr/i/onxU) |
+|  | flow | 我感兴趣 |
+|  | shareText | 我刚写了个评论。 看看！ |
+| 评级工具提示 | ratingValues | 数组. 默认值= `[‘Poor’, ‘Poor’, ‘Fair’, ‘Fair’, ‘Average’, ‘Average’, ‘Good’, ‘Good’, ‘Excellent’, ‘Excellent’]`; 注 <br>意：必须复制数组中的值，才能将每颗星的左半部分和右半部分指定为相同的名称。 |
+| 等级子部分 | ratingSubpartPlaceholder | 数组. 默认 = `[]` |
+|  | ratingSubpartTitles | 数组. 默认 = `[]` |
+|  | reviewStreamTitle | 默认情况下为空。 审阅摘要部分的标题。 |
+| Misc | averageRating | [平均用户评级](https://d.pr/i/QscA) |
+|  | breakdownHeader | [评级细分](https://d.pr/i/QscA) |
+|  | 帮助 | %s（已找到%s） |
+|  | hallibedPlural | %s（已找到%s） |
+|  | outOf | / |
+|  | ratingType | 星星 |
 
 ## 流信息 {#section_wmv_yj4_xz}
 
 可用于内容流信息和显示的字符串。
 
-| Element | Key | 默认文本 |
+| 元素 | 键 | 默认文本 |
 |---|---|---|
-| 排序 | SortBy | 默认为空。 |
-|  | Sorthighead | [最高评级](https://d.pr/i/huTd) |
-|  | SortLoweSoft | [最低评级](https://d.pr/i/huTd) |
-|  | SortmosThelpul | [最有帮助的](https://d.pr/i/huTd) |
-| 流错误。 | Showmore | 显示更多 |
-| 流高速 | NewComment | 新评论 |
-|  | News Comments | 新评论 |
-| 监听器计数 | listenerCount | 人物监听 |
-|  | listenerCountMultiple | 用户聆听 |
-| 注释计数 | commentCountLabel | LivereViews<strong> | </strong>%s |
-|  | CommentCountLabelMultiple | LivereViews<strong> | </strong>%s |
-| 注释通知计数 | CommentNotifier | 新评论 |
-|  | CommentNotifierMultiple | 新评论 |
+| 排序 |  sortBy | 默认情况下为空。 |
+|  | sortHighestRadied | [最高评级](https://d.pr/i/huTd) |
+|  | sortNeethAdaided | [最低评级](https://d.pr/i/huTd) |
+|  | sortMostHalpied | [最有帮助](https://d.pr/i/huTd) |
+| 流杂项 | showMore | 显示更多 |
+| 流高速 | newComment | 新评论 |
+|  | newComments | 新评论 |
+| 监听器计数 | listenerCount | 监听 |
+|  | listenerCountPlural | 倾听 |
+| 评论计数 | commentCountLabel | LiveReviews<strong> | </strong>%s |
+|  | commentCountLabelPlural | LiveReviews<strong> | </strong>%s |
+| 注释通知程序计数 | commentNotifier | 新评论 |
+|  | commentNotifierPlural | 新评论 |
 
-## 作者/内容信息 {#section_osx_xj4_xz}
+## 作者／内容信息 {#section_osx_xj4_xz}
 
-可用于创作和个人内容信息。
+提供作者和个人内容信息。
 
-| Element | Key | 默认文本 |
+| 元素 | 键 | 默认文本 |
 |---|---|---|
 | 线程分组讨论 | reviewsContentNotFoundMsg | [此审阅不再可见](https://d.pr/i/svXs) |
-|  | 背景注释 | 返回审阅 |
+|  | backToComments | 返回审阅 |
 
 ## 用户操作 {#section_tlx_wj4_xz}
 
-可用于用户操作的字符串：标记、共享和标记现有内容非常有用。
+可用于用户操作的字符串：标记、共享和标记现有内容很有帮助。
 
-| Element | Key | 默认文本 |
+| 元素 | 键 | 默认文本 |
 |---|---|---|
-| 评论页脚 | wasreviewHelpful | [有帮助？](https://d.pr/i/Q0mA) |
-|  | wasreviewHilpFulmobile | 有帮助？ |
-|  | ownwasreviewHelpful | [发现有用。](https://d.pr/i/Q0mA) |
-|  | ReviewWasHelp | [是](https://d.pr/i/Q0mA) |
-|  | HelpFuldider | [&amp; amp；vert；](https://d.pr/i/Q0mA) |
-|  | ReviewWasnotHelpul | [否](https://d.pr/i/Q0mA) |
-| 投票模式 | VOTitle | 此审阅是否有用？ |
-|  | 技术投票 | 否 |
-|  | vterePlyTitle | 此回复是否有用？ |
-|  | VOTitle | 此注释是否有用？ |
-|  | VoTeup投票 | 是 |
-| 标记模式 | Flagtitle | 标记%s的审阅 |
-|  | FlagsuccessMsg | 已对审阅进行了标记。 |
-| Flag Mobile | 标记确认消息 | 将%s的审阅标记为%s？ |
-| 提及模式 | mentionDefaultText | 我在Livefyre审阅中提及了您！ |
-| 共享模式 | ShareTitle | 共享审阅 |
+| 注释页脚 | wasReviewHalbid | [有帮助吗？](https://d.pr/i/Q0mA) |
+|  | wasReviewHalbedMobile | 有帮助吗？ |
+|  | ownWasReviewHallibed | [发现有帮助。](https://d.pr/i/Q0mA) |
+|  | reviewWasHalbid | [是](https://d.pr/i/Q0mA) |
+|  | hallibedDivider | [&amp;vert;](https://d.pr/i/Q0mA) |
+|  | reviewWasNotHalpid | [否](https://d.pr/i/Q0mA) |
+| 投票模式 | voteTitle | 此评论是否有用？ |
+|  | voteDownvote | 否 |
+|  | voteReplyTitle | 这个答复有帮助吗？ |
+|  | voteTitle | 此评论有帮助吗？ |
+|  | voteUpvote | 是 |
+| 旗标模式 | flagTitle | 标记%s的审阅 |
+|  | flagSuccessMsg | 已标记审阅。 |
+| 标记移动 | flagConfirmationMessage | 是否将%s的审阅标记为%s? |
+| 提及模态 | 提及DefaultText | 我在Livefyre评论中提到过您！ |
+| 共享模式 | shareTitle | 共享审阅 |
 
-## 发布函数 {#section_yl1_wj4_xz}
+## 帖子功能 {#section_yl1_wj4_xz}
 
-可供用户发布评论的字符串。
+可用于发布审阅的用户的字符串。
 
-| Element | Key | 默认文本 |
+| 元素 | 键 | 默认文本 |
 |---|---|---|
-| 编辑者 | bodyplaceHolder | 编写评论… |
-|  | PostEditButton | 编辑 |
-|  | PostEditSeButton | 取消 |
-|  | PostSutton | 将审阅发布为… |
-|  | PostButton | 发布评论 |
-|  | podStreplasButton | 发布为… |
-|  | podStreplyButton | Post |
-|  | ShareButton | Share |
-|  | titleplaceHolder | 标题… |
+| 编辑者 | bodyPlaceholder | 编写审阅…… |
+|  | postEditButton | 编辑 |
+|  | postEditCancelButton | 取消 |
+|  | postAsButton | 将审阅发布为…… |
+|  | postButton | 帖子评论 |
+|  | postReplyAsButton | 发布为…… |
+|  | postReplyButton | 帖子 |
+|  | shareButton | 共享 |
+|  | titlePlaceholder | 标题… |
 
 ## 错误 {#section_jbc_vj4_xz}
 
-可用于一般错误消息的字符串。
+可用于常规错误消息的字符串。
 
-| Element | Key | 默认文本 |
+| 元素 | 键 | 默认文本 |
 |---|---|---|
-| 错误 | ErroralreadyPublished | 您只能发布一个审阅。 |
-|  | ErrorAutoError | 您无权在此对话中发表评论 |
-|  | errorcommentsNowAllowed | 此时无法发布评论 |
-|  | 错误的注释 | 您不能喜欢自己的审阅 |
-|  | ErrorDuplicate | 只要您喜欢审阅，就不能再将其发布两次。 |
-|  | ErrorEditDuplicate | 编辑时，必须更改审阅的正文。 |
-|  | errorEditNowAllowed | 您不能编辑此对话的评论。 |
-|  | errorEditTime已超出 | 抱歉，您的审阅编辑期已过期。 |
-|  | errorEmpty | 似乎您正在尝试发布空审阅。 |
-|  | errorempty标题 | 好像您正在尝试发布空标题 |
-|  | errorField | 星形评级 |
-|  | ErrorField审阅 | review |
-|  | errorField标题 | title |
-|  | errorMaxChars | 抱歉，您的审阅太长了。请编辑并重试。 |
+| 错误 | errorAlreadePosted | 您只能发布一个审阅。 |
+|  | errorAuthError | 您无权对此对话发布评论 |
+|  | errorCommentsNotAllowed | 此时无法发布评论 |
+|  | errorDislokeOwnComment | 您不能不喜欢自己的审阅 |
+|  | errorDuplicate | 尽管您喜欢评论，但您不得发布两次。 |
+|  | errorEditDuplicate | 编辑审阅时，必须更改其正文。 |
+|  | errorEditNotAllowed | 不允许您编辑此对话的评论。 |
+|  | errorEditTimeExceeded | 抱歉，您的审阅编辑期已到期。 |
+|  | errorEmpty | 您似乎在尝试发布空审阅。 |
+|  | errorEmptyTitle | 您似乎在尝试发布空标题 |
+|  | errorFieldRating | 星级 |
+|  | errorFieldReview | 审查 |
+|  | errorFieldTitle | title |
+|  | errorMaxChars | 抱歉，您的评论太长。 请编辑并重试。 |
 |  | errorMissingFields | 请输入 |
-|  | errorRatingEmpty | 您无法提交空评级 |
-|  | ErrorRatingNotSet | 必须设置所有评级 |
-|  | errorRatingNotValid | 评级必须是对象 |
-|  | ErrorShowmore | 加载更多评论时出错。 |
-|  | ErrortitlamaChars | 抱歉，您的标题太长了。请编辑并重试。 |
-|  | 错误注释 | 您无法根据自己的审阅投票 |
+|  | errorRatingEmpty | 不能提交空评级 |
+|  | errorRatingNotSet | 必须设置所有评级 |
+|  | errorRatingNotValid | 等级必须为对象 |
+|  | errorShowMore | 加载更多审阅时出错。 |
+|  | errorTitleMaxChars | 抱歉，您的标题太长。 请编辑并重试。 |
+|  | errorVoteOwnComment | 您不能对自己的审阅投票 |
 
