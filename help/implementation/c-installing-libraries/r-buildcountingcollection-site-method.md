@@ -1,8 +1,8 @@
 ---
-description: 返回实例化为计数类型的Collection对象。从Collection对象运行create_ or_ update()以完成构建过程。
-seo-description: 返回实例化为计数类型的Collection对象。从Collection对象运行create_ or_ update()以完成构建过程。
-seo-title: buildCountCollection站点方法
-title: buildCountCollection站点方法
+description: 返回实例化为计数类型的Collection对象。 从Collection对象运行create_or_update()以完成构建过程。
+seo-description: 返回实例化为计数类型的Collection对象。 从Collection对象运行create_or_update()以完成构建过程。
+seo-title: buildCountingCollection站点方法
+title: buildCountingCollection站点方法
 uuid: e293d66a-0025-4230-997e-295ce4625713
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -10,14 +10,14 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# buildCountCollection站点方法{#buildcountingcollection-site-method}
+# buildCountingCollection站点方法{#buildcountingcollection-site-method}
 
-返回实例化为计数类型的Collection对象。从Collection对象运行create_ or_ update()以完成构建过程。
+返回实例化为计数类型的Collection对象。 从Collection对象运行create_or_update()以完成构建过程。
 
-| 变量 | Type | 描述 |
+| 变量 | 类型 | 描述 |
 |--- |--- |--- |
 | title | 字符串 | 集合的标题。 |
-| articleID | 字符串 | 您选择在站点内识别集合的唯一文章ID。 |
+| articleId | 字符串 | 您选择的唯一文章ID，用于标识站点中的集合。 |
 | url | 字符串 | 此集合的规范绝对URL。 |
 
 ## Java示例 {#section_nyl_ycs_rz}
@@ -44,7 +44,7 @@ $collection = site->buildCountingCollection(title, articleId, url);
 collection = site.build_counting_collection(title, articleId, url) 
 ```
 
-## 拼音示例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 collection = site.build_counting_collection(title, articleId, url) 
