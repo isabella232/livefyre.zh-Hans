@@ -1,19 +1,19 @@
 ---
-description: 尝试使用Livefyre创建或更新此集合。返回此Collection对象。
-seo-description: 尝试使用Livefyre创建或更新此集合。返回此Collection对象。
-seo-title: CreateOrUpdate集合方法
+description: 尝试使用Livefyre创建或更新此集合。 返回此Collection对象。
+seo-description: 尝试使用Livefyre创建或更新此集合。 返回此Collection对象。
+seo-title: createOrUpdate Collection方法
 solution: Experience Manager
-title: CreateOrUpdate集合方法
-uuid: 1fff82d3-4b05-46a0-95ca-3eb4a6256cf8
+title: createOrUpdate Collection方法
+uuid: 1ff82d3-4b05-46a0-95ca-3eb4a6256cf8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# CreateOrUpdate集合方法{#createorupdate-collection-method}
+# createOrUpdate Collection方法{#createorupdate-collection-method}
 
-尝试使用Livefyre创建或更新此集合。返回此Collection对象。
+尝试使用Livefyre创建或更新此集合。 返回此Collection对象。
 
 ## Java示例 {#section_nyl_ycs_rz}
 
@@ -39,7 +39,7 @@ $collection->createOrUpdate();
 collection.create_or_update() 
 ```
 
-## 拼音示例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 collection.create_or_update 
