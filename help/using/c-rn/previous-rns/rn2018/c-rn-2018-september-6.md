@@ -1,60 +1,60 @@
 ---
-description: 2018年月日发行说明。
-seo-description: 2018年月日发行说明。
-seo-title: 2018年月日
+description: 2018年9月6日版本的发行说明。
+seo-description: 2018年9月6日版本的发行说明。
+seo-title: 2018 年 9 月 6 日
 solution: Experience Manager
-title: 2018年月日
-uuid: 8dbe be0-cc3 c-4d96-af56-1808d8555 af3
+title: 2018 年 9 月 6 日
+uuid: 8dbe8be0-cc3c-4d96-af56-1808d855af3
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ---
 
 
-# 2018年月日{#september}
+# September 6, 2018{#september}
 
-2018年月日发行说明。
+2018年9月6日版本的发行说明。
 
 ## 新增功能 {#section_syx_mdt_wcb}
 
-此版本的生产版本中发布了以下新增功能：
+此版本的生产版本中发布了以下新功能：
 
-* [Experience Manager Livefyre](/help/using/c-features-livefyre/c-call-to-action-button.md#topic_EBE23A0F827645E0A0C619DCF3872EE5) 中的自定义行动号召(CTA)按钮
+* [Experience Manager Livefyre中的自定义行动动员(CTA](/help/using/c-features-livefyre/c-call-to-action-button.md#topic_EBE23A0F827645E0A0C619DCF3872EE5) )按钮
 
-   Experience Manager Livefyre中新增的自定义行动动员按钮可将网站上的UGC转变为可指导您的业务前进的切实可行体验。使用自定义CTA按钮提高销售额、捕获潜在客户、推动更深入的参与度或激发您希望受众采取的任何行动。自定义CTA按钮使您能够：
+   Experience Manager Livefyre中新增的自定义行动动员按钮可将您网站上的UGC转变为可指导您业务前进的可操作体验。 使用自定义CTA按钮增加销售、捕获潜在客户、推动更深入的参与度，或激发您希望受众采取的任何行动。 自定义CTA按钮允许您：
 
-   * 将自定义按钮添加到Livefyre媒体墙、马赛克、轮盘、胶片以及各个功能卡中的任何UGC片段。
-   * 完全控制UGC每块中的按钮、消息、图标、颜色和链接数量。
-   * 在设置和库中创建、管理和重用自定义行动动员。
-   * 使用Adobe Analytics衡量点击率。
+   * 在Livefyre媒体墙、拼贴画、轮盘、电影胶片以及各个功能卡上的任何UGC中添加自定义按钮。
+   * 全面控制每段UGC上的按钮、消息、图标、颜色和链接的数量。
+   * 在设置和库中创建、管理和重用自定义的动作调用。
+   * 使用Adobe Analytics衡量点进率。
 
-* [智能标签](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags) 增强功能
+* [智能标记增强功能](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags) (Smart Tags)
 
-   * 上传文件的智能标签：我们增加了通过“所有资产”中的上传功能(如来自Google Drive、Dropbox、Flickr等)上载到库上的Smart Tag图像的功能。
-   * 工作(SFTP)和不安全的工作(NSFW)智能标签：通过Livefyre进行的图像现在由AI支持的响度检测系统标记，并使您能够灵活地自动过滤NSFW图像，从而提高流和UGC库的安全性。
+   * 已上载文件的智能标记：我们添加了通过“所有资产”中的上传功能上传到库的智能标记图像的功能，如Google Drive、Drop-Box、Flickr等文件。
+   * 安全工作(SFW)和不安全工作(NSFW)智能标记：通过Livefyre整理的图像现在由人工智能支持的裸体检测系统标记，使您能够灵活地自动过滤NSFW图像，从而提高流和UGC库的安全性。
 
-      * 在保存时，通过“社交搜索”或“流”调出的图像由响度检测系统进行分类。
-      * 能够按SFW/NSFW标签筛选库以加快UGC管理。
-      * 能够从流自动删除NSFW UGC。
+      * 通过社交搜索或流整理的图像在保存时通过光度检测系统进行分类。
+      * 能够按SFW/NSFW标记过滤库以加快UGC管理。
+      * 能够从流中自动删除NSFW UGC。
 
-## 期刊 {#section_ehw_ndt_wcb}
+## 问题 {#section_ehw_ndt_wcb}
 
-此版本的生产版本中解决了以下表中的问题。
+以下表中的问题在此版本的生产版本中已得到解决。
 
-## Production Release
+## 生产版本
 
-| **期刊类型** | **组件** | **发行说明** |
+| **问题类型** | **组件** | **发行说明** |
 |---|---|---|
-| Bug | 注释 | 修复了音频文件在评论应用程序中无法正常播放的问题。 |
-| Bug | 库 | 修复了在卡片显示图像而非视频时，使用库URL搜索搜索Instagram时在缩略图上方显示一个播放按钮的问题。 |
-| Bug | 库 | 修复了将内容发布到执行Instagram URL搜索所获得的应用程序时不显示缩略图的问题。 |
-| Bug | 库 | 修复了一个问题，该问题导致在向资产添加产品后，打开该资产的详细信息，然后单击转换选项卡，该资产的产品不会显示。 |
+| 错误 | 注释 | 修复了音频文件在注释应用程序中无法正常播放的问题。 |
+| 错误 | 库 | 修复了使用库URL搜索在Instagram中搜索时，卡片显示图像（而非视频）时缩略图上显示播放按钮的问题。 |
+| 错误 | 库 | 修复了将内容发布到通过执行Instagram URL搜索获得的应用程序时不显示缩略图的问题。 |
+| 错误 | 库 | 修复了在将产品添加到资产后，打开该资产的详细信息，然后单击转换选项卡，该资产的产品不显示的问题。 |
 
 ## UAT版本 {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
-此版本的UAT版本中解决了以下表中的问题。
+在此版本的UAT版本中，已解决下表中的问题。
 
-| **期刊类型** | **组件** | **发行说明** |
+| **问题类型** | **组件** | **发行说明** |
 |---|---|---|
-| Bug | 社交组件：媒体上传 | 修复了用户无法按预期将媒体上载到幻灯片的问题。 |
+| 错误 | 社交组件：媒体上传 | 修复了用户无法按预期方式将媒体上传到幻灯片的问题。 |
 
