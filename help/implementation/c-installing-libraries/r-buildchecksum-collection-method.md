@@ -1,17 +1,17 @@
 ---
 description: 返回此集合的校验和。
 seo-description: 返回此集合的校验和。
-seo-title: BuildCheckSum集合方法
+seo-title: buildChecksum收集方法
 solution: Experience Manager
-title: BuildCheckSum集合方法
-uuid: 692e8e13-618-4e38-abc8-7cf49 bebde9 c
+title: buildChecksum收集方法
+uuid: 692e8e13-6218-4e38-abc8-7cf49bebde9c
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# BuildCheckSum集合方法{#buildchecksum-collection-method}
+# buildChecksum收集方法{#buildchecksum-collection-method}
 
 返回此集合的校验和。
 
@@ -63,7 +63,7 @@ collection.build_checksum()
 6e2e4faf7b95f896260fe695eafb34ba 
 ```
 
-## 拼音示例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 collection.build_checksum
