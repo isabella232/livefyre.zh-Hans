@@ -1,20 +1,20 @@
 ---
-description: Livefyre2017年月10日发行说明发行说明。
-seo-description: Livefyre2017年月10日发行说明发行说明。
+description: Livefyre 2019年1月10日版本的发行说明。
+seo-description: Livefyre 2019年1月10日版本的发行说明。
 seo-title: 发行说明
 solution: Experience Manager
 title: 发行说明
-uuid: 34e64943-dea6-46ac-9cfc-8febeab6 aa42
+uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
+source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ---
 
 
-# 发行说明-2019年月10日 {#rn011019}
+# 发行说明- 2019年1月10日 {#rn011019}
 
-**2019年月10日更新发行说明。**
+**2019年1月10日更新的发行说明。**
 
 ## 错误修复
 
-* 修复了某些应用程序内容在设计器UI中无法显示的问题。
+* 修复了某些应用程序内容未在设计器UI中显示的问题。
