@@ -1,9 +1,9 @@
 ---
 description: 此方法返回此网络用户的URN。
 seo-description: 此方法返回此网络用户的URN。
-seo-title: getTurforUser Network方法
+seo-title: getUrnForUser network方法
 solution: Experience Manager
-title: getTurforUser Network方法
+title: getUrnForUser network方法
 uuid: b70b8b0f-2b3a-4a1d-90d0-93a97a137ad4
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
@@ -11,13 +11,13 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 ---
 
 
-# getTurforUser Network方法{#geturnforuser-network-method}
+# getUrnForUser network方法{#geturnforuser-network-method}
 
 此方法返回此网络用户的URN。
 
-| 变量 | Type | 描述 |
+| 变量 | 类型 | 描述 |
 |--- |--- |--- |
-| userID | 字符串 | 要在URN中使用的userID。 |
+| userId | 字符串 | 要在URN中使用的userId。 |
 
 ## Java示例 {#section_nyl_ycs_rz}
 
@@ -67,7 +67,7 @@ network.get_urn_for_user(userId)
 "urn:livefyre:network=`example.fyre.co`:user=tester" 
 ```
 
-## 拼音示例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 network.get_urn_for_user(userId) 
