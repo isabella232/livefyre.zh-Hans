@@ -1,76 +1,76 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 向页面添加引用
+seo-title: 向页面添加指示符
 solution: Experience Manager
-title: 向页面添加引用
-uuid: 6499c45a-3773-4adb-a6 c7-22a628309 afd
+title: 向页面添加指示符
+uuid: 6499c45a-3773-4adb-a6c7-22a628309afd
 translation-type: tm+mt
 source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
 
 ---
 
 
-# 向页面添加引用 {#adding-sidenotes-to-a-page}
+# 向页面添加指示符 {#adding-sidenotes-to-a-page}
 
-Livefyre提供了多个配置选项，用于在页面上放置SideNote：
+Livefyre提供了多个配置选项，用于将Siestrop定位到您的页面上：
 
-* 选择器选项定义应显示Siten说明的元素。
-* 锚点代表可显示的元素。
-* 自定义线程容器允许您定义Sidenes线程将与显示的内容相关的位置。
-* 使用“席位数”选项可显示在给定位置添加的席位数。
-* 使用多 `ConvConfig` 个对象在单个页面上将Siden表示添加到多篇文章。
+* “选择器”选项定义了Sideras应显示的元素。
+* 锚点表示可表示的元素。
+* 自定义线程容器允许您定义指示线程相对于所指示内容的位置。
+* “Sidesork计数”选项允许您显示在给定位置添加的Sidesork数。
+* 使用多个 `ConvConfig` 对象将指示符添加到单个页面上的多篇文章。
 
 ## 选择器 {#section_wyj_4sv_sy}
 
-选择器选项允许SiteNote在页面上查找内容。此选项的值允许您动态确定将使用的元素。它可以是选择器字符串(如“# content p、# content img”)、一个jQuery对象(如 `$(‘#content’)`)、DOM元素数组或具有两个属性的对象：包括和排除。Siten表示应用程序随后将在页面上使用指定元素或匹配元素。如果使用了包括和排除属性，则SiteNote首先将解析页面以查找包含属性上的所有元素，然后删除在exclude属性上找到的任何元素。
+选择器选项使Sidesor能够查找页面上的内容。 此选项的值允许您动态确定将使用的元素。 它可以是选择器字符串（如“#content p, #content img”）、jQuery对象(如 `$(‘#content’)`)、DOM元素数组或具有两个属性的对象：包括和排除。 随后，指示应用程序将使用页面上的指定元素或匹配元素。 如果使用include和exclude属性，则Sidestrov将首先解析页面以查找include属性上的所有元素，然后删除在exclude属性上找到的所有元素。
 
 ## 锚点 {#section_ehq_psv_sy}
 
-锚点代表一个元素，其内容可以为siteded。锚点元素可包含文本或图像。在应用程序构建过程中传递的选择器选项将决定锚点元素。
+锚点表示其内容可以指示的元素。 锚点元素可以包含文本或图像。 应用程序构建过程中传递的选择器选项将确定锚点元素。
 
 ## 锚点ID {#section_rsb_rsv_sy}
 
-页面上的锚点使用 `data-lf-anchor-id`a.
+页面上的锚点使用 `data-lf-anchor-id`。
 
-要自行设置锚点的ID，请向要映射到锚点的元素添加属性 `data-lf-custom-anchor-id` 。当锚点自动检测失败时，此功能非常有用。
+要自行设置锚点的ID，请将属 `data-lf-custom-anchor-id` 性添加到要映射到锚点的元素。 当锚点的自动检测失败时，这非常有用。
 
-例如，如果您计划对图像的桌面和移动版本使用不同的URL，则可能会将两个不同的URL映射到不同的锚点。如果相反，您的HTML在 `data-lf-custom-anchor-id` 移动和桌面设备上提供相同的内容，那么图像元素将视为单一锚点。
+例如，如果您计划对图像的桌面和移动版本使用不同的URL，则两个不同的URL可能会映射到不同的锚点。 相反，如果HTML在移动和桌 `data-lf-custom-anchor-id` 面上提供的内容相同，则图像元素将被视为单个锚点。
 
-锚点的类型是动态确定的，但也可以使用 `data-lf-custom-anchor-type` 属性显式设置。
+锚点的类型是动态确定的，但也可以使用属性显式设置 `data-lf-custom-anchor-type` 类型。
 
 >[!NOTE]
 >
 >必须使用枚举编号值。
 
-可用类型有：
+可用类型包括：
 
-* **文本：** 1
-* **图像：** 2
-* **媒体：** 3
-* **丰富：** 个
+* **** 文本：1
+* **** 图像：2
+* **** 媒体：3
+* **** 丰富：4
 
-有关 [如何使用](/help/implementation/c-app-integrations/c-sidenotes-integration/update-anchors-method.md)`updateAnchors` 方法向页面动态添加SitenOte内容的更多信息，请参阅updateAnchors方法。
+有关如 [何使用方法将Sitexer内容动态添加到页](/help/implementation/c-app-integrations/c-sidenotes-integration/update-anchors-method.md)`updateAnchors` 面的更多信息，请参阅updateAnchors方法。
 
 ## 自定义线程容器 {#section_jdh_btv_sy}
 
-使用该 `threadContainerEl` 选项指定SiteNote线程的位置，而非默认位置。默认情况下，当锚点被激活时，Sideon表示将显示在相关内容的旁边或下方。要更改此默认值，请使用应 `threadContainerEl` 显示线程的元素。
+使用选 `threadContainerEl` 项可指定“指示”线程的位置，而不是默认位置。 默认情况下，当锚点被激活时，指示器将显示在相关内容旁边或下方。 要更改此默认值，请 `threadContainerEl` 使用指定线程应显示的元素。
 
-此选项的值与选择器选项的作用相同，只是将仅使用第一个有效元素。
+此选项的此值与选择器选项的工作方式相同，只是使用第一个有效元素。
 
-## Siten表示计数 {#section_pld_ntv_sy}
+## Sidesk计数 {#section_pld_ntv_sy}
 
-使用 `numSidenotesEl` 选项在页面上嵌入可选的Sidones计数构件。此选项接受与选择器选项相同的输入，但只使用输入数组中的第一个有效元素。
+使用该选 `numSidenotesEl` 项在您的页面上嵌入一个可选的Sidesork计数构件。 此选项接受与选择器选项相同的输入，但将仅使用输入数组中的第一个有效元素。
 
-构件将装饰提供的或匹配的元素，并将包括Siden表示输入图标、在此位置输入的席位数和帮助图标。
+构件将装饰提供或匹配的元素，并将包括Sidesr输入图标、在此位置输入的Sidesr数量和帮助图标。
 
-单击该构件将显示一个弹出窗口，其中包含SiteNote简短说明以及如何使用它们。
+单击构件将显示一个快显窗口，其中简要说明了“指示”以及如何使用这些指示。
 
-解释和示例文本都可使用自定义字符串( `questionExplanation` 以及 `questionMockText`分别)进行配置。计数构件的外观和弹出窗口也可以使用自定义样式( `numSidenotes` 并且 `numSidenotesPopover`分别使用)进行配置。
+说明和示例文本都可使用自定义字符串( `questionExplanation` 和 `questionMockText`分别)进行配置。 计数构件和弹出窗口的外观也可以使用自定义样式( `numSidenotes` 和 `numSidenotesPopover`分别)配置。
 
-## 向单个页面添加多个集合 {#section_pjl_ptv_sy}
+## 添加多个站点表示集合到单个页面 {#section_pjl_ptv_sy}
 
-Livefyre允许您将多个集合添加到单个页面。例如，如果页面包含三个新闻故事，您可能希望包含三个单独的Sidenes应用程序迭代。为此，必须为要构建的SiteNote实例定义单独 `ConvConfig` 的对象。例如：
+Livefyre允许您向单个页面添加多个Sidesort集合。 例如，如果页面包含三则新闻，您可能希望包含三个单独的Sidesorf应用程序小版本。 为此，您必须为要构建的Sideram的每个 `ConvConfig` 实例定义一个单独的对象。 例如：
 
 ```
 <html> 
