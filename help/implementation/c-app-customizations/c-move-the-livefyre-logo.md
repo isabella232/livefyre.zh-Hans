@@ -15,9 +15,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 在页面上重新定位Livefyre徽标。
 
-如果您与Livefyre的协议允许，您可以将Livefyre徽标从内容流的顶部移至底部。
+如果您与Livefyre的协议允许，您可以将Livefyre徽标从内容流的顶部移到底部。
 
-例如，将以下HTML添加到紧接Livefyre应用程序元素之后的页面上：
+例如，将以下HTML添加到紧跟包含Livefyre应用程序的元素后的页面：
 
 ```
 <div id="powered_by_livefyre_new"><a href="https://livefyre.com" target="_blank">Powered by Livefyre</a></div>
