@@ -1,45 +1,45 @@
 ---
-description: 2018年月23日发行说明。
-seo-description: 2018年月23日发行说明。
+description: 2018年8月23日版本的发行说明。
+seo-description: 2018年8月23日版本的发行说明。
 seo-title: 2018 年 8 月 23 日
 solution: Experience Manager
 title: 2018 年 8 月 23 日
-uuid: 668058d8-cd31-416e-afc3-eAF158109 e3 e
+uuid: 668058d8-cd31-416e-afc3-eaf158109e3e
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 ---
 
 
-# 2018年月23日{#august}
+# August 23, 2018{#august}
 
-2018年月23日发行说明。
+2018年8月23日版本的发行说明。
 
 ## 新增功能 {#section_syx_mdt_wcb}
 
-* 为通过FileStack上载到Livefyre Studio库的内容添加了智能标签功能(在所有资产中上传功能)。
-* 添加了“适用于工作的Safe for Work”(SFTP)和“No Safe for Work(NSFW)切换到流”。
+* 为通过FileStack上传到Livefyre Studio库的内容（“所有资产”中的上传功能）添加了智能标记功能。
+* 添加了“工作安全”(SFW)和“工作安全”(NSFW)切换到“流”。
 
-## 期刊 {#section_ehw_ndt_wcb}
+## 问题 {#section_ehw_ndt_wcb}
 
-此版本中解决了以下表中的问题。
+此版本中解决了下表中的问题。
 
-## Production Release
+## 生产版本
 
-| **期刊类型** | **组件** | **发行说明** |
+| **问题类型** | **组件** | **发行说明** |
 |---|---|---|
-| Bug | 注释 | 将快捷链接选项还原到评论和其他对话应用程序的“共享”按钮对话框。 |
-| Bug | GDPR | 修复了某些Instagram视频不显示退出消息的问题。 |
-| Bug | 库 | 修复了用户无法将本机Livefyre视频从Library文件夹发布到App的问题。 |
-| Bug | 库 | 修复了无法将资产保存到文件夹的问题。 |
-| Bug | 库/搜索 | 恢复了在社交搜索中从Instagram搜索URL的功能。 |
-| Bug | Modq | 修复了Modq中的“更多信息菜单”未在预期位置显示的问题。 |
-| Bug | Rights Management | 修复了一个问题，该问题导致已手动授予权限的卡手动显示错误的权限请求状态。 |
-| Bug | Rights Management | 修复了页面滚动时ModQ中的排序应处于固定位置的问题。 |
-| Bug | Storify2 | 修复了Storifify应用程序中的预览缩略图显示错误且仅显示文章的URL(而非文章中的预览缩略图)的问题。 |
-| Bug | Storify2 | 修复了在将Vimeo视频添加到Storify应用程序时缩略图显示条纹而不是预览的问题。 |
-| Bug | 流媒体 | 修复了在暂存环境上查看流的问题。 |
+| 错误 | 注释 | 已将快捷方式选项恢复为评论和其他对话应用程序的“共享”按钮对话框。 |
+| 错误 | GDPR | 修复了某些Instagram视频不显示退出消息的问题。 |
+| 错误 | 库 | 修复了用户无法将本机Livefyre视频从“库”文件夹发布到应用程序的问题。 |
+| 错误 | 库 | 修复了无法将资产保存到文件夹的问题。 |
+| 错误 | 库／搜索 | 恢复了在“社交搜索”中从Instagram搜索URL的功能。 |
+| 错误 | ModQ | 修复了ModQ中的“更多信息”菜单未在预期位置显示的问题。 |
+| 错误 | 权限管理 | 修复了授予权限的卡手动显示错误权限请求状态的问题。 |
+| 错误 | 权限管理 | 修复了页面滚动时ModQ中的排序应处于固定位置的问题。 |
+| 错误 | Storify 2 | 修复了Storify 2应用程序中的预览缩略图显示错误且仅显示URL而不显示文章中的预览缩略图的问题。 |
+| 错误 | Storify 2 | 修复了在将Vimeo视频添加到Storify 2应用程序时，缩略图显示条纹而不是预览的问题。 |
+| 错误 | 流 | 修复了在分阶段环境中查看流的问题。 |
 
 ## UAT版本
 
-UAT版本版本中没有解决新问题。
+在UAT版本发行版中未解决任何新问题。
