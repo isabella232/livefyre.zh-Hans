@@ -1,19 +1,19 @@
 ---
-description: 将导航指南添加到Storify应用程序，以在文章旁的明显位置创建一个包含孤立帖子的列表。
-seo-description: 将导航指南添加到Storify应用程序，以在文章旁的明显位置创建一个包含孤立帖子的列表。
-seo-title: 向Storify添加导航指南
+description: 在Storify 2应用程序中添加导航指南，以在您的故事旁边的一个突出位置创建经过链接的帖子列表。
+seo-description: 在Storify 2应用程序中添加导航指南，以在您的故事旁边的一个突出位置创建经过链接的帖子列表。
+seo-title: 将导航指南添加到故事2
 solution: Experience Manager
-title: 向Storify添加导航指南
-uuid: 2db131b2-54b8-4409-a947-b86169656 CAD
+title: 将导航指南添加到故事2
+uuid: 2db131b2-54b8-4409-a947-b86169656cad
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# 向Storify添加导航指南{#add-a-navigation-guide-to-a-storify}
+# 将导航指南添加到故事2{#add-a-navigation-guide-to-a-storify}
 
-将导航指南添加到Storify应用程序，以在文章旁的明显位置创建一个包含孤立帖子的列表。
+在Storify 2应用程序中添加导航指南，以在您的故事旁边的一个突出位置创建经过链接的帖子列表。
 
-1. 打开Storify故事。
-1. 在Storify App Designer中，切换 **[!UICONTROL Navigation Guide]** 切换。
+1. 打开Storify 2文章。
+1. 在Storify 2 App Designer中，打开切换 **[!UICONTROL Navigation Guide]** 键。
