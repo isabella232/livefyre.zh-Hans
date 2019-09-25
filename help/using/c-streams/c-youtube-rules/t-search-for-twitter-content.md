@@ -1,6 +1,6 @@
 ---
-description: 使用社交搜索搜索要包含在资产库中的Twitter内容或发布到应用程序。
-seo-description: 使用社交搜索搜索要包含在资产库中的Twitter内容或发布到应用程序。
+description: 使用社交搜索搜索搜索要包含在资产库中或发布到应用程序的Twitter内容。
+seo-description: 使用社交搜索搜索搜索要包含在资产库中或发布到应用程序的Twitter内容。
 seo-title: 搜索Twitter内容
 title: 搜索Twitter内容
 uuid: 7e36cc1f-7dce-446b-84b6-22939e8dcaf5
@@ -12,34 +12,34 @@ source-git-commit: 3a50e3cfce40a74ce1ee354a9ce28da17eb85463
 
 # 搜索Twitter内容{#search-for-twitter-content}
 
-使用社交搜索搜索要包含在资产库中的Twitter内容或发布到应用程序。
+使用社交搜索搜索搜索要包含在资产库中或发布到应用程序的Twitter内容。
 
-您可以保存和重复使用搜索。单击搜索栏可查看“最近保存的搜索”和“保存的搜索”列表。
+您可以保存和重用搜索。 单击搜索栏可查看“最近搜索”和“保存的搜索”列表。
 
-当您向库中添加新资产时，库中已经包含的资产标有复选标记。
+向库添加新资源时，库中已包含的资源将标记为复选标记。
 
-1. 导航 **[!UICONTROL Social Search]**到。
+1. 导航到 **[!UICONTROL Social Search]**。
 1. 选择 **[!UICONTROL Twitter]** 以搜索Twitter内容。
-1. 输入关键字、# hashtag或@ person。您可以从搜索栏上的右下拉菜单中选择搜索类型以优化搜索。
+1. 输入关键字、#hashtag或@person。 您可以从搜索栏的右下拉菜单中选择搜索类型以细化搜索。
 
-   * **[!UICONTROL Subject Search:]** 默认情况下，搜索输入文本的所有可用字段。
-   * **[!UICONTROL User Search:]** 搜索输入作者的帖子。
-   * **[!UICONTROL List Search:]** 仅在输入Twitter列表URL中搜索。
+   * **[!UICONTROL Subject Search:]** 默认情况下，将搜索输入文本的所有可用字段。
+   * **[!UICONTROL User Search:]** 按输入作者搜索帖子。
+   * **[!UICONTROL List Search:]** 仅在输入的Twitter列表URL中搜索。
 
-1. 输入搜索条件后，单击 **[!UICONTROL Show Filter]** 以优化搜索。
+1. 输入搜索条件后，单击 **[!UICONTROL Show Filter]** 以细化搜索。
 
-   * **[!UICONTROL Sort By:]** 允许您选择是否按 **[!UICONTROL Recently Added]**或对返回的结果排序 **[!UICONTROL Most Popular]**。
+   * **[!UICONTROL Sort By:]** 允许您选择是按还是按返回的结果 **[!UICONTROL Recently Added]**&#x200B;排序 **[!UICONTROL Most Popular]**。
 
-   * **[!UICONTROL Only Include:]** 允许您将返回的内容仅限制为包含 **[!UICONTROL Links]** 或 **[!UICONTROL Media]**.
+   * **[!UICONTROL Only Include:]** 允许您将返回的内容限制为仅包含或 **[!UICONTROL Links]** 的内 **[!UICONTROL Media]**&#x200B;容
 
-   * **[!UICONTROL Tweet Types:]** 允许您仅限制返回到帖子。
-   * **[!UICONTROL Location:]** 允许您定义包含地理标记内容的半径。使用位置模式进入城市，并使用滑块定义内容的来源半径。
-   * **[!UICONTROL Language:]** 允许您筛选选定的语言。
+   * **[!UICONTROL Tweet Types:]** 允许您将返回限制为仅转推。
+   * **[!UICONTROL Location:]** 允许您定义包含地理标记内容的半径。 使用“位置”模式输入城市，使用滑块定义将来源内容的半径。
+   * **[!UICONTROL Language:]** 允许您过滤为所选语言。
 
       >[!NOTE]
       >
-      >社交搜索支持复杂的Twitter搜索查询以及所有标准Twitter语法输入。默认情况下，多个字符串将视为一个AND查询。单击 **[!UICONTROL info]** 按钮可查看有效输入的示例。
+      >社交搜索支持复杂的Twitter搜索查询和所有标准Twitter语法输入。 默认情况下，多个字符串将被视为AND查询。 单击该 **[!UICONTROL info]** 按钮可查看有效输入的示例。
 
->=返回的结果将从最近到至少列出。
+>=返回的结果将从最近到最少列出。
 
-与搜索匹配的项目会显示在网格视图中。将鼠标悬停在项目上 **[!UICONTROL View Details]**，将其添加到资产库或 **[!UICONTROL Publish]** 应用程序。
+与搜索匹配的项目显示在网格视图中。 将鼠标悬停在项目上 **[!UICONTROL View Details]**&#x200B;方可将其添加到资源库或应用 **[!UICONTROL Publish]** 程序中。
