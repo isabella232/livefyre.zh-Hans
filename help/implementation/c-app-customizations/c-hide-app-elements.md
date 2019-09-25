@@ -4,7 +4,7 @@ seo-description: 从应用程序中删除标准Livefyre应用程序组件。
 seo-title: 隐藏应用程序元素
 solution: Experience Manager
 title: 隐藏应用程序元素
-uuid: ea090b6e-99f5-4bd7-aa9 e-d39 a4 dff1543
+uuid: ea090b6e-99f5-4bd7-aa9e-d39a4dff1543
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
@@ -15,9 +15,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 从应用程序中删除标准Livefyre应用程序组件。
 
-使用CSS隐藏页面中默认的Livefyre应用程序元素，使您能够自定义用户体验以满足您的需求。
+使用CSS在页面中隐藏默认的Livefyre应用程序元素，从而使您能够根据自己的需求自定义用户体验。
 
-要隐藏应用程序中的元素，只需将显示屏设置为无。
+要隐藏应用程序中的元素，只需将显示设置为“无”。
 
 示例：
 
