@@ -1,6 +1,6 @@
 ---
-description: 查看使用此过程添加的自定义HTML添加的注释。
-seo-description: 查看使用此过程添加的自定义HTML添加的注释。
+description: 请参阅由自定义HTML使用此过程添加的注释。
+seo-description: 请参阅由自定义HTML使用此过程添加的注释。
 seo-title: 在Studio中查看自定义HTML注释
 solution: Experience Manager
 title: 在Studio中查看自定义HTML注释
@@ -13,11 +13,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 在Studio中查看自定义HTML注释{#view-custom-html-comments-in-studio}
 
-查看使用此过程添加的自定义HTML添加的注释。
+请参阅由自定义HTML使用此过程添加的注释。
 
 >[!NOTE]
 >
->无法编辑包含HTML代码的注释或使用Studio添加自定义HTML附件。
+>无法使用Studio编辑包含HTML代码的注释或添加自定义HTML附件。
 
-1. Studio会显示带有评论的自定义HTML的预览缩略图。
-1. 单击缩略图以显示完整附件。
+1. Studio显示带有注释的自定义HTML的预览缩略图。
+1. 单击缩略图可显示完整附件。
