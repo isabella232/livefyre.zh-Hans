@@ -1,23 +1,23 @@
 ---
-description: 返回实例化为评级类型的Collection对象。从Collection对象运行create_ or_ update()以完成构建过程。
-seo-description: 返回实例化为评级类型的Collection对象。从Collection对象运行create_ or_ update()以完成构建过程。
-seo-title: BuildRatingSollection站点方法
-title: BuildRatingSollection站点方法
-uuid: 5eea2ba3-48e1-4cd2-aa73-ea81788 af1 df
+description: 返回实例化为评级类型的Collection对象。 从Collection对象运行create_or_update()以完成构建过程。
+seo-description: 返回实例化为评级类型的Collection对象。 从Collection对象运行create_or_update()以完成构建过程。
+seo-title: buildRatingsCollection站点方法
+title: buildRatingsCollection站点方法
+uuid: 5eea2ba3-48e1-4cd2-aa73-ea81788af1df
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ---
 
 
-# BuildRatingSollection站点方法{#buildratingscollection-site-method}
+# buildRatingsCollection站点方法{#buildratingscollection-site-method}
 
-返回实例化为评级类型的Collection对象。从Collection对象运行create_ or_ update()以完成构建过程。
+返回实例化为评级类型的Collection对象。 从Collection对象运行create_or_update()以完成构建过程。
 
-| 变量 | Type | 描述 |
+| 变量 | 类型 | 描述 |
 |--- |--- |--- |
 | title | 字符串 | 集合的标题。 |
-| articleID | 字符串 | 您选择在站点内识别集合的唯一文章ID。 |
+| articleId | 字符串 | 您选择的唯一文章ID，用于标识站点中的集合。 |
 | url | 字符串 | 此集合的规范绝对URL。 |
 
 ## Java示例 {#section_nyl_ycs_rz}
@@ -44,7 +44,7 @@ $collection = site->buildRatingsCollection(title, articleId, url);
 collection = site.build_ratings_collection(title, articleId, url) 
 ```
 
-## 拼音示例 {#section_enh_gds_rz}
+## Ruby示例 {#section_enh_gds_rz}
 
 ```
 collection = site.build_ratings_collection(title, articleId, url) 
