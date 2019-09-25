@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Sid表示自定义字符串
-title: Sid表示自定义字符串
-uuid: 73745273-d3 fb-4556-8910-d147 fb37 a7 b4
+seo-title: Sidesk自定义字符串
+title: Sidesk自定义字符串
+uuid: 73745273-d3fb-4569-8910-d149fb37a7b4
 translation-type: tm+mt
 source-git-commit: 74a63daa264014af9a8afb6639fa1561a7b83241
 
 ---
 
 
-# Sid表示自定义字符串{#sidenotes-custom-strings}
+# Sidesk自定义字符串{#sidenotes-custom-strings}
 
-自定义字符串通过插入到SiteNote构造函数中的对象进行应用，并覆盖通过应用程序使用的默认字符串。这些内容可用于自定义语言的任何部分，以符合您的风格或语言规范。字符串将自动与默认值合并。
+自定义字符串通过注入到Sidesforc构造函数中的对象应用，并覆盖通过应用程序使用的默认字符串。 这些组件可用于自定义语言的任何部分以适合您的样式或语言规范。 字符串将自动与默认值合并。
 
 ```
 var customStrings = { 
@@ -23,78 +23,78 @@ new Livefyre.Sidenotes({
 });
 ```
 
-| Key | 默认值 |
+| 键 | 默认 |
 |---|---|
-| appName | Siten表示 |
-| CommentModeratorTag | Mod |
-| 注释标记 | 待定 |
-| 注释自述链接 | 阅读更多 |
-| 注释链接 | 请参阅{number}回复 |
-| 注释链接 | 请参阅回复 |
-| CommentVoeCount | 投票 |
-| 注释技术 | 投票 |
-| editorPlaceHolder | 您想什么？ |
-| editorPostBtn | 发布站点 |
-| EditorPostBtnsMobile | Post |
-| 编辑窗格 | 发布… |
-| editorReplicBtn | 回复回复 |
-| editorReplicitTitle | 回复回复 |
-| 编辑标题 | Write Note |
-| emptyImageBlockxt | 您想什么？ |
-| emptyTextBlockXT | + |
-| ErrorConnection | 哦-哦。您似乎没有良好的连接。 |
-| ErrorDuplicate | 我们也喜欢您的备注，但不能再发布两次。 |
-| ErrorGeneral | 出现错误。请重试。 |
-| ErrorServer | 我们的服务器出错。再次试用？ |
-| FacebookShareCaption | SiteNote on“{title}” |
-| MenuAuthesignMsg | 您必须登录{action} |
+| appName | Sidesk |
+| commentDrocidatorTag | Mod |
+| commentPendingTag | 待定 |
+| commentReadMoreLink | 了解更多 |
+| commentReplyLink | 请参阅{number}个回复 |
+| commentReplyLinkSing | 查看回复 |
+| commentVoteCount | 投票 |
+| commentVoteCountSing | 票 |
+| editorPlaceholder | 你觉得呢？ |
+| editorPostBtn | 帖子表示 |
+| editorPostBtnMobile | 帖子 |
+| editorPosting | 正在发布… |
+| editorReplyBtn | 回帖 |
+| editorReplyTitle | 写回复 |
+| editorTitle | Write Note |
+| emptyImageBlockTxt | 你觉得呢？ |
+| emptyTextBlockTxt | + |
+| errorConnection | 哦。 您似乎没有良好的联系。 |
+| errorDuplicate | 我们也喜欢您的便条，但您不能再发布一次。 |
+| errorGeneral | 出现错误. 请重试。 |
+| errorServer | 我们的服务器出了问题。 再试一次？ |
+| facebookShareCaption | “{title}”上的SideNotes |
+| menuAuthSignedInMsg | 您必须登录到{action} |
 | menuAuthSignInBtn | 登录 |
-| menuBackBtn | 返回次数 |
-| menuConfirmAc接受 | 是，{action} |
+| menuBackBtn | 返回 |
+| menuConfirmAccept | 是，{action} |
 | menuConfirmCancel | 取消 |
 | menuConfirmTitle | 是否确定？ |
-| menuetPoptionApprove | 批准 |
-| menueToptionDelete | 删除 |
-| menueToptionEdit | 编辑 |
-| menuetCopyFlag | 旗标 |
-| menueToptionShare | Share |
-| MenuetCodestedat | 发布于{date} |
-| menuetCitle | 更多 |
-| 菜单标记反对 | 反对 |
-| MenuFlagoptionOfficy | 攻击性 |
-| menuFlagoptionOffTopic | 关闭主题 |
-| MenuFlagoptionSpam | 垃圾信息 |
-| menuFlagtitle | 标记为… |
-| menuInFocoCopyright | © Livefyre，Inc2014 |
+| menuEtcOptionApprove | 批准 |
+| menuEtcOptionDelete | 删除 |
+| menuEtcOptionEdit | 编辑 |
+| menuEtcOptionFlag | 标记 |
+| menuEtcOptionShare | 共享 |
+| menuEtcPostedAt | 发布于{date} |
+| menuEtcTitle | 更多 |
+| menuFlagOptionSarove | 反对 |
+| menuFlagOptionOffensive | 进攻性 |
+| menuFlagOptionOffTopic | 关闭主题 |
+| menuFlagOptionSpam | 垃圾信息 |
+| menuFlagTitle | 标记为…… |
+| menuInfoCopyright | © Livefyre, Inc. 2014 |
 | menuInfoHelp | 帮助 |
-| menuInfolveFileLink | 访问Livefyre.com |
-| menuRepliciesView回复 | 回复对话 |
-| menuRepliciesViewTitle | 详细信息 |
-| MenuShareOptionFacebook | Facebook |
-| menuShareOptionLink | 复制Permalink |
-| menuShareoptionLinkComplete | 已复制 |
-| menushareoptionLinkFailed | 复制失败 |
-| MenuShareOptionTwitter | Twitter |
-| MenuShareTitle | Share |
-| 通知已批准 | 已批准 |
+| menuInfoLivefyreLink | 访问Livefyre.com |
+| menuRepliesViewReply | 回复对话 |
+| menuRepliesViewTitle | 详细信息 |
+| menuShareOptionFacebook | Facebook |
+| menuShareOptionLink | Copy Permalink |
+| menuShareOptionLinkComplete | 已复制 |
+| menuShareOptionLinkFailed | 复制失败 |
+| menuShareOptionTwitter | Twitter |
+| menuShareTitle | 共享 |
+| notificationApproved | 已批准 |
 | notificationDeleted | 已删除 |
-| NotificationFlaged | 已标记 |
-| permalinkBackBtn | 全部 |
-| PermalinkTitle | Permalink |
-| 问题解释 | 您现在可以直接在句子、段落、图像和引号上阅读和编写注释。<br><br>高亮显示文本并单击“fycon-write”图标，或单击每个段落末尾的“fycon-action-view”图标。 |
-| 问题模型 | “熟悉的知识”是不正确的，只是因为它是“熟悉”的原因。 |
-| 问题标题 | 什么是Sitenote？ |
-| QueedCommentSocial | {number} New Sitenes |
-| QueedCommentsSuble | 全新SitenOte |
-| QueedDeployeesMultiple | {number}新回复 |
-| QueedDeployeesingRumular | 个新回复 |
-| replicyBtn | Reply |
-| SignInPost | 登录以写入Sitenote |
-| 幻灯片评论 | of |
-| SliderInviteRead | 阅读阅读 |
-| SliderInviteWrite | Write |
-| sliderWriteText | 您想什么？点击以写入 |
-| searchCollapseBtn | 折叠 |
-| threadAxpandBtnMultiple | 展开{number}回复 |
-| threadExpandBtn | 展开回复 |
-| searchReplicBtn | 回复对话 |
+| notificationFlaged | 已标记 |
+| permalinkBackBtn | 所有 |
+| permalinkTitle | Permalink |
+| questionExplanation | 您现在可以直接读写句子、段落、图像和引号上的注释。<br><br>高亮显示文本，单击“fycon-write”图标，或单击每个段落末尾的“fycon-action-view”图标。 |
+| questionMockText | “熟悉”的内容并不清楚，原因是“熟悉”。 |
+| questionTitle | 什么是Sithex? |
+| queuedCommentsPlural | {number}新站点表示 |
+| queuedCommentsSingular | 1个新字号 |
+| queuedRepliesPlural | {number}新回复 |
+| queuedRepliesSingular | 1个新回复 |
+| replyBtn | 回复 |
+| signInToPost | 登录以写字符 |
+| sliderCommentTally | 的 |
+| sliderInviteRead | 已读 |
+| sliderInviteWrite | 写 |
+| sliderWriteText | 你觉得呢？ 点击以写入 |
+| threadCollapseBtn | 折叠 |
+| threadExpandBtnPlural | 展开{number}个回复 |
+| threadExpandBtnSingular | 扩展1个回复 |
+| threadReplyBtn | 回复对话 |
