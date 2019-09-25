@@ -1,41 +1,41 @@
 ---
-description: Livefyre App套件支持的浏览器和设备列表。
-seo-description: Livefyre App套件支持的浏览器和设备列表。
+description: Livefyre应用程序套件支持的浏览器和设备列表。
+seo-description: Livefyre应用程序套件支持的浏览器和设备列表。
 seo-title: 设备和浏览器支持
 title: 设备和浏览器支持
-uuid: 338f78b2-051d-4831-a0 b9-e987 f92660 ce
+uuid: 338f78b2-051d-4831-a0b9-e987f92660ce
 translation-type: tm+mt
-source-git-commit: 97ec4a7dcafdce7551a86f443d50be918daea3ce
+source-git-commit: 7d7af443eeffdbb09c2fa58006813c328785ad56
 
 ---
 
 
 # 设备和浏览器支持{#device-and-browser-support}
 
-Livefyre App套件支持的浏览器和设备列表。
+Livefyre应用程序套件支持的浏览器和设备列表。
 
 Livefyre支持以下设备、操作系统和浏览器。
 
-|  | 核心应用程序 | Storify2 | Studio | Modq |
+|  | 核心应用程序 | Storify 2 | Studio | ModQ |
 |---|---|---|---|---|
 | **桌面浏览器** |  |  |  |  |
 | Chrome | ✓ | ✓ | ✓ | ✓ |
 | Edge | ✓ | ✓ | ✓ | ✓ |
-| IE11 | Limited | Limited | Limited | Limited |
+| IE 11 | 有限公司 | 有限公司 | 有限公司 | 有限公司 |
 | Firefox | ✓ | ✓ | ✓ | ✓ |
 | Safari | ✓ | ✓ | ✓ | ✓ |
 |  |  |  |  |  |
 | **设备** |  |  |  |  |
-| Android浏览器2.3+ | Limited | Limited | 不适用 | Limited |
-| Android4.1+上的Google Chrome | Limited | Limited | 不适用 | Limited |
-| iOS先前版本 | Limited | Limited | 不适用 | Limited |
-| iOS当前版本 | Limited | Limited | 不适用 | Limited |
+| Android Browser 2.3+ | 有限公司 | 有限公司 | 不适用 | 有限公司 |
+| Android 4.1+上的Google Chrome | 有限公司 | 有限公司 | 不适用 | 有限公司 |
+| iOS先前版本 | 有限公司 | 有限公司 | 不适用 | 有限公司 |
+| iOS当前版本 | 有限公司 | 有限公司 | 不适用 | 有限公司 |
 
 >[!NOTE]
 >
->Livefyre将努力维护现有功能，但在此处列出的浏览器上，使用有限支持的浏览器可能不完全支持新的产品和功能。
+>虽然Livefyre将努力维护现有功能，但此处列出的浏览器可能不完全支持新产品和功能，并且支持有限。
 
 >[!NOTE]
 >
->由于Microsoft支持，Internet Explorer11之前不支持Livefyre。
+>由于Microsoft的支持已停止，Internet Explorer 11之前的Internet explorer版本不支持Livefyre。
 
