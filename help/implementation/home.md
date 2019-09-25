@@ -2,7 +2,7 @@
 seo-title: Livefyre帮助
 solution: Experience Manager
 title: Livefyre实施帮助
-uuid: cddede9b-88d3-4e6e-9105-662e984002d5
+uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 translation-type: tm+mt
 source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
 
@@ -11,9 +11,9 @@ source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
 
 # Experience Manager Livefyre实施指南 {#livefyre-help}
 
-使用开发人员工具自定义您的体验，在您的网站上实施Livefyre Studio和Livefyre Apps。
+使用开发人员工具自定义您的体验，在您的网站上实施Livefyre studio和Livefyre应用程序。
 
-有关如何在Livefyre Studio中使用Livefyre Studio和Livefyre Apps的信息，请参阅 [*Adobe Experience Manager Livefyre用户指南*](/help/using/home.md)。
+有关如何在Livefyre studio中使用Livefyre studio和Livefyre应用程序的信息，请参阅 [*Adobe Experience Manager Livefyre用户指南*](/help/using/home.md)。
 
 ## 热门主题
 
@@ -27,7 +27,7 @@ source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
 
 * [使用开发人员工具集成应用程序](/help/implementation/c-getting-started/c-implementation-process/c-implementation-process.md)
 
-* [使用Livefyre和Analytics工具](/help/implementation/livefyre-analytics/livefyre-analytics.md)
+* [将Livefyre与Analytics工具结合使用](/help/implementation/livefyre-analytics/livefyre-analytics.md)
 
 * [API 文档](https://api.livefyre.com)
 
