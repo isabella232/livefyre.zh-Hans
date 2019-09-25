@@ -1,6 +1,6 @@
 ---
-description: 使用Livefyre. js自定义日期和时间戳。
-seo-description: 使用Livefyre. js自定义日期和时间戳。
+description: 使用Livefyre.js自定义日期和时间戳。
+seo-description: 使用Livefyre.js自定义日期和时间戳。
 seo-title: 自定义日期和时间戳
 solution: Experience Manager
 title: 自定义日期和时间戳
@@ -13,9 +13,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 # 自定义日期和时间戳{#customize-the-date-and-time-stamp}
 
-使用Livefyre. js自定义日期和时间戳。
+使用Livefyre.js自定义日期和时间戳。
 
-Livefyre应用程序提供选项参数DateTimeFormat，以指定如下所述的日期格式。
+Livefyre应用程序提供选项参数datetimeFormat，用于指定日期格式，如下所述。
 
 * [术语](#c_date_time_stamp/section_xsk_jn4_xz)
 * [格式化](#c_date_time_stamp/section_ynx_gn4_xz)
@@ -23,17 +23,17 @@ Livefyre应用程序提供选项参数DateTimeFormat，以指定如下所述的�
 
 ## 术语 {#section_xsk_jn4_xz}
 
-* **绝对时间戳** 定义为精确和特定时间(例如，2012年月日12：00pm)
-* **相对时间戳** 定义为一般和不准确的时间(例如25秒前、14分钟前、前一天、年前等)。
+* **绝对时间戳** ，定义为精确时间和特定时间（例如，2012年1月1日12:00pm）
+* **相对时间戳** (Relative Timestamps)定义为一般时间，且不太精确（例如，25秒前、14分钟前、1天前、1年前等）
 
 ## 格式化 {#section_ynx_gn4_xz}
 
-在未给出参数时，dateTimeFormat参数具有以下默认行为：
+当没有给定参数时，datetimeFormat参数具有以下默认行为：
 
-* 数据时间格式：MMMM d yyyy(2012年月日)
-* 20160分钟(14天)直到绝对时间(直到相对时间戳变为绝对时间戳)
+* 日期时间格式：MMMMM d yyyy（2012年1月8日）
+* 20160分钟（14天），直到绝对时间（14天，直到相对时间戳变为绝对时间戳）
 
-dateTimeFormat参数接受三种可能的参数类型：datetime、format和string。
+datetimeFormat参数接受三种可能的参数类型：datetime、format和string。
 
 ```
 // Example 1 (Datetime format string)  
@@ -48,7 +48,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-指定CompositeFormat和/或searchTesuntibresultTime的对象。值为-1的sundesUntilabsolutiTime将使时间绝对缩短时间。
+指定absoluteFormat和／或minutesUntilAbsoluteTime的对象。 值为-1的minutesUntilAbsoluteTime将使时间绝对时间立即生效。
 
 ```
 // Example 2 (Object)  
@@ -66,7 +66,7 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-作为参数一个Date对象的函数，返回要显示的datetime字符串
+将Date对象作为参数并返回要显示的日期时间字符串的函数
 
 ```
 // Example 3 (Function accepting a Date object, returning a datetime string to display) 
@@ -85,7 +85,7 @@ var conv = fyre.conv.load(networkConfig, [convConfig]);
 
 ## 符号指定 {#section_inq_2n4_xz}
 
-按照JDK、ICU和CLDR中定义的模式规范执行数据时间格式设置功能，并对JS中典型使用情况进行少量修改。有关详细信息，请参阅 [Google闭包库文档](https://developers.google.com/closure/library/docs/overview)。
+按照JDK、ICU和CLDR中定义的模式规范进行日期时间格式设置功能，对JS中的典型用法稍作修改。 有关详细信息，请参 [阅Google Closure库文档](https://developers.google.com/closure/library/docs/overview)。
 
 ```
   Symbol Meaning Presentation        Example 
@@ -119,14 +119,14 @@ var conv = fyre.conv.load(networkConfig, [convConfig]);
   ''       single quote            (Literal)           'o''clock'
 ```
 
-标记为&#39;*&#39;的项目尚不受支持。
+尚不支持标有“*”的项目。
 
-标有“#”的项目与Java的工作方式不同。
+标有“#”的项目的工作方式与Java不同。
 
-图案字母的计数决定了格式。
+模式字母的计数决定格式。
 
-* **文本：** 或更多，使用完整表单。少于4，如果存在，则使用简短或缩写的表单。(例如：“EEE”生成“星期一”，“EEE”生成“Mon”。)
-* **数字：** 最少位数。较短的数字将零填充为此金额(例如：如果“m”生成“6”，则“mm”生成“06”。)一年专门处理；也就是说，如果“y”的计数为2，则“年”将被截断为位数字。(例如：如果“yyyy”生成“1997”，则“yy”生成“97”。)与其他字段不同，分数秒将在右边添加零秒。
-* **文本和号码：** 或以上，使用文本。少于3，使用数字。(例如：“M”生成“1”，“MM”生成“01”，“MMM”生成“Jan”，“MMMM”生成“月”。)
+* **** 文本：4或更多，请使用完整表单。 少于4，如果存在，请使用短或缩写表单。 (例如：“EEE”生成“星期一”,“EEE”生成“星期一”。)
+* **** 数字：最小数字数。 较短的数字将填充为此数量(例如：如果“m”生成“6”，则“mm”生成“06”。) 具体处理年份；即，如果“y”的计数为2，则“年”将截断为2位数。 (例如：如果“yyyy”生成“1997”，则“yy”生成“97”。)与其他字段不同，分数秒在右边填充为零。
+* **** 文本和编号：3或更多，使用文本。 少于3，使用号。 (例如：“M”生成“1”,“MM”生成“01”,“MMM”生成“Jan”,“MMM”生成“Jan”。)
 
-模式中不存在 [的任何字符。&#39;&#39;&#39;&#39;z&#39;] 和 [&#39;A&#39;.&#39;&#39;&#39;&#39;Z&#39;] 将视为带引号的文本。例如，字符“：&#39;，&#39;。&#39;、&#39;、&#39;#&#39;和&#39;@&#39;将显示在生成的时间文本中，即使它们不在单引号中也不接受。
+图案中不在“a”...”范围 [内的任何字符z’] and [‘A’...’Z将被视] 为带引号的文本。 例如，“:”、“.”、“‘,#’和“@”等字符将显示在生成的时间文本中，即使它们没有用在单引号中也是如此。
