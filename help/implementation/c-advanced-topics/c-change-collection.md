@@ -1,9 +1,9 @@
 ---
-description: 允许用户从单个页面布局和URL点进集合。
-seo-description: 允许用户从单个页面布局和URL点进集合。
-seo-title: Change Collection
+description: 允许用户从单个页面布局和URL中点进集合。
+seo-description: 允许用户从单个页面布局和URL中点进集合。
+seo-title: 更改集合
 solution: Experience Manager
-title: Change Collection
+title: 更改集合
 uuid: 81c8a554-375f-4659-9e25-5b3618824633
 translation-type: tm+mt
 source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
@@ -11,15 +11,15 @@ source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
 ---
 
 
-# Change Collection {#change-collection}
+# 更改集合 {#change-collection}
 
-允许用户从单个页面布局和URL点进集合。
+允许用户从单个页面布局和URL中点进集合。
 
-使用Change Collection委托更改页面上显示的集合，而无需更改URL，而Livefyre应用程序已加载。使用此功能可显示照片画廊或视频画廊，或其他应用程序(在用户操作后显示的集合应更改)。
+在Livefyre应用程序已加载时，使用更改集合委派来更改页面上显示的集合，而不更改URL。 使用此功能可显示照片或视频画廊，或显示的集合在用户操作后应更改的其他应用程序。
 
 例如，单击画廊中的视频或照片将加载特定于该选择的集合，而页面的URL不会更改。
 
-[从单个页面加载三个收藏集之一](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count)：
+要从 [单个页面加载三个收藏集中的一个，请执行以下操作](../c-advanced-topics/t-display-comment-count.md#t_display_comment_count):
 
 ```
 <html> 
