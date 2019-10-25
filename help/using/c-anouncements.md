@@ -6,12 +6,18 @@ solution: Experience Manager
 title: 公告
 uuid: c05963db-4d96-494e-bdb3-da3570a14dfe
 translation-type: tm+mt
-source-git-commit: 087a40bf77c3b630acb661b58ffa8cfdedc0aec0
+source-git-commit: 82fde64518079ba1f08f4676449ec0e087ca1f36
 
 ---
 
 
 # 公告{#announcements}
+
+## 2019 年 10 月 25 日
+
+2019年9月4日，Facebook意外地从Livefyre工作流程中删除了对某些权限和功能的访问权限，这中断了搜索或流式传输Facebook内容的能力。 如果您的应用程序需要访问publish_pages、user_friends或页面公共内容访问权限，请通过现有的应用程序审阅流程请求这些权限。 我们已正式请求恢复对这些权限的访问，并正在等待Facebook的批准。 一旦获得批准并且内容再次可用，我们会立即通知您。
+
+已发布到您网站的内容将不受影响。
 
 ## 2019年6月11日
 
