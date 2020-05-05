@@ -6,7 +6,7 @@ solution: Experience Manager
 title: Livefyre Analytics事件
 uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 ---
 
@@ -44,42 +44,42 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## Livefyre Analytics事件和eVar {#section_u3k_tft_mcb}
 
-以下Livefyre事件将映射到使用Report Suite manager在报告中使用的自定义事件。 有关Adobe Analytics中报表包的详细信息，请参阅 [报表包管理器](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)。 有关如何将Livefyre事件与Report Suite manager结合使用的更多信息，请参见 [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
+以下Livefyre事件映射到自定义事件，以便在使用报表包管理器的报告中使用。 有关Adobe Analytics中报表包的更多信息，请参阅 [报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 有关如何将Livefyre事件与Report Suite Manager结合使用的更多信息，请参 [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)见。
 
 ## Livefyre Analytics事件
 
 | 事件 | 描述 |
 |---|---|
-| 初始化 | 加载至少包含一个Livefyre应用程序的页面时 |
-| 载入 | 无论用户视图如何，应用程序在页面上加载的任何时间 |
+| 初始化 | 载入至少包含一个Livefyre应用程序的页面时 |
+| 载入 | 无论用户视图如何，每次在页面上加载应用程序时 |
 | 查看 | 当应用程序首次进入视区时。 |
-| 帖子 | 每当用户发布评论或内容时，包括：顶级帖子、回复、评论、媒体墙上传 |
+| 帖子 | 每当用户发布评论或内容时，包括： 顶级帖子、回复、评论、媒体墙上传 |
 | 已发布 | 当帖子成功时。 |
 | Twitter_Reply | 用户在Twitter上回复的任何时间 |
-| Twitter_Like | 将内容共享到的位置：转推 |
-| Livefyre_Like | 任何时候在应用程序中使用Livefyre类似功能 |
-| Livefyre_Navice | 每当用户不喜欢直播时， |
+| Twitter_Like | 内容共享到的位置： 转发 |
+| Livefyre_Like | 任何时候在应用程序中使用livefyre类似功能 |
+| Livefyre(_N)与 | 每当用户不喜欢Livefyre时， |
 | ShareOnPost | 用户随时发布内容并使用“发布时共享”功能 |
 | ShareButtonClick | 每当用户单击评论上的共享按钮时 |
 | ShareTwitter | 单击“共享到Twitter”时 |
 | ShareFacebook | 单击“共享到Facebook”时 |
 | ShareURL | 选择／复制“共享到URL”文本区域时。 |
-| 扩展回复 | 当用户单击+或展开链接以查看顶级帖子上的所有回复时 |
-| 折叠回复 | 当用户单击——或折叠链接以查看顶级帖子上的所有回复时 |
-| FlagClick | 每当用户打开标志模态时 |
-| FlagSpam | 当用户将内容标记为垃圾信息时 |
-| FlagSarove | 当用户将内容标记为不同意 |
-| FlagOffensive | 当用户将内容标记为冒犯性时 |
+| 扩展回复 | 当用户单击+或展开链接以视图顶级帖子上的所有回复时 |
+| 折叠回复 | 当用户单击——或折叠链接以视图顶级帖子上的所有回复时 |
+| FlagClick | 用户随时打开标志模式 |
+| FlagSpam | 当用户将内容标记为垃圾邮件时 |
+| FlagSorve | 当用户将内容标记为不同意 |
+| FlagOffension | 当用户将内容标记为冒犯 |
 | FlagOffTopic | 当用户将内容标记为关闭主题时 |
-| 标记取消 | 用户在提交标记时单击X或“取消” |
+| 标记取消 | 用户在提交标志时单击X或“取消” |
 | FollowCollection | 随时进行对话（“我对评论感兴趣”） |
-| UnfollowCollection | 当取消对话时 |
-| 请求更多 | 每当用户在应用程序中加载更多内容时（也需要实现高速） |
-| ModalView | 用户单击鼠标以在模态中查看内容 |
-| TwitterRetweetClick | 将内容共享到的位置：转推 |
-| PostButtonClick | 当用户单击帖子时（“您在想什么？”）按钮 |
+| UnfollowCollection | 取消对话后 |
+| 请求更多 | 每当用户在应用程序中加载更多内容时（也需要高速） |
+| ModalView | 用户单击以在模态中视图内容的任何时间 |
+| TwitterRetweetClick | 内容共享到的位置： 转发 |
+| PostButtonClick | 当用户单击帖子（“您在想什么？”） 按钮 |
 | 登录 | 用户登录的任何时间 |
-| 注销 | 用户在任何时间注销 |
+| 注销 | 用户每次注销 |
 
 以下是Livefyre提供的转换变量(eVar)列表。
 
@@ -95,9 +95,9 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## 更多信息 {#section_b3d_4yl_pdb}
 
-有关本页讨论主题的详细信息，请参阅：
+有关本页讨论的主题的详细信息，请参阅：
 
-* [Report Suite](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)[ManagerDTM](https://marketing.adobe.com/resources/help/en_US/livefyre/c_filmstrip_app.html)
+* [Report Suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
 
-* [规则](https://marketing.adobe.com/resources/help/en_US/dtm/rules.html)
+* [规则](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
