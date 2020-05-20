@@ -4,16 +4,19 @@ solution: Experience Manager
 title: Livefyre实施帮助
 uuid: ccdede9b-88d3-4e6e-9105-662e984002d5
 translation-type: tm+mt
-source-git-commit: bf49abcfe0d29a1fa332161179d37ea14e7efb09
+source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 6%
 
 ---
 
 
-# Experience Manager Livefyre实施指南 {#livefyre-help}
+# Livefyre实施指南 {#livefyre-help}
 
-使用开发人员工具自定义您的体验，在您的网站上实施Livefyre studio和Livefyre应用程序。
+使用开发人员工具自定义您的体验，在您的网站上实施Livefyre Studio和Livefyre应用程序。
 
-有关如何在Livefyre studio中使用Livefyre studio和Livefyre应用程序的信息，请参阅 [*Adobe Experience Manager Livefyre用户指南*](/help/using/home.md)。
+有关如何在Livefyre Studio中使用Livefyre Studio和Livefyre应用程序的信息，请参 [*阅《Adobe Experience Manager Livefyre用户指南》*](/help/using/home.md)。
 
 ## 热门主题
 
