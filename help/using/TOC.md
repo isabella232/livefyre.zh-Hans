@@ -3,7 +3,7 @@ product: livefyre
 audience: end-user
 user-guide-title: Livefyre文档
 translation-type: tm+mt
-source-git-commit: 3664bc1c51d2b372c358385127a1ca9c2f0cfef8
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -188,7 +188,7 @@ ht-degree: 5%
    + [发布内容](c-library/t-publish-content.md)
    + [应用程序内容选项卡](c-library/c-app-content.md)
    + [将Adobe Experience Manager Livefyre与Hootsuite结合使用](c-library/c-hootsuite-livefyre.md)
-   + [将Adobe Experience Manager Livefyre与Adobe目标结合使用](c-library/livefyre-target.md)
+   + [将Adobe Experience Manager Livefyre与Adobe Target结合使用](c-library/livefyre-target.md)
    + [使用Adobe Launch Livefyre Extension](c-library/launch-extension.md)
 + 流 {#streams}
    + [流](c-streams/c-streams.md)
@@ -220,7 +220,7 @@ ht-degree: 5%
    + [搜索用户](c-users/t-search-for-users.md)
    + [查看帐户详细信息](c-users/c-viewing-account-details.md)
    + [禁止用户](c-users/t-ban-a-user.md)
-   + [用户白名单](c-users/t-whitelist-a-user.md)
+   + [允许列表用户](c-users/allow-list-a-user.md)
    + [关联用户帐户](c-users/t-link-user-accounts.md)
    + [交换网络的用户](c-users/c-users-switching-networks.md)
    + [用户同步](c-users/t-set-up-user-sync.md)
