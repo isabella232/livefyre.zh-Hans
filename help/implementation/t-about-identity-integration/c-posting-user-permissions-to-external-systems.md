@@ -6,7 +6,10 @@ solution: Experience Manager
 title: 将用户权限发布到外部系统（可选）
 uuid: 9c18b20d-3b93-4666-b7de-1ec60318cf88
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 4%
 
 ---
 
@@ -15,15 +18,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 Livefyre使用PUSH界面发送有关用户权限更改的外部系统信息。
 
-## Livefyre studio中的用户类型
+## Livefyre Studio中的用户类型
 
 | 用户类型 | 描述 |
 |--- |--- |
-| 所有者 | 此用户是所有者，可以审核内容并分配新的审核者。 |
+| 所有者 | 此用户是所有者，可以审核内容并分配新的版主。 |
 | admin | 此用户是审查方，可以审核内容。 |
-| 会员 | 此用户已列入白名单。 发布的内容不会通过垃圾邮件或不良信息过滤器，也不需要在预先审核的流中批准。 |
+| 成员 | 此用户允许列出。 发布的内容不会通过垃圾邮件或脏话过滤器传递，并且在预先审核的流中不需要批准。 |
 | 无 | 此用户是标准用户，没有特殊权限。 |
-| outcast | 此用户被禁止参与任何对话。 |
+| 播出 | 此用户被禁止参与任何对话。 |
 
 要将用户权限发布到外部系统，您必须注册一个URL，该URL将接收权限数据作为POST请求。
 
@@ -39,11 +42,11 @@ POST https://{networkName}.quill.fyre.co/?actor_token={token}&push_affiliation_u
 | 令牌 | 有效的系统令牌。 |
 | url | 要注册的URL。 |
 
-注册的URL应接受包含以下数据的POST作为内容类型：application/x-www-form-urlencoded。
+注册的URL应接受以下数据的POST作为内容类型： application/x-www-form-urlencoded。
 
 | 参数 | 描述 |
 |--- |--- |
 | jd | 所属关系已更改的用户的JID。 JID是表单的字符串 `user_id@network`。 |
-| 从属 | 分配的权限的名称，必须为以下任一权限：  `{admin | member | none | outcast | owner}` |
+| 从属 | 分配的权限的名称，该名称必须为以下任一内容：  `{admin | member | none | outcast | owner}` |
 
-有关更新用户从属关系设置的其他信息，请参阅 [添加用户从属关系API参考](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post)。
+有关更新用户从属关系设置的其他信息，请参 [阅添加用户从属关系API参考](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post)。
