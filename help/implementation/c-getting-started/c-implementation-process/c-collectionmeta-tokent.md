@@ -1,35 +1,38 @@
 ---
 description: 在服务器上创建唯一令牌，用于标识您创建的每个集合。
 seo-description: 在服务器上创建唯一令牌，用于标识您创建的每个集合。
-seo-title: CollectionMeta令牌
+seo-title: 集合元令牌
 solution: Experience Manager
-title: CollectionMeta令牌
+title: 集合元令牌
 uuid: d5db0b0f-2807-4392-874a-94ac3c1e7550
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: acba83da6abd919062025322beeced500a3db662
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
 
-# CollectionMeta令牌{#collectionmeta-token}
+# 集合元令牌{#collectionmeta-token}
 
 在服务器上创建唯一令牌，用于标识您创建的每个集合。
 
-Livefyre为您创建的每个集合分配一个唯一标识符。 Livefyre会分配标题、URL和其他参数，包括：
+Livefyre为您创建的每个集合分配一个唯一标识符。 Livefyre分配标题、URL和其他参数，包括：
 
-## collectionMeta Token参数
+## collectionMeta令牌参数
 
 | 参数 | 类型 | 描述 |
 |--- |--- |--- |
-| networkName | 字符串（可选） | Livefyre网络的名称（可从{!UICONTROL Studio &gt;设置&gt;集成设置&gt;凭据]获取）。 当使用库创建collectionMeta令牌时，这是可选的。 |
-| networkKey | 字符串（可选） | 特定网络的密钥（可从“Studio”&gt;“设置”&gt;“集成设置”&gt;“凭据”获得）。 当使用库创建collectionMeta令牌时，这是可选的。 |
+| networkName | 字符串（可选） | Livefyre网络的名称（可从{!UICONTROL Studio >设置>集成设置>凭据]获取）。 当使用库创建collectionMeta令牌时，这是可选的。 |
+| networkKey | 字符串（可选） | 特定网络的密钥（可从Studio >设置>集成设置>凭据获得）。 当使用库创建collectionMeta令牌时，这是可选的。 |
 | siteId | 字符串（可选） | 站点的ID(可从 [!UICONTROL Studio > Settings > Integration Settings > Credentials] 获取)。 使用库创建collectionMeta令牌时为可选。 |
-| siteKey | 字符串（可选） | 站点的密钥（可从{!UICONTROL Studio &gt;设置&gt;集成设置&gt;凭据]获取）。 |
-| articleId | 字符串（可选） | 集合的唯一ID。 |
-| title | 字符串（可选） | 要应用于集合的标题。 通常，这与显示应用程序的页面的标题相对应。 <br>例如：“集成如此有趣！”<br>注意： 标题的最大字符长度为255个字符。 标题字段不支持HTML实体。 请使用UTF-8对特殊字符进行编码。 |
-| url | 字符串（可选） | 要附加到此集合的规范绝对URL。 此URL将用于从Facebook和Twitter上共享的内容、电子邮件通知和Livefyre studio中生成指向应用程序的链接。 <br>注意： 如果在本地进行测试，请使用有效的基本URL域(例如：有效： `https://customer.com`;无效： `https://localhost:5995`)。 |
-| 标记 | 字符串（可选） | 单个关键字或短语的逗号分隔列表。 使用Studio按标记搜索集合。  </br>注意： 标记不能包含空格。 如果希望在UI中显示空格，请使用下划线。 |
-| 扩展 | JSON（可选） | 要传递到集合的JSON格式的参数集。 |
+| siteKey | 字符串（可选） | 站点的密钥（可从{!UICONTROL Studio >设置>集成设置>凭据]获取）。 |
+| 文章Id | 字符串（可选） | 集合的唯一ID。 |
+| title | 字符串（可选） | 要应用于集合的标题。 通常，这与显示应用程序的页面的标题相对应。 <br>例如： “集成如此有趣！” <br>注意：  标题的最大字符长度为255个字符。 标题字段不支持HTML实体。 请使用UTF-8对特殊字符进行编码。 |
+| url | 字符串（可选） | 要附加到此集合的规范绝对URL。 此URL将用于从Facebook和Twitter上共享的内容、电子邮件通知和Livefyre Studio中生成指向应用程序的链接。 <br>注意：  如果在本地进行测试，请使用有效的基本URL域(例如： 有效： `https://customer.com`; 无效： `https://localhost:5995`)。 |
+| 标记 | 字符串（可选） | 单个关键字或短语的逗号分隔列表。 使用Studio按标记搜索集合。  </br>注意：  标记不能包含空格。 如果您希望在UI中显示空间，请使用下划线。 |
+| 扩展 | JSON（可选） | 要传递到集合的JSON格式参数集。 |
 
 ## Java {#section_orz_m4n_sz}
 
@@ -97,7 +100,6 @@ collection.data.tags = 'tags'
 collection_meta_token = collection.build_collection_meta_token 
 ```
 
->[!NOTE] {importance="high"}
+>[!NOTE]
 >
 >Livefyre接收您构建的collectionMeta令牌，并通过组合siteId（提供Livefyre）和articleId（客户指定）来确定唯一性。
-
