@@ -1,8 +1,8 @@
 ---
-source-git-commit: 4990e04d913b95ab903b358c78bf4263f4eb6a7f
+source-git-commit: 06ed2854bc5905e963c5dbf6c6b04725670796ec
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '435'
 ht-degree: 6%
 
 ---
@@ -58,5 +58,3 @@ If you submit a pull request with significant changes to documentation and code 
 
 * **发送给作者的更改**: 已通知作者有待处理的提取请求。
 * **随时可合并**: 准备由我们的拉式请求审阅团队进行审阅。
-
-Webhook测试——忽略
