@@ -6,7 +6,10 @@ solution: Experience Manager
 title: 发行说明
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: efb031b58f01ec69c8297a808998d25a0015f102
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 有关如何请求Instagram帐户权限的详细信息，请参 [阅手动发送Instagram权限请求](/help/using/c-how-requesting-rights-works/c-send-instagram-manual-rights-request.md)[和发送部分自动化的Instagram权限请求](/help/using/c-how-requesting-rights-works/c-send-an-instagram-rights-request-from-the-library.md)。
 
-* **Adobe Target 集成.** 添加了与Adobe目标的集成，允许您直接将Livefyre应用程序共享到Adobe目标优惠库。 有关将Livefyre与Adobe目标结合使用的更多信息，请参阅 [目标文档](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html)。
+* **Adobe Target 集成.** 增加了与Adobe Target的集成，允许您直接将Livefyre应用程序共享到您的Adobe Target优惠库。 有关将Livefyre与Adobe Target结合使用的更多信息，请参阅 [目标文档](hhttps://docs.adobe.com/content/help/en/livefyre/using/library/livefyre-target.html)。
 
 ## 问题 {#section_ehw_ndt_wcb}
 
@@ -43,15 +46,15 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 | 问题类型 | 组件 | 发行说明 |
 |--- |--- |--- |
-| 问题 | AppService: Livefyre Identity | 修复了单击！的问 [题 UICONTROL重置为默认值] ，未将Studio > Integration Settings > Livefyre Identity下的Logo重置为默认图像。 |
+| 问题 | AppService:Livefyre Identity | 修复了在Studio > Integration Settings > Livefyre Identity中单 [!UICONTROL Reset to Default] 击未将“登录模式”下的徽标重置为默认图像的问题。 |
 | 问题 | 库 | 修复了上传到库，然后在资产详细信息中查看的视频无法正确显示的问题。 |
 | 问题 | 流 | 修复了阻止产品在流规则中显示的问题。 |
 | 问题 | 流 | 修复了流规则中产品标记不可用的问题。 |
 | 增强功能 | Studio | 修复了Livefyre Studio中未显示产品ID的问题。 |
-| 问题 | Studio: ModQ | 修复了删除内容后，已删除内容仍显示在ModQ中的问题。 |
+| 问题 | Studio:ModQ | 修复了删除内容后，已删除内容仍显示在ModQ中的问题。 |
 
 ### UAT版本
 
 | **问题类型** | **组件** | **发行说明** |
 |---|---|---|
-| 问题 | 社交组件： 旋转 | 修复了共享链接未响应并复制IE11和Mozilla Firefox中期望的URL的问题。 |
+| 问题 | 社交组件：旋转 | 修复了共享链接未响应并复制IE11和Mozilla Firefox中期望的URL的问题。 |
