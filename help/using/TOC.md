@@ -1,9 +1,9 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Livefyre文档
+user-guide-title: Livefyre指南
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: c8f274185f642c528ec684373c63b80cee8fab35
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -11,7 +11,7 @@ ht-degree: 5%
 ---
 
 
-# Livefyre文档 {#using}
+# Livefyre指南 {#using}
 
 + [Livefyre帮助](home.md)
 + [公告](c-anouncements.md)
@@ -187,9 +187,9 @@ ht-degree: 5%
    + [使用库将产品与内容关联](c-library/t-associate-products-with-content-using-the-library.md)
    + [发布内容](c-library/t-publish-content.md)
    + [应用程序内容选项卡](c-library/c-app-content.md)
-   + [将Adobe Experience Manager Livefyre与Hootsuite结合使用](c-library/c-hootsuite-livefyre.md)
-   + [将Adobe Experience Manager Livefyre与Adobe Target结合使用](c-library/livefyre-target.md)
-   + [使用Adobe Launch Livefyre Extension](c-library/launch-extension.md)
+   + [将Adobe Experience ManagerLivefyre与Hootsuite结合使用](c-library/c-hootsuite-livefyre.md)
+   + [将Adobe Experience ManagerLivefyre与Adobe Target结合使用](c-library/livefyre-target.md)
+   + [使用Adobe启动Livefyre扩展](c-library/launch-extension.md)
 + 流 {#streams}
    + [流](c-streams/c-streams.md)
    + [创建新流](c-streams/t-create-a-new-stream.md)
@@ -215,17 +215,17 @@ ht-degree: 5%
    + [视图权活动历史](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [使用资产库中的待定权限请求管理内容](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [从资产库手动授予或撤销资产的权限](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
-+ 用户： 管理Studio和Livefyre网络用户 {#users-managing}
-   + [用户： 管理Studio和Livefyre网络用户](c-users/c-users.md)
++ 用户：管理Studio和Livefyre网络用户 {#users-managing}
+   + [用户：管理Studio和Livefyre网络用户](c-users/c-users.md)
    + [搜索用户](c-users/t-search-for-users.md)
    + [查看帐户详细信息](c-users/c-viewing-account-details.md)
    + [禁止用户](c-users/t-ban-a-user.md)
-   + [允许列表用户](c-users/allow-list-a-user.md)
+   + [允许列出用户](c-users/allow-list-a-user.md)
    + [关联用户帐户](c-users/t-link-user-accounts.md)
    + [交换网络的用户](c-users/c-users-switching-networks.md)
    + [用户同步](c-users/t-set-up-user-sync.md)
-+ 用户： 创建用户帐户 {#users-creating-accounts}
-   + [用户： 创建用户帐户](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
++ 用户：创建用户帐户 {#users-creating-accounts}
+   + [用户：创建用户帐户](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [邀请用户创建Studio帐户](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [接受创建Studio帐户的邀请](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
    + [登录Studio](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
@@ -235,7 +235,7 @@ ht-degree: 5%
       + [添加社交帐户](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [关于Instagram帐户](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [刷新社交帐户的令牌](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
-+ 设置： 其他 {#settings-other}
++ 设置：其他 {#settings-other}
    + [设置凭据](c-settings-other/t-set-up-credentials.md)
    + [将站点添加到网络](c-settings-other/t-add-a-site.md)
    + 翻译集 {#translation-sets}
