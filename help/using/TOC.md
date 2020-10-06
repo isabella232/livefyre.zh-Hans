@@ -2,8 +2,9 @@
 product: livefyre
 audience: end-user
 user-guide-title: Livefyre指南
+user-guide-description: Use Livefyre Studio to create apps, gather user-generated content, and moderate content.
 translation-type: tm+mt
-source-git-commit: c8f274185f642c528ec684373c63b80cee8fab35
+source-git-commit: 9b568a6bbe638fae816c6992e33180f9349157f1
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
