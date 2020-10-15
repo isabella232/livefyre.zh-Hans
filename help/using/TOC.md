@@ -1,18 +1,18 @@
 ---
 product: livefyre
 audience: end-user
-user-guide-title: Livefyre指南
-user-guide-description: Use Livefyre Studio to create apps, gather user-generated content, and moderate content.
+user-guide-title: Livefyre 指南
+user-guide-description: 使用 Livefyre Studio 创建应用程序、收集用户生成的内容和审核内容。
 translation-type: tm+mt
 source-git-commit: 9b568a6bbe638fae816c6992e33180f9349157f1
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 5%
+source-wordcount: '855'
+ht-degree: 7%
 
 ---
 
 
-# Livefyre指南 {#using}
+# Livefyre 指南 {#using}
 
 + [Livefyre帮助](home.md)
 + [公告](c-anouncements.md)
