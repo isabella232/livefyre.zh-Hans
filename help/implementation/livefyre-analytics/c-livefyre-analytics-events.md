@@ -6,12 +6,15 @@ solution: Experience Manager
 title: Livefyre Analytics事件
 uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
 translation-type: tm+mt
-source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+source-git-commit: 5dc11c42a9f8bf3fa088f3245e21b6942d4865fe
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 4%
 
 ---
 
 
-# Livefyre Analytics事件 {#livefyre-analytics-events}
+# Livefyre Analytics事件
 
 ## 事件对象定义 {#section_dh1_yhn_pdb}
 
@@ -44,7 +47,7 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 ## Livefyre Analytics事件和eVar {#section_u3k_tft_mcb}
 
-以下Livefyre事件映射到自定义事件，以便在使用报表包管理器的报告中使用。 有关Adobe Analytics中报表包的更多信息，请参阅 [报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 有关如何将Livefyre事件与Report Suite Manager结合使用的更多信息，请参 [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)见。
+以下Livefyre事件映射到自定义事件，以便在使用报表包管理器的报告中使用。 有关Adobe Analytics的报表包的详细信息，请参阅 [报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 有关如何将Livefyre事件与Report Suite Manager结合使用的更多信息，请参 [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)见。
 
 ## Livefyre Analytics事件
 
@@ -53,10 +56,10 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 | 初始化 | 载入至少包含一个Livefyre应用程序的页面时 |
 | 载入 | 无论用户视图如何，每次在页面上加载应用程序时 |
 | 查看 | 当应用程序首次进入视区时。 |
-| 帖子 | 每当用户发布评论或内容时，包括： 顶级帖子、回复、评论、媒体墙上传 |
+| 帖子 | 每当用户发布评论或内容时，包括：顶级帖子、回复、评论、媒体墙上传 |
 | 已发布 | 当帖子成功时。 |
 | Twitter_Reply | 用户在Twitter上回复的任何时间 |
-| Twitter_Like | 内容共享到的位置： 转发 |
+| Twitter_Like | 内容共享到的位置：转发 |
 | Livefyre_Like | 任何时候在应用程序中使用livefyre类似功能 |
 | Livefyre(_N)与 | 每当用户不喜欢Livefyre时， |
 | ShareOnPost | 用户随时发布内容并使用“发布时共享”功能 |
@@ -76,7 +79,7 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 | UnfollowCollection | 取消对话后 |
 | 请求更多 | 每当用户在应用程序中加载更多内容时（也需要高速） |
 | ModalView | 用户单击以在模态中视图内容的任何时间 |
-| TwitterRetweetClick | 内容共享到的位置： 转发 |
+| TwitterRetweetClick | 内容共享到的位置：转发 |
 | PostButtonClick | 当用户单击帖子（“您在想什么？”） 按钮 |
 | 登录 | 用户登录的任何时间 |
 | 注销 | 用户每次注销 |
@@ -97,7 +100,7 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 
 有关本页讨论的主题的详细信息，请参阅：
 
-* [Report Suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[ManagerDTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
+* [报表包管](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)[理器DTM](https://docs.adobe.com/content/help/en/livefyre/using/apps/filmstrip/c-filmstrip-app.html)
 
 * [规则](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
