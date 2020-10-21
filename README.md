@@ -1,15 +1,18 @@
 ---
-source-git-commit: 06ed2854bc5905e963c5dbf6c6b04725670796ec
+source-git-commit: cdc5645b1bc3f2e9cf47329063635e20ec5c2e5e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '517'
 ht-degree: 6%
 
 ---
 # Contribute文章
 
-我们欢迎来自我们社区以及文档团队外部的Adobe员工的贡献。
+| EXL-PR | EXL | 预览 | 激活 | 已发布 | 帮助 |
+|--- |--- |--- |--- |--- |--- |
+| [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/lastBuild/) | [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/lastBuild) | [预览URL](https://experienceleague.corp.adobe.com/docs/livefyre/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [实时URL](https://experienceleague.adobe.com/docs/livefyre/using/home.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
+我们欢迎来自我们社区以及文档团队外部的Adobe员工的贡献。
 
 ## Adobe开放源代码行为准则
 
@@ -56,5 +59,5 @@ If you submit a pull request with significant changes to documentation and code 
 
 在公共存储库中，自动标签被分配为拉取请求，以帮助我们管理拉取请求工作流，并帮助您了解拉取请求的进展情况：
 
-* **发送给作者的更改**: 已通知作者有待处理的提取请求。
-* **随时可合并**: 准备由我们的拉式请求审阅团队进行审阅。
+* **发送给作者的更改**:已通知作者有待处理的提取请求。
+* **随时可合并**:准备由我们的拉式请求审阅团队进行审阅。
