@@ -1,16 +1,12 @@
 ---
-source-git-commit: cdc5645b1bc3f2e9cf47329063635e20ec5c2e5e
+source-git-commit: 59f12a4dde987614e412838161bb5e8f6613630b
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '435'
 ht-degree: 6%
 
 ---
 # Contribute文章
-
-| EXL-PR | EXL | 预览 | 激活 | 已发布 | 帮助 |
-|--- |--- |--- |--- |--- |--- |
-| [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_pr-exl/lastBuild/) | [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/livefyre.en_exl/lastBuild/lastBuild) | [预览URL](https://experienceleague.corp.adobe.com/docs/livefyre/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [实时URL](https://experienceleague.adobe.com/docs/livefyre/using/home.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 我们欢迎来自我们社区以及文档团队外部的Adobe员工的贡献。
 
