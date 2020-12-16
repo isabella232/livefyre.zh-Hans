@@ -7,70 +7,73 @@ title: 向页面添加指示符
 uuid: 6499c45a-3773-4adb-a6c7-22a628309afd
 translation-type: tm+mt
 source-git-commit: bd989c97ae5cf06a5ac3deec215f865b0fe95d16
+workflow-type: tm+mt
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
 
-# 向页面添加指示符 {#adding-sidenotes-to-a-page}
+# 向页面{#adding-sidenotes-to-a-page}添加Sidesort
 
-Livefyre提供了多个配置选项，用于将Siestrop定位到您的页面上：
+Livefyre提供了多个配置选项，用于在您的页面上定位Siestr:
 
-* “选择器”选项定义了Sideras应显示的元素。
+* “选择器”选项定义应显示Siderf的元素。
 * 锚点表示可表示的元素。
-* 自定义线程容器允许您定义指示线程相对于所指示内容的位置。
-* “Sidesork计数”选项允许您显示在给定位置添加的Sidesork数。
-* 使用多个 `ConvConfig` 对象将指示符添加到单个页面上的多篇文章。
+* 自定义线程容器允许您定义指示线程相对于指示内容的位置。
+* “Siser”计数选项允许您显示在给定位置添加的Siser数量。
+* 使用多个`ConvConfig`对象将Sidestrap添加到单个页面上的多篇文章。
 
-## 选择器 {#section_wyj_4sv_sy}
+## 选择器{#section_wyj_4sv_sy}
 
-选择器选项使Sidesor能够查找页面上的内容。 此选项的值允许您动态确定将使用的元素。 它可以是选择器字符串（如“#content p, #content img”）、jQuery对象(如 `$(‘#content’)`)、DOM元素数组或具有两个属性的对象：包括和排除。 随后，指示应用程序将使用页面上的指定元素或匹配元素。 如果使用include和exclude属性，则Sidestrov将首先解析页面以查找include属性上的所有元素，然后删除在exclude属性上找到的所有元素。
+选择器选项使Sidesor能够在页面上查找内容。 此选项的值允许您动态确定将使用的元素。 它可以是选择器字符串（如“#content p, #content img”）、jQuery对象（如`$(‘#content’)`）、DOM元素数组或具有两个属性的对象：包括和排除。 随后，指示应用程序将使用页面上的指定元素或匹配元素。 如果使用include和exclude属性，则Sidesor将首先解析页面以查找include属性上的所有元素，然后删除exclude属性上找到的所有元素。
 
-## 锚点 {#section_ehq_psv_sy}
+## 锚点{#section_ehq_psv_sy}
 
-锚点表示其内容可以指示的元素。 锚点元素可以包含文本或图像。 应用程序构建过程中传递的选择器选项将确定锚点元素。
+锚点表示可指示其内容的元素。 锚点元素可以包含文本或图像。 应用程序构建过程中传递的选择器选项将确定锚点元素。
 
 ## 锚点ID {#section_rsb_rsv_sy}
 
-页面上的锚点使用 `data-lf-anchor-id`。
+页面上的锚点使用`data-lf-anchor-id`进行标识。
 
-要自行设置锚点的ID，请将属 `data-lf-custom-anchor-id` 性添加到要映射到锚点的元素。 当锚点的自动检测失败时，这非常有用。
+要自行设置锚点的ID，请将属性`data-lf-custom-anchor-id`添加到要映射到锚点的元素。 当锚点自动检测失败时，此功能非常有用。
 
-例如，如果您计划对图像的桌面和移动版本使用不同的URL，则两个不同的URL可能会映射到不同的锚点。 相反，如果HTML在移动和桌 `data-lf-custom-anchor-id` 面上提供的内容相同，则图像元素将被视为单个锚点。
+例如，如果您计划对图像的桌面和移动版本使用不同的URL，则两个不同的URL可能会映射到不同的锚点。 相反，如果HTML提供的`data-lf-custom-anchor-id`在移动设备和桌面上都相同，则图像元素将被视为单个锚点。
 
-锚点的类型是动态确定的，但也可以使用属性显式设置 `data-lf-custom-anchor-type` 类型。
+锚具有动态确定的类型，但也可以使用`data-lf-custom-anchor-type`属性显式设置。
 
 >[!NOTE]
 >
->必须使用枚举编号值。
+>必须使用明细列表号值。
 
-可用类型包括：
+可用类型有：
 
-* **** 文本：1
-* **** 图像：2
-* **** 媒体：3
-* **** 丰富：4
+* **文本：** 1
+* **图像：** 2
+* **媒体：** 3
+* **丰富：** 4
 
-有关如 [何使用方法将Sitexer内容动态添加到页](/help/implementation/c-app-integrations/c-sidenotes-integration/update-anchors-method.md)`updateAnchors` 面的更多信息，请参阅updateAnchors方法。
+有关如何使用`updateAnchors`方法将Sitherex内容动态添加到页面的详细信息，请参阅[updateAnchors方法](/help/implementation/c-app-integrations/c-sidenotes-integration/update-anchors-method.md)。
 
-## 自定义线程容器 {#section_jdh_btv_sy}
+## 自定义线程容器{#section_jdh_btv_sy}
 
-使用选 `threadContainerEl` 项可指定“指示”线程的位置，而不是默认位置。 默认情况下，当锚点被激活时，指示器将显示在相关内容旁边或下方。 要更改此默认值，请 `threadContainerEl` 使用指定线程应显示的元素。
+使用`threadContainerEl`选项指定Siserf线程的位置，而不是默认位置。 默认情况下，激活锚点后，相关内容旁边或下方将显示指示符。 要更改此默认值，请使用`threadContainerEl`指定线程应显示的元素。
 
-此选项的此值与选择器选项的工作方式相同，只是使用第一个有效元素。
+此选项的此值与选择器选项的工作方式相同，只使用第一个有效元素。
 
-## Sidesk计数 {#section_pld_ntv_sy}
+## Sidestrap计数{#section_pld_ntv_sy}
 
-使用该选 `numSidenotesEl` 项在您的页面上嵌入一个可选的Sidesork计数构件。 此选项接受与选择器选项相同的输入，但将仅使用输入数组中的第一个有效元素。
+使用`numSidenotesEl`选项在您的页面上嵌入一个可选的Sidesork计数构件。 此选项接受与选择器选项相同的输入，但将仅使用输入数组中的第一个有效元素。
 
-构件将装饰提供或匹配的元素，并将包括Sidesr输入图标、在此位置输入的Sidesr数量和帮助图标。
+构件将装饰提供或匹配的元素，并将包括“指示符”输入图标、在此位置输入的“指示符”数量和帮助图标。
 
 单击构件将显示一个快显窗口，其中简要说明了“指示”以及如何使用这些指示。
 
-说明和示例文本都可使用自定义字符串( `questionExplanation` 和 `questionMockText`分别)进行配置。 计数构件和弹出窗口的外观也可以使用自定义样式( `numSidenotes` 和 `numSidenotesPopover`分别)配置。
+说明和示例文本都可以使用自定义字符串（分别为`questionExplanation`和`questionMockText`）进行配置。 计数构件和跨距的外观也可以使用自定义样式（分别为`numSidenotes`和`numSidenotesPopover`）进行配置。
 
-## 添加多个站点表示集合到单个页面 {#section_pjl_ptv_sy}
+## 添加多个站点表示集合到单页{#section_pjl_ptv_sy}
 
-Livefyre允许您向单个页面添加多个Sidesort集合。 例如，如果页面包含三则新闻，您可能希望包含三个单独的Sidesorf应用程序小版本。 为此，您必须为要构建的Sideram的每个 `ConvConfig` 实例定义一个单独的对象。 例如：
+Livefyre允许您向单个页面添加多个Siestor集合。 例如，如果页面包含三则新闻，您可能希望包含三个单独的小版本“Sidesr App”。 为此，必须为要构建的Siest表示的每个实例定义单独的`ConvConfig`对象。 例如：
 
 ```
 <html> 
