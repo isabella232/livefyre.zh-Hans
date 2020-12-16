@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-# 审核用户{#moderate-users}
+# 中级用户{#moderate-users}
 
 “用户摘要”窗格提供用户信息以帮助审核。
 
@@ -26,16 +26,16 @@ ht-degree: 0%
 
 将显示（如果可用）您的每个注册Livefyre用户的以下信息：
 
-* **[!UICONTROL Username]**: 您网络的用户名。
-* **[!UICONTROL Display name]**: 网络的显示名称。
-* **[!UICONTROL Avatar]**: 网络的化身。
-* **[!UICONTROL Total number of posts]** 作者通过整个网络： 链接到Studio中该用户的列表内容。 总数按“已批准”、“待定”、“Bozo’d”或“已处理”的件数显示。
-* **[!UICONTROL Total #Flags]**: 应用于此作者帖子的标记总数。
-* **[!UICONTROL Join date]**: 他们在您的网络上创建用户帐户的日期。
-* **[!UICONTROL Email]**: 其列出的电子邮件地址。
-* **[!UICONTROL IP Address]**: 由Livefyre确定的IP地址。
-* **[!UICONTROL Bio]**: 用户的说明。
-* **[!UICONTROL Bans]**: 列表用户被禁止或Bozo’d的网站。
-* **[!UICONTROL Whitelists]**: 列表用户已被允许列出的站点。
+* **[!UICONTROL Username]**:您网络的用户名。
+* **[!UICONTROL Display name]**:网络的显示名称。
+* **[!UICONTROL Avatar]**:网络的化身。
+* **[!UICONTROL Total number of posts]** 作者通过整个网络：链接到Studio中该用户的列表内容。总数按“已批准”、“待定”、“Bozo’d”或“已处理”的件数显示。
+* **[!UICONTROL Total #Flags]**:应用于此作者帖子的标记总数。
+* **[!UICONTROL Join date]**:他们在您的网络上创建用户帐户的日期。
+* **[!UICONTROL Email]**:其列出的电子邮件地址。
+* **[!UICONTROL IP Address]**:由Livefyre确定的IP地址。
+* **[!UICONTROL Bio]**:用户的说明。
+* **[!UICONTROL Bans]**:列表用户被禁止或Bozo’d的网站。
+* **[!UICONTROL Whitelists]**:列表用户已被允许列出的站点。
 
-有关如何在“应用程序内容”选项卡中审核用户的详细信息，请参 [阅使用应用程序内容审核](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)。
+有关如何在“应用程序内容”选项卡中审核用户的详细信息，请参阅[使用应用程序内容进行审核](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)。
