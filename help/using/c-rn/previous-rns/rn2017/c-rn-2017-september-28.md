@@ -6,11 +6,14 @@ title: 2017 年 9 月 28 日
 uuid: 496134d2-1c1e-4097-9af2-6ea65efeb8e2
 translation-type: tm+mt
 source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 11%
 
 ---
 
 
-# September 28, 2017{#september}
+# 2017年9月28日{#september}
 
 2017年9月28日版本的发行说明。
 
@@ -18,8 +21,8 @@ source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
 
 | **问题类型** | **组件** | **发行说明** |
 |---|---|---|
-| 增强功能 | 安全 | 对SAFE垃圾邮件检测功能进行了小幅改进。 |
-| 错误 | Studio | 没有有效电子邮件的用户已经为他们构建了电子邮件。 修复了生产日志中系统未向这些用户发送电子邮件的问题。 |
+| 增强功能 | 安全 | 对SAFE垃圾邮件检测功能进行了细微改进。 |
+| 错误 | Studio | 没有有效电子邮件的用户会为其构建电子邮件。 修复了生产日志中系统未向这些用户发送电子邮件的问题。 |
 
 ## UAT版本
 
