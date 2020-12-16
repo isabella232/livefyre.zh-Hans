@@ -7,6 +7,9 @@ title: 安装
 uuid: f60b4cc7-178f-4a16-ba75-f1d0d171c52f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## Java {#section_yd3_3zk_rz}
 
-要安装Java库，请将此依赖关系添加到项目的POM中：
+要安装Java库，请将此依赖关系添加到项目的POM:
 
 ```
 <dependency> 
@@ -26,7 +29,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 </dependency>
 ```
 
-Java库依赖于以下模块：
+Java库具有以下模块的依赖关系：
 
 ```
 <dependency> 
@@ -56,7 +59,7 @@ Java库依赖于以下模块：
 </dependency> 
 ```
 
-有关详细信息，请阅读Java文档或查看 [GitHub上的源](https://github.com/Livefyre/livefyre-java-utils)。
+有关详细信息，请阅读Java文档或查看[GitHub](https://github.com/Livefyre/livefyre-java-utils)上的源。
 
 ## NodeJS {#section_swj_pwq_rz}
 
@@ -72,13 +75,13 @@ NodeJS库具有以下模块的依赖关系：
 "jsonwebtoken": ">=5.0.0" 
 ```
 
-有关详细信息，请阅读NodeJs文档或查看 [GitHub上的源](https://github.com/Livefyre/livefyre-nodejs-utils)。
+有关详细信息，请阅读NodeJs文档或查看[GitHub](https://github.com/Livefyre/livefyre-nodejs-utils)上的源。
 
-链接： [Restler](https://github.com/danwrong/restler)、 [Validator](https://www.npmjs.org/package/validator)、 [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)。
+链接：[Restler](https://github.com/danwrong/restler)、[Validator](https://www.npmjs.org/package/validator)、[jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)。
 
 ## PHP {#section_txj_xwq_rz}
 
-要安装包含书写器的PHP库，请将其添加到您的composer.json中：
+要安装带有Composer的PHP库，请将其添加到您的composer.json中：
 
 ```
 "require": { 
@@ -86,19 +89,19 @@ NodeJS库具有以下模块的依赖关系：
 }
 ```
 
-然后，使用以下方式进行安装：
+然后使用：
 
 ```
 composer.phar install 
 ```
 
-如果不使 **用** Composer，请使用以下方式获取库的最新版本：
+如果&#x200B;**不**&#x200B;使用书写器，请使用以下方式获取库的最新版本：
 
 ```
 git clone https://github.com/Livefyre/livefyre-php-utils 
 ```
 
-要使用库，请将以下内容添加到PHP脚本中：
+要使用库，请向PHP脚本中添加以下内容：
 
 ```
 require_once("/path/to/livefyre-php-utils/src/Livefyre.php"); 
@@ -112,9 +115,9 @@ PHP库具有以下模块的依赖关系：
 "firebase/php-jwt": ">=2.0" 
 ```
 
-有关详细信息，请阅读PHP文档或查看 [GitHub上的源](https://github.com/Livefyre/livefyre-php-utils)。
+有关详细信息，请阅读PHP文档或查看[GitHub](https://github.com/Livefyre/livefyre-php-utils)上的源。
 
-链接： [ext-json](https://php.net/manual/en/book.json.php)、 [请求](https://github.com/rmccue/Requests/)、 [PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
+链接：[ext-json](https://php.net/manual/en/book.json.php)、[请求](https://github.com/rmccue/Requests/)、[PHP-JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)
 
 ## Python {#section_irk_fxq_rz}
 
@@ -132,13 +135,13 @@ enum34 == 1.0
 ordereddict == 1.1 if sys.version_info[:2] < 2.7 
 ```
 
-有关详细信息，请阅读Python文档或查看 [GitHub上的源](https://github.com/Livefyre/livefyre-python-utils)。
+有关详细信息，请阅读Python文档或查看[GitHub](https://github.com/Livefyre/livefyre-python-utils)上的源。
 
-链接：Py JWT [,](https://github.com/progrium/pyjwt)Requests [,](https://github.com/kennethreitz/requests)Python-Dateutil [,](https://pypi.python.org/pypi/python-dateutil)[](https://pypi.python.org/pypi/enum34)[Enum 34Dict, OrderedDict](https://pypi.python.org/pypi/ordereddict)
+链接：[PyJWT](https://github.com/progrium/pyjwt)、[请求](https://github.com/kennethreitz/requests)、[Python-Dateutil](https://pypi.python.org/pypi/python-dateutil)、[Enum34](https://pypi.python.org/pypi/enum34)、[OrderedDict](https://pypi.python.org/pypi/ordereddict)
 
 ## Ruby {#section_fv2_tzq_rz}
 
-要安装Ruby库，请将此行添加到应用程序的Gemfile中：
+要安装Ruby库，请将此行添加到应用程序的Gemfile:
 
 ```
 gem 'livefyre' 
@@ -148,7 +151,7 @@ gem 'livefyre'
 
 `$ gem install livefyre`
 
-Ruby库依赖于以下模块：
+Ruby库具有以下模块的依赖关系：
 
 ```
 "jwt", '~> 1.4', ">= 1.4.1"  
@@ -156,6 +159,6 @@ Ruby库依赖于以下模块：
 "addressable", '~> 2.3', ">= 2.3.6" 
 ```
 
-有关详细信息，请阅读Ruby文档或查看 [GitHub上的源](https://github.com/Livefyre/livefyre-ruby-utils)。
+有关详细信息，请阅读Ruby文档或查看[GitHub](https://github.com/Livefyre/livefyre-ruby-utils)上的源。
 
-链接：Ruby JWT [,](https://github.com/firebase/php-jwt/tree/v2.0.0)REST客户端 [，可寻](https://github.com/rest-client/rest-client/)[址](https://github.com/sporkmonger/addressable)
+链接：[Ruby JWT](https://github.com/firebase/php-jwt/tree/v2.0.0)、[REST Client](https://github.com/rest-client/rest-client/)、[可寻址](https://github.com/sporkmonger/addressable)
