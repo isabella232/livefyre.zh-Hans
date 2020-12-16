@@ -1,29 +1,32 @@
 ---
-description: 在页面上重新定位Livefyre徽标。
-seo-description: 在页面上重新定位Livefyre徽标。
+description: 在您的页面上重新定位Livefyre徽标。
+seo-description: 在您的页面上重新定位Livefyre徽标。
 seo-title: 移动Livefyre徽标
 solution: Experience Manager
 title: 移动Livefyre徽标
 uuid: 807304ae-6070-4505-87db-169a925f714c
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 0%
 
 ---
 
 
 # 移动Livefyre徽标{#move-the-livefyre-logo}
 
-在页面上重新定位Livefyre徽标。
+在您的页面上重新定位Livefyre徽标。
 
 如果您与Livefyre的协议允许，您可以将Livefyre徽标从内容流的顶部移到底部。
 
-例如，将以下HTML添加到紧跟包含Livefyre应用程序的元素后的页面：
+例如，在紧跟包含Livefyre应用程序的元素后，将以下HTML添加到您的页面：
 
 ```
 <div id="powered_by_livefyre_new"><a href="https://livefyre.com" target="_blank">Powered by Livefyre</a></div>
 ```
 
-然后，将以下内容添加到页面的样式表中：
+然后，将以下内容添加到页面的样式表：
 
 ```
 /* Hide the top logo */ 
