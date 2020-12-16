@@ -1,22 +1,25 @@
 ---
-description: 您可以设计Livefyre应用程序的样式，以便以各种方式行事，或将其更改为与您品牌营销活动的其余部分外观相似。
-seo-description: 您可以设计Livefyre应用程序的样式，以便以各种方式行事，或将其更改为与您品牌营销活动的其余部分外观相似。
+description: 您可以设计Livefyre应用程序的样式，使其以各种方式运行，或更改它们，使其外观和感觉与您的其他品牌活动相似。
+seo-description: 您可以设计Livefyre应用程序的样式，使其以各种方式运行，或更改它们，使其外观和感觉与您的其他品牌活动相似。
 seo-title: 样式功能
 title: 样式功能
 uuid: 72a3843d-692a-43ff-b72b-6bd840de87d6
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 7%
 
 ---
 
 
 # 样式功能{#styling-features}
 
-您可以设计Livefyre应用程序的样式，以便以各种方式行事，或将其更改为与您品牌营销活动的其余部分外观相似。
+您可以设计Livefyre应用程序的样式，使其以各种方式运行，或更改它们，使其外观和感觉与您的其他品牌活动相似。
 
-## 默认样式 {#section_yjl_rfs_d1b}
+## 默认样式{#section_yjl_rfs_d1b}
 
-您可以在App Designer中的Studio中设计应用程序样式，无需使用Livefyre.js自定义应用程序。
+您无需使用Livefyre.js自定义应用程序，即可在App Designer的Studio中设计应用程序样式。
 
 使用此功能的应用程序：
 
