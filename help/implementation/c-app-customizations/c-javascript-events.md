@@ -7,6 +7,9 @@ title: JavaScript事件定义和示例
 uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 15%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 可用于为对话应用程序（例如，Comments、Chat、Live Blog、Reviews 和 Sidenotes）绑定 JavaScript 的事件。
 
-Livefyre提供JavaScript事件以跟踪Livefyre应用程序中的用户活动。 例如，当用户喜欢或共享内容到Twitter或Facebook，或者发布新内容时，您可能希望更新页面。
+Livefyre提供JavaScript事件来跟踪Livefyre应用程序中的用户活动。 例如，您可能希望在用户喜欢或共享内容到Twitter或Facebook或发布新内容时更新页面。
 
-Livefyre还允许您将事件添加到第三方分析集成（Adobe Analytics JS、Google Analytics、动态标签管理等）中，以跟踪应用程序事件。 有关详细信息，请与您的第三方集成经理合作以提供正确的事件。
+Livefyre还允许您向第三方分析集成(Adobe AnalyticsJS、Google Analytics、动态标签管理等)添加事件，以跟踪应用程序事件。 有关详细信息，请与您的第三方集成管理器合作，以提供正确的事件。
 
-要绑定到这些事件，请在页面上实例化应用程序时，将以下代码添加到页面。 用事件名称替换 `{eventName}`:
+要绑定到这些事件，请在页面上实例化应用程序时向页面添加以下代码。 用事件名替换`{eventName}`:
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -33,15 +36,15 @@ Livefyre.require(['fyre.conv#3'], function(Conv) {
 
 >[!NOTE]
 >
->为所有事件句柄提供数据对象。 每个事件后面都有数据对象示例。
+>为所有事件处理程序提供数据对象。 示例数据对象遵循每个事件。
 
 ## commentPosted {#section_qfr_51p_xz}
 
-一位用户发布了评论。
+一个用户发布了评论。
 
-* null的父项是新注释。
+* 父项为null是新注释。
 * “无”的父项是已编辑的注释。
-* 父项的编号是回复的父ID。
+* 父代的编号是回复的父ID。
 
 ```
 data = { 
@@ -56,7 +59,7 @@ data = {
 } 
 ```
 
-## commentFlasked {#section_szy_s1p_xz}
+## commentFlaged {#section_szy_s1p_xz}
 
 用户标记了评论。
 
@@ -82,7 +85,7 @@ data = {
 
 ## commentShared {#section_nqb_31p_xz}
 
-用户共享了流中的评论。 （当用户从注释编辑器共享时，此事件不会触发。）单击“共享”按钮时将触发此事件。
+用户共享了流中的评论。 (当用户从注释编辑器共享时，此事件不会触发。) 单击“共享”按钮时将触发此事件。
 
 ```
 data = { 
@@ -120,9 +123,9 @@ data = {
 
 数据未定义。
 
-## socialTuntire {#section_a1w_tz4_xz}
+## socialUntited {#section_a1w_tz4_xz}
 
-用户在评论中包含@tuntices。 返回以下数组：
+用户在评论中包含@提及。 返回以下数组：
 
 ```
 data = { 
@@ -136,7 +139,7 @@ data = {
 
 ## commentFeatured
 
-审查方用户提供了评论。 返回以下数组：
+版主用户提供了评论。 返回以下数组：
 
 ```
 data = { 
@@ -154,13 +157,13 @@ data = {
 
 ## showMore {#section_pqg_nz4_xz}
 
-用户单击了该 **[!UICONTROL Show More]** 按钮。
+用户单击了&#x200B;**[!UICONTROL Show More]**&#x200B;按钮。
 
 数据未定义。
 
-## userFlowded {#section_xxw_jz4_xz}
+## userAftled {#section_xxw_jz4_xz}
 
-当用户单击该按钮时返回 **[!UICONTROL Follow]** true，当内容发布到流时返回false。
+当用户单击&#x200B;**[!UICONTROL Follow]**&#x200B;按钮时，返回true；当内容发布到流时，返回false。
 
 ```
 data = { 
@@ -169,9 +172,9 @@ data = {
 }
 ```
 
-## userUnflowded {#section_wm1_gz4_xz}
+## userUnflowed {#section_wm1_gz4_xz}
 
-当用户单击“取消关注”按 **钮时** ，返回true；当内容发布到流时，返回false。
+当用户单击&#x200B;**Unfollow**&#x200B;按钮时，返回true；当内容发布到流时，返回false。
 
 ```
 data = { 
