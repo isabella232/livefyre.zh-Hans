@@ -7,6 +7,9 @@ title: 2018 年 11 月 1 日
 uuid: ed1a3bf1-b3f1-4746-8462-07283723ba62
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 5%
 
 ---
 
@@ -21,19 +24,20 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 * 视频智能标记
 
-   利用由Adobe Sensei提供支持的最新计算机视觉技术，在将视频内容保存到库时自动标记视频内容。 智能标签可以帮助您更有效地管理UGC，同时创建超精确的特选规则（流），这些规则（流）根据视频中的内容收集内容，而不仅仅是文本，从而节省您管理多余内容的大量工作。
+   利用由Adobe Sensei提供支持的最新计算机视觉技术，在将视频内容保存到库时自动标记视频内容。 智能标记可以帮助您更有效地管理UGC，同时创建超精确的特选规则（流），这些规则根据视频中的内容（而不仅仅是文本）收集内容，从而节省您协调多余内容的大量工作。
 
    功能详细信息：
 
-   * 智能标记会自动添加到从库中的社交搜索、流和上传的视频文件获取的视频中。 查看单个视频的资产详细信息中的标记
+   * 智能标记会自动添加到从库中的社交搜索、流和上传的视频文件获取的视频中。 视图在单个视频的资产详细信息中标记
    * 以。MP4、.MOV和AVI格式标记视频
-   * 为视频添加最多60秒或50MB的标记
-   * 智能标记的两个类别适用于视频：特征（动物、物体、地点等）和动作（跑步、行走、唱歌等）
-   For more information see [Smart Tags](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
+   * 为视频标记高达60秒或50MB
+   * 两类别智能标记应用于视频：特征（动物、物体、地点等）和动作（跑步、行走、唱歌等）
+
+   有关详细信息，请参阅[智能标记](/help/using/c-features-livefyre/c-smart-tags/c-smart-tags.md#c_smart_tags)
 
 * Instagram速率限制
 
-   Instagram已将使用Instagram API（包括Livefyre）的任何公司每小时5,000个令牌的请求数更改为每小时200个请求数。 这称为速率 *限制*。 有关详细信息，请参 [阅Instagram速率限制](/help/using/c-streams/c-instagram-rate-limiting.md)。
+   Instagram已更改了任何使用Instagram API的公司（包括Livefyre）可以发出的请求数，从每个令牌每小时5,000个请求到每个令牌每小时200个请求。 这称为&#x200B;*速率限制*。 有关详细信息，请参阅[Instagram速率限制](/help/using/c-streams/c-instagram-rate-limiting.md)。
 
 * 库中的音频文件
 
@@ -47,11 +51,11 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 ## 问题 {#section_ehw_ndt_wcb}
 
-此版本的生产版本中未解决任何新问题。 请参 [阅上面的部分](#c_rn/section_syx_mdt_wcb)。
+此版本的生产版本中未解决任何新问题。 请参阅上面的[部分](#c_rn/section_syx_mdt_wcb)。
 
-## UAT版本 {#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
+## UAT版本{#section_EE91B0C9313E45C5B4CBD59CFBCCFCFE}
 
-在此版本的UAT版本中，已解决下表中的问题。
+以下表中的问题已在此版本的UAT版本中解决。
 
 | **问题类型** | **组件** | **发行说明** |
 |---|---|---|
