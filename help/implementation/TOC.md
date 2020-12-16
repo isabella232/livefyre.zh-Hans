@@ -11,7 +11,7 @@ ht-degree: 4%
 ---
 
 
-# Livefyre实施指南 {#implementation}
+# Livefyre实施指南{#implementation}
 
 + [Livefyre实施指南](home.md)
 + 快速入门 {#getting-started}
@@ -29,15 +29,15 @@ ht-degree: 4%
       + [用户身份验证令牌](c-getting-started/c-implementation-process/c-user-auth-token.md)
       + [使用CollectionMeta令牌创建集合](t-create-a-collectionmeta-token.md)
       + [创建校验和](c-creating-a-checksum.md)
-+ 身份集成 {#identity-integration}
++ 身份集成{#identity-integration}
    + [身份集成](t-about-identity-integration/t-about-identity-integration.md)
    + [身份验证包](t-about-identity-integration/c-authorization-package.md)
    + [AuthDelegate对象](t-about-identity-integration/c-building-an-auth-delegate.md)
    + [将用户权限发布到外部系统（可选）](t-about-identity-integration/c-posting-user-permissions-to-external-systems.md)
-   + 实施SSO {#implementing-sso}
+   + 实现SSO {#implementing-sso}
       + [实施SSO](t-about-identity-integration/c-implementing-sso/c-implementing-sso.md)
       + [调试身份验证委托](t-about-identity-integration/c-implementing-sso/c-debugging-auth.md)
-   + 与Livefyre同步 {#sync-ping-for-pull}
+   + 与Livefyre {#sync-ping-for-pull}同步
       + [使用Ping for Pull与Livefyre同步](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-sync-with-livefyre-using-ping-for-pull.md)
       + [构建拉取端点](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/t-build-the-pull-endpoint.md)
       + [使用Studio注册端点](t-about-identity-integration/t-sync-with-livefyre-using-ping-for-pull/c-register-the-endpoint-with-studio.md)
@@ -47,11 +47,11 @@ ht-degree: 4%
 + Livefyre Identity {#livefyre-identity}
    + [Livefyre Identity](c-livefyre-identity-comp/c-livefyre-identity-comp.md)
    + [启用Livefyre标识](c-livefyre-identity-comp/t-enable-livefyre-identity.md)
-   + 将社交应用程序与Livefyre Identity结合使用 {#use-social-apps-with-livefyre-identity}
+   + 将社交应用程序与Livefyre Identity {#use-social-apps-with-livefyre-identity}一起使用
       + [创建社交应用程序](c-livefyre-identity-comp/t-create-your-social-apps.md)
       + [创建用于Livefyre Identity的Facebook应用程序](c-livefyre-identity-comp/t-create-a-facebook-app-for-use-with-livefyre-identity.md)
       + [创建用于Livefyre Identity的Twitter应用程序](c-livefyre-identity-comp/t-create-a-twitter-app-for-use-with-livefyre-identity.md)
-      + [创建Yahoo! 与Livefyre Identity一起使用的应用程序](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
+      + [创建Yahoo!与Livefyre Identity一起使用的应用程序](c-livefyre-identity-comp/t-create-a-yahoo-app-for-use-with-livefyre-identity.md)
       + [创建用于Livefyre Identity的Microsoft Live Identity应用程序](c-livefyre-identity-comp/t-create-a-microsoft-live-id-app-for-use-with-livefyre-identity.md)
       + [创建用于Livefyre Identity的LinkedIn应用程序](c-livefyre-identity-comp/t-create-a-linkedin-app-for-use-with-livefyre-identity.md)
       + [创建用于Livefyre Identity的GitHub Identity应用程序](c-livefyre-identity-comp/c-create-a-github-identity.md)
@@ -98,13 +98,13 @@ ht-degree: 4%
       + [Android SDK](c-mobile-sdks/c-android-sdk.md)
 + [Livefyre.js](c-livefyre.js.md)
 + [创建Livefyre令牌C#](c-creating-livefyre-tokens-c-.md)
-+ 应用程序集成 {#app-integrations}
++ 应用程序集成{#app-integrations}
    + [聊天](c-app-integrations/c-app-integratios-chat.md)
    + 注释 {#comments}
       + [评论](c-app-integrations/c-comments-integration/c-comments-integration.md)
    + [实时博客](c-app-integrations/c-live-blog-integration.md)
    + [评论](c-app-integrations/c-reviews-integration.md)
-   + Sidesk {#sidenotes}
+   + Sisextr {#sidenotes}
       + [Sisers集成](c-app-integrations/c-sidenotes-integration/r-sidenotes-integration.md)
       + [向页面添加指示符](c-app-integrations/c-sidenotes-integration/r-adding-sidenotes-to-a-page.md)
       + [Siestors应用程序事件](c-app-integrations/c-sidenotes-integration/r-app-events.md)
@@ -116,7 +116,7 @@ ht-degree: 4%
    + [地图](c-app-integrations/c-map-integration.md)
    + [媒体墙](c-app-integrations/c-media-wall-integration.md)
    + [趋势](c-app-integrations/c-trending-integration.md)
-+ 应用程序自定义 {#app-customizations}
++ 应用程序自定义{#app-customizations}
    + [应用程序自定义](c-app-customizations/c-app-customizations.md)
    + [更改显示选项](c-app-customizations/c-change-display-options.md)
    + [CSS类](c-app-customizations/c-css-classes.md)
@@ -128,7 +128,7 @@ ht-degree: 4%
    + [更改 @mention 图标](c-app-customizations/c-change-mention-icon.md)
    + [突出显示内容](c-app-customizations/c-highlight-content.md)
    + [自定义日期和时间戳](c-app-customizations/c-date-time-stamp.md)
-   + 功能内容 {#feature-content}
+   + 功能内容{#feature-content}
       + [功能内容](c-app-customizations/t-feature-content.md)
       + [在Studio中启用特色内容](c-app-customizations/t-enable-featuring-content-in-studio.md)
       + [从应用程序中选择要实现功能的内容](c-app-customizations/t-select-content-to-feature.md)
@@ -137,13 +137,13 @@ ht-degree: 4%
       + [功能API](c-app-customizations/c-feature-apis.md)
    + [使用AuthDelegate将Janrain连接到Livefyre](c-app-customizations/c-connecting-janrain-to-livefyre-using-authdelegate.md)
    + [使用特色API汇总特色内容](c-app-customizations/c-aggregated-featured-content-using-the-featured-apis.md)
-   + 样式内容 {#style-content}
+   + 样式内容{#style-content}
       + [样式用户组内容](c-app-customizations/c-style-user-group-content.md)
       + [将用户添加到组](c-app-customizations/c-adding-users-to-groups.md)
-   + 应用自定义样式 {#apply-custom-styles}
+   + 应用自定义样式{#apply-custom-styles}
       + [应用自定义样式](c-app-customizations/c-applying-custom-styles-.md)
       + [添加自定义按钮](c-app-customizations/t-add-custom-buttons.md)
-   + Javascript事件 {#javascript-events}
+   + Javascript事件{#javascript-events}
       + [JavaScript事件定义和示例](c-app-customizations/c-javascript-events.md)
       + [可视化应用程序的Javascript事件](c-app-customizations/c-javascript-events-for-visualization-apps.md)
       + [媒体墙的Javascript事件](c-app-customizations/c-javascript-events-media-wall.md)
@@ -155,15 +155,15 @@ ht-degree: 4%
 + [压力测试策略](c-stress-test-policy.md)
 + Analytics {#analytics}
    + [Analytics](livefyre-analytics/livefyre-analytics.md)
-   + [将Livefyre与Adobe Analytics和Dynamic Tag Manager(DTM)结合使用](livefyre-analytics/c-use-livefyre-with-adobe-analytics.md)
+   + [将Livefyre与Adobe Analytics和动态标签管理器(DTM)结合使用](livefyre-analytics/c-use-livefyre-with-adobe-analytics.md)
    + [将Livefyre与其他分析工具结合使用](livefyre-analytics/c-livefyre-analytics.md)
    + [Livefyre Analytics事件](livefyre-analytics/c-livefyre-analytics-events.md)
 + [将Livefyre与AEM集成](c-livefyre-aem-integration.md)
-+ 高级主题 {#advanced-topics}
++ 高级主题{#advanced-topics}
    + [显示注释计数](c-advanced-topics/t-display-comment-count.md)
    + [启用社交共享](c-advanced-topics/c-enabling-social-sharing.md)
    + [活动流](c-advanced-topics/c-activity-stream.md)
-   + [引导HTML](c-advanced-topics/c-bootstrap-html.md)
+   + [BootstrapHTML](c-advanced-topics/c-bootstrap-html.md)
    + [更改集合](c-advanced-topics/c-change-collection.md)
    + [多个集合](c-advanced-topics/c-multiple-collections.md)
    + [切换核心应用程序类型](c-advanced-topics/c-switch-core-app-types.md)
