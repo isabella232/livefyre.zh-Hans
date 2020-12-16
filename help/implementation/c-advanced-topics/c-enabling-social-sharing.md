@@ -7,59 +7,62 @@ title: 启用社交共享
 uuid: f584a0ae-46c7-48c1-aea4-36da9f1e259b
 translation-type: tm+mt
 source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 0%
 
 ---
 
 
-# 启用社交共享 {#enabling-social-sharing}
+# 启用社交共享{#enabling-social-sharing}
 
 设置允许用户将内容共享到各种社交网络的凭据。
 
-要允许用户跨社交媒体站点共享内容，请实施Livefyre的社交共享功能，并创建OAuth系统以向这些站点提供正确的身份验证。 通过此系统，当用户选择通过社交媒体共享内容时，Livefyre将代表用户行事。
+要允许用户跨社交媒体站点共享内容，请实施Livefyre的社交共享功能，并创建OAuth系统以向这些站点提供正确的身份验证。 使用此系统，当用户选择通过社交媒体共享内容时，Livefyre将代表他们行事。
 
 >[!NOTE]
 >
->不同的提供商有不同的OAuth要求。 请咨询您的提供商，获取与其实施OAuth相关的信息。
+>不同的提供者有不同的OAuth要求。 请咨询提供商，获取与其实施OAuth相关的信息。
 
-## 必需的社交凭据 {#section_gff_cjm_b1b}
+## 必需的社交凭据{#section_gff_cjm_b1b}
 
 如果您使用自定义用户标识系统，则必须提供社交凭据，以使用户能够从Livefyre应用程序共享到Twitter、Facebook或LinkedIn。
 
 >[!NOTE]
 >
->使用Janrain Engage的客户只需提供其Engage domain和Engage API密钥。
+>使用Janrain Engage的客户只需提供其Engage Domain和Engage API Key。
 
 使用Admin Console的“集成设置”面板输入或更新以下社交凭据。
 
-### 必需凭据：
+### 所需凭据：
 
-* **Facebook** Client ID客户端机密OAuth代理重定向
-* **LinkedIn** API密钥API机密
-* **Twitter** Access Token Access Token Secret API Key API Secret
+* **FacebookClient** ID客户端机密OAuth代理重定向
+* **LinkedInAPI** 密钥API机密
+* **TwitterAccess** 令牌访问令牌密码API密钥API机密
 
 ## Twitter {#section_qp5_1yl_b1b}
 
-Twitter凭据可从Twitter应用程序控制板中访问。 要查找这些凭据，请执行以下操作：
+Twitter凭据可从Twitter应用程序仪表板中访问。 要查找这些凭据，请执行以下操作：
 
-* 以应 [用程序所有者的身份打开Twitter的应用程序开发页面](https://dev.twitter.com/apps) ，查找您的应用程序，然后单击标题。
-* 向下滚动到“您的访问令牌”，并从“访问令牌”和“访问令牌机密”中获取值。
+* 打开[Twitter的App Dev Page](https://dev.twitter.com/apps)作为应用程序所有者，找到您的应用程序，然后单击标题。
+* 向下滚动到“您的访问令牌”，并从“访问令牌”和“访问令牌密码”中获取值。
 
 您必须：
 
-* 在Twitter应用程序中为回调URL字段输入值。 虽然此字段可能是一个简单的占位符，但不能将其留空。
-* 将“应用程序类型”设置为同时 **具有读****取和写** 入。
+* 在Twitter应用程序中为回叫URL字段输入值。 虽然此字段可能是一个简单的占位符，但不能将其留空。
+* 将“应用程序类型”设置为同时具有&#x200B;**读**&#x200B;和&#x200B;**写**&#x200B;访问权限。
 * 确认Twitter应用程序网站URL与Livefyre核心应用程序位于同一主机域。
 
 >[!NOTE]
 >
->显示Twitter内容的所有应用程序都必须符合其显示要求。 有关详细信 [息，请参阅Twitter显示准则](https://dev.twitter.com/terms/display-requirements) 。
+>显示Twitter内容的所有应用程序都必须遵循其显示要求。 有关详细信息，请参阅[Twitter显示指南](https://dev.twitter.com/terms/display-requirements)。
 
 ## LinkedIn {#section_lfz_zxl_b1b}
 
-LinkedIn凭据可从LinkedIn应用程序的API密钥的“OAuth密钥”部分获得。
+LinkedIn凭据可从LinkedIn应用程序API密钥的“OAuth密钥”部分获取。
 
-* 从LinkedIn的“开发人员”页面https://developer.linkedin.com/登录您的 [帐户](https://developer.linkedin.com/)。
-* 将指针悬停在右上角的您的姓名上，然后从下拉菜单中选择API密钥。
+* 从LinkedIn的“开发人员”页[https://developer.linkedin.com/](https://developer.linkedin.com/)登录您的帐户。
+* 将指针悬停在右上方的您的姓名上，然后从下拉菜单中选择API密钥。
 * 单击“应用程序”标题。
 * 从“OAuth密钥”部分获取API密钥和密钥值
 
@@ -67,10 +70,10 @@ LinkedIn凭据可从LinkedIn应用程序的API密钥的“OAuth密钥”部分�
 
 Facebook凭据可从您的“开发人员应用程序”页面访问。
 
-* 以应 [用程序所有者身份打开Facebook的“开发人员应用程序页面](https://developers.facebook.com/apps) ”，查找您的应用程序，然后单击标题。
-* 获取App ID和App Secret的值。 对于App Secret，您可能需要单击“显示”按钮以显示它。
+* 打开[Facebook的“开发人员应用程序页面”](https://developers.facebook.com/apps)作为应用程序所有者，找到您的应用程序，然后单击标题。
+* 获取App ID和App Secret的值。 对于“App Secret”（应用程序机密），您可能需要单击“Show”（显示）按钮来显示它。
 
-要共享到Facebook，您必须设置重定向页面以接受Facebook请求并遵守 [Facebook要求的域惯例](https://developers.facebook.com/docs/reference/dialogs/oauth/)。 该页面必须托管在您的域上，这样Facebook才能验证请求是否来自合法来源。
+要共享到Facebook，您必须设置一个重定向页面，以接受Facebook请求并遵守[Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/)要求的域惯例。 该页面必须托管在您的域中，这样Facebook才能验证请求是否来自合法来源。
 
 ### Facebook重定向
 
@@ -78,7 +81,7 @@ Facebook凭据可从您的“开发人员应用程序”页面访问。
 
 ### Ruby
 
-这是一个使用Ruby和Rails执行Facebook OAuth重定向的示例。
+这是使用Ruby和Rails执行Facebook OAuth重定向的示例。
 
 ```ruby
 require "base64" 
@@ -115,7 +118,7 @@ end
 
 ### Python
 
-这是一个使用Python和Django进行Facebook OAuth重定向的示例。
+这是一个使用Python和Django重定向Facebook OAuth的示例。
 
 ```python
 import base64, re 
@@ -157,7 +160,7 @@ def handle_lfoauth(request):
 
 ### NodeJS
 
-这是一个使用NodeJS和Sail/Express进行Facebook OAuth重定向的示例。
+这是一个使用NodeJS和Sail/Express执行Facebook OAuth重定向的示例。
 
 ```nodejs
 /* 
@@ -329,9 +332,9 @@ if (isset($_GET['lfoauth'])) {
 ?>
 ```
 
-## 配置“发布到”提供商 {#section_rdk_dpl_b1b}
+## 配置“发布到”提供程序{#section_rdk_dpl_b1b}
 
-默认情况下，Facebook、LinkedIn和Twitter的“发布到”按钮显示在Livefyre核心应用程序上。 使用postToButtons参数配置嵌入Livefyre应用程序时将显示哪些提供者。
+默认情况下，Livefyre核心应用程序上显示Facebook、LinkedIn和Twitter的“发布到”按钮。 使用postToButtons参数配置嵌入Livefyre应用程序时将显示哪些提供者。
 
 ```
 var convConfig = {}; // Ignoring other options for this example 
