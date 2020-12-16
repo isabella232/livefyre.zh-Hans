@@ -6,6 +6,9 @@ title: 设置社交共享
 uuid: e1940e30-9fbb-41e8-b5bb-497a5b06643f
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 2%
 
 ---
 
@@ -14,13 +17,13 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 “社交共享”面板允许您添加社交媒体网络应用程序凭据。
 
-Livefyre使用此信息代表您的社交应用程序连接到列出的社交网络，并代表用户发布共享内容。 输入这些值以启用社交集成。 可随时编辑。
+Livefyre使用此信息代表您的社交应用程序连接到列出的社交网络，并代表您的用户发布共享内容。 输入这些值以启用社交集成。 可随时编辑。
 
-根据Livefyre集成过程中的定义，本页中的可用设置将会更新以反映您的社交共享系统。 那些使用自己的自定义用户标识系统进行集成的用户，如果希望允许其最终用户共享到这些平台，则必须为Facebook、LinkedIn和Twitter提供社交网络凭据。 Janrain Engage客户只需提供其Janrain凭据，而不需要提供Facebook、Twitter或LinkedIn。
+本页中的可用设置将进行更新，以反映您的社交共享系统（在Livefyre集成过程中定义）。 那些使用自己的自定义用户身份系统进行集成的用户，如果希望允许其最终用户共享到这些平台，则必须为Facebook、LinkedIn和Twitter提供社交网络凭据。 Janrain Engage客户只需提供其Janrain凭据，而不需要提供Facebook、Twitter或LinkedIn。
 
 >[!NOTE]
 >
->每个社交媒体站点只能为您的网络启用一个应用程序。 您可能在多个网站上包含这些应用程序，但您的网络可能只有一个Facebook、一个Twitter、一个LinkedIn和一个Bitly集成。
+>每个社交媒体站点只能为您的网络启用一个应用程序。 您可能在多个网站上包含这些应用程序，但您的网络可能只包含一个Facebook、一个Twitter、一个LinkedIn和一个Bitly集成。
 
 ## Janrain Engage {#section_dzq_1p1_21b}
 
@@ -42,7 +45,7 @@ Livefyre使用此信息代表您的社交应用程序连接到列出的社交网
 要共享到Twitter，请输入以下Twitter应用程序凭据：
 
 * **[!UICONTROL Access Token:]** 您的Twitter提供的用于发出API请求的令牌。
-* **[!UICONTROL Access Token Secret:]** 您的Twitter为发出API请求提供的机密。
+* **[!UICONTROL Access Token Secret:]** 您在Twitter上提供的发出API请求的机密。
 * **[!UICONTROL API Key:]** 您的Twitter提供的API密钥。
 * **[!UICONTROL API Secret:]** 您的Twitter提供的API机密。
 
@@ -53,11 +56,11 @@ Livefyre使用此信息代表您的社交应用程序连接到列出的社交网
 * **[!UICONTROL API Key:]** 您的LinkedIn提供的API密钥。
 * **[!UICONTROL API Secret:]** 您的LinkedIn提供的API机密。
 
-## 比特利 {#section_ur2_np1_21b}
+## Bitly {#section_ur2_np1_21b}
 
-要启用Bitly永久链接，请为Bitly集成输入以下信息：
+要启用Bitly Permalinks，请为Bitly集成输入以下信息：
 
-* **[!UICONTROL Login:]** 您的Bitly提供的最终用户用户名登录名。
+* **[!UICONTROL Login:]** 您的Bitly提供的最终用户用户名登录。
 * **[!UICONTROL API Key:]** 您的Bitly提供的API密钥。
 
 
