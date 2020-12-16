@@ -7,6 +7,9 @@ title: 投票
 uuid: 19264eb2-53f8-4a66-a265-38efb634a207
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 允许客户实时发表意见。
 
-投票允许您创建快速的、一问一题的投票并将其发布到您的站点。 使用投票来鼓励读者参与，收集来自网站访客的反馈、意见和请求。
+投票允许您创建快速、单问题投票并将其发布到您的站点。 使用投票来鼓励读者参与，收集来自网站访客的反馈、意见和请求。
 
 >[!NOTE]
 >
