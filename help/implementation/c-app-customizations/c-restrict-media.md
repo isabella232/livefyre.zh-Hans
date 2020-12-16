@@ -7,6 +7,9 @@ title: 限制媒体
 uuid: c470c985-d221-4f39-8bd4-4e44ec14db95
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 >[!NOTE]
 >
->Livefyre与Embedly合作实现媒体集成。 有关详细信息，请参阅内容集成&gt;嵌入式集成。 有关链接扩展或源的问题，请与您的技术客户经理联系。
+>Livefyre与Embedly合作实现媒体集成。 有关详细信息，请参阅内容集成>嵌入式集成。 有关链接扩展或源的问题，请与您的技术客户经理联系。
 
 此示例阻止YouTube和Vimeo从您的注释流中嵌入：
 
