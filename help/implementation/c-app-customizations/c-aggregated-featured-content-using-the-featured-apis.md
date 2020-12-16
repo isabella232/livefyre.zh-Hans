@@ -1,23 +1,26 @@
 ---
-description: Livefyre提供了四个特色API，允许您检索输入网络、站点或集合的50个最近特色内容项，或检索输入集合顶部的两段特色内容。
-seo-description: Livefyre提供了四个特色API，允许您检索输入网络、站点或集合的50个最近特色内容项，或检索输入集合顶部的两段特色内容。
+description: Livefyre提供四个特色API，允许您检索输入网络、站点或集合的50个最新特色内容项，或输入集合顶部的两个特色内容。
+seo-description: Livefyre提供四个特色API，允许您检索输入网络、站点或集合的50个最新特色内容项，或输入集合顶部的两个特色内容。
 seo-title: 使用特色API汇总特色内容
 solution: Experience Manager
 title: 使用特色API汇总特色内容
-uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdf
+uuid: e9c9ff26-37b6-4328-af85-aa550e7ffdfd
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 1%
 
 ---
 
 
 # 使用特色API汇总特色内容{#aggregated-featured-content-using-the-featured-apis}
 
-Livefyre提供了四个特色API，允许您检索输入网络、站点或集合的50个最近特色内容项，或检索输入集合顶部的两段特色内容。
+Livefyre提供四个特色API，允许您检索输入网络、站点或集合的50个最新特色内容项，或输入集合顶部的两个特色内容。
 
-## 特色（网络） {#section_cgm_1nw_xz}
+## 特色（网络）{#section_cgm_1nw_xz}
 
-为输入网络检索50个最新的特色内容（及其作者）。 （使用分页可返回所有内容，而不是仅返回最近50个内容。）
+为输入网络检索50个最近的特色内容（及其作者）。 （使用分页返回所有内容，而不是仅返回最近50个内容。）
 
 **资源**
 
@@ -151,9 +154,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/featured
 }
 ```
 
-## 特色（站点） {#section_lq5_ymw_xz}
+## 特色（站点）{#section_lq5_ymw_xz}
 
-返回输入站点的50个最新特色内容（及其作者）。 （使用分页可返回所有内容，而不是仅返回最近50个内容。）
+返回输入站点的50个最新特色内容（及其作者）。 （使用分页返回所有内容，而不是仅返回最近50个内容。）
 
 **资源**
 
@@ -253,9 +256,9 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/featured
 }
 ```
 
-## 特色（集合） {#section_kgc_xmw_xz}
+## 特色（集合）{#section_kgc_xmw_xz}
 
-返回输入集合的50条最新特色内容（及其作者）。 （使用分页可返回所有内容，而不是仅返回最近50个内容。）
+返回输入集合的50个最新特色内容（及其作者）。 （使用分页返回所有内容，而不是仅返回最近50个内容。）
 
 **资源**
 
@@ -355,7 +358,7 @@ GET https://{networkName}.bootstrap.fyre.co/bs3/v3.1/{network}/{siteId}/{b64arti
 }
 ```
 
-## 特色（头部） {#section_n4b_lmw_xz}
+## 特色（头）{#section_n4b_lmw_xz}
 
 返回输入Collection的两段最近的特色内容。
 
