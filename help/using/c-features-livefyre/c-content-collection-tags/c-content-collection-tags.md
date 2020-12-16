@@ -1,23 +1,26 @@
 ---
-description: 向集合和内容添加关键字标签，对内容进行分类和组织以便于检索。
-seo-description: 向集合和内容添加关键字标签，对内容进行分类和组织以便于检索。
+description: 为集合和内容添加关键字标签，对内容进行分类和组织以便于检索。
+seo-description: 为集合和内容添加关键字标签，对内容进行分类和组织以便于检索。
 seo-title: 集合和内容标记
 solution: Experience Manager
 title: 集合和内容标记
 uuid: 1f6900ac-40ff-41ec-ac26-25ff476cd820
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 7%
 
 ---
 
 
 # 集合和内容标记{#collection-and-content-tags}
 
-向集合和内容添加关键字标签，对内容进行分类和组织以便于检索。
+为集合和内容添加关键字标签，对内容进行分类和组织以便于检索。
 
-指定标记允许您按特定标记过滤搜索，并提取Heat Index API的数据。
+指定标记允许您按特定标记过滤搜索，并提取热索引API的数据。
 
-标记可以通过Studio中的 **[!UICONTROL Content]** 和面板添 **[!UICONTROL Collections]** 加，或者在使用Livefyre初始化或更新集合时直接添加到集合元数据（使用collectionMeta对象）。
+可以通过Studio中的&#x200B;**[!UICONTROL Content]**&#x200B;和&#x200B;**[!UICONTROL Collections]**&#x200B;面板添加标记，或在使用Livefyre初始化或更新集合时直接添加到集合元数据（使用collectionMeta对象）。
 
 使用此功能的应用程序：
 
@@ -35,11 +38,11 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 * [趋势](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [上传按钮](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 
-## 将集合标记与Heat Index API结合使用 {#section_uhd_frk_wy}
+## 将集合标记与热索引API {#section_uhd_frk_wy}一起使用
 
-Heat Index API接受Tag参数，允许您跨站点或整个网络检索具有该Tag的任何Collection的相对热度。
+热索引API接受一个标记参数，允许您跨站点或整个网络检索包含该标记的任何集合的相对热度。
 
-有关实施详细信息，请参阅Heat Index API技术文档。
+有关实施详细信息，请参阅热指数API技术文档。
 
 使用此功能的应用程序：
 
