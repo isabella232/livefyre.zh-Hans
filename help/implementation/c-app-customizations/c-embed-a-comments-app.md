@@ -7,6 +7,9 @@ title: 嵌入注释应用程序
 uuid: e4982ad3-cab1-4805-a55c-594cca3b7203
 translation-type: tm+mt
 source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 
 嵌入注释应用程序遵循嵌入核心应用程序的过程。
 
-嵌入注释应用程序遵循嵌入应用程序中所述的嵌入核心应用 [程序的过程](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+嵌入注释应用程序遵循嵌入核心应用程序（如[嵌入应用程序](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)所述）的过程
 
 ## 示例
 
@@ -54,7 +57,7 @@ source-git-commit: 268dc91369d346a254b7120706264eb91da8257e
 </html>
 ```
 
-正如构建CollectionMeta部分中所述，CollectionMeta是编码的JSON对象。 在上例中，JSON对象在进行JWT编码之前采用以下格式：
+如构建集合元部分中所述，集合元是编码的JSON对象。 在上例中，JSON对象在进行JWT编码前采用以下格式：
 
 ```
 { 
