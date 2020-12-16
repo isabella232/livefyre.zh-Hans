@@ -18,7 +18,7 @@ ht-degree: 0%
 
 使用“审核”选项卡为传入内容设置预审核规则，包括不良列表、标记规则和禁止的IP地址。
 
-## 协调工作方式 {#section_kyf_gvc_t1b}
+## 协调工作方式{#section_kyf_gvc_t1b}
 
 可以通过以下方式审核内容：
 
@@ -31,18 +31,18 @@ ht-degree: 0%
 
 * 设置规则以自动标记某些类型的内容：
 
-   * 为由站点访客标志标记的内容设置标志规则(使用 **[!UICONTROL Settings > Moderation > Rules]**
-   * 使用 **[!UICONTROL Settings > Moderation > Rules]**
-   * 禁止特定Twitter用户使用 **[!UICONTROL Settings > Streams]**
-   * 禁止使用 **[!UICONTROL Settings > Bans]**
+   * 使用&#x200B;**[!UICONTROL Settings > Moderation > Rules]**&#x200B;设置由站点访客标志标记的内容的标志规则
+   * 使用&#x200B;**[!UICONTROL Settings > Moderation > Rules]**&#x200B;设置SAFE规则
+   * 禁止使用&#x200B;**[!UICONTROL Settings > Streams]**&#x200B;的特定Twitter用户
+   * 禁止使用&#x200B;**[!UICONTROL Settings > Bans]**&#x200B;的IP地址
    * 按请求禁止按国家／地区代码划分IP区域。 禁止的内容将标记为垃圾信息。
 
-* 在“网络”或“站点”下的“亵渎”列表中创建一 **[!UICONTROL Settings > Moderation > Rules]** 列表字词，将其视为亵渎。
-* 允许列表用户（始终允许这些用户的内容显示），方法是使用或关闭特定流、站点或网络的过滤器。
+* 在&#x200B;**[!UICONTROL Settings > Moderation > Rules]**&#x200B;的“网络”或“站点”下的“亵渎”列表下，创建一列表字词，以便将其视为亵渎。
+* 通过使用或关闭特定流、站点或网络的过滤器，允许列出用户（始终允许这些用户的内容显示）。
 
-设置亵渎列表、安全过滤器和规则后，您可以选择是否预先审核内容并在流中应用安全过滤器。 有关详细信息，请 [参阅所有流规则的流规则选项](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。
+设置亵渎列表、安全过滤器和规则后，您可以选择是否预先审核内容并在流中应用安全过滤器。 有关详细信息，请参阅[所有流规则的流规则选项](/help/using/c-streams/c-stream-rule-options-for-all-stream-rules.md#c_stream_rule_options_for_all_stream_rules)。
 
-Livefyre将内容标 **[!UICONTROL Approved]**&#x200B;记 **[!UICONTROL Pending]**&#x200B;为、 **[!UICONTROL Junk]**、等等。 根据内容的来源、发布位置以及您在系统中设置的规则。 下表详细描述了Livefyre采取的操作，具体取决于这些因素。
+Livefyre将内容标记为&#x200B;**[!UICONTROL Approved]**、**[!UICONTROL Pending]**、**[!UICONTROL Junk]**&#x200B;等。 根据内容的来源、发布位置以及您在系统中设置的规则。 下表详细描述了Livefyre采取的操作，具体取决于这些因素。
 
 ## 协调工作方式
 
@@ -50,13 +50,13 @@ Livefyre将内容标 **[!UICONTROL Approved]**&#x200B;记 **[!UICONTROL Pending]
 |--- |--- |--- |
 | 库 | 应用程序 | 已批准的内容 |
 | 社交搜索 | 应用程序 | 已批准的内容 |
-| 流规则 | 应用程序 | 内容是否被SAFE过滤器标记为“垃圾邮件”? <br><ul><li>否——流到应用程序协调工作流</li><li>是——内容被丢弃</li></ul> |
+| 流规则 | 应用程序 | 内容是否被SAFE过滤器标记为“垃圾邮件”?<br><ul><li>否——流到应用程序协调工作流</li><li>是——内容被丢弃</li></ul> |
 | 库 | 文件夹 | 无状态（在文件夹中，未发布，未丢弃） |
 | 社交搜索 | 文件夹 | 无状态（在文件夹中，未发布，未丢弃） |
-| 流规则 | 文件夹 | 内容是否被SAFE过滤器标记为“垃圾邮件”? <br><ul><li>否——无状态（在文件夹中，未发布，未丢弃）</li><li>是——内容被丢弃</li></ul> |
-| 应用程序帖子 | 应用程序 | 内容是否被SAFE过滤器标记为“垃圾邮件”? <br><ul><li>否——应用程序后协调工作流</li><li>是——内容被丢弃</li></ul> |
+| 流规则 | 文件夹 | 内容是否被SAFE过滤器标记为“垃圾邮件”?<br><ul><li>否——无状态（在文件夹中，未发布，未丢弃）</li><li>是——内容被丢弃</li></ul> |
+| 应用程序帖子 | 应用程序 | 内容是否被SAFE过滤器标记为“垃圾邮件”?<br><ul><li>否——应用程序后协调工作流</li><li>是——内容被丢弃</li></ul> |
 
-## 流到应用程序协调工作流 {#section_z5z_w4d_t1b}
+## 流到应用程序协调工作流{#section_z5z_w4d_t1b}
 
 ![](assets/stream_to_app_workflow.png)
 
@@ -72,7 +72,7 @@ Livefyre将内容标 **[!UICONTROL Approved]**&#x200B;记 **[!UICONTROL Pending]
 1. 如果SAFE标记内容并设置SAFE规则，则Livefyre会检查您是否为流设置了SAFE规则。
 1. 如果您为流设置SAFE规则，Livefyre将批准该内容并将该内容发布到应用程序。 如果您未为流设置SAFE规则，Livefyre将使用协调SAFE规则来确定如何处理内容（发送到ModQ、垃圾桶等）。
 
-## 应用程序后协调工作流 {#section_fwn_w4d_t1b}
+## 应用程序后协调工作流{#section_fwn_w4d_t1b}
 
 ![](assets/post_to_app_workflow.png)
 
@@ -83,7 +83,7 @@ Livefyre将内容标 **[!UICONTROL Approved]**&#x200B;记 **[!UICONTROL Pending]
 1. 如果未打开预协调功能，Livefyre将检查SAFE是否标记了内容。 否则，Livefyre将批准该内容并将该内容发布到应用程序。
 1. 如果SAFE标记内容并设置SAFE规则，则Livefyre将使用SAFE规则确定如何处理内容（发送到ModQ、垃圾桶等）。 如果SAFE标记内容，而您未设置SAFE规则，则Livefyre将批准该内容并将内容发布到应用程序。
 
-## 批量过滤器 {#section_lyk_ktx_vy}
+## 批量过滤器{#section_lyk_ktx_vy}
 
 批量过滤功能可在短时间内在所有Livefyre网络中查找发布的重复内容。 如果检测到此内容，则将其标记为“批量”，然后在默认情况下进行丢弃。 批量内容可能由用户生成（如“触摸式！”） 在热门足球比赛期间在聊天中反复发布)，大多数都来自垃圾邮件活动。 此过滤器与语言无关，可用于任何语言。 要自定义批量过滤器，必须联系Livefyre支持。
 
@@ -102,33 +102,33 @@ Livefyre将内容标 **[!UICONTROL Approved]**&#x200B;记 **[!UICONTROL Pending]
 
 * **[!UICONTROL Trash it:]**将标记的注释发送到垃圾桶。
 * **[!UICONTROL Bozo it:]** 从所有用户（其作者除外）隐藏标记的注释，该注释仍对其可见。
-* **[!UICONTROL Pending:]** 将内容设置为“待定”。 如果在下将“预审核”设 **[!UICONTROL Settings > ModQ]**&#x200B;置为“打开”，则它将位于ModQ中。 否则，它将仅在应用程序内容中。
+* **[!UICONTROL Pending:]** 将内容设置为“待定”。如果在&#x200B;**[!UICONTROL Settings > ModQ]**&#x200B;下将“预审核”设置为“打开”，则它将位于ModQ中。 否则，它将仅在应用程序内容中。
 
 >[!NOTE]
 >
 >Livefyre建议您为五个用户标记为“垃圾邮件”或“冒犯性”的Bozo注释创建规则。
 
-## 审核建议 {#section_ec3_vr3_2cb}
+## 协调Recommendations{#section_ec3_vr3_2cb}
 
-您可以使用协调推荐来帮助您确定如何审核Livefyre应用程序中站点访客发布的内容。 审核推荐指示器会根据您之前对类似内容执行的操作，建议何时可能删除某个内容。 要使用审核推荐，请执行以下操作：
+您可以使用协调推荐来帮助您确定如何审核Livefyre应用程序中站点访客发布的内容。 审核推荐指示器会根据您之前对类似内容执行的操作，建议何时可能删除某个内容。 要使用协调Recommendations:
 
-1. 联系您的Adobe Livefyre支持专业人员，打开协调推荐功能。
+1. 联系您的AdobeLivefyre支持专业人员，打开“协调Recommendations”功能。
 1. 在“网络设置”中设置审核建议。
 
-   使用下的设置设置 **[!UICONTROL Livefyre Recommends Trash]** 设置审核建 **[!UICONTROL Network Settings]**&#x200B;议。
+   使用&#x200B;**[!UICONTROL Network Settings]**&#x200B;下的&#x200B;**[!UICONTROL Livefyre Recommends Trash]**&#x200B;设置设置审核建议。
 
    ![](assets/image_mod_reco_trash.png)
 
-1. 设置SAFE规则，告诉Livefyre如何处理审核推荐识别为可能被丢弃的内容的内容。 有关如何为选项设置SAFE规则的详细信 **[!UICONTROL Livefyre Recommends Trash]** 息，请参 [阅审核](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)。
+1. 设置SAFE规则，告诉Livefyre如何处理审核推荐识别为可能被丢弃的内容的内容。 有关如何为&#x200B;**[!UICONTROL Livefyre Recommends Trash]**&#x200B;选项设置SAFE规则的详细信息，请参阅[协调](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)。
 
    ![](assets/modreco4.png)
 
-1. 使用ModQ **[!UICONTROL Moderation Recommendation Indicator]** 或应用程序内容中的，筛选审核推荐标识为可能被丢弃的内容。
+1. 使用ModQ或应用程序内容中的&#x200B;**[!UICONTROL Moderation Recommendation Indicator]**&#x200B;过滤审核推荐标识为可能被丢弃的内容。
 
-   在ModQ中，指示符如下所示：  ![](assets/mod_reco1.png)
+   在ModQ中，指示符如下所示： ![](assets/mod_reco1.png)
 
-   有关如何使用审核推荐在ModQ中审核内容的更多信息，请参 [阅ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq)。
+   有关如何使用协调Recommendations在ModQ中审核内容的详细信息，请参阅[ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq)。
 
-   在应用程序内容中，协调建议如下所示：  ![](assets/modreco3.png)
+   在应用程序内容中，审核推荐如下所示： ![](assets/modreco3.png)
 
-   有关如何在应用程序内容中使用审核推荐的更多信息，请参 [阅使用应用程序内容审核内容](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)。
+   有关如何在应用程序内容中使用协调Recommendations的详细信息，请参阅[使用应用程序内容审核内容](/help/using/c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md#c_moderate_content_using_app_content)。
