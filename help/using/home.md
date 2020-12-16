@@ -12,11 +12,11 @@ ht-degree: 4%
 ---
 
 
-# Livefyre用户指南 {#livefyre-help}
+# Livefyre用户指南{#livefyre-help}
 
 使用Livefyre Studio创建应用程序、收集用户生成的内容和审核内容。
 
-有关如何使用开发人员工具在您的站点上实施和自定义Livefyre应用程序的信息，请参 [*阅Adobe Experience Manager Livefyre实施指南&#x200B;*](/help/implementation/home.md)。
+有关如何使用开发人员工具在您的站点上实施和自定义Livefyre应用程序的信息，请参阅&#x200B;[*《Adobe Experience ManagerLivefyre实施指南》*](/help/implementation/home.md)。
 
 ## 热门主题
 
@@ -30,12 +30,12 @@ ht-degree: 4%
 
    创建和发布Livefyre应用程序（包括评论）。
 
-* [将Livefyre应用程序与Adobe Experience Manager结合使用](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
+* [将Livefyre应用程序与Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
 
 
-* [将Livefyre与Adobe目标结合使用](/help/using/c-library/livefyre-target.md)
+* [将Livefyre与Adobe Target一起使用](/help/using/c-library/livefyre-target.md)
 
-* [将Livefyre与Adobe Launch Livefyre Extension结合使用](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
+* [将Livefyre与Adobe启动Livefyre扩展结合使用](https://docs.adobelaunch.com/extension-reference/web/adobe-livefyre-extension)
 
 * [发行说明](c-rn/c-rn.md#c_rn)
 
