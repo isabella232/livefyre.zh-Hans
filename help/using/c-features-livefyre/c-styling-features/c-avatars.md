@@ -6,6 +6,9 @@ title: Avatars
 uuid: bf20f3bc-3dcc-4e16-a629-3380d1a7a3f2
 translation-type: tm+mt
 source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 1%
 
 ---
 
@@ -14,21 +17,21 @@ source-git-commit: 7dc3ac6725a27460cecfa6051549da85370ca053
 
 允许用户自定义显示其内容的图像。
 
-用户头像会（默认）显示在所有应用程序中内容的旁边，并从您实施中使用的标识配置文件系统中提取。 这些头像的大小因显示它们的应用程序而异。
+用户头像会（默认情况下）显示在所有应用程序中的内容旁边，并从实施中使用的标识用户档案系统中提取。 根据显示这些化身的应用程序，这些化身的大小会有所不同。
 
-（如果您不想在应用程序中显示Avatar，则Livefyre允许您禁用Avatar。）
+（如果您不想在应用程序中显示Avatar，则Livefyre允许您禁用它们。）
 
 >[!NOTE]
 >
->对于聊天，Avatar以25p x 25p显示，而在大多数其他应用程序中，Avatar以50p x 50p显示。
+>对于聊天，头像以25p x 25p显示，而在大多数其他应用程序中，头像以50p x 50p显示。
 
-## 头像存储 {#section_zbh_x1f_wy}
+## 头像存储{#section_zbh_x1f_wy}
 
-Avatar在Livefyre中异步加载。 当用户首次登录应用程序或更改其关联的头像图像文件时，其配置文件图像将添加到任务队列。 （当用户的头像上传到Livefyre头像存储位置时，默认头像会临时显示。）
+Avatar在Livefyre中异步加载。 当用户首次登录应用程序或更改其关联的头像图像文件时，其用户档案图像将添加到任务队列。 (当用户的头像上传到Livefyre头像存储位置时，默认头像会临时显示。)
 
-## 格拉瓦塔 {#section_mqh_p1f_wy}
+## 凹版{#section_mqh_p1f_wy}
 
-Livefyre支持使用Gravatars。 如果用户没有自定义头像作为其用户配置文件的一部分，Livefyre将检查该用户的Gravatar。 如果不存在Gravatar，则将使用默认头像。
+Livefyre支持使用Gravatar。 如果用户没有自定义头像作为其用户用户档案的一部分，Livefyre将检查该用户的Gravatar。 如果不存在Gravatar，则将使用默认头像。
 
 
 使用此功能的应用程序：
