@@ -7,17 +7,20 @@ title: 故事设置
 uuid: 030936fb-7c8b-487e-b468-7128b641c8ed
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 0%
 
 ---
 
 
-# 故事设置{#storify-settings}
+# Storify Settings{#storify-settings}
 
 调整Storify 2文章的设置，如标记、审核和允许的内容。
 
 >[!NOTE]
 >
->如果启用Storify 2 Apps控件选项，则列出的大多数设置都会控制Siestor。
+>如果启用，则Storify 2应用程序的大多数设置都会控制Siestor的选项。
 
 * **[!UICONTROL Tags]**
 
@@ -25,15 +28,15 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Allow New Content]**
 
-   允许将新Sidesor添加到您的文章。
+   允许向您的故事中添加新的Sidesor。
 
 * **[!UICONTROL Article URL]**
 
-   用于SocialSync和永久链接的URL。
+   用于SocialSync和permalinks的URL。
 
 * **[!UICONTROL Premoderate Content]**
 
-   在发布Siderom之前，需要审查方批准。
+   在发布Siestr之前，需要审查方批准。
 
 * **[!UICONTROL Display Media]**
 
@@ -49,7 +52,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Throttle Content]**
 
-   智能减少在大容量下显示的Sidesk帖子数。
+   智能减少在大容量下显示的Siest帖子数。
 
 * **[!UICONTROL Allow Bulk Content]**
 
