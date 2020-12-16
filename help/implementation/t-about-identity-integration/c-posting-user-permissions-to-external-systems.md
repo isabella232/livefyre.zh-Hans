@@ -42,11 +42,11 @@ POST https://{networkName}.quill.fyre.co/?actor_token={token}&push_affiliation_u
 | 令牌 | 有效的系统令牌。 |
 | url | 要注册的URL。 |
 
-注册的URL应接受以下数据的POST作为内容类型： application/x-www-form-urlencoded。
+注册的URL应接受以下数据的POST作为内容类型：application/x-www-form-urlencoded。
 
 | 参数 | 描述 |
 |--- |--- |
-| jd | 所属关系已更改的用户的JID。 JID是表单的字符串 `user_id@network`。 |
-| 从属 | 分配的权限的名称，该名称必须为以下任一内容：  `{admin | member | none | outcast | owner}` |
+| jd | 所属关系已更改的用户的JID。 JID是格式为`user_id@network`的字符串。 |
+| 从属 | 分配的权限的名称，该名称必须为以下任一内容： `{admin | member | none | outcast | owner}` |
 
-有关更新用户从属关系设置的其他信息，请参 [阅添加用户从属关系API参考](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post)。
+有关更新用户关联设置的详细信息，请参阅[添加用户关联API参考](https://api.livefyre.com/docs/apis/by-category/user-management#operation=urn:livefyre:apis:quill:operations:api:v3.0:affiliation:add:method=post)。
