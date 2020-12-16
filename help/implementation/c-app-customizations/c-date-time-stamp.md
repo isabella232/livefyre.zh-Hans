@@ -7,6 +7,9 @@ title: 自定义日期和时间戳
 uuid: 632ea405-56b7-4664-8d2b-0dd0a7611bd8
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 0%
 
 ---
 
@@ -23,15 +26,15 @@ Livefyre应用程序提供选项参数datetimeFormat，用于指定日期格式�
 
 ## 术语 {#section_xsk_jn4_xz}
 
-* **绝对时间戳** ，定义为精确时间和特定时间（例如，2012年1月1日12:00pm）
-* **相对时间戳** (Relative Timestamps)定义为一般时间，且不太精确（例如，25秒前、14分钟前、1天前、1年前等）
+* **绝对** 时间戳定义为精确和特定时间（例如2012年1月1日下午12:00）
+* **相** 对时间戳定义为常规时间，且不太精确（例如，25秒前、14分钟前、1天前、1年前等）
 
-## 格式化 {#section_ynx_gn4_xz}
+## 格式{#section_ynx_gn4_xz}
 
-当没有给定参数时，datetimeFormat参数具有以下默认行为：
+当没有给定任何参数时，datetimeFormat参数具有以下默认行为：
 
-* 日期时间格式：MMMMM d yyyy（2012年1月8日）
-* 20160分钟（14天），直到绝对时间（14天，直到相对时间戳变为绝对时间戳）
+* 日期时间格式：MMMM d yyyy（2012年1月8日）
+* 20160分钟（14天），直至绝对时间（14天，直至相对时间戳变为绝对时间戳）
 
 datetimeFormat参数接受三种可能的参数类型：datetime、format和string。
 
@@ -83,9 +86,9 @@ var convConfig = {
 var conv = fyre.conv.load(networkConfig, [convConfig]);
 ```
 
-## 符号指定 {#section_inq_2n4_xz}
+## 符号指定{#section_inq_2n4_xz}
 
-按照JDK、ICU和CLDR中定义的模式规范进行日期时间格式设置功能，对JS中的典型用法稍作修改。 有关详细信息，请参 [阅Google Closure库文档](https://developers.google.com/closure/library/docs/overview)。
+遵循JDK、ICU和CLDR中定义的模式规范的日期时间格式设置函数，对JS中的典型用法进行了细微修改。 有关详细信息，请参阅[Google Closure Library Documentation](https://developers.google.com/closure/library/docs/overview)。
 
 ```
   Symbol Meaning Presentation        Example 
@@ -121,12 +124,12 @@ var conv = fyre.conv.load(networkConfig, [convConfig]);
 
 尚不支持标有“*”的项目。
 
-标有“#”的项目的工作方式与Java不同。
+标有“#”的项的工作方式与Java不同。
 
 模式字母的计数决定格式。
 
-* **** 文本：4或更多，请使用完整表单。 少于4，如果存在，请使用短或缩写表单。 (例如：“EEE”生成“星期一”,“EEE”生成“星期一”。)
-* **** 数字：最小数字数。 较短的数字将填充为此数量(例如：如果“m”生成“6”，则“mm”生成“06”。) 具体处理年份；即，如果“y”的计数为2，则“年”将截断为2位数。 (例如：如果“yyyy”生成“1997”，则“yy”生成“97”。)与其他字段不同，分数秒在右边填充为零。
-* **** 文本和编号：3或更多，使用文本。 少于3，使用号。 (例如：“M”生成“1”,“MM”生成“01”,“MMM”生成“Jan”,“MMM”生成“Jan”。)
+* **文本：** 4或更多，使用完整表单。少于4，如果存在，请使用短或缩写表单。 (例如：“EEE”生成“星期一”,“EEE”生成“周一”。)
+* **数字：** 最小数字数。较短的数字将填充为此数量(例如：如果“m”生成“6”，则“mm”生成“06”。) 年度是特别处理的；即，如果“y”的计数为2，则“年”将被截断为2位数。 (例如：如果“yyyy”生成“1997”，则“yy”生成“97”。) 与其他字段不同，分数秒在右边用零填充。
+* **文本和编号：** 3或更高，使用文本。少于3，使用号码。 (例如：“M”产生“1”,“MM”产生“01”,“MMM”产生“Jan”,“MMM”产生“Jan”。)
 
-图案中不在“a”...”范围 [内的任何字符z’] and [‘A’...’Z将被视] 为带引号的文本。 例如，“:”、“.”、“‘,#’和“@”等字符将显示在生成的时间文本中，即使它们没有用在单引号中也是如此。
+图案中不在[‘a’...’范围内的任何字符z’]和[‘A’..’Z’]将被视为带引号的文本。 例如，“:”、“.”、“‘,#’和“@”等字符将出现在生成的时间文本中，即使这些字符没有用在单引号中也是如此。
