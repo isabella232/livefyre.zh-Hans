@@ -7,6 +7,9 @@ title: 翻译和自定义文本字符串
 uuid: 3c79b8ea-37a0-465d-8fb0-30e13e0cd7f7
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 10%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 自定义应用程序中的任何文本字符串以实现国际化或品牌化。
 
-要改善社区体验，您可以自定义任何文本标签的文本字符串以匹配站点的语言或品牌。 例如，您可以将“喜欢”改为“推荐”，或将“删除”改为“Borrar”。
+为改善社区体验，您可以自定义任何文本标签的文本字符串以匹配网站的语言或品牌。 例如，您可以将“喜欢”更改为“推荐”，或将“删除”更改为“Borrar”。
 
 有关更多信息，请参阅 [](../c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets).
 
