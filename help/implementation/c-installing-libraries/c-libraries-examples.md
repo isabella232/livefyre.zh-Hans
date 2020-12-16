@@ -7,6 +7,9 @@ title: 示例
 uuid: 94e38dab-6234-43a2-a840-13a87f0237f1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 有关使用库的一些示例。
 
-## Java示例 {#section_nyl_ycs_rz}
+## Java示例{#section_nyl_ycs_rz}
 
 ```
 package com.example; 
@@ -103,7 +106,7 @@ public static void main(String...args) {
 }
 ```
 
-## NodeJS示例 {#section_xkd_gds_rz}
+## NodeJS示例{#section_xkd_gds_rz}
 
 ```
 var Livefyre = require('./lib/livefyre');
@@ -195,7 +198,7 @@ LivefyreExample.example = function example() {
 };
 ```
 
-## PHP示例 {#section_ghf_gds_rz}
+## PHP示例{#section_ghf_gds_rz}
 
 ```
 <?php 
@@ -280,7 +283,7 @@ class LivefyreExample {
 }
 ```
 
-## Python示例 {#section_dwg_gds_rz}
+## Python示例{#section_dwg_gds_rz}
 
 ```
 from livefyre import Livefyre 
@@ -358,7 +361,7 @@ class LivefyreExample(object):
       collection_urn = sidenotes_collection.urn
 ```
 
-## Ruby示例 {#section_enh_gds_rz}
+## Ruby示例{#section_enh_gds_rz}
 
 ```
 require 'livefyre' 
