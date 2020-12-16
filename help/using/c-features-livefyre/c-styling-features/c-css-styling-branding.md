@@ -6,6 +6,9 @@ title: CSS样式和品牌
 uuid: 729a2780-f757-4c54-b446-ff832cecf620
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
@@ -14,15 +17,15 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 使用CSS设计Livefyre应用程序元素的样式以适合您的品牌。
 
-Livefyre应用程序提供了一个广泛的CSS样式界面，使您能够自定义用户体验以满足您当前的设计标准。
+Livefyre应用程序优惠了一个广泛的CSS样式界面，使您能够自定义用户体验以满足当前的设计标准。
 
 样式选项包括：
 
-* **[!UICONTROL Styling the Stream:]** Livefyre流可能会根据您的品牌和站点的其余部分进行定制和定制。 有关详细信息，请参阅CSS自定义。
-* **[!UICONTROL Styling the Comment Editor:]** 可以通过更改字体的颜色、大小和系列，或通过更改注释框的背景颜色来自定义注释编辑器。 有关详细信息，请参阅编辑器CSS。
-* **[!UICONTROL Moving the Livefyre Logo:]** 虽然Livefyre徽标的默认位置在流的顶部，但此图像可能会被删除，并替换为流底部较小的“Powered by Livefyre”徽标。 有关详细信息，请参阅移动Livefyre徽标。
-* **[!UICONTROL Hiding elements of the stream:]** 如果流的元素与您的社区无关，则这些元素可能会被隐藏。 可删除的元素包括回复按钮、编辑配置文件菜单、注销菜单、注释通知程序和用户变量。 有关删除这些元素的详细信息，请参阅隐藏应用程序元素。
-* **[!UICONTROL Customizing the Friend Tagging Logo:]** 默认情况下，Livefyre徽标显示在朋友标记下拉列表中，以供页面上的流中已添加注释的所有用户使用。 要将此图像替换为您自己的徽标，请参阅Studio中的品牌。
+* **[!UICONTROL Styling the Stream:]** Livefyre流可以自定义和自定义，以适合您的品牌和站点的其余部分。有关详细信息，请参阅CSS自定义。
+* **[!UICONTROL Styling the Comment Editor:]** 可以通过更改字体的颜色、大小和系列或更改注释框的背景颜色来自定义注释编辑器。有关详细信息，请参阅编辑器CSS。
+* **[!UICONTROL Moving the Livefyre Logo:]** 当Livefyre徽标的默认位置位于流的顶部时，此图像可能会被删除，并替换为流底部的较小的“Powered by Livefyre”徽标。有关详细信息，请参阅移动Livefyre徽标。
+* **[!UICONTROL Hiding elements of the stream:]** 如果流中的元素与您的社区无关，则这些元素可能会被隐藏。可删除的元素包括回复按钮、编辑用户档案菜单、注销菜单、注释通知程序和用户变量。 有关删除这些元素的详细信息，请参阅隐藏应用程序元素。
+* **[!UICONTROL Customizing the Friend Tagging Logo:]** 默认情况下，已在页面上的流中添加评论的所有用户的好友标记下拉列表中都会显示Livefyre徽标。要将此图像替换为您自己的徽标，请参阅Studio中的品牌。
 
 使用此功能的应用程序：
 
