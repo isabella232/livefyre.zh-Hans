@@ -7,6 +7,9 @@ title: 趋势
 uuid: 3031523d-b487-4eea-bba6-5d8f9971874f
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 5%
 
 ---
 
@@ -19,21 +22,21 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## 集成 {#section_wtz_whb_c1b}
 
-与Trending集成的最快方式是使用Livefyre的CDN上托管的构建版本。
+与Trending集成的最快捷方式是使用托管在Livefyre CDN上的内置版本。
 
-首先，将 [Livefyre.js添加到您的页面](https://github.com/Livefyre/Livefyre.js) 。
+首先，将[Livefyre.js](https://github.com/Livefyre/Livefyre.js)添加到您的页面。
 
 ```
 <script src="//cdn.livefyre.com/Livefyre.js"></script> 
 ```
 
-然后，放置将在其中显示应用程序的元素。
+然后，定位将在其中显示应用程序的元素。
 
 ```
 <div id="trending"></div>
 ```
 
-最后，使用 `Livefyre.require` 来构建组件。
+最后，使用`Livefyre.require`构建组件。
 
 ```
 <script> 
@@ -49,7 +52,7 @@ Livefyre.require([
 </script>
 ```
 
-您现在拥有一个热门应用程序！ 请在此示例中查看所有 [操作情况](https://codepen.io/gobengo/pen/GijEy)。
+您现在有了热门应用！ 请参阅[此示例](https://codepen.io/gobengo/pen/GijEy)中的全部操作。
 
 ## 配置 {#section_k5k_qhb_c1b}
 
