@@ -6,6 +6,9 @@ title: 日期和时间戳
 uuid: 3022059f-cfdc-4e13-aa3d-7537875ef431
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 3%
 
 ---
 
@@ -14,9 +17,9 @@ source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
 
 您可以根据需要更改日期和时间戳格式。
 
-默认情况下，Livefyre应用程序显示指向流的帖子的相对时间戳（4分钟前，5小时前，8天前，2个月前）。
+默认情况下，Livefyre应用程序会显示流中帖子的相对时间戳（4分钟前，5小时前，8天前，2个月前）。
 
-您可以使用“日期和时间戳自定义”自定义显示的时间戳，该自定义允许您从可用格式列表中进行选择。 有关详细信息，请参 [阅日期和时间戳](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
+您可以使用日期和时间戳自定义自定义显示的时间戳，它允许您从可用格式列表中进行选择。 有关详细信息，请参阅[日期和时间戳](/help/using/c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
 
 使用此功能的应用程序：
 
