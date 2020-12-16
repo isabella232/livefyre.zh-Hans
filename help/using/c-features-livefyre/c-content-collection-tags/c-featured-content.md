@@ -1,31 +1,34 @@
 ---
-description: 使用CSS为自定义样式特色内容向用户突出显示重要内容。
-seo-description: 使用CSS为自定义样式特色内容向用户突出显示重要内容。
+description: 使用CSS为自定义样式特色内容，向用户突出重要内容。
+seo-description: 使用CSS为自定义样式特色内容，向用户突出重要内容。
 seo-title: 特色内容
 solution: Experience Manager
 title: 特色内容
 uuid: 2204a989-69b3-440d-beae-7e9c6e9d5698
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
 
 # 关于特色内容{#featured-content}
 
-使用CSS为自定义样式特色内容向用户突出显示重要内容。
+使用CSS为自定义样式特色内容，向用户突出重要内容。
 
-您的网站所有者或版主可以将Collection中的任何内容标记为“特色”，以突出重要内容并鼓励其他用户的高质量回复。 一旦某个内容特色出现后，应用程序中的内容上就会显示一个标 **[!UICONTROL Featured]** 记，这样用户就可以轻松识别所有者和版主高亮显示的内容。
+您的网站所有者或版主可以将集合中的任何内容标记为“特色”，以突出重要内容并鼓励其他用户做出高质量的回复。 展示某段内容后，**[!UICONTROL Featured]**&#x200B;标记将显示在应用程序中的内容上，这样用户就可以轻松识别所有者和版主突出显示的内容。
 
 在注释中：
 
-* 最新的两段内 **[!UICONTROL Featured]** 容也将被拉到流上方。
-* 在编辑器上方显示“特色”内容可能最多需要7分钟。
-* 标记 **[!UICONTROL Featured]** 可以添加到流中的任何注释中，并用于设置注释的样式，但只有Livefyre本机用户生成的内容才会显示在编辑器的上方。
+* **[!UICONTROL Featured]**&#x200B;内容的两段最新内容也将被拉到流上方。
+* 特色内容在编辑器上方显示可能需要七分钟。
+* **[!UICONTROL Featured]**&#x200B;标记可以添加到流中的任何注释中，并用于设置注释样式，但只有Livefyre本机用户生成的内容才会显示在编辑器的上方。
 
-当内容不加特色时， **[!UICONTROL Featured]** 显示的标记将实时删除。
+当内容不加特色时，显示的&#x200B;**[!UICONTROL Featured]**&#x200B;标记将实时删除。
 
-一旦某段内容被特色化，应用程 **[!UICONTROL Featured]** 序中的内容上就会显示一个徽章，您可以使用功能强大的CSS类自定义内容样式。
+一旦某段内容得到展示，**[!UICONTROL Featured]**&#x200B;徽章将显示在应用程序中的内容上，您可以使用功能丰富的CSS类自定义内容样式。
 
 使用此功能的应用程序：
 
