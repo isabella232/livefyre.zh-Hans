@@ -7,15 +7,18 @@ title: 将翻译集应用于网络
 uuid: 3d9a2616-3721-4ac5-a039-aefbf57cf269
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
 
-# 将翻译集应用于网络{#apply-a-translation-set-to-a-network}
+# 将转换集应用于网络{#apply-a-translation-set-to-a-network}
 
-1. 导览至Studio中的设置。 确保您在网络级别工作，而不是站点级别工作。
+1. 导航到Studio中的设置。 确保您在网络级别工作，而不是站点级别工作。
 1. 选择“网络设置”。
 1. 选择“应用程序设置”。
-1. 导航到“默认设置”&gt;“翻译集”。
+1. 导航到“默认设置”>“翻译集”。
 1. 从下拉菜单中选择一个翻译集。
 
