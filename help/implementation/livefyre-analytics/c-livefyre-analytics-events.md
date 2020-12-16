@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Livefyre Analytics事件
 
-## 事件对象定义 {#section_dh1_yhn_pdb}
+## 事件对象定义{#section_dh1_yhn_pdb}
 
 以下代码定义事件对象中由页面上的分析处理程序接收的字段。
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 
 ## Livefyre Analytics事件和eVar {#section_u3k_tft_mcb}
 
-以下Livefyre事件映射到自定义事件，以便在使用报表包管理器的报告中使用。 有关Adobe Analytics的报表包的详细信息，请参阅 [报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 有关如何将Livefyre事件与Report Suite Manager结合使用的更多信息，请参 [](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)见。
+以下Livefyre事件映射到自定义事件，以便在使用报表包管理器的报告中使用。 有关Adobe Analytics的报表包的详细信息，请参阅[报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 有关如何将Livefyre事件与Report Suite Manager结合使用的更多信息，请参阅[](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
 
 ## Livefyre Analytics事件
 
