@@ -7,6 +7,9 @@ title: Android SDK
 uuid: 68793fa9-3ea1-4890-b36d-b631f1c6f7de
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 1%
 
 ---
 
@@ -15,52 +18,52 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 创建由Livefyre提供支持的Android应用程序。
 
-使用此库将Livefyre服务集成到您的本机Android应用程序中。 Livefyre [StreamHub Android SDK](https://github.com/Livefyre/StreamHub-Android-SDK) 基于Gradle/Android studio开发环境，围绕我们的常见API机制提供了一个精简层。
+使用此库将Livefyre服务集成到您的本机Android应用程序中。 [Livefyre StreamHub Android SDK](https://github.com/Livefyre/StreamHub-Android-SDK)根据Gradle/Android Studio开发环境，围绕我们的常见API机制提供一个精简层。
 
-Livefyre还基于此SDK提 [供Reviews](https://github.com/Livefyre/StreamHub-iOS-Reviews-App) 范例应用程序。
+Livefyre还根据此SDK提供[评论](https://github.com/Livefyre/StreamHub-iOS-Reviews-App)范例应用程序。
 
 此Livefyre Android SDK可用于Eclipse和Android Studio。
 
 >[!NOTE]
 >
->在安装Livefyre Android SDK之前，您的环境中必须安 [装Android SDK](https://developer.android.com/sdk/index.html) 。 您还必须包括一些其他Android SDK包，如Android开发人员文档&gt;中所述。
+>在安装Livefyre Android SDK之前，您的环境上必须安装[Android SDK](https://developer.android.com/sdk/index.html)。 您还必须包括一些其他Android SDK包，如Android开发人员文档>中所述。
 >[添加SDK包](https://developer.android.com/sdk/installing/adding-packages.html)
 
-使用Android SDK Manager（可从Android studio或Eclipse工具栏获得）安装所有建议的包。 请务必还包括Android支持存储库。
+使用Android SDK Manager（可从Android Studio或Eclipse工具栏获得）安装所有建议的包。 请务必还包括Android支持存储库。
 
 ## Eclipse {#section_dtm_slv_zz}
 
-要将Livefyre Android SDK添加到Eclipse中的项目，请执行以下操作：
+要在Eclipse中将Livefyre Android SDK添加到您的项目，请执行以下操作：
 
-1. 从GitHub获取最 [新的StreamHub-Android-SDK](https://github.com/Livefyre/StreamHub-Android-SDK) 。
-1. 从现有项目开始或创建新项目。
-1. 要将StreamHub-Android-SDK导入工作区，请转至 **[!UICONTROL File > Import > General > Existing Project into Workspace]**。
+1. 从GitHub获取最新的[StreamHub-Android-SDK](https://github.com/Livefyre/StreamHub-Android-SDK)。
+1. 开始现有项目或创建新项目。
+1. 要将StreamHub-Android-SDK导入工作区，请转至&#x200B;**[!UICONTROL File > Import > General > Existing Project into Workspace]**。
 1. 浏览并选择StreamHub-Android-SDK;它现在应显示在包资源管理器中。
-1. 右键单击您的项目，然后选择 **[!UICONTROL Properties,]** Android选项卡。
-1. 在“库”部分下，选 **[!UICONTROL Add button,]** 择，然后从库列表中选择StreamHub-Android-SDK。
-1. 单击和 **[!UICONTROL Apply]** “” **[!UICONTROL OK]**。
+1. 右键单击您的项目，然后选择&#x200B;**[!UICONTROL Properties,]**，然后选择Android选项卡。
+1. 在“库”部分下，选择&#x200B;**[!UICONTROL Add button,]**，然后从库列表中选择StreamHub-Android-SDK。
+1. 单击&#x200B;**[!UICONTROL Apply]**&#x200B;和&#x200B;**[!UICONTROL OK]**。
 
 ## Android Studio {#section_vpw_klv_zz}
 
-要将Livefyre Android SDK添加到Android studio中的项目，请执行以下操作：
+要在Android Studio中将Livefyre Android SDK添加到您的项目，请执行以下操作：
 
-1. 从GitHub获取最 [新的StreamHub-Android-SDK](https://github.com/Livefyre/StreamHub-Android-SDK) 。
-1. 从现有项目开始或创建新项目。
-1. 右键单击您的项目并选择 **[!UICONTROL Open Module Settings]**。
-1. 选择 **[!UICONTROL +]** 窗口左上角的按钮。
-1. 选 **[!UICONTROL Import Existing Project.]** 择(在Android studio的新版本中，您可以在下 **[!UICONTROL Import Existing Project]** 找到 **[!UICONTROL More Modules]**。)
+1. 从GitHub获取最新的[StreamHub-Android-SDK](https://github.com/Livefyre/StreamHub-Android-SDK)。
+1. 开始现有项目或创建新项目。
+1. 右键单击项目并选择&#x200B;**[!UICONTROL Open Module Settings]**。
+1. 选择窗口左上角的&#x200B;**[!UICONTROL +]**&#x200B;按钮。
+1. 选择&#x200B;**[!UICONTROL Import Existing Project.]**（在新版本的Android studio中，您可以在&#x200B;**[!UICONTROL More Modules]**&#x200B;下找到&#x200B;**[!UICONTROL Import Existing Project]**。）
 
 1. 浏览并选择StreamHub-Android-SDK。
 
-Android studio可能会要求您将SDK转换为Gradle版本；如果出现这种情况，请选择 **[!UICONTROL next]** 然后 **[!UICONTROL finish]**。
+Android Studio可能要求您将SDK转换为Gradle版本；如果出现这种情况，请选择&#x200B;**[!UICONTROL next]**，然后选择&#x200B;**[!UICONTROL finish]**。
 
-转到项 **目文件夹&gt; app folder &gt; build.gradle** file under dependencies，以添加以下依赖关系：
+转到依赖项下的&#x200B;**项目文件夹> app folder > build.gradle**&#x200B;文件，添加以下依赖项：
 
 ```
 dependencies {   compile project(':streamHubAndroidSDK') } 
 ```
 
-确保以下代码行位于项目文 **件夹&gt; settings.gradle文件** :
+确保以下代码行位于&#x200B;**项目文件夹> settings.gradle**&#x200B;文件中：
 
 ```
 include ':streamHubAndroidSDK' 
@@ -72,13 +75,13 @@ include ':streamHubAndroidSDK'
 
 ## 客户 {#section_yfq_blv_zz}
 
-StreamHub Android SDK公开了几个可用于请求Livefyre API端点的客户端类：
+StreamHub Android SDK公开几个可用于请求Livefyre API端点的客户端类：
 
-* **AdminClient** 为用户信息、密钥和其他元数据交换用户身份验证令牌。
+* **AdminClient** 交换用户信息、密钥和其他元数据的用户身份验证令牌。
 
 * **BootstrapClient** 获取有关特定集合的最新内容和元数据。
 
-* **StreamClient** 轮询集合的流以检索新的、更新的和删除的内容。
+* **StreamClient** 轮询集合以检索新的、更新的和删除的内容的流。
 
-* **WriteClient** Post、标志和集合中的类似内容。
+* **WriteClientPost** 、标记和类似集合中的内容。
 
