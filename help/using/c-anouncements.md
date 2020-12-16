@@ -20,13 +20,13 @@ ht-degree: 0%
 
 我们希望向您提供有关用户生成内容(UGC)不断变化的动态以及这对产品中的Facebook和Twitter内容产生的影响的更新。
 
-去年，Facebook弃用了公共源API。 我们一直在谈论寻找前进的道路。 我们被要求从Livefyre产品中删除Facebook数据。 我们遵守Facebook的要求，Adobe正在迅速开展工作，确保我们能保护我们的客户。
+去年，Facebook弃用了公共源API。 我们一直在谈论寻找前进的道路。 我们被要求从Livefyre产品中删除Facebook数据。 我们遵守Facebook的要求，Adobe正迅速采取行动，确保我们保护客户。
 
 请注意，在接下来的几周内，将删除对新的和保存的Facebook内容的访问权。
 
-* 2020年6月22日： 在Livefyre中搜索新Facebook内容的功能将终止。
-* 2020年7月7日： 将结束对Livefyre资源库中已保存内容的访问，并停止对应用程序内容的访问。
-* 2020年8月10日： 在驻留在Livefyre可视化网站（如媒体墙、功能卡、拼贴画、轮盘等）上发布的Facebook内容将被删除。
+* 2020年6月22日：在Livefyre中搜索新Facebook内容的功能将终止。
+* 2020年7月7日：将结束对Livefyre资源库中已保存内容的访问，并停止对应用程序内容的访问。
+* 2020年8月10日：在驻留在Livefyre可视化网站（如媒体墙、功能卡、拼贴画、轮盘等）上发布的Facebook内容将被删除。
 
 此更改不会影响Instagram内容，Instagram内容将仍可在Livefyre中访问。
 
@@ -87,7 +87,7 @@ Facebook流尚未恢复，但我们仍在积极与Facebook合作，以恢复此�
 
 我们很高兴地宣布，Instagram中搜索视频内容的功能已恢复。
 
-## June 14, 2018 {#section_kk5_qpz_d2b}
+## 2018 年 6 月 14 日 {#section_kk5_qpz_d2b}
 
 请阅读与Instagram API弃用相关的功能状态的最新更新：
 
@@ -99,13 +99,13 @@ Facebook流尚未恢复，但我们仍在积极与Facebook合作，以恢复此�
 
    5月24日，我们在Instagram内容的使用权限请求工作流程中提供了手动解决方案。 我们继续修复功能，这些功能可自动监视对您的权限请求的响应并更新活动历史记录。 我们预计此功能将在今年夏天稍后推出，并将在实时发布时立即通知您。
 
-## May 24, 2018 {#section_xbk_wvd_ydb}
+## 2018 年 5 月 24 日 {#section_xbk_wvd_ydb}
 
 Instagram内容的使用权限请求工作流程的两个更新之一现已推出。 现在，您可以从App Content和Library复制Livefyre Studio的请求权限消息，并将其粘贴到您正在寻求批准使用的Instagram帖子中。 在ModQ中执行此操作的功能将在将来的版本中提供。 到2018年6月14日，我们将恢复自动监视对您的权限请求的响应并更新活动历史记录的功能。
 
-请阅读2018 [年5月24日的发行说明](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn) ，了解有关如何使用此功能的更多信息和说明。
+请阅读2018年5月24日的[发行说明](/help/using/c-rn/previous-rns/rn2018/c-rn-2018-may-24.md#c_rn)，了解有关如何使用此功能的更多信息和说明。
 
-## May 17, 2018 {#section_hwb_1qz_wdb}
+## 2018 年 5 月 17 日 {#section_hwb_1qz_wdb}
 
 我们很高兴地通知您，在Livefyre中执行以下Instagram功能的功能再次可用：
 
@@ -138,12 +138,12 @@ Instagram内容的使用权限请求工作流程的两个更新之一现已推�
 
 * **用户搜索和流工作流- 2018年6月14日**
 
-   尽管您仍可以按主题标签和关键字进行搜索，但搜索个人Instagram账户的能力已被取消。 作为替代方案，Livefyre将构建允许您从商业帐户搜索和流式传输内容的功能。 如果您使用Livefyre搜索和流式传输您自己组织的Instagram内容，请务必 [升级到](https://help.instagram.com/502981923235522?helpref=search&amp;sr=2&amp;query=change%20personal%20account%20to%20business%20account) 某个商业帐户以利用此功能。
+   尽管您仍可以按主题标签和关键字进行搜索，但搜索个人Instagram账户的能力已被取消。 作为替代方案，Livefyre将构建允许您从商业帐户搜索和流式传输内容的功能。 如果您使用Livefyre搜索并流式传输您自己组织的Instagram内容，请务必[升级](https://help.instagram.com/502981923235522?helpref=search&amp;sr=2&amp;query=change%20personal%20account%20to%20business%20account)到商业帐户以利用此功能。
 
 **我们将继续评估以下短期无法替代的功能的解决方案：**
 
-* **按URL搜索**。 不再能够通过URL搜索特定媒体。
-* **视频内容**。 视频内容将不再通过Instagram搜索呈现。
+* **按URL搜索**。不再能够通过URL搜索特定媒体。
+* **视频内容**。视频内容将不再通过Instagram搜索呈现。
 
 要进一步了解Facebook的平台更改，请访问：
 
@@ -151,4 +151,4 @@ Instagram内容的使用权限请求工作流程的两个更新之一现已推�
 
 我们真诚地为由此造成的任何干扰表示歉意，并将在我们处理这些更改时继续通知您我们的进展。
 
-Adobe Livefyre团队
+AdobeLivefyre团队
