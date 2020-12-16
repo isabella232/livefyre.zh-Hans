@@ -13,15 +13,15 @@ ht-degree: 5%
 ---
 
 
-# February 9, 2017{#february}
+# 2017 年 2 月 9 日{#february}
 
 2017年2月9日版本的发行说明。
 
-## 用于Twitter的SocialSync {#section_nv4_yry_wy}
+## Twitter的SocialSync {#section_nv4_yry_wy}
 
 SocialSync for Twitter多年来一直是我们核心功能的一部分。 但是，随着我们的产品的不断开发和发展，SocialSync for Twitter已成为一种低价值功能，目前我们一小部分客户都使用它。 为了改善Livefyre的客户整体体验，并将开发资源集中在最有价值的领域，我们将于2月24日停止SocialSync for Twitter功能。 此更新将不影响Facebook的SocialSync。 如果您对此更新有任何疑问或疑虑，请联系您的Livefyre CSM。
 
-## 生产版本 {#section_r24_1m2_wy}
+## 生产版本{#section_r24_1m2_wy}
 
 | 问题类型 | 组件 | 发行说明 |
 |--- |--- |--- |
@@ -30,14 +30,14 @@ SocialSync for Twitter多年来一直是我们核心功能的一部分。 但是
 | 错误 | 马赛克 | 为Mosaic添加了其他辅助功能支持，允许用户在内容卡之间切换选项卡。 |
 | 错误 | 评论 | 修复了导致评级编辑无法正确显示的错误。 |
 | 错误 | 社交搜索 | 修复了导致Twitter列表搜索结果中“显示更多”按钮被切断的错误。 |
-| 增强功能 | Storify 2 | 增强的Storify 2支持文案免费内容搜索。 文案免费搜索Flickr、名词项目、Kuler、Pixabay和Unsplash中的免费文案图像。 |
+| 增强功能 | Storify 2 | 增强的Storify 2支持文案免费内容搜索。 Flickr、名词项目、Kuler、Pixabay和Unsplash中的文案免费搜索免费图像。 |
 | 错误 | 流 | 修复了阻止保存Tumblr流规则的错误。 |
 | 错误 | 流 | 修复了在RSS源的集合JSON中生成错误生成器ID的错误。 |
 | 增强功能 | 流 | 对默认禁用的“仅验证帐户”选项的设置进行了调整。 |
 | 增强功能 | 流 | 添加了允许列出和绕过仲裁的类别内容（通过流规则）的新功能。 |
 | 错误 | 流 | 修复了导致“预审核”和“媒体预审核”设置转移到新创建的流规则的错误。 |
 
-## UAT版本 {#section_dyx_yl2_wy}
+## UAT版本{#section_dyx_yl2_wy}
 
 | 问题类型 | 组件 | 发行说明 |
 |--- |--- |--- |
@@ -48,7 +48,7 @@ SocialSync for Twitter多年来一直是我们核心功能的一部分。 但是
 | 增强功能 | Storify 2 | 增强的Storify 2支持打开模态的永久链接（以前，应用程序将滚动到页面上的帖子位置）。 在Storify 2的Designer中，我们添加了一种配置，以在“滚动”(Scroll)和“模态”(Modal)行为之间切换。 Modal Permalink行为将是默认行为。 |
 | 增强功能 | Storify 2 | 增强了Storify 2 Google AMP集成，以生成较小的CSS文件。 |
 | 错误 | 流 | 电子邮件流规则中的增强内容（图像和视频）可通过HTTPS提供。 |
-| 错误 | 流 | 在Twitter流规则的映射中为Mile Radius值添加了标签。 |
+| 错误 | 流 | 在Twitter流规则的映射中为“Mile Radius”值添加了标签。 |
 | 错误 | 流 | 修复了Facebook和Facebook页面流规则的错误，可相应地拉入包含多个媒体附件的帖子。 |
 | 错误 | Studio | 修复了在Studio中使用过滤器时导致多个&amp;被附加到URL的错误。 |
 | 错误 | Studio | 修复了阻止Studio过滤器中某些复选框允许取消选中的错误。 |
