@@ -1,58 +1,61 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 将Livefyre与Adobe Analytics及Dynamic Tag Manager(DTM)lk xavvn Vefyre结合使用，与Adobe Analytics及Dynamic Tag Manager(DTM)结合使用
+seo-title: 将Livefyre与Adobe Analytics和动态标签管理器(DTM)lk xavvn结合使用   带有Adobe Analytics和动态标签管理器(DTM)的vefyre
 uuid: 9a1c25c0-c474-46ff-82ac-e89357007c7f
 translation-type: tm+mt
 source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 1%
 
 ---
 
 
-# 将Livefyre与Adobe Analytics和Dynamic Tag Manager(DTM)结合使用{#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}
+# 将Livefyre与Adobe Analytics和动态标签管理器(DTM)一起使用{#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}
 
-设置Adobe Analytics和Dynamic Tag Manager(DTM)为Livefyre应用程序收集数据。
+设置Adobe Analytics和动态标签管理器(DTM)以收集Livefyre应用程序的数据。
 
-## 第1步： 在Adobe Analytics中设置事件 {#section_iks_kgd_4cb}
+## 第1步：在Adobe Analytics设置事件{#section_iks_kgd_4cb}
 
-在Adobe Analytics Report Suite Manager中将Livefyre事件映射到一个或多个自定义成功事件。
+将Livefyre事件映射到Adobe AnalyticsReport Suite Manager中的一个或多个自定义成功事件。
 
-有关报表包管理器的详细信息，请参 [阅报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。
+有关报表包管理器的详细信息，请参阅[报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。
 
-1. 以管理员用户身份登录到Adobe Analytics。
-1. 打开Adobe Analytics Admin Report Suite Manager。
+1. 以管理员用户身份登录Adobe Analytics。
+1. 打开Adobe Analytics管理员报告套件管理器。
 1. 创建新的报表包或选择现有报表包。
-1. 单击要修改的报表包，编辑报表包，然后导航到 **[!UICONTROL Edit Settings > Conversion > Success Events]**。
+1. 单击要修改的报表包，编辑报表包，然后导航到&#x200B;**[!UICONTROL Edit Settings > Conversion > Success Events]**。
 1. 将Livefyre事件映射到一个或多个自定义成功事件。
 
-## 第2步： 设置转换变量
+## 第2步：设置转换变量
 
-在Adobe Analytics Admin Report Suite Manager中将Livefyre转换变量(eVar)映射到转换变量。 转换变量的作用类似于排序函数，可确定您计划如何识别从Livefyre事件收集的数据。
+将Livefyre转换变量(eVar)映射到Adobe Analytics管理员报告套件管理器中的转换变量。 转换变量的作用类似于排序函数，可确定您计划如何识别从Livefyre事件收集的数据。
 
-1. 在报表包管理器中，单击 **[!UICONTROL Edit Settings > Conversion > Conversion Variables]**。
+1. 在“报表包管理器”中，单击&#x200B;**[!UICONTROL Edit Settings > Conversion > Conversion Variables]**。
 1. 选择要使用的自定义转换变量(eVar)，并将其映射到Livefyre转换变量。 要将Livefyre转换变量映射到自定义转换变量，请执行以下操作：
 * 启用转换变量
 * 命名转换变量
 * 为转换变量指定类型
 1. 保存自定义转换变量。
 
-## 第3步： 使用DTM添加包含Livefyre事件的报表包 {#section_t15_2hd_4cb}
+## 第3步：使用DTM添加包含Livefyre事件{#section_t15_2hd_4cb}的报表包
 
-将Adobe Analytics添加到DTM，让Analytics正常工作。 为此，请创建一个新属性和工具，并将包含Livefyre事件的新报表包添加到该属性。 有关DTM的详细信息，请参 [阅DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)。
+将Adobe Analytics添加到DTM以使Analytics正常工作。 为此，请创建一个新属性和工具，并将包含Livefyre事件的新报表包添加到该属性。 有关DTM的详细信息，请参阅[DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)。
 
 如果您已经为使用Livefyre事件设置的报表包设置了属性或工具，则无需执行此步骤。
 
 1. 在DTM中，创建或编辑现有属性。
 1. 创建或编辑现有的Adobe Analytics工具。
-1. 如果现有Adobe Analytics工具不存在，请单击该 **[!UICONTROL Add a Tool]** 按钮。
+1. 如果现有的Adobe Analytics工具不存在，请单击&#x200B;**[!UICONTROL Add a Tool]**按钮。
 为工具设置以下参数：
 
-   * Set **[!UICONTROL Tool Type]** to **[!UICONTROL Adobe Analytics]**.
+   * 将&#x200B;**[!UICONTROL Tool Type]**&#x200B;设置为&#x200B;**[!UICONTROL Adobe Analytics]**。
    * 启用 **[!UICONTROL Automatic Configuration]**.
    * 启用 **[!UICONTROL Authenticate via Marketing Cloud]**.
-1. 在字段中添加或确认包含Livefyre事件的报表包的 **[!UICONTROL Report Suites]** 名称。
+1. 在&#x200B;**[!UICONTROL Report Suites]**&#x200B;字段中添加或确认具有Livefyre事件的报表包的名称。
 
-## 第4步： 设置页面加载规则以设置分析处理 {#section_jfj_j3d_4cb}
+## 第4步：设置页面加载规则以设置分析处理{#section_jfj_j3d_4cb}
 
 设置页面加载规则以拉入所有数据。 页面加载规则允许您将自定义javascript放入记录页面加载时事件的规则中。
 
@@ -60,17 +63,17 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 >
 >请勿使用基于事件的规则或直接呼叫规则。
 
-1. 在DTM中，选择选 **[!UICONTROL Rules]** 项卡。
+1. 在DTM中，选择&#x200B;**[!UICONTROL Rules]**&#x200B;选项卡。
 1. 单击 **[!UICONTROL Page Load Rules]**.
-1. 单击该 **[!UICONTROL Create New Rule]** 按钮。
-1. 单击按 **[!UICONTROL Conditions]** 钮以打开该 **[!UICONTROL Plus]** 部分。
-1. 触发规则。 如果要 **[!UICONTROL DOM Ready]** 延迟 **[!UICONTROL Onload]** 或异步实现规则，请选择或触发器类型。
-1. （可选）添加其他参数以限制显示Livefyre应用程序的页面。 有关其他配置选项的更多信息，请 [参阅DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)。
-1. 在下 **[!UICONTROL Javascript/ Third Party Tags]**&#x200B;面，单击 **[!UICONTROL Non-sequential]** 选项卡，然后单击 **[!UICONTROL Add New Script]**。
-1. 选择 **[!UICONTROL Sequential HTML]** 作为脚本类型。
-1. 将以下脚本添加到代码编辑器中并单击 **[!UICONTROL Save Code]**。
+1. 单击&#x200B;**[!UICONTROL Create New Rule]**&#x200B;按钮。
+1. 单击&#x200B;**[!UICONTROL Plus]**&#x200B;按钮，打开&#x200B;**[!UICONTROL Conditions]**&#x200B;部分。
+1. 触发规则。 如果要延迟或异步实现规则，请选择&#x200B;**[!UICONTROL DOM Ready]**&#x200B;或&#x200B;**[!UICONTROL Onload]**&#x200B;触发器类型。
+1. （可选）添加其他参数以限制显示Livefyre应用程序的页面。 有关其他配置选项的详细信息，请参阅[DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)。
+1. 在&#x200B;**[!UICONTROL Javascript/ Third Party Tags]**&#x200B;下，单击&#x200B;**[!UICONTROL Non-sequential]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Add New Script]**。
+1. 选择&#x200B;**[!UICONTROL Sequential HTML]**&#x200B;作为脚本类型。
+1. 将以下脚本添加到代码编辑器中，然后单击&#x200B;**[!UICONTROL Save Code]**。
 
-   加载Livefyre JavaScript后， `livefyre_analytics` 以下脚本将调用直接调用规则。 以下脚本示例每400ms检查一次，以查 `livefyre.analytics` 看页面上是否存在。 页面加载后，livefyre.analytics会发出跟踪信息。
+   加载Livefyre JavaScript后，以下脚本将调用`livefyre_analytics`直接调用规则。 以下脚本示例每400ms检查一次，以查看页面上是否有`livefyre.analytics`。 页面加载后，livefyre.analytics会发出跟踪信息。
 
    ```
    /** 
@@ -91,19 +94,19 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
 1. 单击 **[!UICONTROL Save Code]**.
 1. 单击 **[!UICONTROL Save Rule]**.
 
-## 第5步： 创建直接调用规则，为Livefyre构建Adobe Analytics映射配置 {#section_gvp_b1g_pdb}
+## 第5步：创建直接调用规则，为Livefyre {#section_gvp_b1g_pdb}构建Adobe Analytics映射配置
 
-使用自定义事件、DTM中的Adobe Analytics UI字段和数据元素，还可以通过其他方式在DTM中实现Livefyre。 此文档使用自定义Javascript实现相同效果。
+使用自定义事件、DTM中的Adobe AnalyticsUI字段和数据元素，还可以通过DTM实施Livefyre。 此文档使用自定义Javascript实现相同效果。
 
-1. 在DTM中，选择“ **规则** ”选项卡，然后单击“ **直接调用规则”**。
-1. Click on the **Create New Rule** button.
-1. 将新规则命名为 **Livefyre Analytics**。
-1. 展开条 **件配** 置区域。
-1. 在“字 **符串** ”字段中，输 `livefyre_analytics`入。
-1. 展开“Javascript /第三方标记”部分，然后单击“添 **加新脚本** ”按钮。
-1. 在“ **标记名称** ”输 **入框中输入Livefyre** Analytics Config。
-1. 选 **择非顺序Javascript**。
-1. 在代码编辑器中输入以下Livefyre配置代码，然后单击“保 **存代码** ”按钮。
+1. 在DTM中，选择&#x200B;**规则**&#x200B;选项卡，然后单击&#x200B;**直接调用规则**。
+1. 单击&#x200B;**创建新规则**&#x200B;按钮。
+1. 将新规则命名为&#x200B;**Livefyre Analytics**。
+1. 展开&#x200B;**conditions**&#x200B;配置区域。
+1. 在&#x200B;**字符串**&#x200B;字段中，输入`livefyre_analytics`。
+1. 展开“Javascript /第三方标记”部分，然后单击&#x200B;**添加新脚本**&#x200B;按钮。
+1. 在&#x200B;**标记名称**&#x200B;输入框中输入&#x200B;**Livefyre Analytics Config**。
+1. 选择&#x200B;**非连续Javascript**。
+1. 在代码编辑器中输入以下Livefyre配置代码，然后单击“保存代码”**按钮。**
 
    ```
    var s = _satellite.getToolsByType('sc')[0].getS(); 
@@ -188,21 +191,21 @@ source-git-commit: 573e815799fbae2c2c4f1d98a01ea0ae04108a34
    addAnalyticsHandler();  
    ```
 
-1. 单击“保 **存规则**”。
+1. 单击&#x200B;**保存规则**。
 
-## 第6步： 批准页面加载规则的更改 {#section_pxc_11t_ycb}
+## 第6步：批准页面加载规则{#section_pxc_11t_ycb}的更改
 
-1. 转到选 **[!UICONTROL Approvals]** 项卡。
+1. 转至&#x200B;**[!UICONTROL Approvals]**&#x200B;选项卡。
 1. 单击 **[!UICONTROL Approve]**.
-1. 单击 **[!UICONTROL Yes, approve]** 以确认您的批准。
+1. 单击&#x200B;**[!UICONTROL Yes, approve]**&#x200B;以确认您的批准。
 1. 转至 **[!UICONTROL Overview > Publish Queue]**.
 1. 选择要发布的规则。
 1. 单击 **[!UICONTROL Publish Selected]**.
-1. 单 **[!UICONTROL Publish]** 击以确认要发布。
+1. 单击&#x200B;**[!UICONTROL Publish]**&#x200B;以确认要发布。
 
 ## 脚本 {#section_xkb_vft_mcb}
 
-以下示例代码将特定eVar映射到可用的Livefyre eVar。 Livefyre转换变量( `eVar`)名称(例 `appId`如，)映射到您在报表包管理器中设置的名称(例如， `eVar81`)。 将此脚 `eVar` 本中的名称更改为自定义转换变量。
+以下示例代码将特定eVar映射到可用的Livefyre eVar。 Livefyre转换变量(`eVar`)名称（例如`appId`）映射到您在报表包管理器中设置的名称（例如`eVar81`）。 将此脚本中的`eVar`名称更改为自定义转换变量。
 
 
 ```
@@ -213,7 +216,7 @@ var evarMap = {
 };
 ```
 
-以下示例代码将您在Report Suite Manager中设置的特定事件与可用的Livefyre事件进行映射。 在此示例中， `event82` 将设置为任何用户交互事件，而不区分哪种用户交互事件（例如，喜欢或共享内容）。 这是一种在块中记录所有用户交互信息的有效方法。 您还可以使用数据元素引用来映射DTM分析UI中的事件。
+以下示例代码将您在Report Suite Manager中设置的特定事件与可用的Livefyre事件进行映射。 在此示例中，将`event82`设置为任何用户交互事件，而不区分哪种用户交互事件（例如，喜欢或共享内容）。 这是一种在块中记录所有用户交互信息的有效方法。 您还可以使用数据元素引用来映射DTM分析UI中的事件。
 
 ```
 var eventMap = { 
@@ -252,7 +255,7 @@ function trackLivefyreEvent(data) {
   }
 ```
 
-以下代码将记录的事件类型区 `event82` 分开。 转换变量 `eVar83` 记录用户交互的类型，脚本设置为按类 `eVar83` 型分隔用户交互数据。 因此 `eVar83` ，您可以将记录的数据分解为特定类型的用户交互。
+以下代码区分了`event82`记录的事件类型。 转换变量`eVar83`记录用户交互的类型，脚本设置`eVar83`以按类型分隔用户交互数据。 因此，`eVar83`允许您将记录的数据分解为特定类型的用户交互。
 
 ```
   var vars = ['events'];  
