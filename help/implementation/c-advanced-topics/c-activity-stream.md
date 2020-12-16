@@ -1,21 +1,24 @@
 ---
-description: 了解如何监视和存储流经Livefyre系统的用户生成的内容。
-seo-description: 了解如何监视和存储流经Livefyre系统的用户生成的内容。
+description: 了解如何监视和存储流经Livefyre系统的用户生成内容。
+seo-description: 了解如何监视和存储流经Livefyre系统的用户生成内容。
 seo-title: 活动流
 solution: Experience Manager
 title: 活动流
 uuid: f40deec1-58ab-41c9-aac4-d2d8c9192bb9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
 
-# 活动流 {#activity-stream}
+# 活动流{#activity-stream}
 
-了解如何监视和存储流经Livefyre系统的用户生成的内容。
+了解如何监视和存储流经Livefyre系统的用户生成内容。
 
-使用Activity Stream API消耗流经网络或站点上的Livefyre系统的用户生成的数据。 例如：使用此API中的数据根据评级更新搜索索引，或根据用户的活动管理第三方系统中的用户标记。
+使用活动流API消费流经网络或站点上Livefyre系统的用户生成的数据。 例如：使用来自此API的数据根据评级更新搜索索引，或根据用户的活动管理第三方系统中的用户徽章。
 
 活动流API:
 
@@ -23,7 +26,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 ## 资源 {#section_aql_n4l_b1b}
 
-有两个端点，一个用于分阶段环境，另一个用于生产。
+有两个端点，一个用于暂存环境，另一个用于生产。
 
 ### 暂存
 
@@ -39,38 +42,38 @@ GET https://bootstrap.livefyre.com/api/v3.1/activity/
 
 ### 参数
 
-* **** 资源：字 *符串* A请求活动数据的对象的URN。
+* **resource:** ** string您请求活动数据的对象的URN。
 
-* **** 自：整 *数* 64位整数，表示您收到的上一个事件的ID。 如果您没有先前的数据，请指定“0”。
+* **since:** ** integer表示您收到的上一个事件的ID的64位整数。如果您没有先前的数据，请指定“0”。
 
-## URN字符串 {#section_skl_q4l_b1b}
+## URN字符串{#section_skl_q4l_b1b}
 
 示例：
 
-* **** urn:livefyre: `example.fyre.co` 的活动流 `example.fyre.co`。
-* **** urn:livefyre:网 `example.fyre.co:site=54321` 络下站点54321的活动 `example.fyre.co` 流。
+* **urn:livefyre:** `example.fyre.co` 的活动流 `example.fyre.co`。
+* **urn:livefyre：网** `example.fyre.co:site=54321` 络下站点54321的活动 `example.fyre.co` 流。
 
-## 令牌策略 {#section_nwh_c5j_11b}
+## 令牌策略{#section_nwh_c5j_11b}
 
-活动流API使用OAuth承载令牌进行身份验证。 承载令牌是OAuth 2.0规范的一部分，并在此处正式 [描述](https://tools.ietf.org/html/rfc6750#section-1.2)。
+活动流API使用OAuth承载令牌进行身份验证。 承载令牌是OAuth 2.0规范的一部分，并正式在此[](https://tools.ietf.org/html/rfc6750#section-1.2)中进行了说明。
 
-代号包含几件事：
+代号包含以下几项：
 
-* 代号的创建者。
-* 给谁一个代号。
+* 创建令牌的人。
+* 谁被赋予了代号。
 * 它不再有效的时间。
-* 我们正在做的事。
-* 已授予权限的列表。
+* 我们在做的事。
+* 已授予的列表权限。
 
 ### 步骤
 
-创建OAuth承载令牌的步骤包括：
+创建OAuth载体令牌的步骤包括：
 
-* 创建包含发行人、受众、主题、到期日和范围的地图／词典。
-* 使用JWT库和您的机密对JWT令牌进行编码。
+* 创建包含发行者、受众、主题、到期和范围的地图／字典。
+* 将JWT库与您的机密一起使用，对JWT令牌进行编码。
 * 添加“身份验证：承载”。
 
-以下代码示例演示了Python中的上述步骤：
+下面的代码示例演示了Python中的上述步骤：
 
 ```
 import time 
@@ -95,11 +98,11 @@ token = jwt.encode(data, key=network_secret)
 
 其中，如下定义了承载令牌密钥：
 
-* **is** ( *发行人)* ，具有生成令牌权限的实体。 这可能是Livefyre、站点或网络。 （要获得上学迟到的通知，请注明您的父母。）
-* **aud** （受众） ** ，为其生成此令牌的人。 如果您自己创建的代号是站点或网络。
-* **sub** (Subject) ** The subject wher Permissions to be Accessments. 例如，如果您正在对集合进行操作，则主题必须是集合的标识符。 （在学校示例的备注中，它是您。）
-* **exp** (Expiration) ** 令牌不再有效的时间点。
-* **范围** (范 *围)* ：这是对主题授予的权限列表。 “上学迟到”就是一个例子。 API的名称是另一个示例。
+* **is** *（颁发者）* 有权生成令牌的实体。这可能是Livefyre、站点或网络。 （如果要提前上学，您的父母应该提醒您。）
+* **aud** *(受众* )生成此令牌的人。如果您自己创建的令牌是站点或网络。
+* **子** *(主* 题)要授予权限的主题。例如，如果您正在对集合进行操作，则主题必须是集合的标识符。 （在学校示例的备注中，它是您。）
+* **exp** *(Expiration)* 令牌不再有效的时间点。
+* **范围** *(范* 围)这是对主题授予的权限的列表。“上学迟到”就是一个例子。 API的名称是另一个示例。
 
 ## 示例 {#section_dhl_ytj_11b}
 
@@ -272,9 +275,9 @@ curl -H "Authorization: Bearer <BEARER TOKEN>" https://bootstrap.livefyre.com/ap
 
 ## 注释 {#section_hj3_crj_11b}
 
-* 成功调用API将生成HTTP 200状态代码。 所有其他状态代码应视为错误。
-* 如果为非null，则将中的值用作 `data.meta.cursor.next` 您的下 `since` 一个请求的参数。
-* 如果值为 `data.meta.cursor.next` null，则表示没有要消费的新数据。 您以后应使用相同的值重新请 `since` 求，以查看新数据是否已到达。
-* 实际上，如果值为非null，您应立即请求 `data.meta.cursor.next` 更多数据。
-* 通过此API在生产中可获得大约两个小时的近期数据。
-* 您应设置流程以在cronjob上频繁轮询此端点，以避免丢失数据。 对于大多数实施，间隔为5分钟应完全足够。
+* 成功调用API将生成HTTP 200状态代码。 所有其他状态代码都应被视为错误。
+* 如果为非null，请将`data.meta.cursor.next`中的值用作下一个请求的`since`参数。
+* 如果`data.meta.cursor.next`的值为null，则表示没有要使用的新数据。 您以后应使用相同的`since`值重新请求，以查看新数据是否已到达。
+* 实际上，如果`data.meta.cursor.next`值为非空，您应立即请求更多数据。
+* 通过此API在生产中可获得大约两个小时的最新数据。
+* 您应设置进程以在cronjob上频繁轮询此端点，以避免丢失数据。 对于大多数实施，间隔为5分钟应完全足够。
