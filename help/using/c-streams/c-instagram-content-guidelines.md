@@ -18,9 +18,9 @@ ht-degree: 0%
 
 在创建Instagram内容时，您必须遵循其指导方针和最佳实践。
 
-您必须配置Instagram *商业帐户* ，以通过该字段从另一个特定Instagram商业帐户创建Instagram **[!UICONTROL By Author]** 流。 您在字段中标识的 **[!UICONTROL By Author]** 用户帐户必须是业务帐户。
+必须配置&#x200B;*Instagram商业帐户*，以使用&#x200B;**[!UICONTROL By Author]**&#x200B;字段从另一个特定Instagram商业帐户创建Instagram流。 您在&#x200B;**[!UICONTROL By Author]**&#x200B;字段中标识的用户帐户必须是业务帐户。
 
-有关如何在Livefyre中设置Instagram商业帐户的更多信息，请参 [阅关于Instagram帐户](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
+有关如何在Livefyre中设置Instagram商业帐户的详细信息，请参阅[关于Instagram帐户](../c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
 
 Instagram对从其平台获取内容实施以下规则：
 
@@ -41,4 +41,4 @@ Livefyre建议您遵循以下准则，以最大限度地提高搜索功能和效
 * 为Instagram和内容所有者提供归因。
 * 与其他网络的媒体一起显示时，与其他社交媒体内容有明显区别。
 
-有关更多信息，请参阅Instagram的文档: [使用Instagram品牌资产](https://help.instagram.com/304689166306603)。
+有关更多信息，请参阅Instagram的文档:[使用Instagram品牌资产](https://help.instagram.com/304689166306603)。
