@@ -5,6 +5,9 @@ title: 访问培训视频
 uuid: 64438e2f-dd51-4c10-98ff-e1b62db1b0ca
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
 
 ---
 
@@ -13,12 +16,12 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 要访问Livefyre培训视频，请执行以下操作：
 
-1. 访问 [Adobe Experience manager教程](https://helpx.adobe.com/experience-manager/tutorials.html)。
-1. 向下滚动页面，直到您看到三个Livefyre教程类别：
+1. 访问[Adobe Experience ManagerTutorials](https://helpx.adobe.com/experience-manager/tutorials.html)。
+1. 向下滚动页面，直到您看到三个Livefyre教程类别:
 
-   * 在Adobe Experience Manager Livefyre中创建、管理和导航Studio帐户
-   * 在Adobe Experience Manager Livefyre中创建自动内容流和搜索社交内容
-   * 在Adobe Experience Manager Livefyre中使用资产
+   * 在Adobe Experience ManagerLivefyre中创建、管理和导航Studio帐户
+   * 在Adobe Experience ManagerLivefyre中创建自动内容流和搜索社交内容
+   * 在Adobe Experience ManagerLivefyre中使用资产
 
 1. 单击所需的视频以访问教程。
 
