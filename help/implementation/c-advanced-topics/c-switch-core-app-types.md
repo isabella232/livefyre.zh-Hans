@@ -7,19 +7,22 @@ title: 切换核心应用程序类型
 uuid: 442a517c-3809-46c5-bb5f-8668a29dc3e8
 translation-type: tm+mt
 source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 1%
 
 ---
 
 
-# 切换核心应用程序类型{#switch-core-app-types}
+# 交换机核心应用程序类型{#switch-core-app-types}
 
 了解如何从一个对话应用程序类型更改为另一个对话应用程序类型。
 
-Lifefyre允许您通过更改数据中的某些设置，将集合从一个Livefyre核心应用程序类型更改为另一个类型（评论、实时博客或聊天）。 `collectionMeta`
+Lifefyre允许您通过更改`collectionMeta`数据中的某些设置，将集合从一个Livefyre核心应用程序类型更改为另一个类型（评论、实时博客或聊天）。
 
-要实施特定类型的应用程序，请向对象添加新字 `collectionMeta` 段。 注释是默认设置，因此如果您需要应用程序，则您无需进行这些更新。 要在创建集合后更改为其他应用程序，请在应用程序初始化过程中传递校验和值。 阅读我们的令牌文档中有关创建校验和值的 `collectionMeta` 更多信息。
+要实现特定类型的应用程序，请向`collectionMeta`对象添加新字段。 注释是默认设置，因此如果您需要的应用程序，您无需进行这些更新。 要在创建集合后更改为其他应用程序，请在应用程序初始化过程中传递校验和值。 请阅读我们的`collectionMeta`令牌文档中有关创建校验和值的更多信息。
 
-## 实时博客 {#section_kvj_3jj_11b}
+## 实时博客{#section_kvj_3jj_11b}
 
 ### PHP示例
 
@@ -110,7 +113,7 @@ conv_config = {
 }
 ```
 
-## 实时博客 {#section_bqt_cjj_11b}
+## 实时博客{#section_bqt_cjj_11b}
 
 ### PHP示例
 
