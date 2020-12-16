@@ -28,11 +28,11 @@ ht-degree: 0%
 
 ![](assets/UsersProfile-1024x699.png)
 
-## 用户标记 {#section_vk2_stp_vz}
+## 用户标记{#section_vk2_stp_vz}
 
 向帐户中添加用户标记可更轻松地搜索标记用户，并在时尚上区分标记用户的内容与网站上的其他用户。
 
-有关使用“用户标记”以不同于网站上其他内容的方式设置用户内容的样式的更多信息，请参见 **[!UICONTROL App Customizations > Style User Group Content]**。
+有关使用用户标记以不同于站点上其他内容的方式设置用户内容的样式的更多信息，请参阅&#x200B;**[!UICONTROL App Customizations > Style User Group Content]**。
 
 >[!NOTE]
 >
@@ -42,14 +42,14 @@ ht-degree: 0%
 
 “状态”部分列表与帐户关联的任何禁止或白名单，并允许您将帐户添加到任何现有的网络或站点禁令和白名单。
 
-## 禁止用户 {#section_l5b_5gr_vdb}
+## 禁止用户{#section_l5b_5gr_vdb}
 
-如果用户在文章上或您的网站上发布不当评论或垃圾评论，您可以选择禁止该用户访问您的网络。 一旦禁止，用户发布的所有内容将自动设置为 ***Bozo*** 状态，并且只对发布用户可见。 被禁用的用户可以登录流、发布评论并在应用程序中视图其内容。 被禁用的用户会相信，他们仍是对话的一部分。 但是，您站点上的其他用户将无法看到此内容。
+如果用户在文章上或您的网站上发布不当评论或垃圾评论，您可以选择禁止该用户访问您的网络。 一旦禁用，用户发布的所有内容将自动设置为&#x200B;***Bozo***&#x200B;状态，并且只对发布用户可见。 被禁用的用户可以登录流、发布评论并在应用程序中视图其内容。 被禁用的用户会相信，他们仍是对话的一部分。 但是，您站点上的其他用户将无法看到此内容。
 
 由于其内容现在为Bozo’d，被禁用的用户可能会继续发布不恰当的内容，但您的社区中的其他人将不再能看到这些内容。
 
-For more information, please see **[!UICONTROL Studio > App Content > Bozo Content]**.
+有关详细信息，请参阅&#x200B;**[!UICONTROL Studio > App Content > Bozo Content]**。
 
-## 允许列出用户 {#section_kr4_ptp_vz}
+## 允许列出用户{#section_kr4_ptp_vz}
 
 允许列出用户允许他们直接发布到您的应用程序。 由允许列出的用户发布的内容不会通过Livefyre的SAFE、profity或premodaration过滤器，并且会自动批准并添加到应用程序。
