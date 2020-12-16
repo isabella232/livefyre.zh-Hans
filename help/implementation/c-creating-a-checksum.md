@@ -13,7 +13,7 @@ ht-degree: 5%
 ---
 
 
-# 创建校验和 {#creating-a-checksum}
+# 创建校验和{#creating-a-checksum}
 
 使用Livefyre库创建校验和。
 
