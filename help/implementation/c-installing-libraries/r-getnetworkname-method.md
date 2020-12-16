@@ -7,6 +7,9 @@ title: getNetworkName网络方法
 uuid: 3523e5a4-11f4-458d-91e7-a149d3afe5e9
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 此方法返回不带fyre.co的网络名称。
 
-## Java示例 {#section_nyl_ycs_rz}
+## Java示例{#section_nyl_ycs_rz}
 
 ```
 network.getNetworkName();
@@ -27,7 +30,7 @@ network.getNetworkName();
 "example" 
 ```
 
-## NodeJS示例 {#section_xkd_gds_rz}
+## NodeJS示例{#section_xkd_gds_rz}
 
 ```
 network.getNetworkName();
@@ -39,7 +42,7 @@ network.getNetworkName();
 "example" 
 ```
 
-## PHP示例 {#section_ghf_gds_rz}
+## PHP示例{#section_ghf_gds_rz}
 
 ```
 $network->getNetworkName(); 
@@ -51,7 +54,7 @@ $network->getNetworkName();
 "example" 
 ```
 
-## Python示例 {#section_dwg_gds_rz}
+## Python示例{#section_dwg_gds_rz}
 
 ```
 network.network_name; 
@@ -63,7 +66,7 @@ network.network_name;
 "example" 
 ```
 
-## Ruby示例 {#section_enh_gds_rz}
+## Ruby示例{#section_enh_gds_rz}
 
 ```
 network.network_name; 
