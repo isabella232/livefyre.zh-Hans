@@ -1,23 +1,26 @@
 ---
-description: 自定义注释以在您的网站上嵌入实时对话。
-seo-description: 自定义注释以在您的网站上嵌入实时对话。
+description: 自定义注释，在网站上嵌入实时对话。
+seo-description: 自定义注释，在网站上嵌入实时对话。
 seo-title: 注释自定义
 solution: Experience Manager
 title: 注释自定义
 uuid: 7ec08aaf-553f-49a2-b237-d4bdcb5714ff
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 0%
 
 ---
 
 
 # 注释自定义{#comments-customizations}
 
-自定义注释以在您的网站上嵌入实时对话。
+自定义注释，在网站上嵌入实时对话。
 
 
 
-使用可用选项，让您的用户在Twitter、Facebook和LinkedIn上共享内容，并将其朋友拉入流中。
+使用可用选项，让您的用户在Twitter、Facebook和LinkedIn之间共享内容，并将其好友拉入流中。
 
 * **[!UICONTROL Number of comments to load]**
 
@@ -29,7 +32,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Posts appear in cards]**
 
-   如果启用此项，帖子将显示在周围的框内，并且应用了选择的背景 **[!UICONTROL Theme]** 颜色。
+   如果启用，帖子将显示在周围的框内，并且应用由&#x200B;**[!UICONTROL Theme]**&#x200B;选择决定的背景颜色。
 
 * **[!UICONTROL Expand media]**
 
@@ -41,7 +44,7 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL User tags]**
 
-   如果启用，用户标记将随发布内容一起显示。
+   如果启用，则用户标记将随发布内容一起显示。
 
 * **[!UICONTROL User avatars]**
 
@@ -53,27 +56,27 @@ source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
 
 * **[!UICONTROL Users may upload photos]**
 
-   如果启用此功能，用户可以上传照片。
+   启用后，用户可以上传照片。
 
 * **[!UICONTROL Users may share posts]**
 
-   如果启用此选项，用户可共享帖子。 如果启用此功能，用户可以将已发布内容共享到Twitter、Facebook或LinkedIn。 有关启用共享的详细信息，请参阅设置&gt;集成设置&gt;社交共享。
+   如果已启用，则用户可以共享帖子。 如果启用，用户可以将已发布内容共享到Twitter、Facebook或LinkedIn。 有关启用共享的详细信息，请参阅设置>集成设置>社交共享。
 
 * **[!UICONTROL Featured content at top of stream]**
 
-   启用后，“特色”内容将显示在应用程序中编辑器的上方。
+   启用后，特色内容将显示在应用程序中编辑器的上方。
 
 * **[!UICONTROL High velocity comment queuing]**
 
-   允许您控制在页面上显示注释的速度，并且最适合用于高速对话。 启用后，Livefyre将在流顶部列出新注释的数量，而不是显示整个内容。 单击此数字将显示流中最旧的10条注释。
+   允许您控制在页面上显示注释的速度，并且最适合用于高速对话。 启用后，Livefyre将列表流顶部的新注释数，而不是全部显示内容。 单击此编号将显示流中最旧的10条注释。
 
 * **[!UICONTROL Most liked comment sort]**
 
-   如果启用此项，则允许用户按或( **[!UICONTROL Top Comments]** 除了默 **[!UICONTROL Hot Threads]** 认选项和排序选 **[!UICONTROL Newest]** 项外) **[!UICONTROL Oldest]** 排序。
+   如果启用，则允许用户按&#x200B;**[!UICONTROL Top Comments]**&#x200B;或&#x200B;**[!UICONTROL Hot Threads]**&#x200B;排序（除默认的&#x200B;**[!UICONTROL Newest]**&#x200B;和&#x200B;**[!UICONTROL Oldest]**&#x200B;排序选项外）。
 
 您可以使用以下方式自定义注释：
 
-* **[!UICONTROL Style]** 和中 **[!UICONTROL Config]** 所有应用程序的选项 **[!UICONTROL App Designer]**。 有关中所有应用程序的标准和选项的详细 **[!UICONTROL Style]** 信息， **[!UICONTROL Config]** 请参阅自定义应用程序 **[!UICONTROL App Designer]**。
+* **[!UICONTROL Style]** 和 **[!UICONTROL Config]** 中所有应用程序的选 **[!UICONTROL App Designer]**&#x200B;项。有关&#x200B;**[!UICONTROL App Designer]**&#x200B;中所有应用程序的标准&#x200B;**[!UICONTROL Style]**&#x200B;和&#x200B;**[!UICONTROL Config]**&#x200B;选项的详细信息，请参阅自定义应用程序。
 
-* **[!UICONTROL Integration tools]**. 有关如何使用集成工具自定义注释的更多信息，请参阅注释。
+* **[!UICONTROL Integration tools]**。有关如何使用集成工具自定义注释的更多信息，请参阅注释。
 
