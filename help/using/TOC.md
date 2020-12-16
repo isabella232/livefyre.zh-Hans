@@ -12,7 +12,7 @@ ht-degree: 7%
 ---
 
 
-# Livefyre 指南 {#using}
+# Livefyre 指南  {#using}
 
 + [Livefyre帮助](home.md)
 + [公告](c-anouncements.md)
@@ -34,14 +34,14 @@ ht-degree: 7%
       + [评论](c-about-apps/c-comments/c-comments.md)
       + [注释功能](c-about-apps/c-comments/r-comments-features.md)
       + [注释自定义](c-about-apps/c-comments/r-comments-customizations.md)
-   + 功能卡 {#featurecard}
+   + 功能卡{#featurecard}
       + [功能卡](c-about-apps/c-feature-card-app/c-feature-card-app.md)
       + [功能卡自定义](c-about-apps/c-feature-card-app/r-feature-card-customizations.md)
-   + 幻灯片 {#filmstrip}
+   + 幻灯片{#filmstrip}
       + [幻灯片](c-about-apps/c-filmstrip-app/c-filmstrip-app.md)
       + [幻灯片功能](c-about-apps/c-filmstrip-app/c-filmstrip-features.md)
       + [幻灯片自定义](c-about-apps/c-filmstrip-app/c-filmstrip-customizations.md)
-   + 实时博客 {#liveblog}
+   + 实时博客{#liveblog}
       + [实时博客](c-about-apps/c-liveblog-app/c-liveblog-app.md)
       + [实时博客功能](c-about-apps/c-liveblog-app/r-live-blog-features.md)
       + [实时博客自定义](c-about-apps/c-liveblog-app/r-live-blog-customizations.md)
@@ -49,24 +49,24 @@ ht-degree: 7%
       + [地图](c-about-apps/c-map-app/c-map-app.md)
       + [地图功能](c-about-apps/c-map-app/r-map-features.md)
       + [映射自定义](c-about-apps/c-map-app/r-map-customizations.md)
-   + 媒体墙 {#mediawall}
+   + 介质墙{#mediawall}
       + [媒体墙](c-about-apps/c-media-wall-app/c-media-wall-app.md)
       + [媒体墙功能](c-about-apps/c-media-wall-app/r-media-wall-features.md)
       + [媒体墙自定义](c-about-apps/c-media-wall-app/r-media-wall-customizations.md)
-   + 马赛克 {#mosaic}
+   + 马赛克{#mosaic}
       + [马赛克](c-about-apps/c-mosaic-app/c-mosaic-app.md)
       + [马赛克特征](c-about-apps/c-mosaic-app/r-mosaic-features.md)
       + [马赛克自定义](c-about-apps/c-mosaic-app/c-mosaic-customizations.md)
-   + 投票 {#polls}
+   + 投票{#polls}
       + [投票](c-about-apps/c-polls-app/c-polls-app.md)
       + [向评论或实时博客应用程序添加投票](c-about-apps/c-polls-app/t-integrate-poll-site.md)
       + [向投票添加图像](c-about-apps/c-polls-app/t-add-images-to-a-poll.md)
       + [投票自定义](c-about-apps/c-polls-app/r-polls-customizations.md)
-   + 评论 {#reviews}
+   + 评论{#reviews}
       + [评论](c-about-apps/c-reviews-app/c-reviews-app.md)
       + [创建评论应用程序](c-about-apps/c-reviews-app/c-creating-reviews.md)
       + [发布审阅](c-about-apps/c-reviews-app/t-using-reviews.md)
-   + Sidesk {#sidenotes}
+   + Sisextr {#sidenotes}
       + [Sidesk](c-about-apps/c-sidenotes-app/c-sidenotes-app.md)
       + [SiSiS表示功能](c-about-apps/c-sidenotes-app/r-sidenotes-features.md)
       + [Sisers自定义](c-about-apps/c-sidenotes-app/r-sidenotes-customizations.md)
@@ -85,7 +85,7 @@ ht-degree: 7%
       + [处理同一故事的多位编辑](c-about-apps/c-storify2/t-working-with-multiple-editors-on-same-story.md)
       + [使用流向您的故事添加社交内容](c-about-apps/c-storify2/t-use-streams-to-add-social-content.md)
       + [将帖子固定到Storify 2](c-about-apps/c-storify2/t-pin-posts-to-storify2.md)
-      + 导航指南 {#navigation-guide}
+      + 导航指南{#navigation-guide}
          + [导航指南](c-about-apps/c-storify2/c-navigation-guide.md)
          + [向Storify 2添加导航指南](c-about-apps/c-storify2/t-add-navigation-guide-to-storify2.md)
          + [向导航指南添加标题](c-about-apps/c-storify2/t-add-a-title-to-the-navigation-guide.md)
@@ -101,15 +101,15 @@ ht-degree: 7%
       + [上传按钮](c-about-apps/c-upload-button-app/c-upload-button-app.md)
       + [上传按钮自定义](c-about-apps/c-upload-button-app/r-upload-button-customizations.md)
       + [上传按钮文本字符串](c-about-apps/c-upload-button-app/c-upload-button-text-strings.md)
-+ 应用程序功能 {#app-features}
++ 应用程序功能{#app-features}
    + [辅助功能](c-features-livefyre/c-accessibility-features.md)
    + [身份验证功能](c-features-livefyre/c-authentication.md)
    + [自定义行动动员按钮](c-features-livefyre/c-call-to-action-button.md)
-   + 内容行为功能 {#content-behavior-features}
+   + 内容行为功能{#content-behavior-features}
       + [内容行为功能](c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md)
       + [照片上传](c-features-livefyre/c-content-behavior-features/c-photo-upload.md)
       + [用户帖子](c-features-livefyre/c-content-behavior-features/c-user-posts.md)
-   + 集合和内容标记 {#collection-content-tags}
+   + 集合和内容标记{#collection-content-tags}
       + [集合和内容标记](c-features-livefyre/c-content-collection-tags/c-content-collection-tags.md)
       + [更改集合](c-features-livefyre/c-content-collection-tags/c-change-collection.md)
       + [按集合或内容标记过滤搜索](c-features-livefyre/c-content-collection-tags/t-filter-search-by-tag.md)
@@ -129,7 +129,7 @@ ht-degree: 7%
    + [管理功能](c-features-livefyre/c-enagement-features.md)
    + [监听器计数](c-features-livefyre/c-listener-count.md)
    + [其他功能](c-features-livefyre/c-miscellaneous-features.md)
-   + 审核和筛选 {#moderation-filtering}
+   + 审核和筛选{#moderation-filtering}
       + [设置审核](c-features-livefyre/c-about-moderation/c-setting-up-moderation.md)
       + [限制来自Twitter用户的内容](c-features-livefyre/c-about-moderation/t-moderate-streams.md)
       + [禁止IP地址](c-features-livefyre/c-about-moderation/t-set-up-bans.md)
@@ -141,23 +141,23 @@ ht-degree: 7%
       + [审核流中的内容](c-features-livefyre/c-about-moderation/c-moderate-inline.md)
       + [使用应用程序内容审核内容](c-features-livefyre/c-about-moderation/c-moderate-content-using-app-content.md)
       + [安全规则](c-features-livefyre/c-about-moderation/c-moderation.md)
-   + 通知功能 {#notifications-features}
+   + 通知功能{#notifications-features}
       + [注释通知程序](c-features-livefyre/c-notifications-features/c-comment-notifier.md)
       + [电子邮件通知](c-features-livefyre/c-notifications-features/c-email-notifications.md)
       + [设置网络电子邮件](c-features-livefyre/c-notifications-features/t-set-up-network-email.md)
    + [现场贡献功能](c-features-livefyre/c-on-site-contribution-features.md)
    + [推荐跟踪](c-features-livefyre/c-referral-tracking.md)
-   + 智能标记 {#smart-tags}
+   + 智能标记{#smart-tags}
       + [智能标记](c-features-livefyre/c-smart-tags/c-smart-tags.md)
       + [视图智能标记](c-features-livefyre/c-smart-tags/c-view-smart-tags.md)
    + 社交共享 {#social-sharing}
       + [社交共享](c-features-livefyre/c-social-sharing/c-social-sharing.md)
       + [设置社交共享](c-features-livefyre/c-social-sharing/c-setting-up-social-sharing.md)
-   + 排序功能 {#sort-features}
+   + 排序功能{#sort-features}
       + [排序功能](c-features-livefyre/c-sort-features-composite/c-sort-features-composite.md)
       + [热门评论](c-features-livefyre/c-sort-features-composite/c-top-comments.md)
       + [热线程](c-features-livefyre/c-sort-features-composite/c-hot-threads.md)
-   + 样式功能 {#styling-features}
+   + 样式功能{#styling-features}
       + [样式功能](c-features-livefyre/c-styling-features/c-styling-features.md)
       + [CSS样式和品牌](c-features-livefyre/c-styling-features/c-css-styling-branding.md)
       + [日期和时间戳](c-features-livefyre/c-styling-features/c-date-and-timestamp.md)
@@ -191,7 +191,7 @@ ht-degree: 7%
    + [将Adobe Experience ManagerLivefyre与Hootsuite结合使用](c-library/c-hootsuite-livefyre.md)
    + [将Adobe Experience ManagerLivefyre与Adobe Target结合使用](c-library/livefyre-target.md)
    + [使用Adobe启动Livefyre扩展](c-library/launch-extension.md)
-+ 流 {#streams}
++ 流{#streams}
    + [流](c-streams/c-streams.md)
    + [创建新流](c-streams/t-create-a-new-stream.md)
    + [为流添加规则](c-streams/t-add-rules-for-your-stream.md)
@@ -206,7 +206,7 @@ ht-degree: 7%
    + [Twitter规则](c-streams/c-twitter-rules.md)
    + [帖子的限制和频率](c-streams/c-throttling-and-frequency-of-tweets.md)
    + [YouTube规则](c-streams/c-youtube-rules/c-youtube-rules.md)
-+ 权限请求 {#rights-requests}
++ 权限请求{#rights-requests}
    + [请求权限](c-how-requesting-rights-works/c-how-requesting-rights-works.md)
    + [管理权限请求](c-how-requesting-rights-works/c-managing-rights-requests.md)
    + [设置Rights Management](c-how-requesting-rights-works/t-set-up-rights-management.md)
@@ -216,7 +216,7 @@ ht-degree: 7%
    + [视图权活动历史](c-how-requesting-rights-works/c-view-rights-activity-history.md)
    + [使用资产库中的待定权限请求管理内容](c-how-requesting-rights-works/t-manage-content-with-pending-rights-request.md)
    + [从资产库手动授予或撤销资产的权限](c-how-requesting-rights-works/t-manually-grant-the-rights-for-one-or-more-assets.md)
-+ 用户：管理Studio和Livefyre网络用户 {#users-managing}
++ 用户：管理Studio和Livefyre网络用户{#users-managing}
    + [用户：管理Studio和Livefyre网络用户](c-users/c-users.md)
    + [搜索用户](c-users/t-search-for-users.md)
    + [查看帐户详细信息](c-users/c-viewing-account-details.md)
@@ -225,21 +225,21 @@ ht-degree: 7%
    + [关联用户帐户](c-users/t-link-user-accounts.md)
    + [交换网络的用户](c-users/c-users-switching-networks.md)
    + [用户同步](c-users/t-set-up-user-sync.md)
-+ 用户：创建用户帐户 {#users-creating-accounts}
++ 用户：创建用户帐户{#users-creating-accounts}
    + [用户：创建用户帐户](c-users-creating-accounts-with-studio-access/c-users-creating-accounts-with-studio-access.md)
    + [邀请用户创建Studio帐户](c-users-creating-accounts-with-studio-access/t-invite-a-user-to-create-a-studio-account.md)
    + [接受创建Studio帐户的邀请](c-users-creating-accounts-with-studio-access/t-accept-an-invitation-to-create-a-studio-account.md)
    + [登录Studio](c-users-creating-accounts-with-studio-access/t-log-into-studio.md)
    + [管理用户的Studio权限](c-users-creating-accounts-with-studio-access/t-manage-studio-permissions-for-users.md)
    + [用户角色和权限](c-users-creating-accounts-with-studio-access/c-user-types.md)
-   + Add a Social Account {#add-social-account}
+   + 添加社交帐户{#add-social-account}
       + [添加社交帐户](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/t-configure-social-accout-instagram.md)
       + [关于Instagram帐户](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md)
       + [刷新社交帐户的令牌](c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-refresh-a-token-for-a-social-account.md)
-+ 设置：其他 {#settings-other}
++ 设置：其他{#settings-other}
    + [设置凭据](c-settings-other/t-set-up-credentials.md)
    + [将站点添加到网络](c-settings-other/t-add-a-site.md)
-   + 翻译集 {#translation-sets}
+   + 转换集{#translation-sets}
       + [翻译集](c-settings-other/c-translation-sets/c-translation-sets.md)
       + [创建和修改翻译集](c-settings-other/c-translation-sets/t-create-modify-translation-sets.md)
       + [将翻译集应用于网络](c-settings-other/c-translation-sets/t-apply-a-translation-set-to-a-network.md)
@@ -248,10 +248,10 @@ ht-degree: 7%
       + [本地化字符串](c-settings-other/c-translation-sets/c-localize-strings.md)
       + [审阅文本字符串](c-settings-other/c-translation-sets/c-review-text-strings.md)
       + [表示文本字符串](c-settings-other/c-translation-sets/c-sidenotes-text-strings.md)
-   + SSL强制 {#ssl-enforcement}
+   + SSL强制{#ssl-enforcement}
       + [SSL强制](c-settings-other/c-ssl-enforcement/c-ssl-enforcement.md)
       + [SSL核对清单](c-settings-other/c-ssl-enforcement/c-ssl-checklist.md)
-   + 隐私请求 {#privacy-requests}
+   + 隐私请求{#privacy-requests}
       + [隐私请求（GDPR就绪）](c-settings-other/c-gdpr-compliance/c-gdpr-compliance.md)
       + [隐私请求常见问题解答](c-settings-other/c-gdpr-compliance/c-privacy-request-faqs.md)
       + [创建隐私请求](c-settings-other/c-gdpr-compliance/c-privacy-requests.md)
@@ -259,14 +259,14 @@ ht-degree: 7%
       + [userPrivacyOptOut](c-settings-other/c-gdpr-compliance/c-userprivacyoptout.md)
 + 发行说明 {#release-notes}
    + [最新发行说明](c-rn/c-rn.md)
-   + Release Notes 2019 {#rn2019}
+   + 发行说明2019 {#rn2019}
       + [2019年3月21日](c-rn/previous-rns/rn2019/c-rn-2019-march-21.md)
       + [2019年3月14日](c-rn/previous-rns/rn2019/c-rn-2019-march-14.md)
       + [2019年2月21日](c-rn/previous-rns/rn2019/c-rn-2019-february-21.md)
       + [2019 年 2 月 7 日](c-rn/previous-rns/rn2019/c-rn-2019-february-7.md)
       + [2019年1月31日](c-rn/previous-rns/rn2019/c-rn-2019-january-31.md)
       + [2019年1月17日](c-rn/previous-rns/rn2019/c-rn-2019-january-17.md)
-   + Release Notes 2018 {#rn2018}
+   + 2018发行说明{#rn2018}
       + [2018年12月18日](c-rn/previous-rns/rn2018/c-rn-2018-december-18.md)
       + [2018年12月13日](c-rn/previous-rns/rn2018/c-rn-2018-december-13.md)
       + [2018 年 11 月 15 日](c-rn/previous-rns/rn2018/c-rn-2018-november-15.md)
@@ -287,7 +287,7 @@ ht-degree: 7%
       + [2018年2月15日](c-rn/previous-rns/rn2018/c-rn-2018-february-15.md)
       + [2018年2月1日](c-rn/previous-rns/rn2018/c-2018-february-1.md)
       + [2018年1月18日](c-rn/previous-rns/rn2018/c-rn-2018-january-18.md)
-   + Release Notes 2017 {#rn2017}
+   + 2017版本说明{#rn2017}
       + [2017年11月16日](c-rn/previous-rns/rn2017/c-rn-2017-november-16.md)
       + [2017年11月2日](c-rn/previous-rns/rn2017/c-rn-2017-november-2.md)
       + [2017年10月19日](c-rn/previous-rns/rn2017/c-rn-2017-october-19.md)
