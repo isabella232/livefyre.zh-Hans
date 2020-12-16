@@ -7,6 +7,9 @@ title: 网络方法
 uuid: f237fead-36b5-4ea1-bfdd-55194d3306e1
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +27,7 @@ Network对象有以下可用方法：
 * [setUserSyncUrl网络方法](#r_setusersyncurl_method)
 * [sync用户网络方法](#r_syncuser_method)
 * [getUrn网络方法](#r_geturn_method)
-* [getUrnForUser network方法](#r_geturnforuser_method)
+* [getUrnForUser Network方法](#r_geturnforuser_method)
 * [getNetworkName网络方法](#r_getnetworkname_method)
 * [getSite网络方法](#r_getsite_method)
 
