@@ -13,11 +13,11 @@ ht-degree: 8%
 ---
 
 
-# January 26, 2017{#january}
+# 2017 年 1 月 26 日{#january}
 
 发行说明2017年1月26日版本。
 
-## 生产版本 {#section_r24_1m2_wy}
+## 生产版本{#section_r24_1m2_wy}
 
 | 问题类型 | 组件 | 发行说明 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 8%
 | 错误 | Studio | 增强的库资源搜索功能以支持日语字符。 |
 
 
-## UAT版本 {#section_dyx_yl2_wy}
+## UAT版本{#section_dyx_yl2_wy}
 
 | 问题类型 | 组件 | 发行说明 |
 |--- |--- |--- |
