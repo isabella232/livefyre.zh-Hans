@@ -1,33 +1,36 @@
 ---
-description: 使用bit.ly URL缩短服务自定义内容权限。
-seo-description: 使用bit.ly URL缩短服务自定义内容权限。
-seo-title: Permalinks
+description: 使用bit.ly URL缩短工具自定义内容首选项。
+seo-description: 使用bit.ly URL缩短工具自定义内容首选项。
+seo-title: 佩尔马林克
 solution: Experience Manager
-title: Permalinks
+title: 佩尔马林克
 uuid: 40ef30ec-dc3e-47fe-87a9-f9073cd4c4ff
 translation-type: tm+mt
 source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
 
 # Permalinks{#permalinks}
 
-使用bit.ly URL缩短服务自定义内容权限。
+使用bit.ly URL缩短工具自定义内容首选项。
 
 您可以链接到流中的存档注释或内容。 要启用此功能，Livefyre使用默认URL格式：** fyre.it**。 可以自定义此格式以匹配标准bit.ly格式。
 
-## 永久墨水显示器 {#section_mxd_wwg_wy}
+## Permalink显示器{#section_mxd_wwg_wy}
 
-如果用户单击从社交网络到Livefyre内容应用程序的永久链接，则他们将被带到Livefyre内容流。 内容将显示在流的分组讨论视图中（就在编辑器的下方），并显示完整的上下文。 透明内容的头像下方将显示一条蓝线。 （这条蓝线几秒后就会消失。）
+如果用户单击从社交网络到Livefyre内容应用程序的许可证，他们将被带到Livefyre内容流。 内容将在流的分组讨论视图中显示，就在编辑器的下方，并显示完整的上下文。 透明内容的头像下方将显示一条蓝线。 （这条蓝线几秒后就会消失。）
 
-（如果删除了永久链接内容，则分组讨论视图中将显示一条指向该效果的消息。）
+(如果删除了permallinked内容，则会在分组讨论视图中显示该效果的消息。)
 
-## 自定义永久链接 {#section_uyn_5wg_wy}
+## 自定义永久链接{#section_uyn_5wg_wy}
 
-如果您希望在共享对话时为注释创建自定义权限，则可以使用Bitly帐户，而不是使用标准的Livefyre缩短URL(fyre.it)。 使用Bitly帐户将帮助提醒用户在单击永久链接时将访问您网站上的内容。
+如果您希望在共享对话时为注释创建自定义权限，可以使用Bitly帐户，而不是标准的Livefyre缩短URL(fyre.it)。 使用Bitly帐户将帮助提醒用户在点击永久链接时将访问您网站上的内容。
 
-要实现此功能，请转到并 **[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]**&#x200B;输入您的Bitly API密钥和用户名。
+要实现此功能，请转至&#x200B;**[!UICONTROL Studio > Settings > Integration Settings > Social Sharing]**，然后输入您的Bitly API密钥和用户名。
 
 >[!NOTE]
 >
