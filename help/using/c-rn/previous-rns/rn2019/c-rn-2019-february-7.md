@@ -7,11 +7,14 @@ title: 发行说明
 uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
 translation-type: tm+mt
 source-git-commit: 46f00bccc617b5d5ddc2e205c912d52d3602a8a0
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
 
-# 发行说明- 2019年2月7日 {#rn020719}
+# 发行说明- 2019年2月7日{#rn020719}
 
 **2019年2月7日更新的发行说明。**
 
@@ -21,4 +24,4 @@ source-git-commit: 46f00bccc617b5d5ddc2e205c912d52d3602a8a0
 
 ## 错误修复
 
-* 修复了在尝试查看所有内容(包括已破 *坏的内容*)时，以审核推荐标记的内容未显示的问题。
+* 修复了在尝试视图所有内容（包括已删除的内容）时，以“协调Recommendations”标记为&#x200B;*的内容未显示的问题。*
