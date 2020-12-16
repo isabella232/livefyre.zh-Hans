@@ -1,21 +1,24 @@
 ---
-description: 您可以选择网站访客是否登录您的应用程序以及登录方式。
-seo-description: 您可以选择网站访客是否登录您的应用程序以及登录方式。
+description: 您可以选择站点访客是否以及如何登录您的应用程序。
+seo-description: 您可以选择站点访客是否以及如何登录您的应用程序。
 seo-title: 身份验证功能
 solution: Experience Manager
 title: 身份验证功能
 uuid: 6f1236a0-7766-47c6-b6b5-1e6b8f1c0781
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 5%
 
 ---
 
 
 # 身份验证功能{#authentication-features}
 
-您可以选择网站访客是否登录您的应用程序以及登录方式。
+您可以选择站点访客是否以及如何登录您的应用程序。
 
-使用livefyre.js设置身份验证。 有关详细信息，请参 [阅使用Livefyre.js将身份验证添加到应用程序](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)
+使用livefyre.js设置身份验证。 有关详细信息，请参阅[使用Livefyre.js](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)向应用程序添加身份验证
 
 使用此功能的应用程序：
 
