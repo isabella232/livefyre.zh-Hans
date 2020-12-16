@@ -7,19 +7,22 @@ title: 社交计数器
 uuid: fa9aa1a8-6a04-4bc1-9bfe-e42c1250fd48
 translation-type: tm+mt
 source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 10%
 
 ---
 
 
 # 社交计数器{#social-counter}
 
-计算精选的社交项目数。 有关可用端点的完整列表，请参阅Livefyre [API参考部分](https://api.livefyre.com/docs) 。
+计算精选的社交项目数。 有关可用端点的完整列表，请参阅Livefyre [API参考](https://api.livefyre.com/docs)部分。
 
-Social Counter API会返回给定集合中在一段时间内的间隔内的匹配特选规则计数。
+Social Counter API会为给定集合中一段时间的间隔返回匹配特选规则计数。
 
 >[!NOTE]
 >
->此API仅对Twitter主题标记可用。
+>此API仅对Twitter主题标签可用。
 
 社交计数器API:
 
@@ -33,18 +36,18 @@ Social Counter API会返回给定集合中在一段时间内的间隔内的匹�
 GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{query}.json
 ```
 
-* **** networkName:您的Livefyre提供的网络名称。 例如： *实验室*`labs.fyre.co`。
-* **** 查询：URL安全基64编码的散列，包含所有站点、文章ID、应获取其计数信息的规则类型示例（预编码）
+* **networkName：您** 的Livefyre提供的网络名称。例如：`labs.fyre.co`中的&#x200B;*labs*。
+* **查询:** 所有站点的url安全基64编码哈希、文章ID、应获取计数信息的规则类型表（预编码）
 
    ```
    {site ID}:{article ID};{rule-type},  {article ID};{rule-type}|{site ID}:{article ID};{rule-type}
    ```
 
    >[!NOTE]
-   >查询仅限于10个站点、文章ID和规则类型的示例。 （上一个示例将包含3个示例。）
+   >查询仅限于10个站点、文章ID、规则类型示例。 （上一个示例将包含3个示例。）
 
-* **from**`(optional)` 指定相对或绝对时间段到图形；from指定开头，如果忽略，则默认为24小时前。
-* **直到**`(optional)` 指定图形的相对或绝对时间段；直到指定开始，如果忽略，则默认为当前时间（现在）。
+* **** `(optional)` from指定图形的相对或绝对时间段；from指定开始，如果省略，则默认为24小时前。
+* **** `(optional)` untl指定图形的相对或绝对时间段；until指定开始，如果省略，则默认为当前时间（现在）。
 
 ### 相对时间
 
@@ -52,10 +55,10 @@ GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{q
 |---|---|
 | s | 秒 |
 | min（分钟） | 分钟 |
-| h | 小时 |
+| h | 小时数 |
 | d | 天数 |
 | w | 周 |
-| mon | 30天（月） |
+| 周 | 30天（月） |
 | y | 365天（年） |
 
 示例：
@@ -64,7 +67,7 @@ GET https://{networkName}.bootstrap.fyre.co/api/v3.0/stats.collections.curate/{q
 https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-7d&until=-6d
 ```
 
-## 绝对时间 {#section_xqr_jgc_11b}
+## 绝对时间{#section_xqr_jgc_11b}
 
 格式：HH:MM_YYYYMMDD
 
@@ -82,7 +85,7 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=04:00_20130709 
 ```
 
-## 规则类型 {#section_v53_xqb_11b}
+## 规则类型{#section_v53_xqb_11b}
 
 | 值 | 类型 |
 |---|---|
@@ -90,7 +93,7 @@ https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2On
 
 示例：
 
-要获取站点和文章ID以及规 `123456` 则类型在最 `some-article-id` 后一分钟的计数， `2`例如： `123456:some-article-id;2:`
+要获取站点`123456`和文章ID `some-article-id`和规则类型`2`在最后一分钟的计数，例如：`123456:some-article-id;2:`
 
 ```
 curl -XGET "https://labs-t402.bootstrap.fyre.co/api/v3.0/stats.collections.curate/MTIzNDU2OnNvbWUtYXJ0aWNsZS1pZDsy.json&from=-1min" 
