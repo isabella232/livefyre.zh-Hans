@@ -1,23 +1,26 @@
 ---
-description: 通过使访客在发现您的内容时能够回访您的网站，吸引他们。
-seo-description: 通过使访客在发现您的内容时能够回访您的网站，吸引他们。
-seo-title: 参与功能
+description: 通过让网站访客在发现您的内容时回到您的网站，吸引他们。
+seo-description: 通过让网站访客在发现您的内容时回到您的网站，吸引他们。
+seo-title: 管理功能
 solution: Experience Manager
-title: 参与功能
+title: 管理功能
 uuid: 5841a183-62c0-40ae-9cef-884bffb7c39b
 translation-type: tm+mt
 source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 2%
 
 ---
 
 
-# 参与功能{#enagement-features}
+# 管理功能{#enagement-features}
 
-通过使访客在发现您的内容时能够回访您的网站，吸引他们。
+通过让网站访客在发现您的内容时回到您的网站，吸引他们。
 
-## 自定义按钮 {#section_jdv_vcm_d1b}
+## 自定义按钮{#section_jdv_vcm_d1b}
 
-自定义操作按钮和关联的操作可以添加到任何Livefyre应用程序中的任何用户或内容中，并与现有的“旗标”、“共享”和“删除”按钮一起添加。 例如，用户可以隐藏来自其他用户的内容，或关注用户。
+自定义操作按钮和关联的操作可以添加到任何Livefyre应用程序中的任何用户或内容，同时添加现有的标志、共享和删除按钮。 例如，用户可以隐藏来自其他用户的内容，或关注用户。
 
 有关添加自定义操作按钮的技术信息，请参阅添加自定义按钮。
 
@@ -42,9 +45,9 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 * [Sidesk](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 
-## 媒体扩展 {#section_pmq_ycm_d1b}
+## 媒体扩展{#section_pmq_ycm_d1b}
 
-在更大的模态窗口中查看介质的功能。
+在更大的模态窗口中视图一块介质的能力。
 
 使用此功能的应用程序：
 
@@ -59,17 +62,17 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 * [评论](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 
-## 朋友提及次数 {#section_yw5_fdm_d1b}
+## 好友提及{#section_yw5_fdm_d1b}
 
-@提及用户或已将内容发布到集合中的某人。
+@antiate用户或已将内容发布到集合的某人。
 
-要提及已将内容发布到集合中的某人，用户可以单击提及按钮，或在编辑器中键入@以显示可供提及的人员列表。 **[!UICONTROL @]** 该列表将包括关注该对话的所有用户。 （开始键入名称以限制列表与输入文本匹配。）
+要提及已将内容发布到集合中的某人，用户可以单击&#x200B;**[!UICONTROL @]**&#x200B;提及按钮，或在编辑器中键入@以显示可供提及的人员的列表。 该列表将包括所有关注该对话的用户。 (开始键入名称以限制列表与输入文本的匹配。)
 
 >[!NOTE]
 >
->收到@回复的用户不会收到帖子通知。
+>回复的用户不会收到帖子通知。
 
-朋友标记功能在移动设备上不可用，在IE8或更早版本上不可用。
+好友标记功能在移动设备上不可用，在IE8或更早版本上不可用。
 
 使用此功能的应用程序：
 
@@ -77,21 +80,21 @@ source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
 * [评论](/help/using/c-about-apps/c-comments/c-comments.md)
 * [评论](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 
-## 操作按钮 {#section_uzm_ldm_d1b}
+## 操作按钮{#section_uzm_ldm_d1b}
 
 为应用程序中的内容创建自定义操作按钮。
 
-自定义操作按钮和关联的操作可以添加到任何Livefyre应用程序中的任何用户或内容中，并与现有的“旗标”、“共享”和“删除”按钮一起添加。 例如，用户可以隐藏来自其他用户的内容，或关注用户。
+自定义操作按钮和关联的操作可以添加到任何Livefyre应用程序中的任何用户或内容，同时添加现有的标志、共享和删除按钮。 例如，用户可以隐藏来自其他用户的内容，或关注用户。
 
-## 关注对话 {#section_bw3_ndm_d1b}
+## 关注对话{#section_bw3_ndm_d1b}
 
-允许用户在随后进行的对话发生更改时接收电子邮件通知。
+允许用户在其关注的对话发生更改时接收电子邮件通知。
 
-通过对话后，用户可以根据对话中的活动接收电子邮件通知。 用户单击 **[!UICONTROL Follow]** /按 **[!UICONTROL Unfollow]** 钮可设置特定于对话的首选项，或使用其页面设置 **[!UICONTROL Profile Settings]** 站点范围的首选项以跟随对话。
+通过对话后，用户可以根据对话中的活动接收电子邮件通知。 用户单击&#x200B;**[!UICONTROL Follow]** / **[!UICONTROL Unfollow]**&#x200B;按钮可设置特定于对话的首选项，或使用其&#x200B;**[!UICONTROL Profile Settings]**&#x200B;页面设置站点范围的首选项以跟踪对话。
 
-(该功 **[!UICONTROL Follow]** 能在移动设备上不可用。)
+（**[!UICONTROL Follow]**&#x200B;函数在移动设备上不可用。）
 
 >[!NOTE]
 >
->电子邮件将仅针对手动发布的内容发送，而不针对通过SocialSync或Curate拖入流中的内容发送。
+>只会为手动发布的内容发送电子邮件，而不会为通过SocialSync或Curate拖入流中的内容发送电子邮件。
 
