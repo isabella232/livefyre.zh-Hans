@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 solution: Experience Manager
-type: 文档
+type: Documentation
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/livefyre.zh-Hans
 translation-type: tm+mt
