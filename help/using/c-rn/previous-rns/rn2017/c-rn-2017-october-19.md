@@ -1,17 +1,14 @@
 ---
 description: 2017年10月19日版本的发行说明。
-seo-description: 2017年10月19日版本的发行说明。
-seo-title: 2017年10月19日
 title: 2017年10月19日
-uuid: 7f5fba9e-bd07-4d85-b67c-7a5577055447
+exl-id: 6887e4a9-8451-464f-a27f-bdaa3624196d
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '160'
 ht-degree: 8%
 
 ---
-
 
 # 2017年10月19日{#october}
 
@@ -21,7 +18,7 @@ ht-degree: 8%
 
 | **问题类型** | **组件** | **发行说明** |
 |---|---|---|
-| 错误 | 设置 | 现在，在Studio设置中更改“品牌颜色”设置中的颜色可以正常使用。 |
+| 错误 | 设置 | 现在，在Studio设置中更改“品牌颜色”设置中的颜色可以正常工作。 |
 | 错误 | Rights Management | 修复了在“权限模式”选项卡中显示长用户名的错误。 |
 
 ## UAT版本
@@ -31,6 +28,5 @@ ht-degree: 8%
 | 增强功能 | 应用程序内容 | 能够从应用程序内容播放已上载的音频文件。 |
 | 增强功能 | 应用程序内容 | 客户现在可以通过上传API上传音频文件，该API可通过应用程序内容查看和下载。 |
 | 增强功能 | 应用程序内容 | 添加了从应用程序内容下载音频文件的功能。 |
-| 错误 | Rights Management | 修复了用户尝试在从Twitter或Instagram中删除内容后在社交搜索中保存内容时未显示正确错误消息的错误。 |
-| 增强功能 | 安全 | Studio管理员现在可以在名为智能模块拒绝的设置中添加新的SAFE规则，该设置启用智能模块功能。 |
-
+| 错误 | Rights Management | 修复了当用户从Twitter或Instagram删除内容后尝试在Social Search中保存内容时未显示正确错误消息的错误。 |
+| 增强功能 | 安全 | Studio管理员现在可以在名为“智能模式拒绝”的设置中添加新的SAFE规则，这将启用智能模式功能。 |
