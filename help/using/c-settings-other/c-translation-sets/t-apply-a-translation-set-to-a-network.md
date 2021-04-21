@@ -1,24 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 将翻译集应用于网络
-solution: Experience Manager
 title: 将翻译集应用于网络
-uuid: 3d9a2616-3721-4ac5-a039-aefbf57cf269
+description: 将翻译集应用于网络
+exl-id: 99f1f007-79a7-49da-a466-472346e9503a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
-
 # 将转换集应用于网络{#apply-a-translation-set-to-a-network}
 
-1. 导航到Studio中的设置。 确保您在网络级别工作，而不是站点级别工作。
+1. 导览至Studio中的设置。 确保您在网络级别工作，而不是站点级别。
 1. 选择“网络设置”。
 1. 选择“应用程序设置”。
 1. 导航到“默认设置”>“翻译集”。
 1. 从下拉菜单中选择一个翻译集。
-
