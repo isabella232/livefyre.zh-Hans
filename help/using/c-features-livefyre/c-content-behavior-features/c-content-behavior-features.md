@@ -1,22 +1,18 @@
 ---
-description: Livefyre优惠功能，允许您选择站点访客视图应用程序内容的方式。
-seo-description: Livefyre优惠功能，允许您选择站点访客视图应用程序内容的方式。
-seo-title: 内容行为功能
-solution: Experience Manager
+description: Livefyre优惠在应用程序中的功能允许您选择站点访客视图应用程序内容的方式。
 title: 内容行为功能
-uuid: 4a1c6d6e-8785-49e8-aaf5-6fa4576d7232
+exl-id: ef477ca0-516f-45bf-9753-e050fe4cc6a1
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
-
 # 内容行为功能{#content-behavior-features}
 
-Livefyre优惠功能，允许您选择站点访客视图应用程序内容的方式。
+Livefyre优惠在应用程序中的功能允许您选择站点访客视图应用程序内容的方式。
 
 ## 流实时{#section_emd_syl_d1b}
 
@@ -30,7 +26,7 @@ Livefyre优惠功能，允许您选择站点访客视图应用程序内容的方
 * [马赛克](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [投票](/help/using/c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [评论](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidesk](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Siestr](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [趋势](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 
@@ -44,7 +40,7 @@ Livefyre优惠功能，允许您选择站点访客视图应用程序内容的方
 * [评论](/help/using/c-about-apps/c-comments/c-comments.md)
 * [媒体墙](/help/using/c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 * [评论](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidesk](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Siestr](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 
 ## 要加载的项{#section_q5w_mzl_d1b}
 
@@ -61,9 +57,9 @@ Livefyre优惠功能，允许您选择站点访客视图应用程序内容的方
 
 停止实时流并将内容排队到流顶部以控制高速对话。
 
-使用队列注释为高速对话提供更好的用户体验。 该功能旨在鼓励细心阅读，而不是实时体验发布的评论，它将新评论排列在流的顶端，并显示新帖子数的计数器，而不是帖子本身。 单击此数量会将最早的10条注释流化到对话中。 再次单击将流化下一个10。 新回复发布后会添加到队列中。
+使用“队列注释”，通过高速对话提供更好的用户体验。 该功能旨在鼓励有思想的阅读，而不是实时地体验发布的评论，它将新评论排列在流顶，并显示新帖数的计数器，而不是帖子本身。 单击此数字会将最早10条注释流化到对话中。 再次单击将流化下一个10。 新回复发布后会添加到队列中。
 
-队列注释功能可用于注释，并可在网络、站点或对话级别从Studio的设置选项卡进行设置。
+“队列注释”功能可用于注释，并可在网络、站点或对话级别从Studio的“设置”选项卡进行设置。
 
 使用此功能的应用程序：
 
@@ -74,21 +70,20 @@ Livefyre优惠功能，允许您选择站点访客视图应用程序内容的方
 
 使用智能规则控制高速对话，从而控制内容。
 
-当内容的实时性很重要时，使用“节流内容”控制高速聊天。 启用“限制内容”后，将限制高速内容流，并只显示系统认为最“智能”的内容。
+当内容的实时性很重要时，使用“节流内容”控制高速聊天。 启用时，“节流内容”会节流高速内容流，并只显示系统认为最“智能”的内容。
 
-启用此功能后：
+启用此功能时：
 
-* 用户可看到自己的内容流进入页面，因为对于该用户，它将被视为“智能内容”。
-* 用户可以在页面加载或刷新时视图所有以前的内容。
-* 版主不会体验到节流流；他们可以看到所有内容流。
+* 用户将看到自己的内容流进入页面，因为对于该用户，该内容将被视为“智能内容”。
+* 用户可在页面加载或刷新时视图所有以前的内容。
+* 版主不会体验到节流的流；他们可以看到所有内容流。
 * 由于审查方生成的内容被视为智能内容，因此它将始终流入所有用户的集合。
 
 如果速度下降，Livefyre将实时显示所有内容。
 
-此功能可在Studio中使用集合设置在集合级别启用。 您不得在网络或站点级别限制内容。
+此功能可以使用Studio中的集合设置在集合级别启用。 您不得在网络或站点级别限制内容。
 
 使用此功能的应用程序：
 
 * [聊天](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [评论](/help/using/c-about-apps/c-comments/c-comments.md)
-
