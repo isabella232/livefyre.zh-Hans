@@ -1,24 +1,20 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 将翻译集应用于站点
-solution: Experience Manager
-title: 将翻译集应用于站点
-uuid: 750f4ca2-0350-40c9-9176-ce56581bf8ab
+title: 将翻译集应用到站点
+description: 将翻译集应用到站点
+exl-id: fd459e31-5feb-4807-ad51-eab55ed473da
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 3%
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
 
-
 # 将翻译集应用于站点{#apply-a-translation-set-to-a-site}
 
-**将翻译集应用于站点**
+**将翻译集应用到站点**
 
-1. 导航到Studio中的设置。
+1. 导览至Studio中的设置。
 1. 选择站点。
 1. 选择“站点设置”。
 1. 选择“应用程序设置”。
