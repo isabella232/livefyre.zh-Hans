@@ -1,18 +1,14 @@
 ---
 description: 了解如何从一个对话应用程序类型更改为另一个对话应用程序类型。
-seo-description: 了解如何从一个对话应用程序类型更改为另一个对话应用程序类型。
-seo-title: 切换核心应用程序类型
-solution: Experience Manager
 title: 切换核心应用程序类型
-uuid: 442a517c-3809-46c5-bb5f-8668a29dc3e8
+exl-id: f18c97e8-8f39-4831-b907-afd438097e9e
 translation-type: tm+mt
-source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '141'
 ht-degree: 1%
 
 ---
-
 
 # 交换机核心应用程序类型{#switch-core-app-types}
 
@@ -20,7 +16,7 @@ ht-degree: 1%
 
 Lifefyre允许您通过更改`collectionMeta`数据中的某些设置，将集合从一个Livefyre核心应用程序类型更改为另一个类型（评论、实时博客或聊天）。
 
-要实现特定类型的应用程序，请向`collectionMeta`对象添加新字段。 注释是默认设置，因此如果您需要的应用程序，您无需进行这些更新。 要在创建集合后更改为其他应用程序，请在应用程序初始化过程中传递校验和值。 请阅读我们的`collectionMeta`令牌文档中有关创建校验和值的更多信息。
+要实现特定类型的应用程序，请向`collectionMeta`对象添加新字段。 注释是默认设置，因此如果您需要的App不需要进行这些更新。 要在创建集合后更改为其他应用程序，请在应用程序初始化期间传递校验和值。 请阅读我们的`collectionMeta`令牌文档中有关创建校验和值的更多信息。
 
 ## 实时博客{#section_kvj_3jj_11b}
 
