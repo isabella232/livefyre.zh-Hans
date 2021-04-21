@@ -1,28 +1,24 @@
 ---
 description: 设置允许用户将内容共享到各种社交网络的凭据。
-seo-description: 设置允许用户将内容共享到各种社交网络的凭据。
-seo-title: 启用社交共享
-solution: Experience Manager
 title: 启用社交共享
-uuid: f584a0ae-46c7-48c1-aea4-36da9f1e259b
+exl-id: 08ac9766-52ea-432f-8b4f-bf68cb8b62bc
 translation-type: tm+mt
-source-git-commit: d77b633b9892e3ea4aaec860317887f1fdf66830
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
-
 
 # 启用社交共享{#enabling-social-sharing}
 
 设置允许用户将内容共享到各种社交网络的凭据。
 
-要允许用户跨社交媒体站点共享内容，请实施Livefyre的社交共享功能，并创建OAuth系统以向这些站点提供正确的身份验证。 使用此系统，当用户选择通过社交媒体共享内容时，Livefyre将代表他们行事。
+要允许用户跨社交媒体站点共享内容，请实施Livefyre的社交共享功能，并创建OAuth系统以向这些站点提供正确的身份验证。 通过此系统，当用户选择通过社交媒体共享内容时，Livefyre将代表其行事。
 
 >[!NOTE]
 >
->不同的提供者有不同的OAuth要求。 请咨询提供商，获取与其实施OAuth相关的信息。
+>不同的提供者有不同的OAuth要求。 请咨询您的提供商，获取与其实施OAuth相关的信息。
 
 ## 必需的社交凭据{#section_gff_cjm_b1b}
 
@@ -37,49 +33,49 @@ ht-degree: 0%
 ### 所需凭据：
 
 * **FacebookClient** ID客户端机密OAuth代理重定向
-* **LinkedInAPI** 密钥API机密
-* **TwitterAccess** 令牌访问令牌密码API密钥API机密
+* **** LinkedInAPI密钥API密钥
+* **TwitterAccess** 令牌访问令牌密码API密钥API密钥
 
 ## Twitter {#section_qp5_1yl_b1b}
 
 Twitter凭据可从Twitter应用程序仪表板中访问。 要查找这些凭据，请执行以下操作：
 
-* 打开[Twitter的App Dev Page](https://dev.twitter.com/apps)作为应用程序所有者，找到您的应用程序，然后单击标题。
+* 打开[Twitter的App Dev Page](https://dev.twitter.com/apps)作为App所有者，找到您的应用程序，然后单击标题。
 * 向下滚动到“您的访问令牌”，并从“访问令牌”和“访问令牌密码”中获取值。
 
 您必须：
 
-* 在Twitter应用程序中为回叫URL字段输入值。 虽然此字段可能是一个简单的占位符，但不能将其留空。
-* 将“应用程序类型”设置为同时具有&#x200B;**读**&#x200B;和&#x200B;**写**&#x200B;访问权限。
-* 确认Twitter应用程序网站URL与Livefyre核心应用程序位于同一主机域。
+* 在Twitter应用程序中为回调URL字段输入一个值。 虽然此字段可能是一个简单的占位符，但不能将其留空。
+* 将“应用程序类型”设置为同时具有&#x200B;**read**&#x200B;和&#x200B;**write**&#x200B;访问权限。
+* 确认Twitter App网站URL与Livefyre Core应用程序位于同一主机域。
 
 >[!NOTE]
 >
->显示Twitter内容的所有应用程序都必须遵循其显示要求。 有关详细信息，请参阅[Twitter显示指南](https://dev.twitter.com/terms/display-requirements)。
+>显示Twitter内容的所有应用程序都必须符合其显示要求。 有关详细信息，请参阅[Twitter显示指南](https://dev.twitter.com/terms/display-requirements)。
 
 ## LinkedIn {#section_lfz_zxl_b1b}
 
-LinkedIn凭据可从LinkedIn应用程序API密钥的“OAuth密钥”部分获取。
+linkedIn凭据可从LinkedIn应用程序API密钥的“OAuth密钥”部分获得。
 
 * 从LinkedIn的“开发人员”页[https://developer.linkedin.com/](https://developer.linkedin.com/)登录您的帐户。
-* 将指针悬停在右上方的您的姓名上，然后从下拉菜单中选择API密钥。
+* 将鼠标悬停在右上角的您的姓名上，然后从下拉菜单中选择API密钥。
 * 单击“应用程序”标题。
 * 从“OAuth密钥”部分获取API密钥和密钥值
 
 ## Facebook {#section_zyb_gpl_b1b}
 
-Facebook凭据可从您的“开发人员应用程序”页面访问。
+Facebook凭据可从您的“开发人员应用程序”页面获取。
 
 * 打开[Facebook的“开发人员应用程序页面”](https://developers.facebook.com/apps)作为应用程序所有者，找到您的应用程序，然后单击标题。
 * 获取App ID和App Secret的值。 对于“App Secret”（应用程序机密），您可能需要单击“Show”（显示）按钮来显示它。
 
-要共享到Facebook，您必须设置一个重定向页面，以接受Facebook请求并遵守[Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/)要求的域惯例。 该页面必须托管在您的域中，这样Facebook才能验证请求是否来自合法来源。
+要共享到Facebook，您需要设置一个重定向页面以发出Facebook请求，并遵守[Facebook](https://developers.facebook.com/docs/reference/dialogs/oauth/)要求的域惯例。 页面必须托管在您的域上，这样Facebook可以验证请求是否来自合法源。
 
 ### Facebook重定向
 
-托管页面应包括以下代码：
+托管页面应包含以下代码：
 
-### Ruby
+### 鲁比
 
 这是使用Ruby和Rails执行Facebook OAuth重定向的示例。
 
@@ -118,7 +114,7 @@ end
 
 ### Python
 
-这是一个使用Python和Django重定向Facebook OAuth的示例。
+这是使用Python和Django执行Facebook OAuth重定向的示例。
 
 ```python
 import base64, re 
@@ -160,7 +156,7 @@ def handle_lfoauth(request):
 
 ### NodeJS
 
-这是一个使用NodeJS和Sail/Express执行Facebook OAuth重定向的示例。
+这是使用NodeJS和Sail/Express执行Facebook OAuth重定向的示例。
 
 ```nodejs
 /* 
@@ -334,7 +330,7 @@ if (isset($_GET['lfoauth'])) {
 
 ## 配置“发布到”提供程序{#section_rdk_dpl_b1b}
 
-默认情况下，Livefyre核心应用程序上显示Facebook、LinkedIn和Twitter的“发布到”按钮。 使用postToButtons参数配置嵌入Livefyre应用程序时将显示哪些提供者。
+默认情况下，Facebook、LinkedIn和Twitter的“发布到”按钮显示在Livefyre核心应用程序上。 使用postToButtons参数配置嵌入Livefyre应用程序时将显示哪些提供者。
 
 ```
 var convConfig = {}; // Ignoring other options for this example 
@@ -346,4 +342,4 @@ fyre.conv.load(networkConfig, [convConfig], function() {});
 
 * tw:Twitter
 * fb:Facebook
-* 李：LinkedIn
+* 李：linkedIn
