@@ -1,28 +1,24 @@
 ---
-description: 允许用户从单个页面布局和URL中点击集合。
-seo-description: 允许用户从单个页面布局和URL中点击集合。
-seo-title: 更改集合
-solution: Experience Manager
-title: 更改集合
-uuid: 69bafcc7-c55e-47d6-bc79-b0db80fdf138
+description: 允许用户从单个页面布局和URL中点击浏览集合。
+title: 更改收藏集
+exl-id: 5cfae2c6-e328-4d2c-b08b-709be94e4c54
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
-
 # 更改集合{#change-collection}
 
-允许用户从单个页面布局和URL中点击集合。
+允许用户从单个页面布局和URL中点击浏览集合。
 
-在已加载Livefyre应用程序时，使用更改集合委派来更改页面上显示的集合，而不更改URL。 使用此功能可显示照片或视频画廊，或显示用户操作后显示的集合应更改的其他应用程序。
+在已加载Livefyre应用程序时，使用更改集合委派来更改页面上显示的集合，而不更改URL。 使用此功能可显示照片或视频画廊，或用户操作后显示的收藏夹应发生更改的其他应用程序。
 
-例如，单击画廊中的视频或照片将加载特定于该选择的集合，而页面的URL将不会更改。
+例如，单击画廊中的视频或照片将加载特定于该选择的收藏集，而页面的URL不会更改。
 
-要从单个[注释计数](/help/implementation/c-advanced-topics/t-display-comment-count.md)页加载三个集合中的一个，请执行以下操作：
+要从单个[注释计数](/help/implementation/c-advanced-topics/t-display-comment-count.md)页加载三个集合中的一个：
 
 ```
 <html> 
@@ -64,4 +60,3 @@ Livefyre.require(['fyre.conv#prod'],function(Conv) {
 </body> 
 </html>
 ```
-
