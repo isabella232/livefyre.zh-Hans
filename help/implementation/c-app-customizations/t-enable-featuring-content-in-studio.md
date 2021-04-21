@@ -1,22 +1,18 @@
 ---
-description: 要提供内容功能，必须首先在Studio中启用“启用特色注释”设置。
-seo-description: 要提供内容功能，必须首先在Studio中启用“启用特色注释”设置。
-seo-title: 在Studio中启用特色内容
-solution: Experience Manager
+description: 要提供内容功能，您必须首先在Studio中启用“启用特色注释”设置。
 title: 在Studio中启用特色内容
-uuid: 6c599525-4c48-4536-9300-add384ba1051
+exl-id: 1bb34e7d-be1d-4796-a1d5-2b3bbc38be30
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 2%
+source-wordcount: '54'
+ht-degree: 3%
 
 ---
 
-
 # 在Studio{#enable-featuring-content-in-studio}中启用特色内容
 
-要提供内容功能，必须首先在Studio中启用“启用特色注释”设置。
+要提供内容功能，您必须首先在Studio中启用“启用特色注释”设置。
 
 1. 转至 **[!UICONTROL Studio > Settings > Network Settings > Default Settings]**.
-1. 切换&#x200B;**[!UICONTROL Enable Featured Comments]**&#x200B;设置，以便突出显示编辑器上最近使用过的注释。
+1. 切换&#x200B;**[!UICONTROL Enable Featured Comments]**&#x200B;设置，以便突出显示编辑器上方最近使用过的注释。
