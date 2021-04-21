@@ -1,26 +1,22 @@
 ---
 description: 您可以创建从YouTube规则中提取内容的流规则。
-seo-description: 您可以创建从YouTube规则中提取内容的流规则。
-seo-title: YouTube规则
-solution: Experience Manager
 title: YouTube规则
-uuid: ec6a3780-7119-45c3-8ab2-fb0f9803d161
+exl-id: 720a6fc6-d5de-4c78-a14e-51bced6e8dda
 translation-type: tm+mt
-source-git-commit: 30aa5cce5e7567208362cc35caeb7b7260c42f3b
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
-
 
 # YouTube规则{#youtube-rules}
 
 您可以创建从YouTube规则中提取内容的流规则。
 
-根据“用户”、“渠道”或“播放列表”创建YouTube规则。
+创建基于用户、渠道或播放列表的YouTube规则。
 
-要创建YouTube规则以将内容从YouTube拉入您的应用程序或文件夹，可以按以下方式进行筛选：
+要创建YouTube规则以将内容从YouTube拉入您的应用程序或文件夹，您可以按以下方式进行筛选：
 
 * **[!UICONTROL User]**
    * 输入&#x200B;**[!UICONTROL User]**&#x200B;的虚字符串，以在流中包含来自用户的视频。
