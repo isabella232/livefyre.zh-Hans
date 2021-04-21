@@ -1,18 +1,14 @@
 ---
 description: 返回实例化为“审阅”类型的Collection对象。 从Collection对象运行create_or_update()以完成构建过程。
-seo-description: 返回实例化为“审阅”类型的Collection对象。 从Collection对象运行create_or_update()以完成构建过程。
-seo-title: buildReviewsCollection站点方法
-solution: Experience Manager
-title: buildReviewsCollection站点方法
-uuid: 88af4c68-57de-4ae9-9394-550c94ede48f
+title: buildReviewsCollection网站方法
+exl-id: 581ad24c-d115-4ffb-93eb-936c2da6e3fa
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '94'
+ht-degree: 8%
 
 ---
-
 
 # buildReviewsCollection Site Method{#buildreviewscollection-site-method}
 
@@ -21,7 +17,7 @@ ht-degree: 6%
 | 变量 | 类型 | 描述 |
 |--- |--- |--- |
 | title | 字符串 | 集合的标题。 |
-| 文章Id | 字符串 | 您选择在您的站点中标识集合的唯一文章ID。 |
+| articleId | 字符串 | 您选择的唯一文章ID，用于标识您网站中的集合。 |
 | url | 字符串 | 此集合的规范绝对URL。 |
 
 
@@ -54,4 +50,3 @@ collection = site.build_reviews_collection(title, articleId, url)
 ```
 collection = site.build_reviews_collection(title, articleId, url) 
 ```
-
