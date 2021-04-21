@@ -1,22 +1,18 @@
 ---
-description: 为集合和内容添加关键字标签，对内容进行分类和组织以便于检索。
-seo-description: 为集合和内容添加关键字标签，对内容进行分类和组织以便于检索。
-seo-title: 集合和内容标记
-solution: Experience Manager
+description: 为集合和内容添加关键字标签，对内容进行分类和组织，以便于检索。
 title: 集合和内容标记
-uuid: 1f6900ac-40ff-41ec-ac26-25ff476cd820
+exl-id: 1057a34a-5200-4e23-aa95-fc24bd1cb95b
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 7%
+source-wordcount: '173'
+ht-degree: 8%
 
 ---
 
-
 # 集合和内容标记{#collection-and-content-tags}
 
-为集合和内容添加关键字标签，对内容进行分类和组织以便于检索。
+为集合和内容添加关键字标签，对内容进行分类和组织，以便于检索。
 
 指定标记允许您按特定标记过滤搜索，并提取热索引API的数据。
 
@@ -33,14 +29,14 @@ ht-degree: 7%
 * [马赛克](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [投票](/help/using/c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [评论](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidesk](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Siestr](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [趋势](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [上传按钮](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
 
-## 将集合标记与热索引API {#section_uhd_frk_wy}一起使用
+## 将集合标签与热索引API {#section_uhd_frk_wy}一起使用
 
-热索引API接受一个标记参数，允许您跨站点或整个网络检索包含该标记的任何集合的相对热度。
+热索引API接受一个标记参数，允许您跨站点或整个网络检索具有该标记的任何集合的相对热度。
 
 有关实施详细信息，请参阅热指数API技术文档。
 
@@ -55,8 +51,7 @@ ht-degree: 7%
 * [马赛克](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [投票](/help/using/c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [评论](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidesk](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Siestr](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [趋势](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [上传按钮](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
