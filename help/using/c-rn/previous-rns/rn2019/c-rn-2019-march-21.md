@@ -1,23 +1,20 @@
 ---
 description: Livefyre 2019年3月21日版本的发行说明。
-seo-description: Livefyre 2019年3月21日版本的发行说明。
-seo-title: 发行说明
-solution: Experience Manager
-title: Livefyre 2019年3月21日发行说明
+title: Livefyre发行说明（2019年3月21日）
+exl-id: 965432d1-e706-48a8-ad58-8b3c28fdcf6f
 translation-type: tm+mt
-source-git-commit: 8dfd0ba4f1c0097f7e42818fa5c1ca81f3a77394
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 5%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
-
 
 # 2019年3月21日更新发行说明
 
 >[!NOTE]
 >
->Livefyre将于5月23日星期四在我们的生产环境中禁用HTTP（端口80）。  这将按照Adobe安全标准完成安全更新。  如果您遇到任何集成问题，请与[prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com)联系。
+>Livefyre将于5月23日星期四在我们的生产环境中禁用HTTP（端口80）。  这将按照Adobe安全标准完成安全更新。  如果您在集成中遇到任何问题，请联系[prioritysupport@livefyre.com](mailto:prioritysupport@livefyre.com)。
 
 ## 增强功能
 
