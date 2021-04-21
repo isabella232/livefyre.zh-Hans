@@ -1,22 +1,18 @@
 ---
-description: 您可以选择站点访客是否以及如何登录您的应用程序。
-seo-description: 您可以选择站点访客是否以及如何登录您的应用程序。
-seo-title: 身份验证功能
-solution: Experience Manager
+description: 您可以选择是否以及如何使您的站点访客登录到您的应用程序。
 title: 身份验证功能
-uuid: 6f1236a0-7766-47c6-b6b5-1e6b8f1c0781
+exl-id: 4d0691e2-1327-4008-bf12-82cc91ed0612
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 5%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
-
 # 身份验证功能{#authentication-features}
 
-您可以选择站点访客是否以及如何登录您的应用程序。
+您可以选择是否以及如何使您的站点访客登录到您的应用程序。
 
 使用livefyre.js设置身份验证。 有关详细信息，请参阅[使用Livefyre.js](/help/implementation/c-getting-started/c-implementation-process/c-using-livefyre.js-to-create-customize-and-use-apps-on-your-site.md)向应用程序添加身份验证
 
@@ -28,7 +24,6 @@ ht-degree: 5%
 * [功能卡](../c-about-apps/c-feature-card-app/c-feature-card-app.md#c_feature_card_app)
 * [媒体墙](../c-about-apps/c-media-wall-app/c-media-wall-app.md#c_media_wall_app)
 * [评论](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidesk](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Siestr](../c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [上传按钮](../c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
