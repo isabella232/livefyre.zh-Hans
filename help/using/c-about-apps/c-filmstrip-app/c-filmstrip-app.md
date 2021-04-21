@@ -1,18 +1,14 @@
 ---
 description: '通过完整的指南了解有关Filmstrip应用程序的所有信息。 该可视化应用程序以一系列复古相机影片的形式显示您的图像。 主控于我们的小窍门。 '
-seo-description: Filmstrip是一个可视化应用程序，它将用户生成的内容展示为动态的单张水平照片条，类似于相机中的一张胶片条。
-seo-title: 幻灯片
-solution: Experience Manager
 title: 幻灯片应用程序指南
-uuid: 2e3cb6f4-15db-4509-8a5b-a651511cdbd6
+exl-id: a96e5de0-bebb-42ee-ae10-813ad8b9e960
 translation-type: tm+mt
-source-git-commit: 2584041dd080c08ee769bd897e55157ec05ce8b6
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
-
 
 # 幻灯片{#filmstrip}
 
