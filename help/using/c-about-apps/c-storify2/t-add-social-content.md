@@ -1,18 +1,14 @@
 ---
 description: Storify 2优惠了多个内容源以添加社交内容。
-seo-description: Storify 2优惠了多个内容源以添加社交内容。
-seo-title: 添加社交内容
-solution: Experience Manager
 title: 添加社交内容
-uuid: 0bd6579e-ac55-4201-a403-4fcb19e8684b
+exl-id: 2277b525-ef0e-4e66-9260-f81898d93bf1
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
-
 
 # 添加社交内容{#add-social-content}
 
@@ -28,9 +24,9 @@ Storify 2优惠了多个内容源以添加社交内容。
 >
 >Twitter的搜索API将仅返回最近7天的内容。
 
-要向故事中添加内容，请执行以下操作：
+要向您的故事中添加内容，请执行以下操作：
 
-1. 在&#x200B;**[!UICONTROL Search]**&#x200B;选项卡中，单击一个图标以选择源。
+1. 在&#x200B;**[!UICONTROL Search]**&#x200B;选项卡中，单击图标以选择源。
 1. Storify将显示特定于源的搜索选项。
 1. 输入搜索参数，然后单击搜索图标（放大镜）或单击返回以进行搜索。
-1. 找到要包含的元素后，只需将它们从列表拖动到故事的任何部分。
+1. 找到要包含的元素后，只需将它们从列表拖动到文章的任何部分。
