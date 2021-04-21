@@ -1,32 +1,29 @@
 ---
-description: Livefyre应用程序套件支持的一列表浏览器和设备。
-seo-description: Livefyre应用程序套件支持的一列表浏览器和设备。
-seo-title: 设备和浏览器支持
+description: Livefyre应用程序套件支持的列表浏览器和设备。
 title: 设备和浏览器支持
-uuid: 338f78b2-051d-4831-a0b9-e987f92660ce
+exl-id: 75e424a2-9ef5-4a49-8d0d-7c4bcb865f7b
 translation-type: tm+mt
-source-git-commit: 7d7af443eeffdbb09c2fa58006813c328785ad56
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
 
-
 # 设备和浏览器支持{#device-and-browser-support}
 
-Livefyre应用程序套件支持的一列表浏览器和设备。
+Livefyre应用程序套件支持的列表浏览器和设备。
 
 Livefyre支持以下设备、操作系统和浏览器。
 
 |  | 核心应用程序 | Storify 2 | Studio | ModQ |
 |---|---|---|---|---|
 | **桌面浏览器** |  |  |  |  |
-| Chrome | 选定 | 选定 | 选定 | 选定 |
-| Edge | 选定 | 选定 | 选定 | 选定 |
+| Chrome | ✓ | ✓ | ✓ | ✓ |
+| Edge | ✓ | ✓ | ✓ | ✓ |
 | IE 11 | 有限 | 有限 | 有限 | 有限 |
-| Firefox | 选定 | 选定 | 选定 | 选定 |
-| Safari | 选定 | 选定 | 选定 | 选定 |
+| Firefox | ✓ | ✓ | ✓ | ✓ |
+| Safari | ✓ | ✓ | ✓ | ✓ |
 |  |  |  |  |  |
 | **设备** |  |  |  |  |
 | Android Browser 2.3+ | 有限 | 有限 | 不适用 | 有限 |
@@ -36,9 +33,8 @@ Livefyre支持以下设备、操作系统和浏览器。
 
 >[!NOTE]
 >
->虽然Livefyre将努力维护现有功能，但新产品和功能可能不会在此处列出的浏览器上得到完全支持，但受限支持。
+>虽然Livefyre将努力维护现有功能，但是，在此处列出的浏览器上可能不完全支持新产品和功能，但受限支持。
 
 >[!NOTE]
 >
->由于Microsoft的支持已结束，Internet Explorer 11之前的Internet Explorer版本不支持Livefyre。
-
+>由于Microsoft的支持已终止，Internet Explorer 11之前的Internet Explorer版本不支持Livefyre。
