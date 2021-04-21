@@ -1,23 +1,20 @@
 ---
-description: Livefyre.require提供一个插件，允许身份验证监听Janrain底板总线。
-seo-description: Livefyre.require提供一个插件，允许身份验证监听Janrain底板总线。
-seo-title: 使用AuthDelegate将Janrain连接到Livefyre
+description: Livefyre.require提供了一个插件，用于启用身份验证以监听Janrain底板总线。
 title: 使用AuthDelegate将Janrain连接到Livefyre
-uuid: 9d56e3f4-960a-4108-aab5-2795b0e71c88
+exl-id: d0fe0e88-5827-478b-b2ef-03f06fb3902c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
 
-
 # 使用AuthDelegate{#connecting-janrain-to-livefyre-using-authdelegate}将Janrain连接到Livefyre
 
-Livefyre.require提供一个插件，允许身份验证监听Janrain底板总线。
+Livefyre.require提供了一个插件，用于启用身份验证以监听Janrain底板总线。
 
-当在底板渠道广播身份／登录消息时，将使用用户的Livefyre身份验证令牌为您调用auth.authenticate()。 您仍必须实施AuthDelegate。
+当在底板渠道上广播身份/登录消息时，将使用用户的Livefyre身份验证令牌为您调用auth.authenticate()。 您仍必须实现AuthDelegate。
 
 ```
 Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePluginFactory) { 
@@ -32,19 +29,19 @@ Livefyre.require(['auth', 'backplane-auth-plugin#0'], function(auth, backplanePl
 
 >[!NOTE]
 >
->在使用Livefyre底板插件调用auth.plugin之前，必须在页面上定义window.Backplane对象。 要确保底板对象可用，请从onReady回调中调用Livefyre实例化代码。 请咨询Janrain联系人，确定其他应用程序何时可以使用底板对象。
+>在使用Livefyre Backplane插件调用auth.plugin之前，必须在页面上定义window.Backplane对象。 要确保Backplane对象可用，请从onReady回调中调用Livefyre实例化代码。 请咨询Janrain联系人，以确定其他应用程序何时可以使用底板对象。
 
-以下是身份验证委托如何查找Janrain Capture集成的一些示例。
+以下是验证委托如何查找Janrain Capture集成的一些示例。
 
 >[!NOTE]
 >
->您的身份验证委托将因您的Janrain实例而异。
+>您的身份验证委托因您的Janrain实例而异。
 
 <!--Hannah: Mystery stray bullet found here. Please check against source. -Bob -->
 
 * 传递给身份验证委托的登录方法的回调
-* 对Janrain捕获变量的引用。
-* :对底板对象的引用。
+* 关于你的Janrain捕获变量的引用。
+* :对您的底板对象的引用。
 
 ```
 /** 
@@ -81,7 +78,7 @@ authDelegate.login = function(finishLogin) {
 
 * **finishLogout:** 传递给身份验证委托的登录方法的回调。
 
-* **window.Backplane：对** 您的底板对象的引用。
+* **window.Backplae：对** 您的Backplane对象的引用。
 
 ```
 /** 
@@ -113,7 +110,7 @@ authDelegate.editProfile = function(user) {
 
 视图用户档案
 
-与“编辑”用户档案类似，该链接应链接到与当前登录用户不同的用户页面。 无论您认为如何适合，都可以实现此功能。 此示例只将作者参数记录到控制台。
+与“编辑”用户档案类似，它应链接到与当前登录用户不同的用户页面。 无论您认为如何适合，都可以实施此功能。 此示例只将作者参数记录到控制台。
 
 ```
 /** 
@@ -124,4 +121,3 @@ authDelegate.viewProfile = function(user) {
    console.log(author); 
 };
 ```
-
