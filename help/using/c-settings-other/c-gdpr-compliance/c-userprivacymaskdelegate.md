@@ -1,14 +1,10 @@
 ---
 description: 您可以使用更改在视频蒙版上显示的警告文本。
-seo-description: 您可以使用更改在视频蒙版上显示的警告文本。
-seo-title: userPrivacyMaskDelegate
-solution: Experience Manager
 title: userPrivacyMaskDelegate
-uuid: 8e5a2750-bf45-4e70-a5f9-37f5e7c61f8e
 translation-type: tm+mt
-source-git-commit: 9e01dd4515c01154e3566a39b367b8efa4ec082a
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -18,7 +14,7 @@ ht-degree: 0%
 
 您可以使用更改在视频蒙版上显示的警告文本。
 
-本文旨在遵守GDPR规定。 如果源不支持代理，则除非用户单击视频并批准来自该源的潜在跟踪，否则Livefyre会在内容上显示此文本和遮罩。
+此文本的存在是为了遵守GDPR规定。 如果源不支持代理，则除非用户单击视频并批准来自该源的潜在跟踪，否则Livefyre会在内容上显示此文本和蒙版。
 
 如果不使用`userPrivacyMaskDelegate`，将显示以下默认文本：
 
