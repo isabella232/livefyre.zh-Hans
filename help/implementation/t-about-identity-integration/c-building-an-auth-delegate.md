@@ -1,32 +1,28 @@
 ---
-description: AuthDelegate对象实现了您希望的如何执行身份验证操作和事件的行为，以便您可以自定义与站点现有身份验证系统的集成。
-seo-description: AuthDelegate对象实现了您希望的如何执行身份验证操作和事件的行为，以便您可以自定义与站点现有身份验证系统的集成。
-seo-title: AuthDelegate对象
-solution: Experience Manager
+description: AuthDelegate对象实现了您所需的行为，说明如何执行身份验证操作和事件，以便您可以自定义与站点现有身份验证系统的集成。
 title: AuthDelegate对象
-uuid: a6acc4ef-d442-4782-9bfa-bbe494547c2e
+exl-id: 7c669138-627e-476e-a177-c71346f730df
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-
 # AuthDelegate对象{#authdelegate-object}
 
-AuthDelegate对象实现了您希望的如何执行身份验证操作和事件的行为，以便您可以自定义与站点现有身份验证系统的集成。
+AuthDelegate对象实现了您所需的行为，说明如何执行身份验证操作和事件，以便您可以自定义与站点现有身份验证系统的集成。
 
 ## 构建身份验证委托{#section_wmn_tv2_gz}
 
-必须先向身份验证包提供身份验证委托，然后才能执行操作。 身份验证委托是任何实现本主题中某个方法的JavaScript对象。
+必须先向身份验证包提供身份验证委托，然后才能执行操作。 身份验证委托是实现本主题中方法之一的任何JavaScript对象。
 
 ## .login(finishLogin){#section_mpk_lv2_gz}
 
-登录有效用户并调用finishLogin函数（如果出错），如果出错，则使用Error对象或用户的Livefyre凭据。 此方法的常见实现将用户重定向到登录页面或打开新窗口或模式。
+登录有效用户，并在出现错误时使用Error对象或用户的Livefyre凭据调用finishLogin函数。 此方法的常见实现将用户重定向到登录页面或打开新窗口或模式。
 
-此示例自动通知Livefyre用户的身份验证令牌：
+此示例自动通知具有身份验证令牌（令牌）的Livefyre用户的身份验证：
 
 ```
 authDelegate.login = function (finishLogin) { 
@@ -65,7 +61,7 @@ authDelegate.logout = function (finishLogout) {
 
 ## .viewProfile(user){#section_kkv_dv2_gz}
 
-采取措施视图用户的用户档案。
+采取操作来视图用户的用户档案。
 
 ```
 authDelegate.viewProfile = function (user) { 
@@ -75,7 +71,7 @@ authDelegate.viewProfile = function (user) {
 
 ## .editProfile(user){#section_bkx_pq2_gz}
 
-采取操作来编辑用户的用户档案。
+执行操作以编辑用户的用户档案。
 
 ```
 authDelegate.editProfile = function (user) { 
@@ -96,4 +92,3 @@ var authDelegate = {
   
 auth.delegate(authDelegate);
 ```
-
