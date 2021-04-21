@@ -1,17 +1,14 @@
 ---
 description: 在Livefyre中创建隐私请求。
-seo-description: 在Livefyre中创建隐私请求。
-seo-title: 创建隐私请求
 title: 创建隐私请求
-uuid: 9fdbd564-0cea-4e4f-bdea-d5b8744fe63a
+exl-id: 117e1edb-becd-45f2-bfe5-12fb19ad01e0
 translation-type: tm+mt
-source-git-commit: 0c5420fcb3ba2e12375e92d4574d0a6dff310869
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
-
 
 # 创建隐私请求{#create-a-privacy-request}
 
@@ -27,7 +24,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Submit Request]**&#x200B;窗口中填写信息：
 
-   * **[!UICONTROL Reference Id]**。输入要用于将来引用的标识符。 例如，可以添加最多255个字符的文本、票证号、URL、电子邮件地址或其他字符串
+   * **[!UICONTROL Reference Id]**。输入要用于将来引用的标识符。 例如，您可以添加最多255个字符的文本、票证号、URL、电子邮件地址或其他字符串
    * **[!UICONTROL Type]**
 
       * **访问**. 收集与帐户关联的所有可用数据。 敏感详细信息（例如密码或社交凭据）将被模糊处理或忽略。
@@ -39,7 +36,7 @@ ht-degree: 0%
          >删除帐户的数据将永久删除或销毁与该帐户关联的数据。 您无法撤消此操作，也无法在删除数据后恢复数据。
 
       * **选择退出**。防止Livefyre通过流或社交搜索被动地从社交帐户收集数据或内容。 选择加入和选择退出不适用于注册用户
-      * **选择加入**。重新使Livefyre能够被动地从之前通过流或社交搜索选择退出的社交帐户收集数据或内容。 选择加入和选择退出不适用于注册用户
+      * **选择加入**。使Livefyre能够被动地从某个之前通过流或社交搜索选择退出的社交帐户收集数据或内容。 选择加入和选择退出不适用于注册用户
 
       ![](assets/privacypage2.png)
 
@@ -47,28 +44,28 @@ ht-degree: 0%
 
       * **[!UICONTROL User Account]**
 
-         * 通过用户管理系统或Livefyre的Studio用户标识符生成的用户帐户ID标识注册用户的帐户。 您还可以在&#x200B;**Livefyre****用户设置**&#x200B;的用户详细信息中或在&#x200B;**资产库**&#x200B;或&#x200B;**应用程序内容**&#x200B;的内容详细信息中找到用户帐户ID
+         * 通过用户管理系统或Livefyre的Studio用户标识符生成的用户帐户ID标识注册用户的帐户。 您还可以在&#x200B;**Livefyre****用户设置**&#x200B;的用户详细信息中或在&#x200B;**资产库**&#x200B;或&#x200B;**应用程序内容**&#x200B;中的内容详细信息中找到用户帐户ID
 
          * 允许的值：最多255个字符的字母数字字符串。 电子邮件地址不是有效输入
       * **[!UICONTROL Facebook User]**
 
-         * 通过Facebook提供的数字ID标识帐户。 申请人应提供此信息。 您可以在此处](https://www.facebook.com/help/1397933243846983?helpref=faq_content)找到如何定位数字Facebook ID [的说明
+         * 通过Facebook提供的数字ID标识帐户。 请求者应提供此内容。 您可以在此处](https://www.facebook.com/help/1397933243846983?helpref=faq_content)找到如何定位数字Facebook ID [的说明
          * 允许的值：6-16个数字字符
       * **[!UICONTROL Instagram User]**
 
-         * 通过Instagram提供的数字ID识别该帐户。 申请人应提供此信息。 您可以通过在线搜索找到Instagram帐户上的数字Instagram ID的相关说明
+         * 通过Instagram提供的数字ID标识帐户。 请求者应提供此内容。 您可以通过联机搜索找到有关如何在Instagram帐户上定位数字Instagram ID的说明
          * 允许的值：5-16个数字字符
       * **[!UICONTROL Twitter User]**
 
-         * 通过Twitter提供的数字ID标识帐户。 请求更改隐私的人员应提供此信息。 您可以通过在线搜索找到如何查找Twitter帐户的数字Twitter ID的说明
+         * 通过Twitter提供的数字ID标识帐户。 请求更改隐私的人员应提供此信息。 您可以通过联机搜索找到有关如何查找Twitter帐户的数字Twitter ID的说明
          * 允许的值：5-16个数字字符
       * **[!UICONTROL YouTube User]**
 
-         * 通过YouTube提供的数字ID标识帐户。 请求更改隐私的人员应提供此信息。 您可以在此处](https://support.google.com/youtube/answer/3250431?hl=en)找到如何在YouTube帐户[上查找数字YouTube ID的说明
+         * 通过YouTube提供的数字ID标识帐户。 请求更改隐私的人员应提供此信息。 您可以在[此处](https://support.google.com/youtube/answer/3250431?hl=en)找到有关如何在YouTube帐户上查找数字YouTube ID的说明
          * 允许的值：5-16个数字字符
       * **[!UICONTROL Generic Author]**
 
-         * 通过Livefyre作者ID(JID)标识帐户。 对于通过RSS、Tumblr或URL来源的内容，请使用此选项。 要查找此ID，请在&#x200B;**应用程序内容**&#x200B;或&#x200B;**资产库**&#x200B;中搜索归属于作者的内容，然后选择一个项目。 该ID位于&#x200B;**Info**&#x200B;下的&#x200B;**App Content**&#x200B;中，或位于&#x200B;**Details**&#x200B;部分的&#x200B;**Author**&#x200B;下的&#x200B;**资产库**&#x200B;中
+         * 通过Livefyre作者ID(JID)标识帐户。 对于通过RSS、Tumblr或URL来源的内容，请使用此选项。 要查找此ID，请在&#x200B;**App Content**&#x200B;或&#x200B;**Asset Library**&#x200B;中搜索归属于作者的内容，然后选择一个项目。 此ID位于&#x200B;**Info**&#x200B;下的&#x200B;**App Content**&#x200B;中，或位于&#x200B;**Details**&#x200B;部分&#x200B;**Author**&#x200B;下的&#x200B;**资产库**&#x200B;中
 
          * 允许的值：最多255个字符的字母数字字符串
 
@@ -90,4 +87,3 @@ ht-degree: 0%
    >[!IMPORTANT]
    >
    >删除帐户的数据将永久删除或销毁与该帐户关联的数据。 您无法撤消此操作，也无法在删除数据后恢复数据。
-
