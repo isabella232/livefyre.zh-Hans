@@ -1,28 +1,24 @@
 ---
-description: Livefyre提供几种权限级别不同的用户类型。
-seo-description: Livefyre提供几种权限级别不同的用户类型。
-seo-title: 用户角色和权限
-solution: Experience Manager
+description: Livefyre提供了几种不同权限级别的用户类型。
 title: 用户角色和权限
-uuid: d9261cfd-ae60-40d8-9816-25aef541506f
+exl-id: 0e590857-74c5-4fdc-82a9-1673909d5eb7
 translation-type: tm+mt
-source-git-commit: 52f59cd15f315aa93be198f6eb586f008c18a384
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-
 # 用户角色和权限{#user-roles-and-permissions}
 
-Livefyre提供几种权限级别不同的用户类型。
+Livefyre提供了几种不同权限级别的用户类型。
 
 Studio中提供以下用户角色和列出的访问权限：
 
 >[!NOTE]
 >
->对于除管理员之外的所有角色，用户只能访问公开的或已与他们共享的文件夹或站点。
+>对于除管理员之外的所有角色，用户只能访问公开或已与他们共享的文件夹或站点。
 
 * **Studio管理员**
    * 访问Studio中的所有权限
@@ -36,16 +32,16 @@ Studio中提供以下用户角色和列出的访问权限：
    * 视图和编辑用户角色
    * 禁止浏览器和IP地址
 
-* **资产管理器**
-   * 使用社交搜索将资产添加到库
+* **资产经理**
+   * 使用社交搜索将资源添加到库
    * 创建和编辑端口到共享文件夹的流
    * 创建和编辑共享文件夹以及共享文件夹中的资产
 
-* **用户管理者**
+* **用户管理器**
    * 视图和编辑最终用户帐户详细信息
    * 禁止或允许列出最终用户
 
-* **数据管理器：** 授予使用Livefyre分析仪表板的权限。
+* **数据管理** 器：授予使用Livefyre Analytics仪表板的权限。
 * **App Manager**
    * 创建和编辑应用程序
    * 创建和编辑指向应用程序的流
@@ -53,7 +49,7 @@ Studio中提供以下用户角色和列出的访问权限：
 
 * **内容管理器：**
    * 使用“应用程序内容”页面视图和审核内容
-   * 添加和编辑内容标记、标记、备注和权限请求
+   * 添加和编辑内容的标记、标记、备注和权限请求
 
 * **审核者:**
    * 访问ModQ
