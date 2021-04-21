@@ -1,26 +1,22 @@
 ---
 description: 在单个页面上展示多个集合。
-seo-description: 在单个页面上展示多个集合。
-seo-title: 多个集合
-solution: Experience Manager
 title: 多个集合
-uuid: 9675ffd7-1a59-42a1-b3ba-40af1744cfd1
+exl-id: 748b6ca6-635e-4bae-9b95-cfbd4651751f
 translation-type: tm+mt
-source-git-commit: 5bf937c8cb1a9ca12216ee1884142b8787ff063e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '108'
 ht-degree: 1%
 
 ---
-
 
 # 多个集合{#multiple-collections}
 
 在单个页面上展示多个集合。
 
-您可以在站点的单个页面上包含多个集合。 例如，要发布事件，您可能在事件期间有实时博客或聊天讨论，页面侧有单独的应用程序，显示社交Web周围的相关精选内容。 或者，您可以在文章下方加入评论应用程序，侧边可以聊天。
+您可以在网站的单个页面上包含多个收藏集。 例如，要发布事件，您可能会在事件期间进行“实时博客”或“聊天”讨论，页面一侧有单独的应用程序，显示来自社交网络的相关精选内容。 或者，您可以在文章下方包含评论应用程序，侧边是聊天。
 
-要在页面上获取多个对话，请在数组中添加一个或多个配置，然后将该数组传递给加载调用。 例如：
+要在页面上获取多个对话，请在数组中添加一个或多个配置，然后将数组传递给加载调用。 例如：
 
 ```
 <html> 
