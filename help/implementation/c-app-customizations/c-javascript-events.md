@@ -1,28 +1,24 @@
 ---
 description: 可用于为对话应用程序（例如，Comments、Chat、Live Blog、Reviews 和 Sidenotes）绑定 JavaScript 的事件。
-seo-description: 可用于为对话应用程序（例如，Comments、Chat、Live Blog、Reviews 和 Sidenotes）绑定 JavaScript 的事件。
-seo-title: JavaScript事件定义和示例
-solution: Experience Manager
 title: JavaScript事件定义和示例
-uuid: 61da2e2e-8fcd-482d-93df-c946f0475277
+exl-id: 5b865974-69aa-4d51-ac26-60f1d8a114fc
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 15%
+source-wordcount: '375'
+ht-degree: 11%
 
 ---
-
 
 # JavaScript事件定义和示例{#javascript-events-definitions-and-examples}
 
 可用于为对话应用程序（例如，Comments、Chat、Live Blog、Reviews 和 Sidenotes）绑定 JavaScript 的事件。
 
-Livefyre提供JavaScript事件来跟踪Livefyre应用程序中的用户活动。 例如，您可能希望在用户喜欢或共享内容到Twitter或Facebook或发布新内容时更新页面。
+Livefyre提供JavaScript事件，可跟踪Livefyre应用程序中的用户活动。 例如，您可能希望在用户喜欢或共享内容到Twitter或Facebook或发布新内容时更新页面。
 
-Livefyre还允许您向第三方分析集成(Adobe AnalyticsJS、Google Analytics、动态标签管理等)添加事件，以跟踪应用程序事件。 有关详细信息，请与您的第三方集成管理器合作，以提供正确的事件。
+Livefyre还允许您向第三方分析集成(Adobe Analytics JS、Google Analytics、动态标签管理等)添加事件，以跟踪应用程序事件。 有关更多信息，请与您的第三方集成管理器合作，以提供正确的事件。
 
-要绑定到这些事件，请在页面上实例化应用程序时向页面添加以下代码。 用事件名替换`{eventName}`:
+要绑定到这些事件，请在页面上实例化应用程序时向页面添加以下代码。 将事件名替换为`{eventName}`:
 
 ```
 Livefyre.require(['fyre.conv#3'], function(Conv) { 
@@ -36,15 +32,15 @@ Livefyre.require(['fyre.conv#3'], function(Conv) {
 
 >[!NOTE]
 >
->为所有事件处理程序提供数据对象。 示例数据对象遵循每个事件。
+>为所有事件处理函数提供数据对象。 示例数据对象遵循每个事件。
 
 ## commentPosted {#section_qfr_51p_xz}
 
-一个用户发布了评论。
+一位用户发布了评论。
 
-* 父项为null是新注释。
+* null的父项是新注释。
 * “无”的父项是已编辑的注释。
-* 父代的编号是回复的父ID。
+* 父代的编号是回复的父代ID。
 
 ```
 data = { 
@@ -121,11 +117,11 @@ data = {
 
 用户已注销。
 
-数据未定义。
+未定义数据。
 
-## socialUntited {#section_a1w_tz4_xz}
+## social提及{#section_a1w_tz4_xz}
 
-用户在评论中包含@提及。 返回以下数组：
+用户在评论中包@mention了一个。 返回以下数组：
 
 ```
 data = { 
@@ -139,7 +135,7 @@ data = {
 
 ## commentFeatured
 
-版主用户提供了评论。 返回以下数组：
+审查方用户提供了评论。 返回以下数组：
 
 ```
 data = { 
@@ -151,19 +147,19 @@ data = {
 
 ## initialRenderComplete {#section_odc_4z4_xz}
 
-注释流已加载，并且已从服务器获取初始内容集并显示给用户。
+注释流已加载，已从服务器获取初始内容集并向用户显示。
 
-数据未定义。
+未定义数据。
 
 ## showMore {#section_pqg_nz4_xz}
 
 用户单击了&#x200B;**[!UICONTROL Show More]**&#x200B;按钮。
 
-数据未定义。
+未定义数据。
 
-## userAftled {#section_xxw_jz4_xz}
+## userFlowded {#section_xxw_jz4_xz}
 
-当用户单击&#x200B;**[!UICONTROL Follow]**&#x200B;按钮时，返回true；当内容发布到流时，返回false。
+当用户单击&#x200B;**[!UICONTROL Follow]**&#x200B;按钮时返回true，当内容发布到流时返回false。
 
 ```
 data = { 
@@ -172,7 +168,7 @@ data = {
 }
 ```
 
-## userUnflowed {#section_wm1_gz4_xz}
+## userUnflocked {#section_wm1_gz4_xz}
 
 当用户单击&#x200B;**Unfollow**&#x200B;按钮时，返回true；当内容发布到流时，返回false。
 
@@ -182,4 +178,3 @@ data = {
    optOut: true 
 }
 ```
-
