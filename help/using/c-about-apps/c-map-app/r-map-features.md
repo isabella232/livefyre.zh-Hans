@@ -1,26 +1,21 @@
 ---
-description: 地图应用程序会为您的站点优惠这些功能。
-seo-description: 地图应用程序会为您的站点优惠这些功能。
-seo-title: 地图功能
-solution: Experience Manager
+description: Map应用程序会优惠您网站的这些功能。
 title: 地图功能
-uuid: fdad5f0c-8292-4f59-bac1-c96c01e96ff5
+exl-id: 71ad1b93-ba8a-41ce-ad3d-1ade68c37c45
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
-
 # 映射功能{#map-features}
 
-地图应用程序会为您的站点优惠这些功能。
+Map应用程序会优惠您网站的这些功能。
 
 
 
 * 内容实时输入地图。
-* 来自同一区域的内容已进行群集化，并可以在“库”模式中查看。
-* 缩放到“映射”以集中查看特定区域的内容。
-
+* 来自同一区域的内容会进行群集化，并可在画廊模式中查看。
+* 缩放到“地图”以集中查看特定区域的内容。
