@@ -1,27 +1,23 @@
 ---
-description: 您可以将Livefyre Identity用于Yahoo! 允许用户使用他们的Yahoo! 登录以与您站点上的应用程序交互。
-seo-description: 您可以将Livefyre Identity用于Yahoo! 允许用户使用他们的Yahoo! 登录以与您站点上的应用程序交互。
-seo-title: 创建Yahoo! 与Livefyre Identity一起使用的应用程序
-solution: Experience Manager
+description: 您可以将Livefyre Identity与Yahoo! 允许用户使用他们的Yahoo! 登录以与您网站上的应用程序进行交互。
 title: 创建Yahoo! 与Livefyre Identity一起使用的应用程序
-uuid: 6863cd2e-eb0d-465b-b706-88ecaccf41bc
+exl-id: 6b4c6ea9-1cb0-4496-aabe-70811f464a3d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
-
 # 创建Yahoo! 与Livefyre Identity一起使用的应用程序{#create-a-yahoo-app-for-use-with-livefyre-identity}
 
-您可以将Livefyre Identity用于Yahoo! 允许用户使用他们的Yahoo! 登录以与您站点上的应用程序交互。
+您可以将Livefyre Identity与Yahoo! 允许用户使用他们的Yahoo! 登录以与您网站上的应用程序进行交互。
 
-要允许用户使用Yahoo凭据登录，Livefyre需要以下Yahoo应用程序信息：
+要允许您的用户使用其Yahoo凭据登录，Livefyre需要以下Yahoo应用程序信息：
 
 * 客户端ID(消费方密钥)
-* 客户端机密(消费方密码)
+* 客户机密码(消费方密码)
 
 创建Yahoo! 与Livefyre Identity一起使用的应用程序：
 
@@ -30,7 +26,7 @@ ht-degree: 0%
 1. Enter **[!UICONTROL Callback Domain:]** `https://identity.livefyre.com`
 1. 选择&#x200B;**[!UICONTROL API Permissions: Profiles (Social Directory)]**&#x200B;和&#x200B;**[!UICONTROL Read Public]**。
 
-   完成后，Yahoo的应用程序详细信息页面将列表应用程序的客户端ID(消费方密钥)和客户端机密(消费方密码)，以便在Studio的“集成设置”页面中使用。
+   完成后，Yahoo的应用程序详细信息页面将列表该应用程序的客户端ID(消费方密钥)和客户端机密(消费方密码)，以在Studio的“集成设置”页面中使用。
 
    >[!NOTE]
    >
