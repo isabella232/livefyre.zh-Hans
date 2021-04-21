@@ -1,28 +1,24 @@
 ---
-description: 为调用它的网络返回经过加密的用户身份验证的令牌。
-seo-description: 为调用它的网络返回经过加密的用户身份验证的令牌。
-seo-title: buildUserAuthToken网络方法
-solution: Experience Manager
+description: 返回从中调用的网络的已加密用户验证令牌。
 title: buildUserAuthToken网络方法
-uuid: 8828d356-c3c6-46a6-91bf-83bd59e35050
+exl-id: dcc61c4b-90d9-42a0-9f46-73a843a4ad78
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 6%
+source-wordcount: '85'
+ht-degree: 8%
 
 ---
 
-
 # buildUserAuthToken网络方法{#builduserauthtoken-network-method}
 
-为调用它的网络返回经过加密的用户身份验证的令牌。
+返回从中调用的网络的已加密用户验证令牌。
 
 | 变量 | 类型 | 描述 |
 |--- |--- |--- |
-| userId | 字符串 | 此令牌所属的用户的用户ID。 |
+| userId | 字符串 | 此令牌所属用户的用户ID。 |
 | displayName | 字符串 | 用户的显示名称。 |
-| 过期 | 双线 | 令牌应在几秒后过期。 |
+| 过期 | 双线 | 令牌应在秒后过期。 |
 
 ## Java示例{#section_nyl_ycs_rz}
 
