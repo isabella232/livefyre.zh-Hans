@@ -1,40 +1,37 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: 自定义行动动员按钮
 title: 自定义行动动员按钮
-uuid: 8c653799-1602-4e38-a2bc-6de0f99c40ff
+description: 自定义行动动员按钮
+exl-id: bcbde20f-7fc3-4a15-970d-6500ea888b59
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 1%
+source-wordcount: '287'
+ht-degree: 0%
 
 ---
-
 
 # 自定义行动动员按钮{#custom-call-to-action-button}
 
 ## 自定义行动动员按钮{#topic_EBE23A0F827645E0A0C619DCF3872EE5}
 
-自定义行动动员(CTA)按钮是可添加到Livefyre Studio中任何资产的按钮，可使内容变为可操作。 他们可以将最终用户引用到任何自定义URL，如社交媒体页面或购物车。 CTA按钮可以在Livefyre的多个位置创建，但可以在Livefyre Studio的&#x200B;**[!UICONTROL Settings]**&#x200B;部分进行管理。
+自定义行动动员(CTA)按钮是可添加到Livefyre Studio中任何资产以使内容可操作的按钮。 他们可以将最终用户引用到任何自定义的URL，如社交媒体页面或购物车。 CTA按钮可以在Livefyre中的多个位置创建，但是它们在Livefyre Studio的&#x200B;**[!UICONTROL Settings]**&#x200B;部分中进行管理。
 
 通过自定义CTA，您可以：
 
-* 将自定义CTA按钮添加到Livefyre媒体墙、拼贴画、轮盘、幻灯片以及各个功能卡中的任何UGC中。
+* 将自定义CTA按钮添加到Livefyre媒体墙、电影、轮盘、幻灯片和各个功能卡中的任何UGC。
 * 控制每条UGC上的消息、图标、颜色、链接和按钮数。
-* 在“设置”和“库”中创建、管理和重用自定义CTA按钮。
-* 使用Adobe Analytics衡量点击率。
+* 在“设置”和“库”中创建、管理自定义CTA按钮并重新设定其用途。
+* 使用Adobe Analytics衡量点进率。
 
 ## 创建自定义行动动员按钮{#task_C61B4A8E66F24AC19C833612E596B736}
 
-任务上下文
+任务 Context
 
 1. 在Livefyre Studio中，单击&#x200B;**[!UICONTROL Settings]**。
 1. 在左边栏中，单击&#x200B;**[!UICONTROL CTAs]**。
 
-   此时将显示CTA库，在该库中可以创建CTA并在文件夹内进行组织。 1.单击&#x200B;**[!UICONTROL Create CTA]**。
-1. 使用所需的自定义填写字段，按钮预览将呈现在“创建CTA”屏幕底部。
+   此时将显示CTA库，可在其中创建CTA并在文件夹内进行组织。 1.单击&#x200B;**[!UICONTROL Create CTA]**。
+1. 使用所需的自定义项填写字段，按钮预览将在“创建CTA”屏幕底部呈现。
 
    ![](assets/cta-button-create.png)
 
@@ -54,7 +51,7 @@ ht-degree: 1%
 
 1. 从列表中选择所需的CTA按钮，然后单击&#x200B;**[!UICONTROL Add]**。
 
-   此时，CTA按钮将显示在选定资产上。
+   此时，CTA按钮将显示在所选资产上。
 
    >[!NOTE]
    >
