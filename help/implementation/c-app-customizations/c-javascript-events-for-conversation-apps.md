@@ -1,18 +1,14 @@
 ---
 description: 可用于为对话应用程序（例如，Comments、Chat、Live Blog、Reviews 和 Sidenotes）绑定 JavaScript 的事件。
-seo-description: 可用于为对话应用程序（例如，Comments、Chat、Live Blog、Reviews 和 Sidenotes）绑定 JavaScript 的事件。
-seo-title: 对话应用程序的Javascript事件
-solution: Experience Manager
 title: 对话应用程序的Javascript事件
-uuid: cce112b5-7c3a-4721-9854-fc8471f3d5d0
+exl-id: 2497346e-b2cc-44b2-bcd9-906dd443fe38
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '516'
 ht-degree: 73%
 
 ---
-
 
 # 对话应用程序的Javascript事件{#javascript-events-for-conversation-apps}
 
@@ -20,11 +16,11 @@ ht-degree: 73%
 
 ## 对话应用程序和事件列表{#section_y4j_x4m_ybb}
 
-以下是对话应用程序可用事件的矩阵。 X表示事件可用于应用程序，N/A表示事件不适用于应用程序，而无标记表示事件对该应用程序不可用：
+以下是可用于对话应用程序的事件的列表。 X表示事件可用于应用程序，N/A表示事件不适用于应用程序，而无标记表示事件对于该应用程序不可用：
 
 ### 对话应用程序事件
 
-| 事件 | 注释 | 聊天 | Liveblog | 评论 | Sidesk | 投票 | 趋势 |
+| 事件 | 注释 | 聊天 | Liveblog | 评论 | Siestr | 投票 | 趋势 |
 |---|---|---|---|---|---|---|---|
 | 初始化 | X | X | X | X | X |  |  |
 | 载入 | X | X | X | X |  |  |  |
@@ -32,13 +28,13 @@ ht-degree: 73%
 | 帖子 | X | X | X | X |  | 不适用 | 不适用 |
 | 已发布 | X | X | X | X | X | 不适用 | 不适用 |
 | Twitter 回复 | X | X | X | 不适用 | 不适用 | 不适用 | 不适用 |
-| Twitter赞 | X | X | X | 不适用 | 不适用 | 不适用 | 不适用 |
+| Twitter Like | X | X | X | 不适用 | 不适用 | 不适用 | 不适用 |
 | LF喜欢 | X | X | X | X | 不适用 | 不适用 | 不适用 |
-| LF与 | X | X | X | X | 不适用 | 不适用 | 不适用 |
+| LF不同 | X | X | X | X | 不适用 | 不适用 | 不适用 |
 | 在帖子中共享 | X | X |  | X | 不适用 | 不适用 | 不适用 |
 | 共享按钮 | X | X | X | X |  | 不适用 | 不适用 |
 | 共享Twitter | X | X | X | X | X | 不适用 | 不适用 |
-| 分享Facebook | X | X | X | X | X | 不适用 | 不适用 |
+| 共享Facebook | X | X | X | X | X | 不适用 | 不适用 |
 | 共享URL | X | X | X | X |  | 不适用 | 不适用 |
 | 扩展回复 | X | 不适用 | X | X | 不适用 | 不适用 | 不适用 |
 | 折叠回复 | X | 不适用 | X | X | 不适用 | 不适用 | 不适用 |
@@ -49,13 +45,13 @@ ht-degree: 73%
 | 取消关注 | X | 不适用 | X | X | 不适用 | 不适用 | 不适用 |
 | 请求更多 | X | X | X | X | 不适用 | 不适用 | 不适用 |
 | ModalView |  | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 |
-| Twitter转发 | X | X | X | 不适用 | 不适用 | 不适用 | 不适用 |
-| 发布按钮单击 | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 |
+| Twitter转推 | X | X | X | 不适用 | 不适用 | 不适用 | 不适用 |
+| “发布”按钮单击 | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 |
 | 已更新注释计数 | X | X | X | X | 不适用 | 不适用 | 不适用 |
 | 用户已登录 |  |  |  |  |  | 不适用 | 不适用 |
 | 用户已注销 |  |  |  |  |  | 不适用 | 不适用 |
 | 推荐评论 |  | 不适用 |  |  | 不适用 | 不适用 | 不适用 |
-| 评论无功能 |  | 不适用 |  |  | 不适用 | 不适用 | 不适用 |
+| 未添加注释 |  | 不适用 |  |  | 不适用 | 不适用 | 不适用 |
 | 评论投票 | 不适用 | 不适用 | 不适用 | X | X | 不适用 | 不适用 |
 | 投票选择 | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 |  | 不适用 |
 | 已选择趋势项 | N/.A | 不适用 | 不适用 | 不适用 | 不适用 | 不适用 |  |
@@ -66,4 +62,3 @@ ht-degree: 73%
 | 内容类型 | X | X | X | X |  |  |  |
 | 发布到应用程序的日期 |  |  |  |  |  |  |  |
 | 登录到最终用户应用程序 |  |  |  |  |  |  |  |
-
