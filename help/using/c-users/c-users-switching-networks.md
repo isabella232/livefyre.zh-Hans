@@ -1,32 +1,27 @@
 ---
-description: 您可以通过单个Studio帐户管理多个网络。
-seo-description: 您可以通过单个Studio帐户管理多个网络。
-seo-title: 交换网络的用户
-solution: Experience Manager
+description: 您可以从单个Studio帐户管理多个网络。
 title: 交换网络的用户
-uuid: 1f1f172b-6444-4161-9396-8f6b6d738593
+exl-id: 5f48a4a5-a951-40db-bf73-609041b469fb
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-
 # 交换网络的用户{#users-switching-networks}
 
-您可以通过单个Studio帐户管理多个网络。
+您可以从单个Studio帐户管理多个网络。
 
 >[!NOTE]
 >
->这不常见。
+>这并不常见。
 
-**[!UICONTROL Account]**&#x200B;下拉菜单将列表与您当前登录的Studio帐户及其关联的网络相关的所有用户名。 使用此下拉列表选择要管理的网络。
+**[!UICONTROL Account]**&#x200B;下拉菜单将列表与您当前登录的Studio帐户以及与之关联的网络相关联的所有用户名。 使用此下拉列表选择要管理的网络。
 
 >[!NOTE]
 >
 >虽然大多数用户只对一个网络拥有权限，但某些Studio用户可能拥有或审核多个站点。 Studio帐户允许他们使用单个用户名和密码登录，然后在多个站点访问级别之间切换。
 
 ![](assets/UsersChangeAccount-285x300.png)
-
