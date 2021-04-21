@@ -1,18 +1,14 @@
 ---
 description: 调整Storify 2文章的设置，如标记、审核和允许的内容。
-seo-description: 调整Storify 2文章的设置，如标记、审核和允许的内容。
-seo-title: 故事设置
-solution: Experience Manager
 title: 故事设置
-uuid: 030936fb-7c8b-487e-b468-7128b641c8ed
+exl-id: 11eed2ef-5e6d-4a7c-b6bb-b195b89fc79d
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
-
 
 # Storify Settings{#storify-settings}
 
@@ -20,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果启用，则Storify 2应用程序的大多数设置都会控制Siestor的选项。
+>如果启用，则为Siters列出的“Storify 2应用程序”控制选项的大多数设置。
 
 * **[!UICONTROL Tags]**
 
@@ -28,7 +24,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Allow New Content]**
 
-   允许向您的故事中添加新的Sidesor。
+   允许向您的文章中添加新的Siestr。
 
 * **[!UICONTROL Article URL]**
 
@@ -36,7 +32,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Premoderate Content]**
 
-   在发布Siestr之前，需要审查方批准。
+   在发布Sidesor之前，需要审查方批准。
 
 * **[!UICONTROL Display Media]**
 
@@ -44,7 +40,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Premoderate Media]**
 
-   在发布Sidesor的媒体内容之前，需要审查方批准。
+   在发布Siestr的媒体内容之前，需要审查方批准。
 
 * **[!UICONTROL Queue New Content]**
 
@@ -57,4 +53,3 @@ ht-degree: 0%
 * **[!UICONTROL Allow Bulk Content]**
 
    允许包含匹配文本的多个帖子。
-
