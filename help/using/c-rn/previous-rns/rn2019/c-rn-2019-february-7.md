@@ -1,20 +1,16 @@
 ---
 description: Livefyre 2019年2月7日版本的发行说明。
-seo-description: Livefyre 2019年2月7日版本的发行说明。
-seo-title: 发行说明
-solution: Experience Manager
 title: 发行说明
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: b04ded96-ebeb-4385-8fcf-a870044fbd85
 translation-type: tm+mt
-source-git-commit: 46f00bccc617b5d5ddc2e205c912d52d3602a8a0
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 11%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
-
-# 发行说明- 2019年2月7日{#rn020719}
+# 发行说明 — 2019年2月7日{#rn020719}
 
 **2019年2月7日更新的发行说明。**
 
@@ -24,4 +20,4 @@ ht-degree: 11%
 
 ## 错误修复
 
-* 修复了在尝试视图所有内容（包括已删除的内容）时，以“协调Recommendations”标记为&#x200B;*的内容未显示的问题。*
+* 修复了在尝试视图所有内容（包括已丢弃的内容）时，以“审核Recommendations”标记为&#x200B;*的内容未显示的问题。*
