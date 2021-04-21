@@ -1,18 +1,14 @@
 ---
 description: 2018年6月14日版本的发行说明。
-seo-description: 2018年6月14日版本的发行说明。
-seo-title: 2018 年 6 月 14 日
-solution: Experience Manager
 title: 2018 年 6 月 14 日
-uuid: f1bba3af-2020-4dfc-9938-05b1183c30ab
+exl-id: 4f91c91e-1979-4d1e-899c-11839524bfe2
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '138'
 ht-degree: 13%
 
 ---
-
 
 # 2018 年 6 月 14 日{#june}
 
@@ -32,11 +28,11 @@ ht-degree: 13%
 | 卡组件 | 功能卡 |
 | 旋转组件 | 轮播 |
 | 聊天组件 | 聊天 |
-| 注释——组件 | 注释 |
+| 注释 — 组件 | 注释 |
 | 幻灯片 | 幻灯片 |
 | maps-component | 地图 |
 | 媒体上传 | 上传按钮 |
-| 马赛克分量 | 马赛克 |
+| 拼接图 | 马赛克 |
 | streamhub-wall | 媒体墙 |
 | trends-component | 趋势 |
 
@@ -48,8 +44,8 @@ ht-degree: 13%
 
 | **问题类型** | **组件** | **发行说明** |
 |---|---|---|
-| 错误 | 库／搜索 | 修复了Instagram视频在社交搜索或应用程序内容中无法正常显示的问题。 |
-| 错误 | 智能标记 | 修复了智能标签无法显示从Instagram收集的内容的问题。 |
+| 错误 | 库/搜索 | 修复了Instagram视频在社交搜索或应用程序内容中无法正确显示的问题。 |
+| 错误 | 智能标记 | 修复了从Instagram收集的内容无法显示智能标签的问题。 |
 
 ## UAT版本
 
