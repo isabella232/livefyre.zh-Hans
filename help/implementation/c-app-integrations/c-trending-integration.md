@@ -1,24 +1,20 @@
 ---
-description: 展示您的站点或网络上最活跃的集合。
-seo-description: 展示您的站点或网络上最活跃的集合。
-seo-title: 趋势
-solution: Experience Manager
+description: 展示您网站或网络上最活跃的集合。
 title: 趋势
-uuid: 3031523d-b487-4eea-bba6-5d8f9971874f
+exl-id: a3129e95-90e7-4107-bfd9-ed3b0dce20aa
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '140'
 ht-degree: 5%
 
 ---
 
-
 # 趋势{#trending}
 
-展示您的站点或网络上最活跃的集合。
+展示您网站或网络上最活跃的集合。
 
-使用趋势显示包含网站或网络中最新活动的集合。
+使用趋势显示包含您网站或网络中最新活动的收藏集。
 
 ## 集成 {#section_wtz_whb_c1b}
 
@@ -52,7 +48,7 @@ Livefyre.require([
 </script>
 ```
 
-您现在有了热门应用！ 请参阅[此示例](https://codepen.io/gobengo/pen/GijEy)中的全部操作。
+您现在有了Trending App! 在[此示例](https://codepen.io/gobengo/pen/GijEy)中查看所有操作情况。
 
 ## 配置 {#section_k5k_qhb_c1b}
 
@@ -91,4 +87,3 @@ var trending = new Trending({
    tag: 'basketball' 
 });
 ```
-
