@@ -1,32 +1,28 @@
 ---
 description: Studio经理和管理员可以邀请新用户或现有用户创建Studio帐户。
-seo-description: Studio经理和管理员可以邀请新用户或现有用户创建Studio帐户。
-seo-title: 邀请用户创建Studio帐户
-solution: Experience Manager
 title: 邀请用户创建Studio帐户
-uuid: 2cfa4639-1624-4a28-a06d-b6b0180bf3b0
+exl-id: 5b4f5bb9-6bd0-413a-9cf9-9604bc2fb8af
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
-
 
 # 邀请用户创建Studio帐户{#invite-a-user-to-create-a-studio-account}
 
 Studio经理和管理员可以邀请新用户或现有用户创建Studio帐户。
 
-网络的Livefyre技术客户经理会发送第一个创建Studio管理员帐户的Studio帐户邀请。 您提供Livefyre技术帐户管理器用于创建Studio管理员帐户的电子邮件地址。
+您网络的Livefyre Technical Account Manager会发送创建Studio管理员帐户的第一个Studio帐户邀请。 您提供了Livefyre技术帐户管理员用于创建Studio管理员帐户的电子邮件地址。
 
 >[!NOTE]
 >
->在邀请他人加入Studio时，您创建的帐户的权限级别等于或小于您自己的权限级别。
+>当邀请其他人加入Studio时，您创建的帐户的权限级别等于或小于您自己的权限级别。
 
 >[!NOTE]
 >
->您可以向单个用户授予多个用户角色。 有关您可以授予哪些用户角色和权限的更多信息，请参阅[用户角色和权限](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types)。
+>您可以向单个用户授予多个用户角色。 有关您可以授予哪些用户角色和权限的详细信息，请参阅[用户角色和权限](../c-users-creating-accounts-with-studio-access/c-user-types.md#c_user_types)。
 
 1. 在&#x200B;**[!UICONTROL Users]**&#x200B;页面中，单击&#x200B;**[!UICONTROL Invite to Studio.]**
 1. 从打开的&#x200B;**[!UICONTROL Invite user]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL Existing User]**&#x200B;或&#x200B;**[!UICONTROL New User]**。
