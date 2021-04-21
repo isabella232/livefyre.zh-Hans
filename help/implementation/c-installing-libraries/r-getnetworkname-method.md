@@ -1,22 +1,18 @@
 ---
-description: 此方法返回不带fyre.co的网络名称。
-seo-description: 此方法返回不带fyre.co的网络名称。
-seo-title: getNetworkName网络方法
-solution: Experience Manager
+description: 此方法返回没有fyre.co的网络名称。
 title: getNetworkName网络方法
-uuid: 3523e5a4-11f4-458d-91e7-a149d3afe5e9
+exl-id: 0c6e1178-ccbe-47b1-8c69-5a4c9a9a748c
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
+# getNetworkName Network Method{#getnetworkname-network-method}
 
-# getNetworkName网络方法{#getnetworkname-network-method}
-
-此方法返回不带fyre.co的网络名称。
+此方法返回没有fyre.co的网络名称。
 
 ## Java示例{#section_nyl_ycs_rz}
 
@@ -77,4 +73,3 @@ network.network_name;
 ```
 "example" 
 ```
-
