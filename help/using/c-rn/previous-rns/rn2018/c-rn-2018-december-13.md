@@ -1,20 +1,16 @@
 ---
 description: 2018年12月13日版本的发行说明。
-seo-description: 2018年12月13日版本的发行说明。
-seo-title: 发行说明
-solution: Experience Manager
 title: Livefyre发行说明2018年12月13日
-uuid: 34e64943-dea6-46ac-9fcc-8febeab6aa42
+exl-id: c0bdb571-df18-4348-a4f5-0dab1a514961
 translation-type: tm+mt
-source-git-commit: 6d0f9feb17ca65391242e95651a89d734d297cb2
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 2%
+source-wordcount: '208'
+ht-degree: 1%
 
 ---
 
-
-# 发行说明- 2018年12月13日
+# 发行说明 — 2018年12月13日
 
 2018年12月13日版本的发行说明。
 
@@ -22,25 +18,25 @@ ht-degree: 2%
 
 此版本的生产版本中发布了以下新功能：
 
-* **Instagram搜索和流的更新。**
+* **instagram搜索和流的更新。**
 
 您可以：
 
 * 不再对位置执行Instagram搜索。
-* 仅将业务帐户与业务帐户连接。
-* 按热门标记或最近发布的帖子进行搜索。
-* 每7天在Instagram商业账户上搜索多达30个独特的主题标签。
+* 仅连接业务帐户与业务帐户。
+* 按最热门的标记或最近发布的帖子进行搜索。
+* 每7天，每个Instagram商业帐户最多可搜索30个唯一的主题标签。
 
-* Livefyre将删除包含基于位置的过滤器的Instagram流规则，以避免失败。
-* **[!UICONTROL Business User Search]**:输入作者搜索Instagram帖子。
+* Livefyre将删除具有基于位置的过滤器的Instagram流规则，以避免失败。
+* **[!UICONTROL Business User Search]**:按输入作者搜索Instagram帖子。
 
    >[!NOTE]
    >
-   >要按商业用户搜索Instagram，您和Instagram内容作者都必须拥有Instagram商业账户。 有关如何在Livefyre Studio中设置Instagram商业帐户的信息，请参阅[使用Studio Access](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)创建帐户。
+   >要按业务用户搜索Instagram，您和Instagram内容作者都必须具有Instagram业务帐户。 有关如何在Adobe Livefyre Studio中设置Instagram业务帐户的信息，请参阅[使用Studio Access创建帐户](/help/using/c-users-creating-accounts-with-studio-access/t-configure-social-accout-instagram/c-about-instagram-accounts.md#c_about_instagram_accounts)。
 
 * 您现在可以使用以下功能在库中按主题标签搜索Instagram:
 
    * **[!UICONTROL Top Tags Search]**:搜索带有特定主题标签的最受欢迎媒体。顶级标记由下面列出的条件确定：[](https://developers.facebook.com/docs/instagram-api/reference/hashtag/top-media)
    * **[!UICONTROL Recent Tags Search]**:使用主题标签搜索最近的帖子。
 
-有关更新的Instagram功能的更多信息，请[观看网络研讨会的视频，其中介绍此处的功能](https://youtu.be/wRkGc3obaOA)。
+有关更新的Instagram功能的详细信息，请[观看网络研讨会的视频，其中说明了此处的功能。](https://youtu.be/wRkGc3obaOA)
