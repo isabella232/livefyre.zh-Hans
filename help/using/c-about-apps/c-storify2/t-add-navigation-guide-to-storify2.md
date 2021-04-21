@@ -1,22 +1,18 @@
 ---
-description: 在Storify 2应用程序中添加导航指南，以在您的故事旁边的一个突出位置创建列表拼贴帖子。
-seo-description: 在Storify 2应用程序中添加导航指南，以在您的故事旁边的一个突出位置创建列表拼贴帖子。
-seo-title: 向Storify 2添加导航指南
-solution: Experience Manager
-title: 向Storify 2添加导航指南
-uuid: 2db131b2-54b8-4409-a947-b86169656cad
+description: 为Storify 2应用程序添加导航指南，以在您的文章旁边的一个突出位置创建对等帖子的列表。
+title: 将导航指南添加到Storify 2
+exl-id: 183a5035-4603-4c9d-a883-95966550accb
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
-
 # 将导航指南添加到Storify 2{#add-a-navigation-guide-to-a-storify}
 
-在Storify 2应用程序中添加导航指南，以在您的故事旁边的一个突出位置创建列表拼贴帖子。
+为Storify 2应用程序添加导航指南，以在您的文章旁边的一个突出位置创建对等帖子的列表。
 
-1. 打开Storify 2故事。
+1. 打开Storify 2文章。
 1. 在Storify 2 App Designer中，打开&#x200B;**[!UICONTROL Navigation Guide]**&#x200B;切换。
