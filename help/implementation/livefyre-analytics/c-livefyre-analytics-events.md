@@ -1,24 +1,20 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Livefyre Analytics事件
-solution: Experience Manager
 title: Livefyre Analytics事件
-uuid: 4eb5a196-ca33-40f8-a96d-ed46469223de
+description: Livefyre Analytics事件
+exl-id: ec32414c-0580-44dc-ae5b-6df0b42c0ec3
 translation-type: tm+mt
-source-git-commit: 5dc11c42a9f8bf3fa088f3245e21b6942d4865fe
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '540'
 ht-degree: 4%
 
 ---
-
 
 # Livefyre Analytics事件
 
 ## 事件对象定义{#section_dh1_yhn_pdb}
 
-以下代码定义事件对象中由页面上的分析处理程序接收的字段。
+以下代码定义页面上的分析处理程序收到的事件对象中的字段。
 
 ```
 {
@@ -47,46 +43,46 @@ ht-degree: 4%
 
 ## Livefyre Analytics事件和eVar {#section_u3k_tft_mcb}
 
-以下Livefyre事件映射到自定义事件，以便在使用报表包管理器的报告中使用。 有关Adobe Analytics的报表包的详细信息，请参阅[报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 有关如何将Livefyre事件与Report Suite Manager结合使用的更多信息，请参阅[](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
+以下Livefyre事件将映射到自定义事件，以便在使用报表包管理器的报表中使用。 有关Adobe Analytics中报表包的详细信息，请参阅[报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。 有关如何将Livefyre事件与Report Suite Manager结合使用的详细信息，请参阅[](../livefyre-analytics/c-use-livefyre-with-adobe-analytics.md#section_iks_kgd_4cb)。
 
 ## Livefyre Analytics事件
 
 | 事件 | 描述 |
 |---|---|
-| 初始化 | 载入至少包含一个Livefyre应用程序的页面时 |
-| 载入 | 无论用户视图如何，每次在页面上加载应用程序时 |
-| 查看 | 当应用程序首次进入视区时。 |
-| 帖子 | 每当用户发布评论或内容时，包括：顶级帖子、回复、评论、媒体墙上传 |
+| 初始化 | 加载至少包含一个Livefyre应用程序的页面时 |
+| 载入 | 任何时候，无论用户视图如何，应用程序都会加载到页面上 |
+| 查看 | 应用程序首次进入视区时。 |
+| 帖子 | 用户每次发布评论或内容时，包括：顶级帖子、回复、评论、媒体墙上传 |
 | 已发布 | 当帖子成功时。 |
-| Twitter_Reply | 用户在Twitter上回复的任何时间 |
-| Twitter_Like | 内容共享到的位置：转发 |
-| Livefyre_Like | 任何时候在应用程序中使用livefyre类似功能 |
-| Livefyre(_N)与 | 每当用户不喜欢Livefyre时， |
-| ShareOnPost | 用户随时发布内容并使用“发布时共享”功能 |
-| ShareButtonClick | 每当用户单击评论上的共享按钮时 |
-| ShareTwitter | 单击“共享到Twitter”时 |
+| Twitter_Reply | 用户在Twitter上随时回复 |
+| Twitter_Like | 将内容共享到的位置：转推 |
+| Livefyre(_L) | 任何时候在应用程序中使用livefyre类似功能 |
+| Livefyre(_N) | 任何时候用户都会像 |
+| ShareOnPost | 随时，用户发布内容并使用“发布时共享”功能 |
+| ShareButtonClick | 用户单击评论上的共享按钮时 |
+| 共享Twitter | 单击“共享到Twitter”时 |
 | ShareFacebook | 单击“共享到Facebook”时 |
-| ShareURL | 选择／复制“共享到URL”文本区域时。 |
+| ShareURL | 选择/复制“共享到URL”文本区域时。 |
 | 扩展回复 | 当用户单击+或展开链接以视图顶级帖子上的所有回复时 |
-| 折叠回复 | 当用户单击——或折叠链接以视图顶级帖子上的所有回复时 |
+| 折叠回复 | 当用户单击 — 或折叠链接以视图顶级帖子上的所有回复时 |
 | FlagClick | 用户随时打开标志模式 |
 | FlagSpam | 当用户将内容标记为垃圾邮件时 |
-| FlagSorve | 当用户将内容标记为不同意 |
-| FlagOffension | 当用户将内容标记为冒犯 |
+| 旗标反对 | 当用户将内容标记为不同意 |
+| FlagOffensive | 当用户将内容标记为冒犯 |
 | FlagOffTopic | 当用户将内容标记为关闭主题时 |
-| 标记取消 | 用户在提交标志时单击X或“取消” |
-| FollowCollection | 随时进行对话（“我对评论感兴趣”） |
+| 标记取消 | 用户在提交标记时单击X或“取消” |
+| FollowCollection | 每次对话后（“我对评论感兴趣”） |
 | UnfollowCollection | 取消对话后 |
-| 请求更多 | 每当用户在应用程序中加载更多内容时（也需要高速） |
-| ModalView | 用户单击以在模态中视图内容的任何时间 |
-| TwitterRetweetClick | 内容共享到的位置：转发 |
-| PostButtonClick | 当用户单击帖子（“您在想什么？”） 按钮 |
-| 登录 | 用户登录的任何时间 |
+| 请求更多 | 任何时候用户在应用程序中加载更多内容（也需要高速） |
+| ModalView | 用户单击以模式视图内容时 |
+| TwitterRetweetClick | 将内容共享到的位置：转推 |
+| PostButtonClick | 当用户点击帖子（“您在想什么？”）时 按钮 |
+| 登录 | 任何用户登录时 |
 | 注销 | 用户每次注销 |
 
 以下是Livefyre提供的转换变量(eVar)列表。
 
-## 转换变量- eVar
+## 转换变量 — eVar
 
 | 事件 | 描述 |
 |--- |--- |
