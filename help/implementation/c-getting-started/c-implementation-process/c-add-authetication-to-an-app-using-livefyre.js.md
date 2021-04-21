@@ -1,24 +1,20 @@
 ---
 description: 使用Livefyre.js为Livefyre应用程序添加页面范围身份验证。
-seo-description: 使用Livefyre.js为Livefyre应用程序添加页面范围身份验证。
-seo-title: 使用Livefyre.js将身份验证添加到应用程序
-solution: Experience Manager
 title: 使用Livefyre.js将身份验证添加到应用程序
-uuid: b7c61e07-e341-45d7-9112-c50155e38f1d
+exl-id: 6246a2bc-e7ff-4f86-a63a-36261c71d460
 translation-type: tm+mt
-source-git-commit: a6aebcc14325632cab0415e4aa4a24fda8a19bfc
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # 使用Livefyre.js{#add-authetication-to-an-app-using-livefyre-js}将身份验证添加到应用程序
 
 使用Livefyre.js为Livefyre应用程序添加页面范围身份验证。
 
-`Livefyre.js Aut`h是由Livefyre开发的JavaScript包，它使您网站上的所有应用程序能够共享单个身份验证集成。Auth允许您通过将这些流委派到您定义的AuthDelegate对象来定义用户应如何注册、登录和注销。
+`Livefyre.js Aut`h是由Livefyre开发的JavaScript包，它使您网站上的所有应用程序共享单个身份验证集成。Auth允许您通过将这些流委派到您定义的AuthDelegate对象来定义用户应如何注册、登录和注销。
 
 ## 第1步：为页面{#section_pgp_jtt_bbb}启用身份验证
 
@@ -40,11 +36,11 @@ ht-degree: 0%
 
 要启用身份验证，请创建`AuthDelegate`并将其传递给`Livefyre.js`身份验证。
 
-`AuthDelegate`是您定义的对象，它决定用户如何登录、注销和视图用户档案。
+`AuthDelegate`是您定义的一个对象，它确定用户将如何登录、注销和视图用户档案。
 
-1. 创建 `AuthDelegate`. 构建`AuthDelegate`的方式取决于您的标识提供者。 有关更详细的说明，请参阅身份集成。
+1. 创建 `AuthDelegate`. 构建`AuthDelegate`的方式取决于您的标识提供者。 有关更多详细说明，请参阅身份集成。
 
-1. 将`AuthDelegate`传递给`Livefyre.js`身份验证。 最简单的`AuthDelegate`在用户从应用程序触发委托登录方法时记录同一用户：
+1. 将`AuthDelegate`传递到`Livefyre.js`身份验证。 只要用户从App触发委托登录方法，最简单的`AuthDelegate`将同一用户登录：
 
    ```
    Livefyre.require(['auth'], function (auth) { 
@@ -60,4 +56,4 @@ ht-degree: 0%
 
 在Livefyre和您的标识提供者之间同步用户用户档案信息。
 
-您必须在Livefyre和您的标识提供者之间同步用户用户档案信息。 有关详细信息，请参阅[Janrain Capture Integration](/help/implementation/c-livefyre-identity-comp/c-janrain-capture-backplane-comp.md)。
+您必须在Livefyre和您的标识提供者之间同步您的用户用户档案信息。 有关详细信息，请参阅[Janrain Capture Integration](/help/implementation/c-livefyre-identity-comp/c-janrain-capture-backplane-comp.md)。
