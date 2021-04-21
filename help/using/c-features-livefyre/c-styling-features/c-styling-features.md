@@ -1,25 +1,22 @@
 ---
-description: 您可以设计Livefyre应用程序的样式，使其以各种方式运行，或更改它们，使其外观和感觉与您的其他品牌活动相似。
-seo-description: 您可以设计Livefyre应用程序的样式，使其以各种方式运行，或更改它们，使其外观和感觉与您的其他品牌活动相似。
-seo-title: 样式功能
+description: 您可以设计Livefyre应用程序的样式，使其以各种方式运行，或更改它们，使其外观和感觉与您品牌的其余活动相同。
 title: 样式功能
-uuid: 72a3843d-692a-43ff-b72b-6bd840de87d6
+exl-id: d2ba6865-566a-4258-9c5f-3b4c6780907f
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 7%
+source-wordcount: '112'
+ht-degree: 8%
 
 ---
 
-
 # 样式功能{#styling-features}
 
-您可以设计Livefyre应用程序的样式，使其以各种方式运行，或更改它们，使其外观和感觉与您的其他品牌活动相似。
+您可以设计Livefyre应用程序的样式，使其以各种方式运行，或更改它们，使其外观和感觉与您品牌的其余活动相同。
 
 ## 默认样式{#section_yjl_rfs_d1b}
 
-您无需使用Livefyre.js自定义应用程序，即可在App Designer的Studio中设计应用程序样式。
+您可以在App Designer中的Studio中设置应用程序样式，无需使用Livefyre.js自定义该应用程序。
 
 使用此功能的应用程序：
 
@@ -32,7 +29,7 @@ ht-degree: 7%
 * [马赛克](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [投票](/help/using/c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [评论](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidesk](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Siestr](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [趋势](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [上传按钮](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
@@ -45,4 +42,3 @@ ht-degree: 7%
 
 * [聊天](/help/using/c-about-apps/c-chat-app/c-chat-app.md#c_chat_app)
 * [评论](/help/using/c-about-apps/c-comments/c-comments.md)
-
