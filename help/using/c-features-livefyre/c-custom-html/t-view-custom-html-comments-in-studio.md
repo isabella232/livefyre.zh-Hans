@@ -1,22 +1,18 @@
 ---
-description: 请参阅由自定义HTML使用此过程添加的注释。
-seo-description: 请参阅由自定义HTML使用此过程添加的注释。
-seo-title: 视图Studio中的自定义HTML注释
-solution: Experience Manager
+description: 请参阅自定义HTML使用此过程添加的注释。
 title: 视图Studio中的自定义HTML注释
-uuid: 56df319c-6be7-448c-9562-48c67db27557
+exl-id: bddcf589-b611-448c-92aa-d975d1542ee6
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
-
 # 视图Studio{#view-custom-html-comments-in-studio}中的自定义HTML注释
 
-请参阅由自定义HTML使用此过程添加的注释。
+请参阅自定义HTML使用此过程添加的注释。
 
 >[!NOTE]
 >
