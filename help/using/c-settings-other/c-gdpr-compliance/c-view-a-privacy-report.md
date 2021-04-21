@@ -1,20 +1,16 @@
 ---
 description: 视图Livefyre中的隐私报告，查看Livefyre中为用户记录的信息。
-seo-description: 视图Livefyre中的隐私报告，查看Livefyre中为用户记录的信息。
-seo-title: 视图隐私报告
-solution: Experience Manager
 title: 视图隐私报告
-uuid: 70d9f614-5f5b-40da-ada6-78e9ffebcc28
+exl-id: bcbb4651-e492-4ff7-be31-4f561365334d
 translation-type: tm+mt
-source-git-commit: 155791af94c277e7afdbd51521e00da77169911e
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 2%
+source-wordcount: '55'
+ht-degree: 3%
 
 ---
 
-
-# 视图A隐私报告{#view-a-privacy-report}
+# 视图隐私报告{#view-a-privacy-report}
 
 视图Livefyre中的隐私报告，查看Livefyre中为用户记录的信息。
 
@@ -22,4 +18,3 @@ ht-degree: 2%
 1. 单击列表中的隐私报告以对其进行视图。
 
 ![](assets/privacypage5.png)
-
