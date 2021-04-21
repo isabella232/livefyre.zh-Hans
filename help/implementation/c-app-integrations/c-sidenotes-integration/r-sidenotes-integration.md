@@ -1,30 +1,26 @@
 ---
-description: 通过遵循类似于核心应用程序的流程来集成Sidesorp应用程序。
-seo-description: 通过遵循类似于核心应用程序的流程来集成Sidesorp应用程序。
-seo-title: Sisers集成
-solution: Experience Manager
-title: Sisers集成
-uuid: 4aa14ada-402a-482d-b43e-96f37afa6c53
+description: 通过遵循类似于核心应用程序的流程来集成Siserapp。
+title: Sidesr集成
+exl-id: 368951b1-fef2-46d8-b89c-68c46962e937
 translation-type: tm+mt
-source-git-commit: fcee9dc152e7f8284e64248fdcc5bf81d39618ff
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
 
+# Siestrator集成{#sidenotes-integration}
 
-# Sisext集成{#sidenotes-integration}
+通过遵循类似于核心应用程序的流程来集成Siserapp。
 
-通过遵循类似于核心应用程序的流程来集成Sidesorp应用程序。
+通常，如果您的核心应用程序集成完成，则为生成`collectionMeta`对象而编写的代码可能会重用于Siestrator。
 
-通常，如果您的核心应用程序集成完成，为生成`collectionMeta`对象而编写的代码可能会重用于Sidestr。
-
-您还可以通过在（可选）`authDelegate`字段中将使用`fyre.conv`创建的`auth`委托提供给Siestr来重复使用现有的`auth`委托。
+您还可以通过在（可选）`authDelegate`字段中将使用`fyre.conv`创建的`auth`委托提供给Siestr来重复使用现有`auth`委托。
 
 >[!NOTE]
 >
->Sitespark允许您在单个对象中包含`network`、`siteId`和`articleId`，而不是在构造函数的其他部分单独传递它们。
+>Siestar允许您将`network`、`siteId`和`articleId`包含在单个对象中，而不是在构造函数的其他部分中单独传递它们。
 
 ```
 <!DOCTYPE html> 
@@ -56,7 +52,7 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 </html>
 ```
 
-正如“Building `collectionMeta`”部分中所述，`collectionMeta`是编码JSON对象。 在上例中，JSON对象在进行JWT编码前采用以下格式。
+如构建`collectionMeta`部分中所述，`collectionMeta`是编码的JSON对象。 在上面的示例中，JSON对象在进行JWT编码前采用以下格式。
 
 ```
 { 
@@ -72,7 +68,7 @@ Livefyre.require(['sidenotes#1', 'auth'], function (Sidenotes, Auth) {
 
 ## 移动设置
 
-SiSext已针对移动设备进行优化。 为获得移动版Livefyre应用程序的最佳效果，请将用户可缩放选项设置为no。 例如：
+Siters已针对移动设备进行优化。 为获得移动版Livefyre应用程序的最佳效果，请将用户可缩放的选项设置为no。 例如：
 
 ```
 <meta name="viewport" content="width=device-width, user-scalable=no">
