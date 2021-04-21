@@ -1,26 +1,22 @@
 ---
-description: 通知Livefyre将网络的用户同步URL更新为提供的URL。 返回布尔值。
-seo-description: 通知Livefyre将网络的用户同步URL更新为提供的URL。 返回布尔值。
-seo-title: setUserSyncUrl网络方法
-solution: Experience Manager
+description: 通知Livefyre将网络的用户同步URL更新到提供的URL。 返回布尔值。
 title: setUserSyncUrl网络方法
-uuid: cd067e90-a2da-4e3d-8e60-7eabfd86fc7f
+exl-id: 8124ac0f-013f-4943-a33c-6cf8fe696f95
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 3%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
-
 # setUserSyncUrl网络方法{#setusersyncurl-network-method}
 
-通知Livefyre将网络的用户同步URL更新为提供的URL。 返回布尔值。
+通知Livefyre将网络的用户同步URL更新到提供的URL。 返回布尔值。
 
 | 变量 | 类型 | 描述 |
 |--- |--- |--- |
-| urlTemplate | 字符串 | 向Livefyre注册以同步用户ID的URL。 要求“`{id}`”作为提供的URL字符串的一部分。 |
+| urlTemplate | 字符串 | 要向Livefyre注册以同步用户ID的URL。 要求“`{id}`”作为提供的URL字符串的一部分。 |
 
 ## Java示例{#section_nyl_ycs_rz}
 
