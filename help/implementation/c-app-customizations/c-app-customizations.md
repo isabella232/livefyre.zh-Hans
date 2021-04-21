@@ -1,18 +1,14 @@
 ---
 description: 自定义应用程序显示选项以匹配您的品牌和风格并添加自定义功能。
-seo-description: 自定义应用程序显示选项以匹配您的品牌和风格并添加自定义功能。
-seo-title: 应用程序自定义
-solution: Experience Manager
 title: 应用程序自定义
-uuid: 6f27654d-c2b4-45b5-aae7-6fbf312fb829
+exl-id: 897579fb-11b5-4a00-b2bf-86f505b79003
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
-
 
 # 应用程序自定义{#app-customizations}
 
@@ -20,7 +16,7 @@ ht-degree: 0%
 
 可用于聊天、评论、实时博客、评论和站点。
 
-Livefyre优惠多种方式，您可以通过这些方式更改App的交互和显示选项，以适合您的风格并吸引受众。
+Livefyre优惠了多种方式，让您可以通过这些方式更改App的交互和显示选项，以适合您的风格并吸引您的受众。
 
 >[!NOTE]
 >
@@ -28,7 +24,7 @@ Livefyre优惠多种方式，您可以通过这些方式更改App的交互和显
 
 * **更改显示选项**
 
-   使用CSS类、本地化的文本字符串以及应用程序元素和媒体限制更改应用程序的显示选项。
+   使用CSS类、本地化文本字符串以及App元素和媒体限制更改应用程序的显示选项。
 
 * **突出显示内容**
 
@@ -38,7 +34,6 @@ Livefyre优惠多种方式，您可以通过这些方式更改App的交互和显
 
    当用户与您的Livefyre应用程序交互时触发自定义操作。
 
-* **聆听应用程序事件**
+* **侦听应用程序事件**
 
    使用可用的JavaScript事件进一步自定义和跟踪您的用户体验。
-
