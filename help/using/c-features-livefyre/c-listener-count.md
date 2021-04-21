@@ -1,24 +1,20 @@
 ---
-description: 监听器计数是一个计数器，用于跟踪页面上某个应用程序的站点访客数并显示此数。
-seo-description: 监听器计数是一个计数器，用于跟踪页面上某个应用程序的站点访客数并显示此数。
-seo-title: 监听器计数
-solution: Experience Manager
+description: 侦听器计数是一个计数器，用于跟踪页面上某个应用程序的站点访客数并显示此数。
 title: 监听器计数
-uuid: fdd7cfe4-ae69-4d31-baa2-8978368fc3e8
+exl-id: a07e83c2-7465-42ec-9d24-821aac5ab74b
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '292'
 ht-degree: 1%
 
 ---
 
+# 侦听器计数{#listener-count}
 
-# 监听器计数{#listener-count}
+侦听器计数是一个计数器，用于跟踪页面上某个应用程序的站点访客数并显示此数。
 
-监听器计数是一个计数器，用于跟踪页面上某个应用程序的站点访客数并显示此数。
-
-监听器计数是指在实例化应用程序的页面上打开浏览器的站点访客数。 这样，您便可以了解页面上访客在任何给定时间的数量，以便在他们实时观看流或实时内容时跟踪他们。
+监听器计数是指向实例化App的页面打开浏览器的站点访客数。 这样，您就可以了解页面上在任何给定时间有多少个站点访客，以便在他们实时观看流或实时内容时跟踪他们。
 
 Livefyre的监听器计数的工作方式如下：
 
@@ -32,15 +28,15 @@ Livefyre的监听器计数的工作方式如下：
 * [评论](/help/using/c-about-apps/c-comments/c-comments.md)
 * [评论](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 
-## 监听器Avatars {#section_wcn_kxp_vz}
+## 侦听器Avatar {#section_wcn_kxp_vz}
 
-监听器计数最多显示10个头像，并且只显示单击了对话&#x200B;**[!UICONTROL Follow]**&#x200B;的人的头像。
+监听器计数最多显示10个头像，并且只显示那些单击了对话&#x200B;**[!UICONTROL Follow]**&#x200B;的人的头像。
 
 >[!NOTE]
 >
->由于空间限制，移动界面仅显示监听器的数量和一个小的“人”图标。
+>由于空间限制，移动界面仅显示监听器的数量和一个小的“人物”图标。
 
-Livefyre监听器计数显示页面上任意给定时间处于活动状态的人数，以及对话后的人数。 如果某人在页面上进行对话，则不会对该用户计数多次。 例如，如果用户在某页上并单击&#x200B;**[!UICONTROL Follow]**，则监听器计数不会增加；如果该用户随后单击&#x200B;**[!UICONTROL Unfollow]**，则计数不会减少。
+Livefyre监听器计数显示页面上在任何给定时间处于活动状态的人数，以及对话后的人数。 如果某人在页面上并在对话后进行，则不会计入该用户的多次。 例如，如果用户在某页上单击&#x200B;**[!UICONTROL Follow]**，则侦听器计数不会增加；如果该用户随后单击&#x200B;**[!UICONTROL Unfollow]**，则计数不会减少。
 
 使用此功能的应用程序：
 
@@ -48,4 +44,3 @@ Livefyre监听器计数显示页面上任意给定时间处于活动状态的人
 * [评论](/help/using/c-about-apps/c-comments/c-comments.md)
 * [评论](../c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
 * [Storify 2](../c-about-apps/c-storify2/c-storify2.md#c_storify2)
-
