@@ -1,31 +1,28 @@
 ---
 description: 使用CSS设计Livefyre应用程序元素的样式以适合您的品牌。
-seo-description: 使用CSS设计Livefyre应用程序元素的样式以适合您的品牌。
-seo-title: CSS样式和品牌
 title: CSS样式和品牌
-uuid: 729a2780-f757-4c54-b446-ff832cecf620
+exl-id: 908c31a3-dc91-42a0-baf4-89237e9f1c7d
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '260'
 ht-degree: 2%
 
 ---
-
 
 # CSS样式和品牌{#css-styling-and-branding}
 
 使用CSS设计Livefyre应用程序元素的样式以适合您的品牌。
 
-Livefyre应用程序优惠了一个广泛的CSS样式界面，使您能够自定义用户体验以满足当前的设计标准。
+Livefyre应用程序优惠了一个广泛的CSS样式界面，允许您自定义用户体验以符合您当前的设计标准。
 
 样式选项包括：
 
-* **[!UICONTROL Styling the Stream:]** Livefyre流可以自定义和自定义，以适合您的品牌和站点的其余部分。有关详细信息，请参阅CSS自定义。
+* **[!UICONTROL Styling the Stream:]** Livefyre流可能会根据您的品牌和站点的其余部分进行定制和定制。有关详细信息，请参阅CSS自定义。
 * **[!UICONTROL Styling the Comment Editor:]** 可以通过更改字体的颜色、大小和系列或更改注释框的背景颜色来自定义注释编辑器。有关详细信息，请参阅编辑器CSS。
-* **[!UICONTROL Moving the Livefyre Logo:]** 当Livefyre徽标的默认位置位于流的顶部时，此图像可能会被删除，并替换为流底部的较小的“Powered by Livefyre”徽标。有关详细信息，请参阅移动Livefyre徽标。
-* **[!UICONTROL Hiding elements of the stream:]** 如果流中的元素与您的社区无关，则这些元素可能会被隐藏。可删除的元素包括回复按钮、编辑用户档案菜单、注销菜单、注释通知程序和用户变量。 有关删除这些元素的详细信息，请参阅隐藏应用程序元素。
-* **[!UICONTROL Customizing the Friend Tagging Logo:]** 默认情况下，已在页面上的流中添加评论的所有用户的好友标记下拉列表中都会显示Livefyre徽标。要将此图像替换为您自己的徽标，请参阅Studio中的品牌。
+* **[!UICONTROL Moving the Livefyre Logo:]** 虽然Livefyre徽标的默认位置位于流的顶部，但可能会删除此图像，并替换为流底部较小的“Powered by Livefyre”徽标。有关详细信息，请参阅移动Livefyre徽标。
+* **[!UICONTROL Hiding elements of the stream:]** 如果流的元素与您的社区无关，则这些元素可能会被隐藏。可以删除的元素包括回复按钮、编辑用户档案菜单、注销菜单、注释通知程序和用户变量。 有关删除这些元素的详细信息，请参阅隐藏应用程序元素。
+* **[!UICONTROL Customizing the Friend Tagging Logo:]** 默认情况下，Livefyre徽标显示在“好友”标记下拉列表中，以供页面上的流中评论所有用户使用。要将此图像替换为您自己的徽标，请参阅Studio中的品牌。
 
 使用此功能的应用程序：
 
@@ -38,8 +35,7 @@ Livefyre应用程序优惠了一个广泛的CSS样式界面，使您能够自定
 * [马赛克](/help/using/c-about-apps/c-mosaic-app/c-mosaic-app.md#c_mosaic_app)
 * [投票](/help/using/c-about-apps/c-polls-app/c-polls-app.md#c_polls_app)
 * [评论](/help/using/c-about-apps/c-reviews-app/c-reviews-app.md#c_reviews_app)
-* [Sidesk](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
+* [Siestr](/help/using/c-about-apps/c-sidenotes-app/c-sidenotes-app.md#c_sidenotes_app)
 * [Storify 2](/help/using/c-about-apps/c-storify2/c-storify2.md#c_storify2)
 * [趋势](/help/using/c-about-apps/c-trending-app/c-trending-app.md#c_trending_app)
 * [上传按钮](/help/using/c-about-apps/c-upload-button-app/c-upload-button-app.md#c_upload_button_app)
-
