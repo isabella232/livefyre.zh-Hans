@@ -1,18 +1,14 @@
 ---
 description: 使用样式功能和提升选定内容或用户组。
-seo-description: 使用样式功能和提升选定内容或用户组。
-seo-title: 突出显示内容
-solution: Experience Manager
 title: 突出显示内容
-uuid: 89876b89-3ee2-40cd-9431-377e43ea1e89
+exl-id: 2c287965-bce9-4d50-849a-f3ad9af39f87
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
-
 
 # 突出显示内容{#highlight-content}
 
@@ -22,8 +18,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->自定义仅对允许用户发布并使用ConvConfig对象进行配置的应用程序可用：例如，聊天、评论、实时博客、评论和指示符。
+>自定义仅适用于允许用户发布且使用ConvConfig对象进行配置的应用程序：例如，聊天、评论、实时博客、评论和字符。
 
-提供内容功能后，您可以提醒用户关注选定的帖子。 特色内容的样式可能与页面上的其他内容不同，而特色Livefyre本机内容则显示在编辑器的上方。
+包含内容后，您可以提醒用户关注选定的帖子。 特色内容的样式可能与页面上的其他内容不同，且特色Livefyre本机内容显示在编辑器的上方。
 
-样式用户组内容允许您突出显示由特定用户类型发布的内容，如版主、编辑人员或您想要定义的任何其他用户组。
+样式用户组内容允许您突出显示由特定用户类型（如版主、编辑人员或您要定义的任何其他用户组）发布的内容。
