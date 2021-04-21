@@ -1,17 +1,14 @@
 ---
 description: 2017年9月28日版本的发行说明。
-seo-description: 2017年9月28日版本的发行说明。
-seo-title: 2017 年 9 月 28 日
 title: 2017 年 9 月 28 日
-uuid: 496134d2-1c1e-4097-9af2-6ea65efeb8e2
+exl-id: fa572f36-0b6f-4451-8a4e-1437469ce906
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 11%
 
 ---
-
 
 # 2017年9月28日{#september}
 
@@ -29,4 +26,3 @@ ht-degree: 11%
 | **问题类型** | **组件** | **发行说明** |
 |---|---|---|
 | 增强功能 | 库 | 客户上传到库的文件将自动获得权限。 当用户在其应用程序中打开了“要求授予权限”过滤器时，此功能非常有用。 |
-
