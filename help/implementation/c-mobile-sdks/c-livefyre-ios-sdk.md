@@ -1,30 +1,26 @@
 ---
 description: 将Livefyre添加到您的本机iOS应用程序。
-seo-description: 将Livefyre添加到您的本机iOS应用程序。
-seo-title: Livefyre iOS SDK
-solution: Experience Manager
 title: Livefyre iOS SDK
-uuid: bfdef31a-49fc-4b25-b0c5-300f27067302
+exl-id: 961c41dc-fee8-480c-a189-a20a689e705f
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
-
 
 # Livefyre iOS SDK{#livefyre-ios-sdk}
 
 将Livefyre添加到您的本机iOS应用程序。
 
-使用此开放源库将Livefyre服务集成到您的本机iOS应用程序中。 Livefyre StreamHub iOS SDK基于出色的AFNetwork库，围绕我们的常见API机制提供一个精简层。
+使用此开放源库将Livefyre服务集成到您的本机iOS应用程序中。 Livefyre StreamHub iOS SDK基于出色的AFNetworking库，围绕我们的常见API机制提供了一个精简的层。
 
 Livefyre还提供两个基于此SDK的iOS示例应用程序：评论流和评论范例应用程序。
 
 ## 将SDK作为Cocoa Pod集成到您的项目中（建议）{#section_qc5_h3v_zz}
 
-将StreamHub-iOS SDK添加到项目中最方便的方法是使用CocoaPod。 如果您没有CocoaPod，请运行“宝石安装茧”和“窗格设置”。 以下是Podfile的示例：
+将StreamHub-iOS SDK添加到项目中最便捷的方式是使用CocoaPods。 如果您没有CocoaPod，请运行宝石安装茧和窗格设置。 以下是一个Podfile示例：
 
 ```
 source 'https://github.com/Livefyre/cocoapods.git' 
@@ -35,7 +31,7 @@ platform :ios, :deployment_target => '6.0'
 pod 'StreamHub-iOS-SDK', '~> 0.3.0'
 ```
 
-您还需要向CocoaPod安装添加规范存储库（这将将其克隆到`~/.cocoapods/repos`目录）:
+您还需要向CocoaPod安装中添加规范存储库（这将将其克隆到`~/.cocoapods/repos`目录）：
 
 ```
 pod repo add livefyre https://github.com/Livefyre/cocoapods.git
@@ -88,8 +84,8 @@ open CommentStream.xcworkspace
 
 ## 要求 {#section_m5l_13v_zz}
 
-自v0.2.0起的StreamHub iOS SDK版本需要iOS 6.0或更高版本。
+StreamHub iOS SDK版本自v0.2.0起要求iOS 6.0或更高版本。
 
 ## 附录（JSON支持）{#section_pcd_5hv_zz}
 
-对于查看StreamHub-iOS SDK内部的用户，请注意，我们使用修改后的[JSONKit](https://github.com/escherba/JSONKit)作为默认JSON分析器（而不是Apple提供的NSJSONSerialization）。 我们必须这样做，因为Apple提供的分析器不支持解码包含整数或浮点数的JSON文件，这些浮点数大于系统可以表示的整数。 我们修改的JSONKit版本会将非常大的数字截断到相应的系统最大值，而不是引发异常。
+对于查看StreamHub-iOS SDK内部内容的用户，请注意，我们使用修改后的[JSONKit](https://github.com/escherba/JSONKit)作为默认JSON分析器（而不是Apple提供的NSJSONSerialization）。 我们必须这样做，因为Apple提供的分析器不支持解码包含整数或浮点数的JSON文件，这些整数或浮点数大于系统可以表示的整数。 我们修改的JSONKit会将非常大的数字截断到相应的系统最大值，而不是引发异常。
