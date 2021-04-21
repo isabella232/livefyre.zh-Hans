@@ -1,18 +1,14 @@
 ---
 description: 自定义可用的电子邮件通知字段。
-seo-description: 自定义可用的电子邮件通知字段。
-seo-title: 设置网络电子邮件
-solution: Experience Manager
 title: 设置网络电子邮件
-uuid: c368d236-e25a-4118-8abc-5230618c97ee
+exl-id: 5305f3d2-d89d-4da2-9baa-64fabe41c74a
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # 设置网络电子邮件{#set-up-network-email}
 
@@ -22,12 +18,11 @@ ht-degree: 0%
 
 设置电子邮件通知。
 
-* **电子邮件标** 志：选择将用作客户电子邮件通知中的标志的文件。
-* **电子邮件发件人：** 输入将显示在发件人字段中的电子邮件地址。
+* **电子邮件标** 志：选择将用作客户电子邮件通知中标志的文件。
+* **电子邮件发** 件人：输入将在发件人字段中显示的电子邮件地址。
 
    >[!NOTE]
    >
    >如果此字段为空，则不会发送电子邮件通知。
 
-* **电子邮件显示** 名称：输入将在评论电子邮件通知中显示的代替电子邮件地址的名称。
-
+* **电子邮件显示** 名称：输入将在评论电子邮件通知中代替您的电子邮件地址出现的名称。
