@@ -1,24 +1,20 @@
 ---
 description: 自定义Livefyre应用程序的字符串。
-seo-description: 自定义Livefyre应用程序的字符串。
-seo-title: 本地化字符串
-solution: Experience Manager
-title: 本地化字符串
-uuid: c0ab352d-5d3a-45d7-bbd0-aed165835646
+title: Localize Strings
+exl-id: 5eb452e3-3b33-4861-9b62-5a41221defab
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1987'
 ht-degree: 8%
 
 ---
 
-
-# 本地化字符串{#localize-strings}
+# Localize Strings{#localize-strings}
 
 自定义Livefyre应用程序的字符串。
 
-可以自定义任何Livefyre应用程序中大多数HTML元素的文本字符串。 这样，可以灵活地将呈现的HTML元素（如“发布为”按钮、“注释计数”文本或“登录”按钮）的文本更改为任何有效的UTF-8字符串。 使用此功能为流实施添加个性化，或在应用程序中为用户群本地化语言。
+可以自定义任何Livefyre应用程序中大多数HTML元素的文本字符串。 这样，可以灵活地将呈现的HTML元素（如“发布为”按钮、“注释计数”文本或“登录”按钮）的文本更改为任何有效的UTF-8字符串。 使用此功能为流的实施添加个性，或为用户在应用程序中本地化语言。
 
 * 评论、聊天和实时博客
 
@@ -43,11 +39,11 @@ ht-degree: 8%
 * [Livefyre Identity](#c-localize-strings/section_zc3_xvh_xz)
 * 更多:
    * [审阅文本字符串](/help/using/c-settings-other/c-translation-sets/c-review-text-strings.md#c_review_text_strings)
-   * [Sidesk](/help/using/c-settings-other/c-translation-sets/c-sidenotes-text-strings.md#c_sidenotes_text_strings)
+   * [Siestr](/help/using/c-settings-other/c-translation-sets/c-sidenotes-text-strings.md#c_sidenotes_text_strings)
 
 ## 实施 {#section_im4_224_xz}
 
-要实现此功能，请传入要覆盖的字符串的1-1对象映射到JavaScript配置对象。 如果您不提供字段，则将使用默认文本。
+要实现此功能，请传递要覆盖的字符串的1-1对象映射到JavaScript配置对象。 如果您不提供字段，则将使用默认文本。
 
 示例：
 
@@ -63,11 +59,11 @@ var customStrings = {
 );
 ```
 
-本页列表了可能为Livefyre核心应用程序自定义的所有文本字符串。
+本页列表了可为Livefyre核心应用程序自定义的所有文本字符串。
 
 ## 帐户访问{#section_cm3_d24_xz}
 
-可用于身份验证过程的字符串，以及来自已验证的用户菜单的字符串。
+可用于身份验证过程的字符串，以及已验证的用户菜单中的字符串。
 
 ![](assets/strings_threadheader-150x40.png)
 
@@ -81,21 +77,21 @@ var customStrings = {
 
 ## 流信息{#section_wx1_c24_xz}
 
-可用于内容流信息和显示的字符串。 列表监听的人数、向应用程序发布的帖子数，并允许用户登录或访问其帐户信息。
+可用于内容流信息和显示的字符串。 列表侦听的人数、发布到应用程序的帖子数，并允许用户登录或访问其帐户信息。
 
 | 键 | 默认文本 | 流数据 |
 |---|---|---|
 |  | commentCountLabelZero | %s注释 |
 |  | commentCountLabel | %s注释 |
 |  | commentCountLabelPlural | %s注释 |
-|  | listenerCount | 倾听 |
+|  | listenerCount | 监听 |
 |  | listenerCountPlural | 倾听 |
 |  | liveblogPostCountLabelZero | 帖子 |
 |  | liveblogPostCountLabel | 帖子 |
 |  | liveblogPostCountLabelPlural | 个帖子 |
 | 线程选项 | threadBreakoutButton | 显示整个线程 |
-|  | 切换折叠 | 切换折叠 |
-| 高速／排队注释 | 刷新 | 刷新 |
+|  | toggleCollapse | 切换折叠 |
+| 高速/排队注释 | 刷新 | 刷新 |
 |  | newComment | 新建注释 |
 |  | newComments | 新建注释 |
 |  | newReply | 新回复 |
@@ -103,14 +99,14 @@ var customStrings = {
 
 ## 流排序{#section_ih2_124_xz}
 
-允许使用按年龄或人气对返回的内容进行排序。
+允许用户按年龄或受欢迎程度对返回的内容进行排序。
 
 ![](assets/strings_newestoldesttop-1-150x56.png)
 
 | 键 | 默认文本 | 标题选项 |
 |---|---|---|
-|  | sortNewbent | 最新 |
-|  | sortLosted | 最旧 |
+|  | sortNewst | 最新 |
+|  | sortOlst | 最旧 |
 |  | sortTopComments | 热门评论 |
 |  | sortHotThreads | 热线程 |
 |  | sortSeparator |  |  |
@@ -127,15 +123,15 @@ var customStrings = {
 
 ## 内容信息{#section_llv_yd4_xz}
 
-列表发布信息：用户名、所有已应用的用户标记和发布时间。
+列表发布信息：用户名、任何已应用的用户标记和帖子时间。
 
 ![](assets/strings_authorinfo-150x52.png)  ![](assets/strings_posttime-150x45.png)
 
 | 键 | 默认文本 | 作者 |
 |---|---|---|
 |  | 主持人 | 主持人 |
-|  | 悬浮卡视图配置文件 | 视图完整用户档案 |
-| 发布信息 | timeJustNow | 刚才 |
+|  | slaffcardViewProfile | 视图完整用户档案 |
+| 帖子信息 | timeJustNow | 刚才 |
 |  | timeMinutesAgo | 分钟前 |
 |  | timeMinutesAgoPlural | 分钟前 |
 |  | timeHoursAgo | 小时前 |
@@ -145,7 +141,7 @@ var customStrings = {
 |  | likesPlural | 称赞次数 |
 |  | likesSingular | 点赞 |
 |  | 审查方编辑时间戳 | 主持人编辑 |
-|  | commentTombstone | 此注释已被删除 |
+|  | commentTombstone | 此评论已被删除 |
 |  | permalinkNotFoundMsg | 此注释不再可见。 |
 |  | quickProfile工具提示 | 快速用户档案 |
 
@@ -167,24 +163,24 @@ var customStrings = {
 
 |  | 键 | 默认文本 |
 |---|---|---| 
-| 编辑器按钮 | 跟 | + 关注 |
-|  | 取消跟踪 | -取消关注 |
+| 编辑器按钮 | flow | + 关注 |
+|  | unfollow |  — 取消关注 |
 |  | liveblogFollow | 关注实时博客 |
 |  | liveblogUnfollow | 取消关注实时博客 |
-|  | postButton（可用于登录用户。） | 发布评论 |
+|  | postButton（可用于登录用户。） | 帖子评论 |
 |  | postAsButton（对未验证的用户可用。） | 将评论发布为…… |
 |  | postEditButton | 编辑注释 |
 |  | postEditAsButton | 将注释编辑为…… |
 |  | postEditCancelButton | 取消 |
-|  | editorDisabled | 此对话当前不会显示新评论。 |
+|  | editorDisabled | 此对话当前已关闭，无需新评论。 |
 | 聊天选项 | livechatPostButtonLabel | 帖子 |
 |  | livechatPostEditButton | 编辑 |
-|  | livechatWindowsInstruction | 按Ctrl+Enter可发布内容 |
-|  | livechatOtherInstruction | 按command+enter可进行发布 |
+|  | livechatWindowsInstruction | 按Ctrl+Enter可发布 |
+|  | livechatOtherInstruction | 按command+enter可发布 |
 
 ## 响应选项{#section_zvt_qd4_xz}
 
-除非另有说明，否则所有登录用户均可使用。 将鼠标悬停在内容面板上即可访问。
+除非另行说明，否则可供所有登录用户使用。 将鼠标悬停在要访问的内容面板上。
 
 ![](assets/strings_banusermodal-150x36.png)
 
@@ -193,8 +189,8 @@ var customStrings = {
 | 用户响应选项 | 面向最终用户。 |  |
 | flagButton | 标记 |
 |  | flagCommentTooltip | 标记 |
-|  | editButton(仅适用于作者和版主（如果启用）。) | 编辑 |
-|  | deleteButton(仅适用于作者和版主（如果启用）。) | 删除 |
+|  | editButton（如果启用，则仅适用于作者和版主。） | 编辑 |
+|  | deleteButton（如果启用，则仅适用于作者和版主。） | 删除 |
 |  | deleteCommentTooltip | 删除 |
 |  | shareButton | 共享 |
 |  | shareCommentTooltip | 共享 |
@@ -208,25 +204,25 @@ var customStrings = {
 
 | 键 | 默认文本 |  |
 |---|---|---|
-| 标志模态 | flagTitle | 标记%s的注释 |
+| 标志模式 | flagTitle | 标记%s的注释 |
 |  | flagSubtitle | 标记为 |
 |  | flagDefaultSelectOption | 选择 |
 |  | flagSpam | 垃圾信息 |
 |  | flagSpamButton | 垃圾信息 |
 |  | flagSpamCommentTooltip | 垃圾信息 |
-|  | flagOffension | 进攻性 |
-|  | flagOffensionButton | 进攻性 |
-|  | flagOffensionCommentTooltip | 进攻性 |
-|  | flagSover | 反对 |
-|  | flagSoverButton | 反对 |
-|  | flagSoverCommentTooltip | 反对 |
+|  | flagOffensive | 进攻 |
+|  | flagOffensionButton | 进攻 |
+|  | flagOffensionCommentTooltip | 进攻 |
+|  | flagSarove | 反对 |
+|  | flagSparokeButton | 反对 |
+|  | flagScoverCommentTooltip | 反对 |
 |  | flagOffTopic | 关闭主题 |
 |  | flagOfftopicButton | 关闭主题 |
 |  | flagOfftopicCommentTooltip | 关闭主题 |
 |  | flagEmail | 电子邮件 |
 |  | flagEmailPlaceholder | you@example.com |
 |  | flagNotes | 注释 |
-|  | flagNotesPlaceholder | 开始在这里输入…… |
+|  | flagNotesPlaceholder | 开始在此处键入…… |
 |  | flagConfirmButton | OK |
 |  | flagCancelButton | 取消 |
 |  | flagConfirmationMessage | 是否将%s注释标记为%s? |
@@ -245,54 +241,54 @@ var customStrings = {
 |  | shareButtonText | 共享 |
 |  | sharePermalink | 佩马林克 |
 |  | loadingPermalink | 正在加载短url... |
-|  | shareText | 我刚发布了评论。 看看！ |
+|  | shareText | 我刚发了条评论。 看看！ |
 
 ![](assets/strings_sharemodal-150x59.png)
 
 | 键 | 默认文本 |  |
 |---|---|---|
 | 回复模态 | postReplyAsButton | 将评论发布为…… |
-|  | postReplyButton（可用于登录用户。） | 发布评论 |
+|  | postReplyButton（可用于登录用户。） | 帖子评论 |
 |  | backToHotThreads | 返回热线程 |
 
 ![](assets/strings_backto-150x48.png)
 
 | 键 | 默认文本 |  |
 |---|---|---|
-| Twitter @turite modal | 提及标题 | 共享提及 |
-|  | 提及子标题Twitter | 将推文共享到： |
-|  | 提及默认文本 | 我在Livefyre评论中提到过您！ |
-|  | 提及确认按钮 | 确定 |
-|  | 提及取消按钮 | 取消 |
-|  | 提及错误一般 | 哎呀！ 出了什么问题！ Livefyre已收到警报。 |
-|  | 提及错误无选定 | 必须至少启用一个提及。 |
-|  | 提及菜单标题 | 去看看和提及你的朋友 |
+| Twitter @mention modal | tuniteTitle | 分享提及 |
+|  | tuniteSubtitleTwitter | 将推文共享到： |
+|  | untiteDefaultText | 我在Livefyre评论中提到过你！ |
+|  | untiteConfirmButton | 确定 |
+|  | untiteCancelButton | 取消 |
+|  | tuniteErrorGeneral | 糟糕！ 出了点问题！ Livefyre已收到警报。 |
+|  | untiteErrorNoneSelected | 您必须至少启用一个提及。 |
+|  | untiteMenuTitle | 去看你的朋友 |
 |  | 提及TwitterConnect | 连接到Twitter |
-|  | 提及TwitterFicking | 正在获取朋友…… |
-|  | 提及成功消息 | 已成功发送提及。 |
+|  | 提及TwitterFeiding | 正在获取朋友…… |
+|  | tuniteSuccessMsg | 已成功发送提及。 |
 
 ![](assets/strings_sharemention-150x60.png)
 
 | 键 | 默认文本 |  |
 |---|---|---|
 | 编辑模态 | 适用于Studio管理员、用户管理者或版主 |  |
-| @(@tunited.) | &lt;/>（打开自定义HTML窗口。） |  |
+| @(@mention.) | &lt;/>（打开自定义html窗口。） |  |
 |  | customHtmlDialogTitle（显示为模态的标题。） | 添加自定义HTML |
 
 ![](assets/strings_moderatoreditmodal-150x49.png)
 
 | 键 | 默认文本 |  |
 |---|---|---|
-| 审查方响应选项 | 适用于Studio管理员、用户管理者或版主。 |  |
+| 审查方答复选项 | 适用于Studio管理员、用户管理者或版主。 |  |
 | pendingComment | pending |
 |  | banUserButton | 禁止用户 |
 |  | banUserTooltip | 禁止用户 |
 |  | bozoButton | 博佐 |
-|  | bozoComment工具提示 | 博佐 |
+|  | bozoCommentTooltip | 博佐 |
 |  | featureButton | 功能 |
-|  | featureComment工具提示 | 功能 |
+|  | featureCommentTooltip | 功能 |
 |  | unfeatureButton | 取消功能 |
-|  | featuredComment工具提示 | 取消功能 |
+|  | featuredCommentTooltip | 取消功能 |
 
 ![](assets/strings_adminoptions-150x33.png)
 
@@ -304,17 +300,17 @@ var customStrings = {
 |  | banConfirmButton | 确定 |
 |  | banCancelButton | 取消 |
 
-## 注释通知程序{#section_qqt_pd4_xz}
+## 通知程序{#section_qqt_pd4_xz}
 
-如果启用，则位于页面底部，可用于所有Livefyre对话应用程序。
+如果已启用，则位于页面底部的所有Livefyre对话应用程序。
 
 ![](assets/strings_notifier-150x112.png)
 
 |  | 键 | 默认文本 |
 |---|---|---|
-| 通知程序标签 | 注释通知程序 | 新建注释 |
+| 通知程序标签 | commentNotifier | 新建注释 |
 |  | commentNotifierPlural | 新建注释 |
-|  | liveblog通知程序 | 新帖子 |
+|  | liveblogNotifier | 新帖子 |
 |  | liveblogNotifierPlural | 新帖子 |
 
 ## 错误消息 {#section_omz_jxn_xz}
@@ -324,21 +320,21 @@ var customStrings = {
 | 键 | 默认文本 |
 |---|---|
 | errorAuthError | 您无权对此对话发表评论 |
-| errorCommentsNotAllowed | 此对话不允许添加评论 |
+| errorCommentsNotAllowed | 此对话中不允许有评论 |
 | errorDefault | 出现错误. 请重试。 |
-| errorDuplicate | 尽管您很喜欢自己的评论，但您不能发布两次。 |
+| errorDuplicate | 尽管你很喜欢你的评论，但你不能发布两次。 |
 | errorEditDuplicate | 编辑注释时，必须更改注释正文。 |
-| errorEditNotAllowed | 不允许您编辑此对话中的评论。 |
+| errorEditNotAllowed | 不允许您编辑此对话的评论。 |
 | errorEditTimeExceeded | 抱歉，您的注释编辑期已过。 |
-| errorEmpty | 您似乎正在尝试发布空注释。 |
+| errorEmpty | 你似乎在尝试发布空评论。 |
 | errorExpired | 您的会话已过期。 请重新加载该页面。 |
-| errorFlagNotSelected | 请选择标记类型。 |
+| errorFlagNotSelected | 请选择标志类型。 |
 | errorGuestLiked | 抱歉，只有那些有帐户的人才能喜欢内容。 |
-| errorIndeficientPermissions | 权限不足 |
+| errorIndeficedPermissions | 权限不足 |
 | errorInvalidChar | 您似乎在尝试发布无效字符。 |
 | errorLikeOwnComment | 您不能喜欢自己的评论 |
-| error格式错误 | 您似乎在尝试发布格式错误的内容。 |
-| errorMaxChars | 抱歉，您的评论太长。 请编辑，然后重试。 |
+| errorFormable | 您似乎在尝试发布格式错误的内容。 |
+| errorMaxChars | 抱歉，您的评论太长。 请编辑并重试。 |
 | errorMediaNotAvailable | 媒体不再可见。 |
 | errorShowMore | 加载更多注释时出错。 |
 | MultipleMediaNotAllowedError | 您的权限一次只授予您一个媒体附件。 |
@@ -349,9 +345,9 @@ var customStrings = {
 
 | 键 | 默认文本 |
 |---|---|
-| 小时前 | {number}h |
+| hoursAgo | {number}h |
 | hoursAgoSingular | {number}h |
-| 现在 | 1 |
+| justNow | 1 |
 | minutesAgo | {number}m |
 | minutesAgoSingular | {number}m |
 | monthDayFormat | {day} {monthAbbrev} |
@@ -372,7 +368,7 @@ var customStrings = {
 
 | 键 | 默认文本 |
 |---|---|
-| postButtonText | 您在想什么？ |
+| postButtonText | 你在想什么？ |
 | postModalTitle | 发布您的评论 |
 | postModalButton | 发布您的评论 |
 | postModalPlaceholder | 你想说什么？ |
@@ -390,7 +386,7 @@ var customStrings = {
 
 ## 马赛克{#section_e2s_b5n_xz}
 
-可用于Mosaics的字符串。
+可用于Mosaic的字符串。
 
 | 键 | 默认文本 |
 |---|---|
@@ -417,11 +413,11 @@ var customStrings = {
 
 ## 上传应用程序{#section_grc_gkn_xz}
 
-可用于上传应用程序的字符串。
+可用于上载应用程序的字符串。
 
 | 键 | 默认文本 |
 |---|---|
-| postButtonText | 您在想什么？ |
+| postButtonText | 你在想什么？ |
 | postModalTitle | 发布您的评论 |
 | postModalButton | 发布您的评论 |
 | postModalTitlePlaceholder | 输入标题 |
@@ -431,11 +427,11 @@ var customStrings = {
 | postModalConfirmationButton | 完成 |
 | title |  |
 | message |  |
-| editorErrorAttachmentsRequired | 附件是必需的 |
+| editorErrorAttachmentsRequired | 附件为必填项 |
 | editorErrorBody | 请添加消息 |
-| editorErrorDuplicate | 尽管您喜欢纸条，但您不能发布两次 |
-| editorErrorGeneric | 出现错误 |
-| editorErrorTitleRequired | 标题是必需的 |
+| editorErrorDuplicate | 尽管你喜欢便条，但你不能发布两次 |
+| editorErrorGeneric | 出错 |
+| editorErrorTitleRequired | 标题是必填项 |
 
 ## 投票 {#section_pdg_fwh_xz}
 
@@ -444,7 +440,7 @@ var customStrings = {
 | 键 | 默认文本 |
 |---|---|
 | totalPettionsLabel | %s总票数 |
-| shareStringText | 我刚刚投了%s票，您投了什么票？ |
+| shareStringText | 我刚刚投了%s票，你投了什么票？ |
 | pollClosedLabel | 此投票当前已关闭 |
 
 ## Livefyre Identity {#section_zc3_xvh_xz}
@@ -462,19 +458,19 @@ var customStrings = {
 | changeAvatar | 更改头像 |
 | chooseFile | 选择文件 |
 | completeAccount | 完整帐户 |
-| emailWhenSomeReplies | 有人回复我时发送电子邮件 |
+| emailWhenSomeReplies | 当有人回复我 |
 | emailCommentsIFollow | 在我关注的对话中通过电子邮件发送评论 |
-| emailSenttoResetPassword | 电子邮件已发送！ 检查您的收件箱以获取重置密码的链接 |
+| emailSenttoResetPassword | 电子邮件已发送！ 检查您的收件箱以查找重置密码的链接 |
 | emailVerificationSent | 电子邮件验证已发送 |
 | firstName | 名字 |
 | forgotPassword | 忘记密码？ |
 | forgotYourPassword | 忘记了密码？ |
-| forgotYourPasswordInstructions | 请在下面输入您的用户名或电子邮件地址，我们会向您发送一个用于更改密码的链接。 |
+| forgotYourPasswordInstructions | 请在下面输入您的用户名或电子邮件地址，我们将向您发送更改密码的链接。 |
 | formInputCloseButtonText | Close |
 | formInputCancelButtonText | 取消 |
 | formInputSaveButtonText | 保存 |
 | hasNotLeftAnyComments | 没有留下任何评论 |
-| locationIsFrom | 来自 |
+| locationIsFrom | 的 |
 | labelAvatar | 阿凡达 |
 | labelComments | 注释 |
 | labelConfirmNewPassword | 确认新密码 |
@@ -491,29 +487,29 @@ var customStrings = {
 | lastName | 姓氏 |
 | livefyre帐户 | Livefyre帐户 |
 | 位置 | 位置 |
-| 加载配置文件 | 加载用户档案 |
+| loadingProfile | 正在加载用户档案 |
 | newPassword | 新密码 |
-| 旧密码 | 旧密码 |
+| oldPassword | 旧密码 |
 | on | on |
 | 或 | 或 |
 | passwordLinkExpired | 您单击重置密码的链接已过期。 再次重置您的密码，我们将向您发送新链接。 |
-| pleascheckEmailToComplete | 请检查您的电子邮件以完成注册。 |
+| pleasecheckEmailToComplete | 请检查您的电子邮件以完成注册。 |
 | 已发布 | 已发布 |
 | poweredBy | 由 |
 | profileNotificationImmediate | immediate |
-| profileNotificationHourly | 小时 |
+| profileNotificationHourly | 每小时 |
 | profileNotificationNever | never |
-| recentComments | 近期评论 |
+| recentComments | 最近的评论 |
 | 重置 | Reset |
 | resetPassword | 重置密码 |
 | 登录 | 登录 |
-| signInWith | 使用 |
+| signInWith | 登录方式 |
 | signInWithEmail | 使用电子邮件登录 |
 | 注册 | 注册 |
 | socialAccount | 社交帐户 |
 | successPasswordChanged | 成功! 您的密码已更改，您现在已登录 |
 | termsAndConditions | 条款和条件 |
-| termsAndConditionsIntro | 注册后，您接受 |
+| termsAndConditionsIntro | 注册即表示您接受 |
 | termsOfUse | 使用条款 |
 | termsOfUseIntro | 登录即表示您同意 |
 | thisUser | 此用户 |
@@ -521,29 +517,27 @@ var customStrings = {
 | fileSizeLimit | 最大2MB |
 | 帐户未找到 | 找不到帐户 |
 | avatarImageExceedSize | 您的头像图像已超过2mb文件限制 |
-| fieldrequired | 字段仅接受整数 |
-| fieldonlyacceptsaidemail | 字段仅接受有效的电子邮件 |
+| field | 字段仅接受整数 |
+| fieldonlyacceptsavidemail | 字段仅接受有效的电子邮件 |
 | fieldonlyacceptsletter | 字段仅接受字母 |
-| filezemustbelessthanMB | 文件大小必须小于{#}MB |
-| invalidusernamepassword | 用户名或密码无效 |
-| 最小长度 | {#}字符的最小长度 |
+| filesizemustbelessthanMB | 文件大小必须小于{#}MB |
+| invalidusernameorpassword | 用户名或密码无效 |
+| 最小长度字符 | {#}个字符的最小长度 |
 | 最大长度字符 | 最大长度{#}个字符 |
-| 错误 | 出现错误 |
+| therewaserror | 出错 |
 | 此字段为必填 | 该字段为必填。 |
-| 有效文件扩展 | 有效的文件扩展名 |
+| 有效的文件扩展 | 有效的文件扩展名 |
 | 值自匹配 | 值必须匹配 |
 | passwordLength | 长度为6到32个字符。 |
 | passwordCharacters | 包括小写和大写字符。 |
 | passwordSymbols | 至少包含一个数字和一个符号。 |
-| passwordUsername | 不包含用户名。 |
-| passwordPopover标题 | 您的密码需要： |
-| passwordErrorContainsFirstName | 您输入的密码包含您的用户名、名或姓。 为安全起见，请输入不包含用户名、名或姓的密码。 另请记住，您的密码需要包含：6到32个字符大写字符A小写字符A符号 |
-| passwordErrorContainsLastName | 您输入的密码包含您的用户名、名或姓。 为安全起见，请输入不包含用户名、名或姓的密码。 另请记住，您的密码需要包含：6到32个字符大写字符A小写字符A符号 |
-| passwordErrorContainsUsername | 您输入的密码包含您的用户名、名或姓。 为安全起见，请输入不包含用户名、名或姓的密码。 另请记住，您的密码需要包含：6到32个字符大写字符A小写字符A符号 |
-| passwordErrorTooShort | 密码字最少6个字符 |
+| passwordUsername | 不包含您的用户名。 |
+| passwordPopoverTitle | 您的密码需要： |
+| passwordErrorContainsFirstName | 您输入的密码包含您的用户名、名或姓。 出于安全原因，请输入不包含您的用户名、名或姓的密码。 另请记住，您的密码需要包含：6到32个字符大写字符A小写字符A符号 |
+| passwordErrorContainsLastName | 您输入的密码包含您的用户名、名或姓。 出于安全原因，请输入不包含您的用户名、名或姓的密码。 另请记住，您的密码需要包含：6到32个字符大写字符A小写字符A符号 |
+| passwordErrorContainsUsername | 您输入的密码包含您的用户名、名或姓。 出于安全原因，请输入不包含您的用户名、名或姓的密码。 另请记住，您的密码需要包含：6到32个字符大写字符A小写字符A符号 |
+| passwordErrorTooShort | 密码至少6个字符 |
 | passwordErrorTooLong | 密码最多32个字符 |
-| passwordErrorMissingUppercase | 密码至少应包含一个大写字符 |
-| passwordErrorMissingLowercase | 密码至少应包含一个小写字符 |
-| passwordErrorMissingSymbol | 密码集`!@#$%^&*()?.,<>\’;:”[]{}|`中至少应包含一个符号 |
-
-
+| passwordErrorMissingUpperase | 密码应至少包含一个大写字符 |
+| passwordErrorMissingLowercase | 密码应至少包含一个小写字符 |
+| passwordErrorMissingSymbol | 密码集`!@#$%^&*()?.,<>\’;:”[]{}|`中应至少包含一个符号 |
