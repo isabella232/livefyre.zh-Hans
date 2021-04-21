@@ -1,18 +1,14 @@
 ---
 description: 为Livefyre服务器端任务安装库
-seo-description: 为Livefyre服务器端任务安装库
-seo-title: 安装
-solution: Experience Manager
 title: 安装
-uuid: f60b4cc7-178f-4a16-ba75-f1d0d171c52f
+exl-id: d74f85be-14c0-4f6d-8f16-b688282c0eb0
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
-
 
 # 安装{#installation}
 
@@ -29,7 +25,7 @@ ht-degree: 1%
 </dependency>
 ```
 
-Java库具有以下模块的依赖关系：
+Java库依赖于以下模块：
 
 ```
 <dependency> 
@@ -81,7 +77,7 @@ NodeJS库具有以下模块的依赖关系：
 
 ## PHP {#section_txj_xwq_rz}
 
-要安装带有Composer的PHP库，请将其添加到您的composer.json中：
+要安装包含Composer的PHP库，请将其添加到您的composer.json中：
 
 ```
 "require": { 
@@ -89,19 +85,19 @@ NodeJS库具有以下模块的依赖关系：
 }
 ```
 
-然后使用：
+然后，使用以下方式进行安装：
 
 ```
 composer.phar install 
 ```
 
-如果&#x200B;**不**&#x200B;使用书写器，请使用以下方式获取库的最新版本：
+如果&#x200B;**不**&#x200B;使用Composer，请使用以下方式获取库的最新版本：
 
 ```
 git clone https://github.com/Livefyre/livefyre-php-utils 
 ```
 
-要使用库，请向PHP脚本中添加以下内容：
+要使用库，请将以下内容添加到PHP脚本中：
 
 ```
 require_once("/path/to/livefyre-php-utils/src/Livefyre.php"); 
@@ -121,7 +117,7 @@ PHP库具有以下模块的依赖关系：
 
 ## Python {#section_irk_fxq_rz}
 
-要安装Python库，请运行以下代码行：
+要安装Python库，请运行以下行：
 
 `$ pip install livefyre`
 
@@ -139,7 +135,7 @@ ordereddict == 1.1 if sys.version_info[:2] < 2.7
 
 链接：[PyJWT](https://github.com/progrium/pyjwt)、[请求](https://github.com/kennethreitz/requests)、[Python-Dateutil](https://pypi.python.org/pypi/python-dateutil)、[Enum34](https://pypi.python.org/pypi/enum34)、[OrderedDict](https://pypi.python.org/pypi/ordereddict)
 
-## Ruby {#section_fv2_tzq_rz}
+## 拼音{#section_fv2_tzq_rz}
 
 要安装Ruby库，请将此行添加到应用程序的Gemfile:
 
