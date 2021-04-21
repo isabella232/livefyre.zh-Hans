@@ -1,17 +1,14 @@
 ---
 description: 2017年8月3日版本的发行说明。
-seo-description: 2017年8月3日版本的发行说明。
-seo-title: 2017 年 8 月 3 日
 title: 2017 年 8 月 3 日
-uuid: 316b269b-d1c5-451a-badc-3b927da8ed91
+exl-id: 764abba7-0113-4c99-a80e-b914f79da3fb
 translation-type: tm+mt
-source-git-commit: 35feb87bb82d1f298496717a65f1972cf4e71104
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '209'
 ht-degree: 11%
 
 ---
-
 
 # 2017年8月3日{#august}
 
@@ -21,20 +18,19 @@ ht-degree: 11%
 
 | **问题类型** | **组件** | **发行说明** |
 |---|---|---|
-| 错误 | 应用程序 | 修复了S2中阻止ModQ链接（从应用程序信息）仅显示选定应用程序内容的错误。 |
+| 错误 | 应用程序 | 修复了S2中阻止ModQ链接（来自应用程序信息）仅显示选定应用程序内容的错误。 |
 | 错误 | 应用程序 | 修复了在S1中加载应用程序内容时出现的间歇性错误。 |
-| 错误 | 轮播 | 修复了导致无题注的Instagram轮播帖子无法被拉入Studio的错误。 |
+| 错误 | 轮播 | 修复了导致Instagram Carousel无题注帖子被拉入Studio的错误。 |
 | 错误 | 注释 | 修复了注释在IE中显示不正确的问题。 |
 | 错误 | 库 | 修复了在删除后将产品重新添加到库中的资产时产品显示不正确的问题。 |
-| 错误 | ModQ | 修复了导致筛选器选择不总是应用于ModQ的错误。 |
+| 错误 | ModQ | 修复了导致筛选器选择不总是在ModQ中应用的错误。 |
 | 错误 | 评论 | 修复了“审阅”中的一个错误，以确保所有实施中通过HTTPS加载媒体。 |
-| 错误 | Storify 2 | 改进了在Storify 2中按URL获取Facebook评论的稳定性。 |
-| 增强功能 | Storify 2 | 由于Facebook弃用了该功能，已删除Storify Search中的Facebook Comments by ID搜索选项。 |
-| 错误 | 流 | 修复了在单击时删除“流规则配置”文本框中的文本小丸的错误。 |
+| 错误 | Storify 2 | 改进了在Storify 2中通过URL获取Facebook注释的稳定性。 |
+| 增强功能 | Storify 2 | 由于Facebook弃用了该功能，已删除Storify Search中的“按ID添加注释”搜索选项。 |
+| 错误 | 流 | 修复了导致单击时删除“流规则配置”文本框中的文本片的错误。 |
 
 ## UAT版本
 
 | **问题类型** | **组件** | **发行说明** |
 |---|---|---|
 | 错误 | 库 | 修复了阻止“更多信息”按钮内容显示在库中的错误。 |
-
