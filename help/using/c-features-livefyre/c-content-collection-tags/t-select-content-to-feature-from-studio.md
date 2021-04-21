@@ -1,25 +1,21 @@
 ---
-description: 您可以从Studio而不是App中选择要特征的内容。
-seo-description: 您可以从Studio而不是App中选择要特征的内容。
-seo-title: 从Studio中选择要显示的内容
-solution: Experience Manager
+description: 您可以从Studio而不是应用程序中选择要功能的内容。
 title: 从Studio中选择要显示的内容
-uuid: 50cb620c-ef45-4ccb-829f-f5b2e3c521dd
+exl-id: b17e3c4f-6ec6-4c9b-9db0-5169cdb0ffaa
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
-
 # 从Studio{#select-content-to-feature-from-studio}中选择要进行功能的内容
 
-您可以从Studio而不是App中选择要特征的内容。
+您可以从Studio而不是应用程序中选择要功能的内容。
 
-1. 在Studio中，单击某条内容旁的&#x200B;**[!UICONTROL +]**&#x200B;符号。
+1. 在Studio中，单击某条内容旁边的&#x200B;**[!UICONTROL +]**&#x200B;符号。
 1. 在下拉列表中选择&#x200B;**[!UICONTROL Featured]**&#x200B;标记。
-1. 单击&#x200B;**[!UICONTROL Enter]**&#x200B;以“特征”显示内容。
+1. 单击&#x200B;**[!UICONTROL Enter]**&#x200B;以“特征化内容”。
 
-   标记将保存并显示在内容旁。 1.要停止以某条内容为特征，请单击该条内容上显示的&#x200B;**[!UICONTROL Featured]**&#x200B;标签上的&#x200B;**[!UICONTROL x]**。
+   标记将保存并显示在内容的旁边。 1.要停止以某条内容为特征，请单击该条内容上显示的&#x200B;**[!UICONTROL Featured]**&#x200B;标签上的&#x200B;**[!UICONTROL x]**。
