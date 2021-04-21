@@ -1,25 +1,21 @@
 ---
 description: 注释应用程序附带许多功能，可在您的网站中嵌入实时对话。
-seo-description: 注释应用程序附带许多功能，可在您的网站中嵌入实时对话。
-seo-title: 注释功能
-solution: Experience Manager
 title: 注释功能
-uuid: ec00fcc9-1b5e-4d0b-b1da-95f9f26b4cc1
+exl-id: aca45cfc-07cb-4f58-8ad4-f7d07fe250ca
 translation-type: tm+mt
-source-git-commit: 09011bac06f4a1c39836455f9d16654952184962
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 7%
+source-wordcount: '106'
+ht-degree: 8%
 
 ---
-
 
 # 注释功能{#comments-features}
 
 注释应用程序附带许多功能，可在您的网站中嵌入实时对话。
 
 * [身份验证](/help/using/c-features-livefyre/c-authentication.md#c_authentication)
-* [Avatars](/help/using/c-features-livefyre/c-styling-features/c-avatars.md#c_avatars)
+* [阿瓦塔](/help/using/c-features-livefyre/c-styling-features/c-avatars.md#c_avatars)
 * [注释通知程序](/help/using/c-features-livefyre/c-notifications-features/c-comment-notifier.md#c_comment_notifier)
 * [CSS样式](/help/using/c-features-livefyre/c-styling-features/c-css-styling-branding.md#c_css_styling_branding)
 * [自定义按钮](/help/using/c-features-livefyre/c-enagement-features.md#section_jdv_vcm_d1b)
@@ -33,8 +29,8 @@ ht-degree: 7%
 * [好友提及](/help/using/c-features-livefyre/c-enagement-features.md#section_yw5_fdm_d1b)
 * [关注对话](/help/using/c-features-livefyre/c-enagement-features.md#section_bw3_ndm_d1b)
 * [热线程](/help/using/c-features-livefyre/c-sort-features-composite/c-hot-threads.md#c_hot_threads)
-* [气垫船](/help/using/c-features-livefyre/c-styling-features/c-hovercards.md#c_hovercards)
-* [要加载的项](/help/using/c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md#section_q5w_mzl_d1b)
+* [气垫运动卡](/help/using/c-features-livefyre/c-styling-features/c-hovercards.md#c_hovercards)
+* [要加载的项目](/help/using/c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md#section_q5w_mzl_d1b)
 * [点赞](/help/using/c-features-livefyre/c-enagement-features.md#section_q4j_ycm_d1b)
 * [监听器计数](/help/using/c-features-livefyre/c-listener-count.md#c_listener_count)
 * [媒体扩展](/help/using/c-features-livefyre/c-enagement-features.md#section_pmq_ycm_d1b)
@@ -42,7 +38,7 @@ ht-degree: 7%
 * [ModQ](/help/using/c-features-livefyre/c-about-moderation/c-modq.md#c_modq)
 * [队列注释](/help/using/c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md#section_p21_bbm_d1b)
 * [推荐跟踪](/help/using/c-features-livefyre/c-referral-tracking.md#c_referral_tracking)
-* [佩尔马林克](/help/using/c-features-livefyre/c-content-collection-tags/c-permalinks.md#c_permalinks)
+* [佩马林克](/help/using/c-features-livefyre/c-content-collection-tags/c-permalinks.md#c_permalinks)
 * [分页](/help/using/c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md#section_mb5_lzl_d1b)
 * [照片上传](/help/using/c-features-livefyre/c-content-behavior-features/c-photo-upload.md#c_photo_upload)
 * [安全](/help/using/c-features-livefyre/c-about-moderation/c-moderation.md#c_moderation)
@@ -53,7 +49,6 @@ ht-degree: 7%
 * [限制注释](/help/using/c-features-livefyre/c-content-behavior-features/c-content-behavior-features.md#section_d5c_2bm_d1b)
 * [热门评论](/help/using/c-features-livefyre/c-sort-features-composite/c-top-comments.md#c_top_comments)
 * [翻译集](/help/using/c-settings-other/c-translation-sets/c-translation-sets.md#c_translation_sets)
-* [Twitter操作按钮](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b)
-* [用户标记](/help/using/c-features-livefyre/c-styling-features/c-user-badges.md#c_user_badges)
+* [Twitter动作按钮](/help/using/c-features-livefyre/c-enagement-features.md#section_uzm_ldm_d1b)
+* [用户徽章](/help/using/c-features-livefyre/c-styling-features/c-user-badges.md#c_user_badges)
 * [用户帖子](/help/using/c-features-livefyre/c-content-behavior-features/c-user-posts.md#c_user_posts)
-
