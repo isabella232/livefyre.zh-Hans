@@ -1,17 +1,14 @@
 ---
 description: 按照核对清单中的步骤操作，确保成功从HTTP转换为HTTPS。
-seo-description: 按照核对清单中的步骤操作，确保成功从HTTP转换为HTTPS。
-seo-title: SSL核对清单
 title: SSL核对清单
-uuid: 2b176c73-8a6a-4835-88b3-047c6661cba9
+exl-id: 20161aa5-57c9-417b-af0e-c9e1e771f861
 translation-type: tm+mt
-source-git-commit: 67aeb3de964473b326c88c3a3f81ff48a6a12652
+source-git-commit: a2449482e617939cfda7e367da34875bf187c4c9
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
-
 
 # SSL清单{#ssl-checklist}
 
@@ -25,5 +22,4 @@ ht-degree: 0%
 * 我的所有移动应用程序都支持TLS 1.2密码。
 * 我的所有自定义JavaScript集成（StreamhubSDK或直接API使用）都使用HTTPS。
 * 如果我捆绑了Livefyre JavaScript，我们将使用最新版本。
-* 我已通知任何第三方服务（例如内容分析、协调等） 它代表我使用这些更改的Livefyre API。
-
+* 我已通知任何第三方服务（例如内容分析、协调等） 它代表我使用Livefyre API进行这些更改。
