@@ -1,26 +1,19 @@
 ---
-source-git-commit: 097321964ff078bac83c4674100f8c62a8f3a1af
-translation-type: tm+mt
+source-git-commit: 034c3c243fb40e53fafb3aa92f7c3ec18833d9de
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 46%
 
 ---
-# MIT 许可证
+# MIT许可
 
-© Copyright 2018 Adobe. All rights reserved.
+©版权所有2021Adobe。 All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &quot;Software&quot;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+特此免费授予获得本软件副本及相关文档文件（“本软件”）的任何人员不受限制地处理本软件的权限，包括但不限于使用、复制、修改、合并、发布、分发、转授和/或出售本软件副本的权限，并允许被提供本软件的人员在符合下列条件的情况下这样做：
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+上述版权声明和本许可声明应包含在本软件的所有副本或大部分中。
 
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. 无论在什么情况下，对于因本软件、使用本软件或有关本软件的其他交易而造成或与之相关的任何索赔、损害或其他责任（无论是在合同、民事侵权或其他形式的诉讼中），作者或版权持有人均不承担任何责任。
