@@ -2,14 +2,14 @@
 description: 设置Adobe Analytics和动态标签管理器(DTM)以收集Livefyre应用程序的数据。
 title: 将Livefyre与Adobe Analytics和Dynamic Tag Manager(DTM)结合使用
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
-source-git-commit: cbe23e8c253f1531418f18424e180d1adc16e426
+source-git-commit: 53aead87db517e6f68266a66115889509287a287
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 1%
 
 ---
 
-# 将Livefyre与Adobe Analytics和Dynamic Tag Manager(DTM){#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}结合使用
+# 将Livefyre与Adobe Analytics和Dynamic Tag Manager(DTM)结合使用{#use-livefyre-with-adobe-analytics-and-dynamic-tag-manager-dtm}
 
 设置Adobe Analytics和动态标签管理器(DTM)以收集Livefyre应用程序的数据。
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 在Adobe Analytics报表包管理器中，将Livefyre事件映射到一个或多个自定义成功事件。
 
-有关报表包管理器的更多信息，请参阅[报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)。
+有关报表包管理器的更多信息，请参阅[报表包管理器](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)。
 
 1. 以管理员用户身份登录Adobe Analytics。
 1. 打开Adobe Analytics管理员报表包管理器。
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 ## 步骤3:使用DTM添加包含Livefyre事件的报表包 {#section_t15_2hd_4cb}
 
-将Adobe Analytics添加到DTM以使Analytics正常工作。 为此，请创建一个新资产和工具，并将包含Livefyre事件的新报表包添加到该资产中。 有关DTM的更多信息，请参阅[DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)。
+将Adobe Analytics添加到DTM以使Analytics正常工作。 为此，请创建一个新资产和工具，并将包含Livefyre事件的新报表包添加到该资产中。 有关DTM的更多信息，请参阅[DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)。
 
 如果您已经为通过Livefyre事件设置的报表包设置了属性或工具，则无需执行此步骤。
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 1. 单击&#x200B;**[!UICONTROL Create New Rule]**&#x200B;按钮。
 1. 单击&#x200B;**[!UICONTROL Plus]**&#x200B;按钮以打开&#x200B;**[!UICONTROL Conditions]**&#x200B;部分。
 1. 触发规则。 如果要延迟或异步实施规则，请选择&#x200B;**[!UICONTROL DOM Ready]**&#x200B;或&#x200B;**[!UICONTROL Onload]**&#x200B;触发器类型。
-1. （可选）添加其他参数以限制显示Livefyre应用程序的页面。 有关其他配置选项的更多信息，请参阅[DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)。
+1. （可选）添加其他参数以限制显示Livefyre应用程序的页面。 有关其他配置选项的更多信息，请参阅[DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)。
 1. 在&#x200B;**[!UICONTROL Javascript/ Third Party Tags]**&#x200B;下，单击&#x200B;**[!UICONTROL Non-sequential]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Add New Script]**。
 1. 选择&#x200B;**[!UICONTROL Sequential HTML]**&#x200B;作为脚本类型。
 1. 将以下脚本添加到代码编辑器中，然后单击&#x200B;**[!UICONTROL Save Code]**。
@@ -73,18 +73,18 @@ ht-degree: 1%
    以下脚本在加载Livefyre JavaScript后调用`livefyre_analytics`直接调用规则。 以下脚本示例每400毫秒检查一次，以查看页面上是否有`livefyre.analytics`。 页面加载后，livefyre.analytics会发送跟踪信息。
 
    ```
-   /** 
-   * Poll for Livefyre.analytics object to exist since it gets loaded via the 
-   * Livefyre.js JavaScript file. Depending on the timing, this could already 
-   * exist or need a little time. 
-   */ 
-   function pollForAnalytics() {  
-   if (Livefyre.analytics) { 
-     _satellite.track('livefyre_analytics'); 
-       return true; 
-     } 
-     setTimeout(pollForAnalytics, 400); 
-   } 
+   /**
+   * Poll for Livefyre.analytics object to exist since it gets loaded via the
+   * Livefyre.js JavaScript file. Depending on the timing, this could already
+   * exist or need a little time.
+   */
+   function pollForAnalytics() {
+   if (Livefyre.analytics) {
+     _satellite.track('livefyre_analytics');
+       return true;
+     }
+     setTimeout(pollForAnalytics, 400);
+   }
    setTimeout(pollForAnalytics, 400);
    ```
 
@@ -106,86 +106,86 @@ ht-degree: 1%
 1. 在代码编辑器中输入以下Livefyre配置代码，然后单击&#x200B;**Save Code**&#x200B;按钮。
 
    ```
-   var s = _satellite.getToolsByType('sc')[0].getS(); 
+   var s = _satellite.getToolsByType('sc')[0].getS();
    
-   var evarMap = {  
-     appId: 'eVar81',  
-     appType: 'eVar82' 
-   }; 
+   var evarMap = {
+     appId: 'eVar81',
+     appType: 'eVar82'
+   };
    
-   var eventMap = { 
-     FlagCancel: 'event82',  
-     FlagClick: 'event82',  
-     FlagDisagree: 'event82',  
-     FlagOffensive: 'event82',  
-     FlagOffTopic: 'event82',  
-     FlagSpam: 'event82',  
-     Like: 'event82', 
-     Load: 'event81',  
-     RequestMore: 'event82',  
-     ShareButtonClick: 'event82',  
-     ShareFacebook: 'event82',  
-     ShareOnPostClick: 'event82',  
-     ShareTwitter: 'event82',  
-     ShareURL: 'event82',  
-     SortStream: 'event82',  
-     TwitterLikeClick: 'event82', 
-     TwitterReplyClick: 'event82',  
-     TwitterRetweetClick: 'event82',  
-     TwitterUserFollow: 'event82' 
-   }; 
+   var eventMap = {
+     FlagCancel: 'event82',
+     FlagClick: 'event82',
+     FlagDisagree: 'event82',
+     FlagOffensive: 'event82',
+     FlagOffTopic: 'event82',
+     FlagSpam: 'event82',
+     Like: 'event82',
+     Load: 'event81',
+     RequestMore: 'event82',
+     ShareButtonClick: 'event82',
+     ShareFacebook: 'event82',
+     ShareOnPostClick: 'event82',
+     ShareTwitter: 'event82',
+     ShareURL: 'event82',
+     SortStream: 'event82',
+     TwitterLikeClick: 'event82',
+     TwitterReplyClick: 'event82',
+     TwitterRetweetClick: 'event82',
+     TwitterUserFollow: 'event82'
+   };
    
-    function trackLivefyreEvent(data) {  
-     var event = eventMap[data.type]; 
-     console.log('Track:', data.type, event); 
+    function trackLivefyreEvent(data) {
+     var event = eventMap[data.type];
+     console.log('Track:', data.type, event);
    
-     if (!event) { 
-       console.warn(data.type, 'is not mapped   to an event in AA');  
-       return; 
-     } 
-     var vars = ['events'];  
-     switch (event) { 
-       case 'event82': s.eVar83 = data.type;  
-         vars.push('eVar83');  
-         break; 
-       default: 
-     } 
-       ['generator', 'evars'].forEach(function (type) {  
-       var obj = data[type]; 
-       for (var d in obj) { 
-         if (obj.hasOwnProperty(d) && evarMap[d]) {  
-           s[evarMap[d]] = obj[d];  
-           vars.push(evarMap[d]); 
-         } 
-       } 
-     }); 
-     s.linkTrackVars = vars.join(',');  
-     s.linkTrackEvents = event;  
-     s.events = event; 
+     if (!event) {
+       console.warn(data.type, 'is not mapped   to an event in AA');
+       return;
+     }
+     var vars = ['events'];
+     switch (event) {
+       case 'event82': s.eVar83 = data.type;
+         vars.push('eVar83');
+         break;
+       default:
+     }
+       ['generator', 'evars'].forEach(function (type) {
+       var obj = data[type];
+       for (var d in obj) {
+         if (obj.hasOwnProperty(d) && evarMap[d]) {
+           s[evarMap[d]] = obj[d];
+           vars.push(evarMap[d]);
+         }
+       }
+     });
+     s.linkTrackVars = vars.join(',');
+     s.linkTrackEvents = event;
+     s.events = event;
    
-     console.log('linkTrackVars:',  s.linkTrackVars);  
-     console.log('linkTrackEvents:',  s.linkTrackEvents);  
-     console.log('events:', s.events); 
-     s.tl(); 
-     } 
+     console.log('linkTrackVars:',  s.linkTrackVars);
+     console.log('linkTrackEvents:',  s.linkTrackEvents);
+     console.log('events:', s.events);
+     s.tl();
+     }
      ]
    
-     /** 
+     /**
    ```
 
    * 为Livefyre中的所有分析事件添加分析处理程序。 对于每个事件，它会在全局对象上设置数据，然后调度该事件。
 
    ```
-   */ 
-   function addAnalyticsHandler() {  
-     Livefyre.analytics.addHandler(function (events) { 
-       (events || []).forEach(function (data) {  
-         console.log('Event handled:', data.type);  
-         trackLivefyreEvent(data); 
-       }); 
-     }); 
-   } 
-   addAnalyticsHandler();  
+   */
+   function addAnalyticsHandler() {
+     Livefyre.analytics.addHandler(function (events) {
+       (events || []).forEach(function (data) {
+         console.log('Event handled:', data.type);
+         trackLivefyreEvent(data);
+       });
+     });
+   }
+   addAnalyticsHandler();
    ```
 
 1. 单击&#x200B;**Save Rule**。
@@ -206,98 +206,98 @@ ht-degree: 1%
 
 
 ```
-var s = _satellite.getToolsByType`('sc')[0]`.getS(); 
-var evarMap = { 
-  appId: 'eVar81', 
-  appType: 'eVar82' 
+var s = _satellite.getToolsByType`('sc')[0]`.getS();
+var evarMap = {
+  appId: 'eVar81',
+  appType: 'eVar82'
 };
 ```
 
 以下示例代码将您在报表包管理器中设置的特定事件与可用的Livefyre事件进行映射。 在此示例中，将`event82`设置为任何用户交互事件，而不区分哪种用户交互事件（例如，称赞或共享内容）。 这是记录块中所有用户交互信息的有效方法。 您还可以使用数据元素引用来映射DTM Analytics UI中的事件。
 
 ```
-var eventMap = { 
-  FlagCancel: 'event82',  
-  FlagClick: 'event82',  
-  FlagDisagree: 'event82',  
-  FlagOffensive: 'event82',  
-  FlagOffTopic: 'event82',  
-  FlagSpam: 'event82',  
-  Like: 'event82', 
-  Load: 'event81',  
-  RequestMore: 'event82',  
-  ShareButtonClick: 'event82',  
-  ShareFacebook: 'event82',  
-  ShareOnPostClick: 'event82',  
-  ShareTwitter: 'event82',  
-  ShareURL: 'event82',  
-  SortStream: 'event82',  
-  TwitterLikeClick: 'event82', 
-  TwitterReplyClick: 'event82',  
-  TwitterRetweetClick: 'event82',  
-  TwitterUserFollow: 'event82' 
+var eventMap = {
+  FlagCancel: 'event82',
+  FlagClick: 'event82',
+  FlagDisagree: 'event82',
+  FlagOffensive: 'event82',
+  FlagOffTopic: 'event82',
+  FlagSpam: 'event82',
+  Like: 'event82',
+  Load: 'event81',
+  RequestMore: 'event82',
+  ShareButtonClick: 'event82',
+  ShareFacebook: 'event82',
+  ShareOnPostClick: 'event82',
+  ShareTwitter: 'event82',
+  ShareURL: 'event82',
+  SortStream: 'event82',
+  TwitterLikeClick: 'event82',
+  TwitterReplyClick: 'event82',
+  TwitterRetweetClick: 'event82',
+  TwitterUserFollow: 'event82'
 };
 ```
 
 以下示例说明，如果此列表中没有事件，则不执行任何操作。 您无需修改此代码部分。
 
 ```
-function trackLivefyreEvent(data) {  
-  var event = eventMap[data.type]; 
-  console.log('Track:', data.type, event); 
-   
-  if (!event) { 
-    console.warn(data.type, 'is not mapped to an event in AA');  
-    return; 
+function trackLivefyreEvent(data) {
+  var event = eventMap[data.type];
+  console.log('Track:', data.type, event);
+
+  if (!event) {
+    console.warn(data.type, 'is not mapped to an event in AA');
+    return;
   }
 ```
 
 以下代码可区分`event82`记录的事件类型。 转化变量`eVar83`记录用户交互类型，脚本设置`eVar83`以按类型分隔用户交互数据。 因此，`eVar83`允许您将记录的数据划分为特定类型的用户交互。
 
 ```
-  var vars = ['events'];  
-  switch (event) { 
-    case 'event82': s.eVar83 = data.type;  
-      vars.push('eVar83');  
-      break; 
-    default: 
-  } 
-   
-  ['generator', 'evars'].forEach(function (type) {  
-    var obj = data[type]; 
-    for (var d in obj) { 
-      if (obj.hasOwnProperty(d) && evarMap[d]) {  
-        s[evarMap[d]] = obj[d];  
-        vars.push(evarMap[d]); 
-      } 
-    } 
-  }); 
-   
-  s.linkTrackVars = vars.join(',');  
-  s.linkTrackEvents = event;  
-  s.events = event; 
-   
-  console.log('linkTrackVars:', s.linkTrackVars);  
-  console.log('linkTrackEvents:', s.linkTrackEvents);  
-  console.log('events:', s.events); 
-   
-  s.tl(); 
+  var vars = ['events'];
+  switch (event) {
+    case 'event82': s.eVar83 = data.type;
+      vars.push('eVar83');
+      break;
+    default:
+  }
+
+  ['generator', 'evars'].forEach(function (type) {
+    var obj = data[type];
+    for (var d in obj) {
+      if (obj.hasOwnProperty(d) && evarMap[d]) {
+        s[evarMap[d]] = obj[d];
+        vars.push(evarMap[d]);
+      }
+    }
+  });
+
+  s.linkTrackVars = vars.join(',');
+  s.linkTrackEvents = event;
+  s.events = event;
+
+  console.log('linkTrackVars:', s.linkTrackVars);
+  console.log('linkTrackEvents:', s.linkTrackEvents);
+  console.log('events:', s.events);
+
+  s.tl();
 }
 ```
 
 以下代码示例添加了一个用于侦听所有发生事件的处理程序。 它会在加载时使用页面加载规则，等待事件存在，然后为应用程序中的所有事件设置处理程序并跟踪它们。 您无需修改此代码。
 
 ```
-/** 
-* Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event. 
-*/ 
-function addAnalyticsHandler() { 
-  Livefyre.analytics.addHandler(function (events) { 
-    (events || []).forEach(function (data) { 
-      console.log('Event handled:', data.type); 
-      trackLivefyreEvent(data); 
-    }); 
-  }); 
+/**
+* Adds an analytics handler for all analytics events from Livefyre. For each event, it sets the data on a global object and then dispatches the event.
+*/
+function addAnalyticsHandler() {
+  Livefyre.analytics.addHandler(function (events) {
+    (events || []).forEach(function (data) {
+      console.log('Event handled:', data.type);
+      trackLivefyreEvent(data);
+    });
+  });
 }
 ```
 
@@ -305,7 +305,7 @@ function addAnalyticsHandler() {
 
 有关本页所讨论主题的更多信息，请参阅：
 
-* [报表包管理器](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)
-* [DTM](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)
-* [规则](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/create-rules.html)
+* [报表包管理器](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)
+* [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)
+* [规则](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
