@@ -2,9 +2,9 @@
 description: 设置Adobe Analytics和动态标签管理器(DTM)以收集Livefyre应用程序的数据。
 title: 将Livefyre与Adobe Analytics和Dynamic Tag Manager(DTM)结合使用
 exl-id: a866782d-fca6-48bf-9fb8-5080e396919b
-source-git-commit: 53aead87db517e6f68266a66115889509287a287
+source-git-commit: 3091db9d7b9611e26ad65c1432856c9465694e92
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -31,14 +31,16 @@ ht-degree: 1%
 
 1. 在报表包管理器中，单击&#x200B;**[!UICONTROL Edit Settings > Conversion > Conversion Variables]**。
 1. 选择要使用的自定义转化变量(eVar)，并将其映射到Livefyre转化变量。 要将Livefyre转化变量映射到自定义转化变量，请执行以下操作：
-* 启用转化变量
-* 命名转化变量
-* 为转化变量提供一种类型
+
+   * 启用转化变量
+   * 命名转化变量
+   * 为转化变量提供一种类型
+
 1. 保存自定义转化变量。
 
 ## 步骤3:使用DTM添加包含Livefyre事件的报表包 {#section_t15_2hd_4cb}
 
-将Adobe Analytics添加到DTM以使Analytics正常工作。 为此，请创建一个新资产和工具，并将包含Livefyre事件的新报表包添加到该资产中。 有关DTM的更多信息，请参阅[DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)。
+使用标记将Analytics与Livefyre事件相集成。 为此，请创建一个新资产和工具，并将包含Livefyre事件的新报表包添加到该资产中。 有关更多信息，请参阅[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
 
 如果您已经为通过Livefyre事件设置的报表包设置了属性或工具，则无需执行此步骤。
 
@@ -65,7 +67,7 @@ ht-degree: 1%
 1. 单击&#x200B;**[!UICONTROL Create New Rule]**&#x200B;按钮。
 1. 单击&#x200B;**[!UICONTROL Plus]**&#x200B;按钮以打开&#x200B;**[!UICONTROL Conditions]**&#x200B;部分。
 1. 触发规则。 如果要延迟或异步实施规则，请选择&#x200B;**[!UICONTROL DOM Ready]**&#x200B;或&#x200B;**[!UICONTROL Onload]**&#x200B;触发器类型。
-1. （可选）添加其他参数以限制显示Livefyre应用程序的页面。 有关其他配置选项的更多信息，请参阅[DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)。
+1. （可选）添加其他参数以限制显示Livefyre应用程序的页面。 有关其他配置选项的更多信息，请参阅[标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
 1. 在&#x200B;**[!UICONTROL Javascript/ Third Party Tags]**&#x200B;下，单击&#x200B;**[!UICONTROL Non-sequential]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Add New Script]**。
 1. 选择&#x200B;**[!UICONTROL Sequential HTML]**&#x200B;作为脚本类型。
 1. 将以下脚本添加到代码编辑器中，然后单击&#x200B;**[!UICONTROL Save Code]**。
@@ -306,6 +308,5 @@ function addAnalyticsHandler() {
 有关本页所讨论主题的更多信息，请参阅：
 
 * [报表包管理器](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=en)
-* [DTM](https://experienceleague.adobe.com/docs/dtm/using/c-overview.html?lang=en)
-* [规则](https://experienceleague.adobe.com/docs/dtm/using/resources/rules/create-rules.html?lang=en)
+* [标记概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)
 * [Livefyre.js](/help/implementation/c-livefyre.js.md)
