@@ -2,9 +2,9 @@
 title: Livefyre服务终止提醒
 description: Livefyre和Livefyre Studio的服务终止提醒和存档公告。
 exl-id: 78fe3f11-2365-4765-a0af-f817e9c80ea9
-source-git-commit: c1f1f501203ea64a282abc631318983011eb4e5b
+source-git-commit: 96f4e5f196446834cdf92a2774bd26f02b6b58a4
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1866'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 去年，包括Facebook和Twitter在内的社交媒体提供商的动态变化，使得继续为Adobe客户提供强大的UGC（用户生成内容）解决方案具有挑战性。 由于这些挑战，Adobe做出了终止Livefyre服务的艰难决策。 客户将能够访问Livefyre的最后一天是2021年11月30日。 自2021年1月起，Adobe一直在与使用Livefyre的客户合作，以顺利过渡到受信任的Adobe合作伙伴并推荐其他解决方案。 此提醒旨在确保Livefyre服务日期的结束可见性。 Adobe致力于提供顺利切换所需的内容。 如果您有任何疑问，请联系您的客户成功经理或客户经理。
 
-## 关于Livefyre服务终止的常见问题解答 {#livefyre-eos-faq}
+## Livefyre服务终止常见问题解答 {#livefyre-eos-faq}
 
 ### **_Livefyre有何变化？_**
 
